@@ -123,6 +123,12 @@ Use it from any MCP-compatible agent by configuring the command to run `npm run 
 
 ## HTTP Usage
 
+Hosted production API:
+
+```text
+https://gtm-docs-registry.vercel.app
+```
+
 Run the read-only HTTP fallback server:
 
 ```bash
@@ -145,6 +151,15 @@ Full tool IDs work when URL-encoded:
 ```bash
 curl "http://localhost:8787/tools/%2Fgtm%2Fhubspot/docs?topic=contacts"
 ```
+
+The hosted API uses the same routes:
+
+```bash
+curl "https://gtm-docs-registry.vercel.app/tools/resolve?query=hubspot"
+curl "https://gtm-docs-registry.vercel.app/tools/hubspot/docs?topic=contacts"
+```
+
+Vercel deployment is configured through `api/index.js` and `vercel.json`.
 
 ## Data Model
 

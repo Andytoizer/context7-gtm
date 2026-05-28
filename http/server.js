@@ -249,8 +249,12 @@ function routeRequest(req, res) {
   }
 }
 
-const server = http.createServer(routeRequest);
+export { routeRequest };
 
-server.listen(port, () => {
-  console.log(`GTM Docs Registry HTTP server listening on http://localhost:${port}`);
-});
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  const server = http.createServer(routeRequest);
+
+  server.listen(port, () => {
+    console.log(`GTM Docs Registry HTTP server listening on http://localhost:${port}`);
+  });
+}
