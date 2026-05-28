@@ -1,0 +1,87 @@
+{
+  "retrievedAt": "2026-05-28",
+  "notes": [
+    "Logos are used as product identifiers on featured catalog cards.",
+    "Vendor trademarks remain the property of their respective owners.",
+    "Prefer official vendor-hosted SVGs or brand kits; fallbacks are noted per asset."
+  ],
+  "logos": {
+    "apollo": {
+      "file": "apollo.svg",
+      "sourceUrl": "https://www.apollo.io/icon.svg",
+      "sourceType": "official-site-icon",
+      "confidence": "medium"
+    },
+    "builtwith": {
+      "file": "builtwith.svg",
+      "sourceUrl": "https://builtwith.com/img/safari-pinned-tab.svg",
+      "sourceType": "official-site-mask-icon",
+      "confidence": "medium"
+    },
+    "exa": {
+      "file": "exa.svg",
+      "sourceUrl": "https://exa.ai/assets/Exa%20Brand%20Assets.zip",
+      "sourceType": "official-brand-kit",
+      "confidence": "high",
+      "sourcePath": "Exa Brand Assets/Logo/SVGs/Logomark/Exa Logomark Blue.svg"
+    },
+    "heyreach": {
+      "file": "heyreach.svg",
+      "sourceUrl": "https://cdn.prod.website-files.com/65492afe86bfa964d89f2005/682dda5dfd589ed743fbe5b6_HeyReach_Logo-Primary-Light.svg",
+      "sourceType": "official-site-asset",
+      "confidence": "high",
+      "notes": "Light wordmark, rendered on a dark card logo well."
+    },
+    "hubspot": {
+      "file": "hubspot.svg",
+      "sourceUrl": "https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg",
+      "sourceType": "official-site-asset",
+      "confidence": "high"
+    },
+    "instantly": {
+      "file": "instantly.svg",
+      "sourceUrl": "https://cdn.prod.website-files.com/63860c8c65e7bef4a1eeebeb/68bfbb700e2932c8884be3ee_Instantly%20Logo%202%20(1).svg",
+      "sourceType": "official-site-asset",
+      "confidence": "medium-high"
+    },
+    "jungler": {
+      "file": "jungler.svg",
+      "sourceUrl": "https://www.jungler.ai/favicon.svg",
+      "sourceType": "official-site-icon",
+      "confidence": "medium"
+    },
+    "n8n": {
+      "file": "n8n.svg",
+      "sourceUrl": "https://n8n.io/brandguidelines/n8n_logos.zip",
+      "sourceType": "official-brand-kit",
+      "confidence": "high",
+      "sourcePath": "n8n_pink+black_logo.svg"
+    },
+    "notion": {
+      "file": "notion.svg",
+      "sourceUrl": "https://cdn.simpleicons.org/notion/000000",
+      "sourceType": "simple-icons-fallback",
+      "confidence": "medium",
+      "notes": "Official Notion media kit page did not expose a stable direct SVG during ingestion."
+    },
+    "pylon": {
+      "file": "pylon.svg",
+      "sourceUrl": "https://cdn.prod.website-files.com/689071d222bec6ce3d3d6fbf/68907a7621c7c8dbde21c45b_logo.svg",
+      "sourceType": "official-site-asset",
+      "confidence": "high"
+    },
+    "rb2b": {
+      "file": "rb2b.svg",
+      "sourceUrl": "https://cdn.prod.website-files.com/670d16df61df3f62eac698e3/670e8638244fae7c3b0718a0_Logo.svg",
+      "sourceType": "official-site-asset",
+      "confidence": "high",
+      "notes": "Light wordmark, rendered on a dark card logo well."
+    },
+    "salesforce": {
+      "file": "salesforce.svg",
+      "sourceUrl": "https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg",
+      "sourceType": "official-site-asset",
+      "confidence": "high"
+    }
+  }
+}

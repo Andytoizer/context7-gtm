@@ -747,6 +747,20 @@ function renderHomepage() {
     "pylon",
     "exa"
   ];
+  const featuredLogos = {
+    hubspot: { src: "/assets/logos/hubspot.svg", variant: "wordmark" },
+    salesforce: { src: "/assets/logos/salesforce.svg", variant: "icon" },
+    instantly: { src: "/assets/logos/instantly.svg", variant: "wordmark" },
+    apollo: { src: "/assets/logos/apollo.svg", variant: "icon" },
+    heyreach: { src: "/assets/logos/heyreach.svg", variant: "wordmark dark" },
+    jungler: { src: "/assets/logos/jungler.svg", variant: "icon" },
+    rb2b: { src: "/assets/logos/rb2b.svg", variant: "wordmark dark" },
+    notion: { src: "/assets/logos/notion.svg", variant: "icon" },
+    n8n: { src: "/assets/logos/n8n.svg", variant: "wordmark" },
+    builtwith: { src: "/assets/logos/builtwith.svg", variant: "icon" },
+    pylon: { src: "/assets/logos/pylon.svg", variant: "wordmark" },
+    exa: { src: "/assets/logos/exa.svg", variant: "icon" }
+  };
   const featured = featuredSlugs.map((slug) => tools.find((tool) => tool.slug === slug)).filter(Boolean);
 
   const featuredCardsHtml = featured.map((tool) => {
@@ -758,10 +772,14 @@ function renderHomepage() {
     }).join("");
     const alias = (tool.aliases && tool.aliases[0]) || tool.id;
     const initial = (tool.name[0] || "·").toUpperCase();
+    const logo = featuredLogos[tool.slug];
+    const logoHtml = logo
+      ? `<span class="logo ${escapeHtml(logo.variant)}" aria-hidden="true"><img src="${escapeHtml(logo.src)}" alt="" loading="lazy" decoding="async"></span>`
+      : `<span class="logo fallback" aria-hidden="true">${escapeHtml(initial)}</span>`;
     return `
       <a class="card" href="/tools/${encodeURIComponent(tool.slug)}/docs">
         <div class="card-head">
-          <span class="logo" aria-hidden="true">${escapeHtml(initial)}</span>
+          ${logoHtml}
           <span class="card-score">${escapeHtml(tool.score)}<i>/5</i></span>
         </div>
         <div class="card-name">${escapeHtml(tool.name)}</div>
@@ -1189,16 +1207,40 @@ function renderHomepage() {
       margin-bottom: 14px;
     }
     .logo {
-      width: 32px;
-      height: 32px;
+      width: 36px;
+      height: 36px;
       border-radius: 8px;
-      background: var(--ink);
-      color: #fff;
+      background: #fff;
+      border: 1px solid var(--rule);
+      color: var(--ink);
       display: grid;
       place-items: center;
+      overflow: hidden;
+      padding: 6px;
+      flex-shrink: 0;
       font-weight: 600;
       font-size: 15px;
-      letter-spacing: -0.01em;
+      letter-spacing: 0;
+    }
+    .logo.wordmark {
+      width: 82px;
+      padding: 7px 9px;
+    }
+    .logo.dark {
+      background: var(--ink);
+      border-color: var(--ink);
+    }
+    .logo.fallback {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: #fff;
+      padding: 0;
+    }
+    .logo img {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
     }
     .card-score {
       font-family: "Geist Mono", monospace;
@@ -2452,6 +2494,7 @@ function renderInline(value) {
 }
 
 const STATIC_MIME = {
+  ".json": "application/json; charset=utf-8",
   ".png": "image/png",
   ".svg": "image/svg+xml",
   ".ico": "image/x-icon",
