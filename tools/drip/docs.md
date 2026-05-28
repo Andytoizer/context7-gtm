@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Drip is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Drip lets agents work with Accounts, Subscribers, Campaigns, Workflows, Events, Tags, and Forms through official API and SDK surfaces plus community MCP and community integration support. Check auth, pagination, rate limits, source links, and high write risk before using Drip in automations.
 
 Agent readiness score: 4/5.
 

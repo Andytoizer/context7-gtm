@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Mixpanel is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Mixpanel lets agents work with Events, user profiles, group profiles, cohorts, funnels, retention, and insights through official API, OpenAPI/spec, llms/AI docs, and SDK surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Mixpanel in automations.
 
 Agent readiness score: 5/5.
 

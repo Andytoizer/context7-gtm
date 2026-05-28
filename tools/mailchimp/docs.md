@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Mailchimp is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Mailchimp lets agents work with Audiences, contacts/members, campaigns, reports, automations, ecommerce stores/orders/products, and batches through official MCP, API, OpenAPI/spec, and SDK surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Mailchimp in automations.
 
 Agent readiness score: 4/5.
 

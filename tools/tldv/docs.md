@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-tl;dv is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+tl;dv lets agents work with Meetings, Meeting Recordings, Transcripts, Notes, Highlights (deprecated), Webhooks, and MeetingReady Events through official MCP, API, and OpenAPI/spec surfaces. Check auth, pagination, rate limits, source links, and medium write risk before using tl;dv in automations.
 
 Agent readiness score: 3/5.
 

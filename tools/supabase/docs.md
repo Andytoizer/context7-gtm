@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Supabase is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Supabase lets agents work with Projects, organizations, databases/tables, migrations, auth users, storage buckets, and edge functions through official MCP, API, CLI, OpenAPI/spec, and SDK surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Supabase in automations.
 
 Agent readiness score: 5/5.
 

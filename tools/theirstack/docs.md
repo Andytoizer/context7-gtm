@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-TheirStack is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+TheirStack lets agents work with Jobs, companies, technographics, buying intents, catalogs, company lists, and saved searches through official MCP, API, and OpenAPI/spec surfaces. Check auth, pagination, rate limits, source links, and medium write risk before using TheirStack in automations.
 
 Agent readiness score: 5/5.
 

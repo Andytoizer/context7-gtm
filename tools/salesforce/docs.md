@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Salesforce is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Salesforce lets agents work with Account, Contact, Lead, Opportunity, Task/Event, Campaign, and Case through official MCP, API, CLI, and OpenAPI/spec surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Salesforce in automations.
 
 Agent readiness score: 5/5.
 

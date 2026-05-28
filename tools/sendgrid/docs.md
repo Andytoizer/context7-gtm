@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-SendGrid is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+SendGrid lets agents work with Mail Send, Contacts, Lists, Segments, Single Sends, Templates, and Suppressions through official API and SDK surfaces plus community MCP, community CLI, and community integration support. Check auth, pagination, rate limits, source links, and high write risk before using SendGrid in automations.
 
 Agent readiness score: 4/5.
 

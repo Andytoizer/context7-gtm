@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Fireflies.ai is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Fireflies.ai lets agents work with Transcripts, summaries, users, usergroups, channels, soundbites, and meetings through official MCP, API, and llms/AI docs surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Fireflies.ai in automations.
 
 Agent readiness score: 5/5.
 

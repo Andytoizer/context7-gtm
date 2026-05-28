@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Obsidian is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Obsidian lets agents work with Vaults, files/notes, frontmatter, tags, commands, active file, and periodic notes through official API, CLI, OpenAPI/spec, and SDK surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Obsidian in automations.
 
 Agent readiness score: 4/5.
 

@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Close is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Close lets agents work with Leads, contacts, opportunities, activities, emails, calls, and SMS through official MCP, API, OpenAPI/spec, and SDK surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Close in automations.
 
 Agent readiness score: 5/5.
 

@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-OWOX is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+OWOX lets agents work with Data Marts, Connectors, Storages, Reports, Semantic Layer Metrics, Schedules, and Google Sheets through official CLI and SDK surfaces plus community integration support. Check auth, pagination, rate limits, source links, and medium write risk before using OWOX in automations.
 
 Agent readiness score: 4/5.
 

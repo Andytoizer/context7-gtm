@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Airbyte is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Airbyte lets agents work with Workspaces, Sources, Destinations, Connections, Jobs, Streams, and Schemas through official MCP, API, CLI, OpenAPI/spec, llms/AI docs, and SDK surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Airbyte in automations.
 
 Agent readiness score: 5/5.
 

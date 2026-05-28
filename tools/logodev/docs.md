@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Logo.dev is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Logo.dev lets agents work with Domain logos, brand search results, stock ticker logos, crypto logos, and brand describe records through official API and llms/AI docs surfaces plus community MCP and community integration support. Check auth, pagination, rate limits, source links, and lower write risk before using Logo.dev in automations.
 
 Agent readiness score: 3/5.
 

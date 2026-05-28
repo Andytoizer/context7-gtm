@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Trigify is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Trigify lets agents work with Searches, search results, workflows, custom signals, sources, posts, and integrations through official MCP, API, CLI, and OpenAPI/spec surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Trigify in automations.
 
 Agent readiness score: 5/5.
 

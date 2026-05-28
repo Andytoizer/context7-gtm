@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Lusha is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Lusha lets agents work with Contacts, companies, search, enrich, search-and-enrich, prospecting, and lookalikes through official MCP, API, OpenAPI/spec, and llms/AI docs surfaces. Check auth, pagination, rate limits, source links, and medium write risk before using Lusha in automations.
 
 Agent readiness score: 5/5.
 

@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Gong is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Gong lets agents work with Calls, transcripts, users, user settings, scorecards, stats, and libraries through official API and OpenAPI/spec surfaces plus community integration support. Check auth, pagination, rate limits, source links, and medium write risk before using Gong in automations.
 
 Agent readiness score: 4/5.
 

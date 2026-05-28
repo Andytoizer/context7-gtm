@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Avoma is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Avoma lets agents work with Meetings, Calls, Transcripts, Notes, Users, Contacts, and Deals through official API surfaces plus community MCP and community integration support. Check auth, pagination, rate limits, source links, and medium write risk before using Avoma in automations.
 
 Agent readiness score: 4/5.
 

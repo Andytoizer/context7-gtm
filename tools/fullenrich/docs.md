@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-FullEnrich is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+FullEnrich lets agents work with Async enrich API, async reverse email lookup, sync search API, contacts, companies, exports, and credits through official MCP, API, and llms/AI docs surfaces. Check auth, pagination, rate limits, source links, and medium write risk before using FullEnrich in automations.
 
 Agent readiness score: 4/5.
 

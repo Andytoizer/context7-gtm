@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Userflow is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Userflow lets agents work with Users, Groups, Events, Content, Content Versions, Flows, and Checklists through official API and SDK surfaces plus community integration support. Check auth, pagination, rate limits, source links, and high write risk before using Userflow in automations.
 
 Agent readiness score: 4/5.
 

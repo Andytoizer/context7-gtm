@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Fathom is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Fathom lets agents work with Meetings, recordings, teams, team members, webhooks, transcripts, and summaries through official API, llms/AI docs, and SDK surfaces. Check auth, pagination, rate limits, source links, and medium write risk before using Fathom in automations.
 
 Agent readiness score: 4/5.
 

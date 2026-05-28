@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Prospeo is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Prospeo lets agents work with Enrich person/company, bulk enrich person/company, search person/company, search suggestions, and account info through official MCP, API, and llms/AI docs surfaces. Check auth, pagination, rate limits, source links, and lower write risk before using Prospeo in automations.
 
 Agent readiness score: 5/5.
 

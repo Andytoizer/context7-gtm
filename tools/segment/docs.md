@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Segment is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Segment lets agents work with Workspaces, Sources, Destinations, Warehouses, Tracking Plans, and Catalogs through official MCP, API, OpenAPI/spec, and SDK surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Segment in automations.
 
 Agent readiness score: 4/5.
 

@@ -14,4 +14,5 @@
 - Added human-readable tool docs pages while preserving JSON retrieval for agents.
 - Added `/llms.txt`, `/llms-full.txt`, `/openapi.json`, and an MCP-compatible JSON-RPC `/mcp` endpoint.
 - Added dense `reference.md` retrieval notes for 19 additional high-priority tools.
+- Replaced generic generated agent summaries with tool-specific operational summaries.
 - Clarified the project focus around source-backed docs retrieval for GTM tools, with no workflow recipes.

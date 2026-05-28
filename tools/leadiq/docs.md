@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-LeadIQ is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+LeadIQ lets agents work with Prospects, Accounts, Enrichment, Lists, Sequences, Integrations, and Usage through official API surfaces plus community integration support. Check auth, pagination, rate limits, source links, and medium write risk before using LeadIQ in automations.
 
 Agent readiness score: 3/5.
 

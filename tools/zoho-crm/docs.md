@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Zoho CRM is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Zoho CRM lets agents work with Leads, Contacts, Accounts, Deals, Tasks, Events, and Calls through official API, CLI, OpenAPI/spec, and SDK surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Zoho CRM in automations.
 
 Agent readiness score: 4/5.
 

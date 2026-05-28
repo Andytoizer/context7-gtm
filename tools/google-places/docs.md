@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Google Places API is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Google Places API lets agents work with Places, place photos, autocomplete sessions, text search, nearby search, and place details through official API and SDK surfaces plus community integration support. Check auth, pagination, rate limits, source links, and lower write risk before using Google Places API in automations.
 
 Agent readiness score: 3/5.
 

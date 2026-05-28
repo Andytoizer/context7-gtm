@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Influ2 is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Influ2 lets agents work with Clients, Cohorts/campaign audiences, Targets, Ad content/creatives, Assets, Jobs, and Engagement metrics through community MCP and community integration support. Check auth, pagination, rate limits, source links, and high write risk before using Influ2 in automations.
 
 Agent readiness score: 2/5.
 

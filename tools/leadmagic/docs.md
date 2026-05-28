@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-LeadMagic is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+LeadMagic lets agents work with B2B enrichment endpoints, email/mobile finding, validation, person/company enrichment, and usage/credits through official MCP, API, CLI, OpenAPI/spec, and llms/AI docs surfaces. Check auth, pagination, rate limits, source links, and lower write risk before using LeadMagic in automations.
 
 Agent readiness score: 5/5.
 

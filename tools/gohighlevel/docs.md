@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-GoHighLevel is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+GoHighLevel lets agents work with Contacts, conversations/messages, calendars, appointments, opportunities/pipelines, payments/products, and locations through official MCP, API, and SDK surfaces. Check auth, pagination, rate limits, source links, and high write risk before using GoHighLevel in automations.
 
 Agent readiness score: 4/5.
 

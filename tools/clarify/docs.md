@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Clarify is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Clarify lets agents work with Companies, people, deals, meetings, tasks, users, and lists through official MCP, API, and OpenAPI/spec surfaces. Check auth, pagination, rate limits, source links, and high write risk before using Clarify in automations.
 
 Agent readiness score: 4/5.
 

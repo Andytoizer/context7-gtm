@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Framer is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Framer lets agents work with Projects, pages, CMS collections, CMS collection items, code files, canvas nodes, and images/assets through official API, llms/AI docs, and SDK surfaces. Check auth, pagination, rate limits, source links, and medium write risk before using Framer in automations.
 
 Agent readiness score: 3/5.
 

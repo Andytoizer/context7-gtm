@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Sybill is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Sybill lets agents work with Conversations, deals, accounts, participants, and CRM metadata through official MCP, API, and OpenAPI/spec surfaces. Check auth, pagination, rate limits, source links, and lower write risk before using Sybill in automations.
 
 Agent readiness score: 5/5.
 

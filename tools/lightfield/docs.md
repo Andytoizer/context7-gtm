@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Lightfield is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Lightfield lets agents work with Accounts, contacts, lists, meetings, notes, opportunities, and tasks through official MCP, API, CLI, and SDK surfaces. Check auth, pagination, rate limits, source links, and medium write risk before using Lightfield in automations.
 
 Agent readiness score: 4/5.
 

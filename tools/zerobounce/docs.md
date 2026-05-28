@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-ZeroBounce is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+ZeroBounce lets agents work with Validations, batch validations, credits, API usage, email finder, activity data, and domain search through official API and SDK surfaces plus community MCP and community integration support. Check auth, pagination, rate limits, source links, and medium write risk before using ZeroBounce in automations.
 
 Agent readiness score: 3/5.
 

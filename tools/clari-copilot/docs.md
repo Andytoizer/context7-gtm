@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Clari Copilot is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Clari Copilot lets agents work with Calls, Meetings, Recordings, Transcripts, Deals, Accounts, and Contacts through official API surfaces plus community integration support. Check auth, pagination, rate limits, source links, and medium write risk before using Clari Copilot in automations.
 
 Agent readiness score: 3/5.
 

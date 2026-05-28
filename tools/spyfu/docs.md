@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-SpyFu is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+SpyFu lets agents work with Domains, Keywords, Competitors, PPC SERPs, SEO SERPs, Ad History, and Ranking History through official API, OpenAPI/spec, and llms/AI docs surfaces. Check auth, pagination, rate limits, source links, and medium write risk before using SpyFu in automations.
 
 Agent readiness score: 4/5.
 

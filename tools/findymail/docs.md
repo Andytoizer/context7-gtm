@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Findymail is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Findymail lets agents work with Email verification, contacts, contact lists, email finder searches, reverse email, companies, and employees through official API, OpenAPI/spec, and SDK surfaces. Check auth, pagination, rate limits, source links, and medium write risk before using Findymail in automations.
 
 Agent readiness score: 4/5.
 

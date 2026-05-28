@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Autoklose is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Autoklose lets agents work with Contacts, Contact fields, Campaigns, Campaign recipients, Do-not-email domains, Events, and Replies through official API surfaces plus community MCP and community integration support. Check auth, pagination, rate limits, source links, and high write risk before using Autoklose in automations.
 
 Agent readiness score: 4/5.
 

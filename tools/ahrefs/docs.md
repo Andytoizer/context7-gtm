@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Ahrefs is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Ahrefs lets agents work with Site Explorer, Backlinks, Keywords, SERP Overview, Rank Tracker, Site Audit, and Batch Analysis through official MCP, API, and OpenAPI/spec surfaces. Check auth, pagination, rate limits, source links, and medium write risk before using Ahrefs in automations.
 
 Agent readiness score: 5/5.
 

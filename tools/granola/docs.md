@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Granola is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Granola lets agents work with Notes, transcripts, action items, decisions, calendar-linked meetings, and folders through official MCP, API, OpenAPI/spec, and llms/AI docs surfaces. Check auth, pagination, rate limits, source links, and lower write risk before using Granola in automations.
 
 Agent readiness score: 4/5.
 

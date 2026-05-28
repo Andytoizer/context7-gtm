@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Saleshandy is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Saleshandy lets agents work with Prospects, Campaigns, Sequences, Emails, Accounts, Teams, and Webhooks through official API surfaces plus community integration support. Check auth, pagination, rate limits, source links, and high write risk before using Saleshandy in automations.
 
 Agent readiness score: 3/5.
 

@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-n8n is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+n8n lets agents work with Workflows, executions, credentials, projects, tags, variables, and data tables through official MCP, API, CLI, and OpenAPI/spec surfaces. Check auth, pagination, rate limits, source links, and high write risk before using n8n in automations.
 
 Agent readiness score: 5/5.
 

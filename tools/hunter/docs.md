@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Hunter.io is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Hunter.io lets agents work with Discover, domain search, email finder, email verifier/count/enrichment, company enrichment, combined enrichment, and account through official MCP and API surfaces plus community MCP, community CLI, and community integration support. Check auth, pagination, rate limits, source links, and high write risk before using Hunter.io in automations.
 
 Agent readiness score: 5/5.
 

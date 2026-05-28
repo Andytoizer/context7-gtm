@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-ContactOut is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+ContactOut lets agents work with LinkedIn profile enrich, people search/count, contact info single/bulk, company info/search, decision makers, email verifier, and contact checkers through official MCP and API surfaces plus community MCP support. Check auth, pagination, rate limits, source links, and lower write risk before using ContactOut in automations.
 
 Agent readiness score: 4/5.
 

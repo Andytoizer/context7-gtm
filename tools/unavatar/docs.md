@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-unavatar.io is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+unavatar.io lets agents work with Avatar/logo lookups by provider, provider routes, cached image redirects, and JSON metadata through official API surfaces plus community integration support. Check auth, pagination, rate limits, source links, and lower write risk before using unavatar.io in automations.
 
 Agent readiness score: 2/5.
 
