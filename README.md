@@ -4,11 +4,11 @@ GTM Docs Registry is source-backed documentation retrieval for GTM tools.
 
 It gives AI agents a stable way to resolve a GTM product by name, fetch source-backed operational docs, and decide how to use that tool through its official MCP, CLI, API, OpenAPI/spec, llms.txt, SDK, or community interfaces.
 
-This project is for agent builders, GTM automation systems, and coding agents that need current GTM tool context at runtime. It is not a human comparison catalog, ranking site, marketplace, or workflow recipe library. The agent composes workflows from the docs; GTM Docs Registry supplies the retrieval layer.
+This project is for agent builders, GTM automation systems, and coding agents that need current GTM tool context at runtime. The public homepage includes a searchable catalog so people can see what is covered, but the core product is docs retrieval for agents, not a buying guide, ranking site, marketplace, or workflow recipe library. The agent composes workflows from the docs; GTM Docs Registry supplies the retrieval layer.
 
 ## What Is Included
 
-The repository currently contains 196 GTM tool profiles.
+The repository currently contains 196 GTM tool profiles. The hosted catalog shows the 184 published profiles that are ready for retrieval.
 
 ```text
 registry.json              # Source of truth for available tools
@@ -138,13 +138,17 @@ npm run http
 The server defaults to `http://localhost:8787` and supports:
 
 ```text
+GET /
 GET /health
+GET /catalog
 GET /registry
 GET /tools/search?q=hubspot&limit=5
 GET /tools/resolve?query=hubspot
 GET /tools/hubspot/docs?topic=auth
 GET /tools/hubspot/sources
 ```
+
+`/` is the searchable public homepage. `/catalog` returns the same published-only tool catalog as JSON.
 
 Full tool IDs work when URL-encoded:
 
@@ -307,7 +311,7 @@ Drafts are written under `draft-profiles/<slug>/`, ignored by git, and never add
 ## Non-Goals
 
 - No workflow recipes.
-- No human-facing comparison catalog.
+- No buying comparison marketplace.
 - No rankings or buying recommendations.
 - No unsupported claims.
 - No category taxonomy unless it is source-backed and useful for retrieval.

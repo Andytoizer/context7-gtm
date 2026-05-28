@@ -10,4 +10,5 @@
 - Published Monaco and Clay after follow-up source review; marked Default and HockeyStack as still blocked on credible MCP/CLI evidence.
 - Added optional `reference.md` retrieval, a read-only HTTP server, source verification, surface drift detection, and draft profile generation.
 - Added Vercel deployment configuration for the hosted read-only HTTP API.
+- Added a public homepage and searchable catalog for the 184 published tool profiles.
 - Clarified the project focus around source-backed docs retrieval for GTM tools, with no workflow recipes.
