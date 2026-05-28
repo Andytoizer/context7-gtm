@@ -1,0 +1,82 @@
+{
+  "minimumNeedsReviewCount": 1,
+  "cases": [
+    {
+      "name": "salesforce-official-mcp",
+      "question": "Does Salesforce have official MCP support for agent docs retrieval?",
+      "query": "salesforce mcp",
+      "expectedToolId": "/gtm/salesforce",
+      "assertions": [
+        { "type": "fieldEquals", "path": "tool.surfaces.officialMcp", "value": "yes" },
+        { "type": "docsInclude", "value": "Official MCP: yes" },
+        { "type": "sourcesIncludeUrl", "value": "developer.salesforce.com/docs/platform/hosted-mcp-servers" }
+      ]
+    },
+    {
+      "name": "apollo-auth",
+      "question": "How should agents authenticate against Apollo API and MCP surfaces?",
+      "query": "apollo auth api key oauth",
+      "expectedToolId": "/gtm/apollo",
+      "assertions": [
+        { "type": "fieldIncludes", "path": "tool.auth.notes", "value": "API key" },
+        { "type": "fieldIncludes", "path": "tool.auth.notes", "value": "OAuth" },
+        { "type": "docsInclude", "value": "API key for REST" }
+      ]
+    },
+    {
+      "name": "tally-main-objects-and-mcp",
+      "question": "What are Tally's main retrievable objects, and does it expose an official MCP?",
+      "query": "tally forms mcp objects",
+      "expectedToolId": "/gtm/tally",
+      "assertions": [
+        { "type": "fieldEquals", "path": "tool.surfaces.officialMcp", "value": "yes" },
+        { "type": "arrayIncludes", "path": "tool.objects", "value": "Forms" },
+        { "type": "arrayIncludes", "path": "tool.objects", "value": "submissions" },
+        { "type": "docsInclude", "value": "webhooks" },
+        { "type": "sourcesIncludeUrl", "value": "developers.tally.so/api-reference/mcp" }
+      ]
+    },
+    {
+      "name": "findymail-alias-resolution",
+      "question": "Resolve the Fastymail alias to Findymail docs.",
+      "query": "fastymail email finder",
+      "expectedToolId": "/gtm/findymail",
+      "assertions": [
+        { "type": "arrayIncludes", "path": "tool.aliases", "value": "fastymail" },
+        { "type": "fieldEquals", "path": "tool.slug", "value": "findymail" },
+        { "type": "docsInclude", "value": "Bearer token" }
+      ]
+    },
+    {
+      "name": "needs-review-queue-has-reasons",
+      "question": "Are unresolved or needs-review catalog entries available with human review reasons?",
+      "query": "needs review unresolved docs",
+      "expectedToolId": null,
+      "assertions": [
+        { "type": "needsReviewCountAtLeast", "value": 1 },
+        { "type": "allNeedsReviewHaveReasons" }
+      ]
+    },
+    {
+      "name": "source-availability",
+      "question": "Do published catalog entries expose source links for retrieval grounding?",
+      "query": "source links exist",
+      "expectedToolId": null,
+      "assertions": [
+        { "type": "allPublishedHaveSources" },
+        { "type": "allSourcesHaveValidUrls" }
+      ]
+    },
+    {
+      "name": "unsafe-destructive-action-caveat",
+      "question": "Do high-risk GTM tools surface destructive action caveats for agents?",
+      "query": "salesforce destructive action caveat",
+      "expectedToolId": "/gtm/salesforce",
+      "assertions": [
+        { "type": "fieldEquals", "path": "tool.destructiveActionRisk", "value": "high" },
+        { "type": "docsInclude", "value": "Destructive action risk: high" },
+        { "type": "docsInclude", "value": "Treat unknown or announced surfaces as unresolved" }
+      ]
+    }
+  ]
+}

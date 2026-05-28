@@ -10,6 +10,9 @@
     "cli": "node ./bin/gtm7.js",
     "import:scouts": "node ./scripts/import-scout-findings.js",
     "import:tier2": "node ./scripts/import-tier2-findings.js",
+    "reports": "node ./scripts/generate-reports.js",
+    "eval": "node ./scripts/run-evals.js",
+    "test": "npm run validate && npm run eval",
     "validate": "node ./scripts/validate-registry.js",
     "mcp": "tsx ./mcp/server.ts"
   },

@@ -2,7 +2,7 @@
   "id": "/gtm/dripify",
   "name": "Dripify",
   "slug": "dripify",
-  "status": "published",
+  "status": "needs-review",
   "lastVerified": "2026-05-28",
   "agentReadinessScore": 2,
   "surfaces": {

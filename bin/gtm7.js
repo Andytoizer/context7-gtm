@@ -2,27 +2,24 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  formatDocsResult,
+  loadToolFiles,
+  resolveTool,
+  retrieveDocs,
+  searchTools
+} from "../lib/retrieval.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const registry = JSON.parse(fs.readFileSync(path.join(root, "registry.json"), "utf8"));
 
-function normalize(value) {
-  return String(value || "").toLowerCase().replace(/[^a-z0-9.]+/g, "");
-}
-
-function resolveTool(input) {
-  const normalized = normalize(input.replace(/^\/gtm\//, ""));
-  return registry.tools.find((tool) => {
-    const candidates = [tool.id, tool.slug, tool.name, ...(tool.aliases || [])];
-    return candidates.some((candidate) => normalize(candidate.replace(/^\/gtm\//, "")) === normalized);
-  });
-}
-
 function printUsage() {
   console.log(`Usage:
   gtm7 resolve <tool-name>
   gtm7 docs <tool-id-or-name> [topic]
+  gtm7 sources <tool-id-or-name>
+  gtm7 search <query>
   gtm7 list`);
 }
 
@@ -41,7 +38,7 @@ if (command === "list") {
 }
 
 if (command === "resolve") {
-  const tool = resolveTool(target);
+  const tool = resolveTool(registry, target);
   if (!tool) {
     console.error(`No tool found for: ${target}`);
     process.exit(1);
@@ -51,27 +48,53 @@ if (command === "resolve") {
 }
 
 if (command === "docs") {
-  const tool = resolveTool(target);
+  const tool = resolveTool(registry, target);
   if (!tool) {
     console.error(`No tool found for: ${target}`);
     process.exit(1);
   }
-  const docsPath = path.join(root, tool.path, "docs.md");
-  const docs = fs.readFileSync(docsPath, "utf8");
-  const topic = rest.join(" ").trim().toLowerCase();
+  const { docs, sourcesText } = loadToolFiles(root, tool);
+  const topic = rest.join(" ").trim();
 
   if (!topic) {
     console.log(docs);
     process.exit(0);
   }
 
-  const sections = docs.split(/\n(?=# )/g);
-  const matching = sections.filter((section) => section.toLowerCase().includes(topic));
-  console.log((matching.length ? matching : sections).join("\n"));
+  const result = retrieveDocs({ docs, sourcesText, topic });
+  console.log(formatDocsResult(result));
+  process.exit(0);
+}
+
+if (command === "sources") {
+  const tool = resolveTool(registry, target);
+  if (!tool) {
+    console.error(`No tool found for: ${target}`);
+    process.exit(1);
+  }
+  const sourcesPath = path.join(root, tool.path, "sources.json");
+  console.log(fs.readFileSync(sourcesPath, "utf8"));
+  process.exit(0);
+}
+
+if (command === "search") {
+  const query = [target, ...rest].filter(Boolean).join(" ").trim();
+  if (!query) {
+    console.error("Search requires a query.");
+    process.exit(1);
+  }
+  const results = searchTools({ root, registry, query });
+  if (!results.length) {
+    console.log(`No tools found for: ${query}`);
+    process.exit(0);
+  }
+  for (const { tool, score } of results) {
+    const aliases = tool.aliases?.length ? ` aliases=${tool.aliases.join(", ")}` : "";
+    console.log(`${tool.id}\t${tool.name}\tscore=${score.toFixed(1)}${aliases}`);
+  }
   process.exit(0);
 }
 
 console.error(`Unknown command: ${command}`);
 printUsage();
 process.exit(1);
-
