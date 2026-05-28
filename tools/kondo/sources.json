@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Kondo",
+    "url": "https://www.trykondo.com",
+    "type": "official-site"
+  },
+  {
+    "title": "Kondo Docs",
+    "url": "https://docs.trykondo.com",
+    "type": "official-docs"
+  },
+  {
+    "title": "Kondo MCP Setup",
+    "url": "https://docs.trykondo.com/mcp-setup",
+    "type": "official-mcp"
+  },
+  {
+    "title": "Kondo llms.txt",
+    "url": "https://docs.trykondo.com/llms.txt",
+    "type": "llms-docs"
+  },
+  {
+    "title": "Kondo Integrations",
+    "url": "https://docs.trykondo.com/integrations",
+    "type": "official-integrations"
+  },
+  {
+    "title": "Kondo Webhooks",
+    "url": "https://docs.trykondo.com/webhooks.md",
+    "type": "official-webhooks"
+  }
+]

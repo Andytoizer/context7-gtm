@@ -51,7 +51,56 @@
       "aliases": ["customer.io", "cio"],
       "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/klaviyo",
+      "name": "Klaviyo",
+      "slug": "klaviyo",
+      "status": "published",
+      "path": "tools/klaviyo",
+      "aliases": ["klaviyo marketing", "klaviyo cdp"],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/dripify",
+      "name": "Dripify",
+      "slug": "dripify",
+      "status": "published",
+      "path": "tools/dripify",
+      "aliases": ["dripify linkedin"],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/heyreach",
+      "name": "HeyReach",
+      "slug": "heyreach",
+      "status": "published",
+      "path": "tools/heyreach",
+      "aliases": ["heyreach linkedin", "heyreach.io"],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/kondo",
+      "name": "Kondo",
+      "slug": "kondo",
+      "status": "published",
+      "path": "tools/kondo",
+      "aliases": ["trykondo", "kondo linkedin inbox"],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/jungler",
+      "name": "Jungler",
+      "slug": "jungler",
+      "status": "published",
+      "path": "tools/jungler",
+      "aliases": ["jungler.ai"],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
     }
   ]
 }
-

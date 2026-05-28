@@ -1,0 +1,33 @@
+{
+  "id": "/gtm/dripify",
+  "name": "Dripify",
+  "slug": "dripify",
+  "status": "published",
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 2,
+  "surfaces": {
+    "officialMcp": false,
+    "officialCli": false,
+    "officialApi": "unknown",
+    "openApiSpec": false,
+    "llmsDocs": false,
+    "officialSdk": false,
+    "communityMcp": false,
+    "communityCli": false,
+    "communitySdkOrIntegration": false
+  },
+  "auth": {
+    "methods": ["Zapier connection", "Make connection", "Webhooks"],
+    "notes": "No public first-party API authentication docs were found during this audit."
+  },
+  "objects": ["Campaigns", "Leads", "LinkedIn outreach activity", "Automation events"],
+  "rateLimits": "No public first-party API rate limit documentation found.",
+  "sourceQuality": "weak",
+  "notes": [
+    "Dripify appears integration-led rather than docs-retrieval-ready for agents.",
+    "Official docs emphasize product usage plus Zapier and Make integrations.",
+    "GitHub fallback search did not surface a strong maintained community MCP, CLI, SDK, or API wrapper."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm whether Dripify has private or customer-only API docs that are not publicly indexed."
+}

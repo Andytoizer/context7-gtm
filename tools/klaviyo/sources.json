@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Klaviyo Developers",
+    "url": "https://developers.klaviyo.com",
+    "type": "official-docs"
+  },
+  {
+    "title": "Klaviyo MCP Server",
+    "url": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
+    "type": "official-mcp"
+  },
+  {
+    "title": "Klaviyo CLI",
+    "url": "https://developers.klaviyo.com/en/docs/klaviyo_cli",
+    "type": "official-cli"
+  },
+  {
+    "title": "Klaviyo API Overview",
+    "url": "https://developers.klaviyo.com/en/reference/api_overview",
+    "type": "official-api"
+  },
+  {
+    "title": "Klaviyo Authentication",
+    "url": "https://developers.klaviyo.com/en/reference/api_overview#authentication",
+    "type": "official-auth"
+  },
+  {
+    "title": "Klaviyo GitHub",
+    "url": "https://github.com/klaviyo",
+    "type": "official-github"
+  },
+  {
+    "title": "Klaviyo API Node SDK",
+    "url": "https://github.com/klaviyo/klaviyo-api-node",
+    "type": "official-sdk"
+  }
+]

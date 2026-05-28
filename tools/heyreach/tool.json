@@ -1,0 +1,32 @@
+{
+  "id": "/gtm/heyreach",
+  "name": "HeyReach",
+  "slug": "heyreach",
+  "status": "published",
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "surfaces": {
+    "officialMcp": true,
+    "officialCli": false,
+    "officialApi": true,
+    "openApiSpec": "unknown",
+    "llmsDocs": false,
+    "officialSdk": false,
+    "communityMcp": true,
+    "communityCli": true,
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "methods": ["X-API-KEY"],
+    "notes": "API requests use an X-API-KEY header. MCP setup uses HeyReach account/API configuration."
+  },
+  "objects": ["Campaigns", "Leads", "LinkedIn accounts", "Inboxes", "Messages", "Webhooks"],
+  "rateLimits": "Public docs mention 60 requests per minute for the API.",
+  "sourceQuality": "medium",
+  "notes": [
+    "HeyReach has official MCP setup docs and public API/webhook docs.",
+    "A community CLI and community MCP exist, but should be treated as unofficial.",
+    "Postman documentation is useful as supplemental material, but publisher identity should be verified before treating it as authoritative."
+  ],
+  "needsHumanReview": false
+}

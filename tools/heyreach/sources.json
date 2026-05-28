@@ -1,0 +1,42 @@
+[
+  {
+    "title": "HeyReach",
+    "url": "https://www.heyreach.io",
+    "type": "official-site"
+  },
+  {
+    "title": "HeyReach MCP",
+    "url": "https://www.heyreach.io/mcp",
+    "type": "official-mcp"
+  },
+  {
+    "title": "How to Integrate HeyReach MCP with Claude",
+    "url": "https://help.heyreach.io/en/articles/12123398-how-to-integrate-heyreach-mcp-with-claude",
+    "type": "official-mcp"
+  },
+  {
+    "title": "HeyReach API and Webhooks",
+    "url": "https://help.heyreach.io/en/collections/10421883-api-webhooks",
+    "type": "official-api"
+  },
+  {
+    "title": "HeyReach Campaign API",
+    "url": "https://www.heyreach.io/blog/campaign-api",
+    "type": "official-api"
+  },
+  {
+    "title": "HeyReach API Postman Docs",
+    "url": "https://www.postman.com/chad-999/highlevel/documentation/5ud7ues/heyreach-api",
+    "type": "supplemental-api"
+  },
+  {
+    "title": "Community HeyReach CLI",
+    "url": "https://github.com/bcharleson/heyreach-cli",
+    "type": "community-cli"
+  },
+  {
+    "title": "Community HeyReach MCP",
+    "url": "https://github.com/bcharleson/heyreach-mcp",
+    "type": "community-mcp"
+  }
+]

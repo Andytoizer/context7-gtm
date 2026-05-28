@@ -1,0 +1,32 @@
+{
+  "id": "/gtm/klaviyo",
+  "name": "Klaviyo",
+  "slug": "klaviyo",
+  "status": "published",
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "surfaces": {
+    "officialMcp": true,
+    "officialCli": true,
+    "officialApi": true,
+    "openApiSpec": true,
+    "llmsDocs": true,
+    "officialSdk": true,
+    "communityMcp": false,
+    "communityCli": false,
+    "communitySdkOrIntegration": false
+  },
+  "auth": {
+    "methods": ["Private API key", "OAuth", "Public API key"],
+    "notes": "Private API keys are scoped and used for server-side API access. Remote MCP requires a Klaviyo account with sufficient workspace role."
+  },
+  "objects": ["Profiles", "Lists", "Segments", "Events", "Metrics", "Campaigns", "Flows", "Templates", "Coupons", "Catalogs"],
+  "rateLimits": "Use current Klaviyo endpoint-specific rate limit headers and API documentation.",
+  "sourceQuality": "strong",
+  "notes": [
+    "Klaviyo has one of the strongest agent surfaces in the GTM stack: official MCP, CLI, API reference, SDKs, and OpenAPI assets.",
+    "Local MCP can be run with uvx and supports read-only controls for safer agent usage.",
+    "Remote MCP access depends on Klaviyo account permissions."
+  ],
+  "needsHumanReview": false
+}

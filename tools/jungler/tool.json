@@ -1,0 +1,32 @@
+{
+  "id": "/gtm/jungler",
+  "name": "Jungler",
+  "slug": "jungler",
+  "status": "published",
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "surfaces": {
+    "officialMcp": false,
+    "officialCli": false,
+    "officialApi": true,
+    "openApiSpec": false,
+    "llmsDocs": "unknown",
+    "officialSdk": false,
+    "communityMcp": false,
+    "communityCli": false,
+    "communitySdkOrIntegration": false
+  },
+  "auth": {
+    "methods": ["X-API-Key"],
+    "notes": "API requests use an X-API-Key header and most operations require a workspace_id."
+  },
+  "objects": ["Workspaces", "Signals", "Posts", "Engagers", "Workbooks", "Integrations"],
+  "rateLimits": "Endpoint-specific limits found: workspaces 30/min, signals 30/min, posts 60/min, workbooks 30/min, engagers 60/min.",
+  "sourceQuality": "strong",
+  "notes": [
+    "Jungler has a useful public API documentation surface but no official MCP, CLI, SDK, or OpenAPI spec found.",
+    "The API is object-oriented enough for agents to use directly with careful pagination and workspace handling.",
+    "GitHub fallback search did not surface a strong maintained community MCP, CLI, or SDK."
+  ],
+  "needsHumanReview": false
+}

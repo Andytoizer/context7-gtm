@@ -1,0 +1,32 @@
+{
+  "id": "/gtm/kondo",
+  "name": "Kondo",
+  "slug": "kondo",
+  "status": "published",
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "surfaces": {
+    "officialMcp": true,
+    "officialCli": false,
+    "officialApi": false,
+    "openApiSpec": false,
+    "llmsDocs": true,
+    "officialSdk": false,
+    "communityMcp": false,
+    "communityCli": false,
+    "communitySdkOrIntegration": false
+  },
+  "auth": {
+    "methods": ["MCP relay"],
+    "notes": "MCP setup uses the Kondo relay and requires the Kondo browser extension/session context."
+  },
+  "objects": ["Inbox", "Chats", "Messages", "Draft replies", "Labels", "Archive state", "Reminders", "Connections", "Invitations", "Snippets"],
+  "rateLimits": "No public API rate limit documentation found.",
+  "sourceQuality": "strong",
+  "notes": [
+    "Kondo is strongly suited for MCP-based agent use despite lacking public REST API docs.",
+    "The MCP surface is focused on LinkedIn inbox operations and draft assistance.",
+    "A Business tier and active browser extension/session may be required."
+  ],
+  "needsHumanReview": false
+}

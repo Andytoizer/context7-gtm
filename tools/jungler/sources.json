@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Jungler Docs",
+    "url": "https://docs.jungler.ai/",
+    "type": "official-docs"
+  },
+  {
+    "title": "Jungler API Quick Start",
+    "url": "https://docs.jungler.ai/api/quick-start",
+    "type": "official-api"
+  },
+  {
+    "title": "Jungler Workspaces API",
+    "url": "https://docs.jungler.ai/api/workspaces",
+    "type": "official-api"
+  },
+  {
+    "title": "Jungler Signals API",
+    "url": "https://docs.jungler.ai/api/signals",
+    "type": "official-api"
+  },
+  {
+    "title": "Jungler Posts API",
+    "url": "https://docs.jungler.ai/api/posts",
+    "type": "official-api"
+  },
+  {
+    "title": "Jungler Engagers API",
+    "url": "https://docs.jungler.ai/api/engagers",
+    "type": "official-api"
+  },
+  {
+    "title": "Jungler Workbooks API",
+    "url": "https://docs.jungler.ai/api/workbooks",
+    "type": "official-api"
+  }
+]

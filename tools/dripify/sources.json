@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Dripify",
+    "url": "https://dripify.com",
+    "type": "official-site"
+  },
+  {
+    "title": "Dripify Help Center",
+    "url": "https://help.dripify.com",
+    "type": "official-docs"
+  },
+  {
+    "title": "What is Dripify?",
+    "url": "https://help.dripify.com/en/articles/4910909-what-is-dripify",
+    "type": "official-docs"
+  },
+  {
+    "title": "Dripify Integrations",
+    "url": "https://dripify.com/integrations/",
+    "type": "official-integrations"
+  },
+  {
+    "title": "How to Set Up Automation with Zapier",
+    "url": "https://help.dripify.com/en/articles/9539864-how-to-set-up-automation-with-zapier",
+    "type": "official-integration-docs"
+  },
+  {
+    "title": "Dripify Make Integration",
+    "url": "https://www.dripify.com/integrations/make/",
+    "type": "official-integration-docs"
+  }
+]
