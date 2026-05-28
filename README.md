@@ -150,6 +150,13 @@ GET /tools/hubspot/sources
 
 `/` is the searchable public homepage. `/catalog` returns the same published-only tool catalog as JSON.
 
+Tool docs routes support both people and agents:
+
+- Browser requests to `/tools/<slug>/docs` render a human-readable docs page.
+- Agent/script requests receive JSON by default.
+- Add `?format=json` to force the agent JSON response from a browser.
+- Add `?format=html` to force the human-readable page.
+
 Full tool IDs work when URL-encoded:
 
 ```bash

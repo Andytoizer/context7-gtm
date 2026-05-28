@@ -11,4 +11,5 @@
 - Added optional `reference.md` retrieval, a read-only HTTP server, source verification, surface drift detection, and draft profile generation.
 - Added Vercel deployment configuration for the hosted read-only HTTP API.
 - Added a public homepage and searchable catalog for the 184 published tool profiles.
+- Added human-readable tool docs pages while preserving JSON retrieval for agents.
 - Clarified the project focus around source-backed docs retrieval for GTM tools, with no workflow recipes.

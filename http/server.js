@@ -57,6 +57,16 @@ function sendHtml(res, html) {
   res.end(html);
 }
 
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[char]);
+}
+
 function parseLimit(value, fallback = 10, max = 25) {
   if (!value) return fallback;
   const parsed = Number.parseInt(value, 10);
@@ -149,6 +159,14 @@ function handleCatalog(res) {
   });
 }
 
+function wantsJson(req, reqUrl) {
+  const format = String(reqUrl.searchParams.get("format") || "").toLowerCase();
+  if (format === "json") return true;
+  if (format === "html") return false;
+  const accept = String(req.headers.accept || "");
+  return !accept.includes("text/html");
+}
+
 function handleSearch(reqUrl, res) {
   const query = String(reqUrl.searchParams.get("q") || "").trim();
   if (!query) {
@@ -194,7 +212,7 @@ function handleResolve(reqUrl, res) {
   });
 }
 
-function handleDocs(reqUrl, res, slugOrId) {
+function handleDocs(req, reqUrl, res, slugOrId) {
   if (!slugOrId) {
     sendError(res, 400, "Missing tool slug or ID.");
     return;
@@ -211,6 +229,11 @@ function handleDocs(reqUrl, res, slugOrId) {
   const sources = parseSources(files.sourcesText);
 
   if (!topic) {
+    if (!wantsJson(req, reqUrl)) {
+      sendHtml(res, renderToolDocsPage({ tool, files, sources, topic: null }));
+      return;
+    }
+
     sendJson(res, 200, {
       tool: publicTool(tool),
       topic: null,
@@ -222,6 +245,11 @@ function handleDocs(reqUrl, res, slugOrId) {
   }
 
   const result = retrieveDocs({ ...files, topic });
+  if (!wantsJson(req, reqUrl)) {
+    sendHtml(res, renderToolDocsPage({ tool, files, sources, topic, result }));
+    return;
+  }
+
   sendJson(res, 200, {
     tool: publicTool(tool),
     topic,
@@ -684,7 +712,7 @@ function renderHomepage() {
           <h2>Catalog</h2>
           <p>Only published, source-backed profiles appear here.</p>
         </div>
-        <a class="button primary" href="/tools/search?q=hubspot&limit=5">Try the API</a>
+        <a class="button primary" href="#api">Try the API</a>
       </div>
       <div class="catalog" id="catalog-list"></div>
     </section>
@@ -697,7 +725,7 @@ function renderHomepage() {
       </div>
       <pre><code>curl "https://gtm-docs-registry.vercel.app/tools/resolve?query=hubspot"
 
-curl "https://gtm-docs-registry.vercel.app/tools/monaco/docs?topic=mcp"
+curl "https://gtm-docs-registry.vercel.app/tools/monaco/docs?topic=mcp&format=json"
 
 curl "https://gtm-docs-registry.vercel.app/tools/search?q=openapi&limit=10"</code></pre>
     </section>
@@ -765,6 +793,434 @@ curl "https://gtm-docs-registry.vercel.app/tools/search?q=openapi&limit=10"</cod
 </html>`;
 }
 
+function renderToolDocsPage({ tool, files, sources, topic, result }) {
+  const home = homeTool(tool);
+  const title = `${tool.name} Docs | GTM Docs Registry`;
+  const jsonHref = `/tools/${encodeURIComponent(tool.slug)}/docs${topic ? `?topic=${encodeURIComponent(topic)}&format=json` : "?format=json"}`;
+  const topicParam = topic ? `?topic=${encodeURIComponent(topic)}` : "";
+  const docsHtml = result
+    ? result.selected.map((section) => markdownToHtml(section.text)).join("\n")
+    : markdownToHtml(files.docs);
+  const referenceHtml = !result && files.hasReference ? markdownToHtml(files.referenceText || files.reference) : "";
+  const sourceHtml = renderSourceList(result?.relatedSources || sources);
+  const surfaceHtml = Object.entries(home.surfaces)
+    .filter(([, value]) => value === "yes" || value === "announced")
+    .map(([key, value]) => `<span class="surface ${escapeHtml(value)}">${escapeHtml(surfaceLabel(key))}</span>`)
+    .join("");
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${escapeHtml(title)}</title>
+  <meta name="description" content="Human-readable and agent-readable docs for ${escapeHtml(tool.name)}.">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #15181f;
+      --muted: #5f6878;
+      --line: #dce2ea;
+      --paper: #f7f5ef;
+      --panel: #ffffff;
+      --green: #17785f;
+      --blue: #2457a6;
+      --slate: #243140;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      letter-spacing: 0;
+    }
+    a { color: inherit; }
+    .shell { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+    header {
+      border-bottom: 1px solid rgba(36, 49, 64, .12);
+      background: rgba(247, 245, 239, .92);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(12px);
+    }
+    .nav {
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 760;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    .mark {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      background: var(--ink);
+      color: white;
+      display: grid;
+      place-items: center;
+      font-size: 13px;
+      font-weight: 780;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .nav-links a { text-decoration: none; }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: 0 14px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--panel);
+      color: var(--ink);
+      font-weight: 650;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .button.primary {
+      background: var(--ink);
+      color: white;
+      border-color: var(--ink);
+    }
+    main { padding: 46px 0 70px; }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 260px;
+      gap: 28px;
+      align-items: start;
+      margin-bottom: 28px;
+    }
+    .eyebrow {
+      color: var(--green);
+      font-weight: 760;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    h1 {
+      margin: 10px 0 0;
+      font-size: clamp(40px, 6vw, 68px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+    .lede {
+      max-width: 760px;
+      margin: 18px 0 0;
+      color: #3f4856;
+      font-size: 18px;
+      line-height: 1.55;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 12px 40px rgba(21, 24, 31, .06);
+      min-width: 0;
+    }
+    .meta {
+      display: grid;
+      gap: 14px;
+    }
+    .meta-item span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+    .meta-item strong {
+      font-size: 15px;
+    }
+    .surface-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .surface {
+      border-radius: 999px;
+      padding: 5px 8px;
+      font-size: 12px;
+      font-weight: 680;
+      border: 1px solid transparent;
+    }
+    .yes { color: #0f624d; background: #e9f6f1; border-color: #bfe4d6; }
+    .announced { color: #7a4a0b; background: #fff4df; border-color: #f4d7a8; }
+    .content-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      gap: 24px;
+      align-items: start;
+    }
+    .doc {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 28px;
+      line-height: 1.62;
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+    .doc h2 {
+      margin: 32px 0 12px;
+      font-size: 25px;
+      letter-spacing: 0;
+    }
+    .doc h2:first-child { margin-top: 0; }
+    .doc h3 {
+      margin: 24px 0 10px;
+      font-size: 19px;
+    }
+    .doc p { margin: 0 0 14px; color: #2f3846; }
+    .doc ul { margin: 0 0 18px; padding-left: 22px; }
+    .doc li { margin: 7px 0; }
+    .doc a { color: var(--blue); }
+    .doc code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: .92em;
+      background: #f2f5f8;
+      border: 1px solid #e1e7ef;
+      border-radius: 5px;
+      padding: 1px 5px;
+    }
+    .doc pre {
+      overflow: auto;
+      border-radius: 8px;
+      background: #0f141c;
+      color: #d9e6f2;
+      padding: 18px;
+      border: 1px solid #283445;
+    }
+    .doc pre code {
+      padding: 0;
+      border: 0;
+      background: transparent;
+      color: inherit;
+    }
+    .aside {
+      display: grid;
+      gap: 14px;
+      position: sticky;
+      top: 86px;
+    }
+    .aside h2 {
+      margin: 0 0 10px;
+      font-size: 17px;
+    }
+    .source-list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .source-list a {
+      color: var(--blue);
+      font-weight: 650;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+    .source-type {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .topic-note {
+      margin-bottom: 18px;
+      padding: 14px 16px;
+      border: 1px solid #cfe0d9;
+      border-radius: 8px;
+      background: #eef8f4;
+      color: #214b40;
+    }
+    @media (max-width: 860px) {
+      .nav { align-items: flex-start; flex-direction: column; padding: 14px 0; }
+      .nav-links { width: 100%; justify-content: space-between; }
+      .hero,
+      .content-grid { grid-template-columns: 1fr; }
+      .aside { position: static; }
+      .doc { padding: 20px; }
+      h1 { font-size: 42px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="shell nav">
+      <a class="brand" href="/">
+        <span class="mark">G</span>
+        <span>GTM Docs Registry</span>
+      </a>
+      <nav class="nav-links">
+        <a href="/#catalog">Catalog</a>
+        <a href="/#api">API</a>
+        <a href="https://github.com/Andytoizer/gtm-docs-registry">GitHub</a>
+        <a class="button" href="${escapeHtml(jsonHref)}">Agent JSON</a>
+      </nav>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Tool docs profile</div>
+        <h1>${escapeHtml(tool.name)}</h1>
+        <p class="lede">Human-readable profile for review and exploration. Agents can fetch the same source-backed retrieval content as structured JSON.</p>
+        <div class="actions">
+          <a class="button primary" href="${escapeHtml(jsonHref)}">Agent JSON</a>
+          <a class="button" href="/tools/${encodeURIComponent(tool.slug)}/sources">Sources JSON</a>
+          <a class="button" href="/#catalog">Back to catalog</a>
+        </div>
+      </div>
+      <aside class="panel meta" aria-label="Tool metadata">
+        <div class="meta-item"><span>ID</span><strong>${escapeHtml(tool.id)}</strong></div>
+        <div class="meta-item"><span>Readiness</span><strong>${escapeHtml(tool.agentReadinessScore)} / 5</strong></div>
+        <div class="meta-item"><span>Last verified</span><strong>${escapeHtml(tool.lastVerified || "unknown")}</strong></div>
+        <div class="surface-list">${surfaceHtml}</div>
+      </aside>
+    </section>
+    <section class="content-grid">
+      <article class="doc">
+        ${topic ? `<div class="topic-note">Showing focused retrieval results for <strong>${escapeHtml(topic)}</strong>. <a href="/tools/${encodeURIComponent(tool.slug)}/docs${escapeHtml(topicParam)}&format=json">Open the agent JSON response.</a></div>` : ""}
+        ${docsHtml}
+        ${referenceHtml ? `<h2>Reference Details</h2>${referenceHtml}` : ""}
+      </article>
+      <aside class="aside">
+        <section class="panel">
+          <h2>Agent Access</h2>
+          <p class="lede" style="font-size:14px;margin:0 0 12px;">Use JSON for agents, MCP servers, scripts, and retrieval calls.</p>
+          <a class="button primary" href="${escapeHtml(jsonHref)}">Open JSON</a>
+        </section>
+        <section class="panel">
+          <h2>Sources</h2>
+          ${sourceHtml}
+        </section>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>`;
+}
+
+function surfaceLabel(key) {
+  return ({ mcp: "MCP", api: "API", cli: "CLI", openapi: "OpenAPI", llms: "llms.txt", sdk: "SDK" })[key] || key;
+}
+
+function renderSourceList(sources) {
+  const items = (sources || []).slice(0, 12).map((source) => {
+    const label = source.label || source.title || source.url || "Source";
+    const type = source.type || "source";
+    const href = source.url || "#";
+    return `<li><a href="${escapeHtml(href)}">${escapeHtml(label)}</a><span class="source-type">${escapeHtml(type)}</span></li>`;
+  });
+  return items.length ? `<ul class="source-list">${items.join("")}</ul>` : `<p>No source metadata found.</p>`;
+}
+
+function markdownToHtml(markdown) {
+  const lines = String(markdown || "").split(/\r?\n/);
+  const html = [];
+  let inList = false;
+  let inCode = false;
+  let codeLines = [];
+
+  function closeList() {
+    if (inList) {
+      html.push("</ul>");
+      inList = false;
+    }
+  }
+
+  function closeCode() {
+    if (inCode) {
+      html.push(`<pre><code>${escapeHtml(codeLines.join("\n"))}</code></pre>`);
+      inCode = false;
+      codeLines = [];
+    }
+  }
+
+  for (const line of lines) {
+    if (/^```/.test(line.trim())) {
+      if (inCode) {
+        closeCode();
+      } else {
+        closeList();
+        inCode = true;
+        codeLines = [];
+      }
+      continue;
+    }
+
+    if (inCode) {
+      codeLines.push(line);
+      continue;
+    }
+
+    const trimmed = line.trim();
+    if (!trimmed) {
+      closeList();
+      continue;
+    }
+
+    const heading = /^(#{1,4})\s+(.+)$/.exec(trimmed);
+    if (heading) {
+      closeList();
+      const level = Math.min(heading[1].length + 1, 4);
+      html.push(`<h${level}>${renderInline(heading[2])}</h${level}>`);
+      continue;
+    }
+
+    const bullet = /^[-*]\s+(.+)$/.exec(trimmed);
+    if (bullet) {
+      if (!inList) {
+        html.push("<ul>");
+        inList = true;
+      }
+      html.push(`<li>${renderInline(bullet[1])}</li>`);
+      continue;
+    }
+
+    closeList();
+    html.push(`<p>${renderInline(trimmed)}</p>`);
+  }
+
+  closeCode();
+  closeList();
+  return html.join("\n");
+}
+
+function renderInline(value) {
+  return String(value ?? "")
+    .split(/(`[^`]+`)/g)
+    .map((part) => {
+      if (/^`[^`]+`$/.test(part)) {
+        return `<code>${escapeHtml(part.slice(1, -1))}</code>`;
+      }
+      return escapeHtml(part).replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1">$1</a>');
+    })
+    .join("");
+}
+
 function routeRequest(req, res) {
   if (req.method === "OPTIONS") {
     res.writeHead(204, CORS_HEADERS);
@@ -813,7 +1269,7 @@ function routeRequest(req, res) {
     }
 
     if (segments[0] === "tools" && segments.at(-1) === "docs") {
-      handleDocs(reqUrl, res, toolFromPath(segments, "docs"));
+      handleDocs(req, reqUrl, res, toolFromPath(segments, "docs"));
       return;
     }
 
