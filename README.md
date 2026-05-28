@@ -142,6 +142,11 @@ GET /
 GET /health
 GET /catalog
 GET /registry
+GET /llms.txt
+GET /llms-full.txt
+GET /openapi.json
+GET /mcp
+POST /mcp
 GET /tools/search?q=hubspot&limit=5
 GET /tools/resolve?query=hubspot
 GET /tools/hubspot/docs?topic=auth
@@ -156,6 +161,13 @@ Tool docs routes support both people and agents:
 - Agent/script requests receive JSON by default.
 - Add `?format=json` to force the agent JSON response from a browser.
 - Add `?format=html` to force the human-readable page.
+
+Agent discovery and hosted access:
+
+- `/llms.txt` gives agents a compact discovery file.
+- `/llms-full.txt` includes the full published tool list and JSON-RPC example.
+- `/openapi.json` describes the HTTP API.
+- `/mcp` exposes a hosted JSON-RPC endpoint with MCP-compatible methods: `initialize`, `tools/list`, `tools/call`, `resources/list`, and `resources/read`.
 
 Full tool IDs work when URL-encoded:
 
