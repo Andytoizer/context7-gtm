@@ -14,8 +14,8 @@ Agent readiness score: 2/5.
 - OpenAPI/spec: unknown
 - llms/AI docs: yes
 - Official SDK: yes
-- Community MCP: unknown
-- Community CLI: unknown
+- Community MCP: no
+- Community CLI: no
 - Community SDK / integration: yes
 
 ## Auth
@@ -45,12 +45,14 @@ Unknown.
 
 - Destructive action risk: unknown.
 - Public official docs are useful for product context and agent-readable retrieval via llms.txt, but are not enough to implement a stable server-side API connector.
+- The official `hockeystack` npm package and `HockeyStack/hockeystack-js` GitHub repository are browser tracking script/SDK evidence, not an agent-facing CLI or MCP server.
+- GitHub and npm searches did not surface a credible HockeyStack-specific MCP server or CLI.
 - Treat third-party API details as non-canonical until HockeyStack publishes or confirms the server API contract.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
 
 ## Needs Human Review
 
-Need an official public HockeyStack server API reference covering auth, endpoints, pagination, rate limits, and destructive/write semantics. Current public coverage is product docs plus non-official API context.
+Still not publishable: public official coverage is llms/product docs plus an official browser tracking npm package. No credible HockeyStack-specific MCP/CLI and no official server API reference for auth, endpoints, pagination, rate limits, schemas, or write/destructive semantics was found.
 
 ## Sources
 
@@ -62,3 +64,5 @@ Need an official public HockeyStack server API reference covering auth, endpoint
 - https://docs.hockeystack.com/account-intelligence/account-intelligence-configuration-guide.md
 - https://dlthub.com/context/source/hockeystack
 - https://hockeystack.com/
+- https://www.npmjs.com/package/hockeystack
+- https://github.com/HockeyStack/hockeystack-js

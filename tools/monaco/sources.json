@@ -1,17 +1,37 @@
 [
   {
-    "title": "monaco.com",
-    "url": "https://www.monaco.com/",
-    "type": "source"
+    "title": "Monaco Beta Notice",
+    "url": "https://docs.monaco.com/beta-notice",
+    "type": "official-docs"
   },
   {
-    "title": "monaco.com/company",
-    "url": "https://www.monaco.com/company",
-    "type": "source"
+    "title": "Monaco llms.txt",
+    "url": "https://docs.monaco.com/llms.txt",
+    "type": "llms-docs"
   },
   {
-    "title": "monaco.com/security",
-    "url": "https://www.monaco.com/security",
-    "type": "source"
+    "title": "Monaco Authentication",
+    "url": "https://docs.monaco.com/auth",
+    "type": "official-docs"
+  },
+  {
+    "title": "Monaco Pagination, Sorting, and Filtering",
+    "url": "https://docs.monaco.com/pagination-sorting-and-filtering",
+    "type": "official-docs"
+  },
+  {
+    "title": "Monaco MCP Overview",
+    "url": "https://docs.monaco.com/mcp/overview",
+    "type": "official-mcp"
+  },
+  {
+    "title": "Monaco Agent Skills",
+    "url": "https://docs.monaco.com/agent-skills",
+    "type": "official-docs"
+  },
+  {
+    "title": "Monaco OpenAPI",
+    "url": "https://api.monaco.com/openapi.json",
+    "type": "openapi"
   }
 ]

@@ -202,10 +202,10 @@
       "id": "/gtm/monaco",
       "name": "Monaco",
       "slug": "monaco",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/monaco",
       "aliases": [],
-      "agentReadinessScore": 1,
+      "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
     {
@@ -405,12 +405,12 @@
       "id": "/gtm/clay",
       "name": "Clay",
       "slug": "clay",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/clay",
       "aliases": [
         "clay.com"
       ],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {

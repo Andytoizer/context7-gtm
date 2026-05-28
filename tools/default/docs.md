@@ -8,14 +8,14 @@ Agent readiness score: 2/5.
 
 ## Available Surfaces
 
-- Official MCP: unknown
-- Official CLI: unknown
+- Official MCP: no
+- Official CLI: no
 - Official API: unknown
 - OpenAPI/spec: unknown
 - llms/AI docs: unknown
 - Official SDK: yes
-- Community MCP: unknown
-- Community CLI: unknown
+- Community MCP: no
+- Community CLI: no
 - Community SDK / integration: unknown
 
 ## Auth
@@ -46,11 +46,12 @@ Unknown.
 
 - Destructive action risk: medium.
 - Public docs are workflow and embed oriented, not endpoint-reference oriented.
+- GitHub and npm searches for Default.com-specific MCP/CLI evidence did not surface credible official or community packages; results were dominated by generic matches for the word default.
 - Treat API/auth/rate/pagination/MCP/CLI as unresolved until private customer docs or vendor confirmation are available.
 
 ## Needs Human Review
 
-Only official product/help-center integration docs surfaced: Forms SDK/listener callbacks, generated inbound webhook URLs, and CRM object triggers. No public REST API auth, OpenAPI, rate-limit, pagination, MCP, or CLI docs were found; confirm whether developer API docs are private/customer-only.
+Still not publishable: only official product/help-center integration docs surfaced for Forms SDK/listener callbacks, generated inbound webhook URLs, and CRM object triggers. No public REST API auth, OpenAPI, rate-limit, pagination, MCP, CLI, or credible community agent connector evidence was found; confirm whether developer API docs are private/customer-only.
 
 ## Sources
 
@@ -61,3 +62,5 @@ Only official product/help-center integration docs surfaced: Forms SDK/listener 
 - https://docs.default.com/article/connecting-a-web-flow-form-to-default
 - https://docs.default.com/article/hub-spot-object-created
 - https://docs.default.com/article/sfdc-object-created-trigger
+- https://github.com/search?q=%22default.com%22+mcp&type=repositories
+- https://www.npmjs.com/search?q=default.com%20mcp

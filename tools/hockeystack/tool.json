@@ -14,8 +14,8 @@
     "openApiSpec": "unknown",
     "llmsDocs": "yes",
     "officialSdk": "yes",
-    "communityMcp": "unknown",
-    "communityCli": "unknown",
+    "communityMcp": "no",
+    "communityCli": "no",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
@@ -36,8 +36,10 @@
   "destructiveActionRisk": "unknown",
   "notes": [
     "Official docs expose llms.txt and extensive product/integration docs for Revenue Agents, Account Intelligence, Marketing Intelligence, data warehouse connections, and tracking-style analytics concepts.",
-    "A third-party dlt source describes an account-intelligence API, but official public API reference, pagination, rate limits, and schema contract remain unresolved."
+    "Official npm package hockeystack and GitHub repository HockeyStack/hockeystack-js provide a browser tracking script/SDK, not an agent-facing CLI or MCP server.",
+    "A third-party dlt source describes an account-intelligence API, but official public API reference, pagination, rate limits, and schema contract remain unresolved.",
+    "GitHub and npm searches did not surface a credible HockeyStack-specific MCP server or CLI."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Need an official public HockeyStack server API reference covering auth, endpoints, pagination, rate limits, and destructive/write semantics; current public coverage is product docs plus non-official API context."
+  "reviewReason": "Still not publishable: public official coverage is llms/product docs plus an official browser tracking npm package, while no credible HockeyStack-specific MCP/CLI and no official server API reference for auth, endpoints, pagination, rate limits, schemas, or write/destructive semantics was found."
 }

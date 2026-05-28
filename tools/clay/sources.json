@@ -2,11 +2,26 @@
   {
     "title": "university.clay.com/docs/using-clay-as-an-api",
     "url": "https://university.clay.com/docs/using-clay-as-an-api",
-    "type": "source"
+    "type": "official-docs"
   },
   {
     "title": "university.clay.com/docs/mcp-settings",
     "url": "https://university.clay.com/docs/mcp-settings",
-    "type": "source"
+    "type": "official-mcp"
+  },
+  {
+    "title": "Clay MCP Now Live in Claude and ChatGPT",
+    "url": "https://community.clay.com/x/announcements/ks5pwdvf83tf/clay-mcp-now-live-in-claude-and-chatgpt-run-clay-w",
+    "type": "official-mcp"
+  },
+  {
+    "title": "Clay MCP Server - Tool Junction",
+    "url": "https://www.tooljunction.io/mcp/clay",
+    "type": "mcp-directory"
+  },
+  {
+    "title": "Knowledge Work Plugins Connectors",
+    "url": "https://www.mintlify.com/anthropics/knowledge-work-plugins/concepts/connectors",
+    "type": "mcp-directory"
   }
 ]

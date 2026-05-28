@@ -34,7 +34,7 @@ Tools with no sources: 0.
 | [Chili Piper](../tools/chili-piper/tool.json) | yes | 4 total; 0 official; 0 community | published | 4 |
 | [Clari Copilot](../tools/clari-copilot/tool.json) | yes | 3 total; 0 official; 0 community | published | 3 |
 | [Clarify](../tools/clarify/tool.json) | yes | 4 total; 0 official; 0 community | published | 4 |
-| [Clay](../tools/clay/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
+| [Clay](../tools/clay/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [Clearbit](../tools/clearbit/tool.json) | yes | 10 total; 0 official; 0 community | needs-review | 2 |
 | [Close](../tools/close/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Cognism](../tools/cognism/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
@@ -51,7 +51,7 @@ Tools with no sources: 0.
 | [Customer.io](../tools/customerio/tool.json) | missing | 7 total; 7 official; 0 community | published | 5 |
 | [Datagma](../tools/datagma/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
 | [dbt Cloud](../tools/dbt-cloud/tool.json) | yes | 11 total; 0 official; 0 community | published | 4 |
-| [Default](../tools/default/tool.json) | yes | 7 total; 0 official; 0 community | needs-review | 2 |
+| [Default](../tools/default/tool.json) | yes | 9 total; 0 official; 0 community | needs-review | 2 |
 | [Demandbase](../tools/demandbase/tool.json) | yes | 10 total; 0 official; 0 community | published | 4 |
 | [Diffbot](../tools/diffbot/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Dreamdata](../tools/dreamdata/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
@@ -81,7 +81,7 @@ Tools with no sources: 0.
 | [Help Scout](../tools/help-scout/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [HeyReach](../tools/heyreach/tool.json) | missing | 8 total; 0 official; 0 community | published | 4 |
 | [Hightouch](../tools/hightouch/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
-| [HockeyStack](../tools/hockeystack/tool.json) | yes | 8 total; 0 official; 0 community | needs-review | 2 |
+| [HockeyStack](../tools/hockeystack/tool.json) | yes | 10 total; 0 official; 0 community | needs-review | 2 |
 | [HubSpot](../tools/hubspot/tool.json) | missing | 8 total; 8 official; 0 community | published | 5 |
 | [Hunter.io](../tools/hunter/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Icypeas](../tools/icypeas/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
@@ -113,7 +113,7 @@ Tools with no sources: 0.
 | [Metadata.io](../tools/metadata/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [Microsoft Dynamics 365 Sales](../tools/microsoft-dynamics-365-sales/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [Mixpanel](../tools/mixpanel/tool.json) | yes | 8 total; 8 official; 0 community | published | 5 |
-| [Monaco](../tools/monaco/tool.json) | yes | 3 total; 0 official; 0 community | needs-review | 1 |
+| [Monaco](../tools/monaco/tool.json) | yes | 7 total; 0 official; 0 community | published | 5 |
 | [Monday CRM](../tools/monday-crm/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [Mouseflow](../tools/mouseflow/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [mParticle](../tools/mparticle/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |

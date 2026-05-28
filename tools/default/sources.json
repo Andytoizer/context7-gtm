@@ -33,5 +33,15 @@
     "title": "Default Salesforce Object Trigger",
     "url": "https://docs.default.com/article/sfdc-object-created-trigger",
     "type": "source"
+  },
+  {
+    "title": "GitHub repository search for Default.com MCP",
+    "url": "https://github.com/search?q=%22default.com%22+mcp&type=repositories",
+    "type": "search"
+  },
+  {
+    "title": "npm package search for Default.com MCP",
+    "url": "https://www.npmjs.com/search?q=default.com%20mcp",
+    "type": "search"
   }
 ]

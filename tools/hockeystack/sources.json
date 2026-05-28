@@ -38,5 +38,15 @@
     "title": "hockeystack.com",
     "url": "https://hockeystack.com/",
     "type": "source"
+  },
+  {
+    "title": "hockeystack npm package",
+    "url": "https://www.npmjs.com/package/hockeystack",
+    "type": "official-sdk"
+  },
+  {
+    "title": "HockeyStack/hockeystack-js",
+    "url": "https://github.com/HockeyStack/hockeystack-js",
+    "type": "official-sdk"
   }
 ]

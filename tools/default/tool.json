@@ -8,14 +8,14 @@
   "agentReadinessScore": 2,
   "canonicalUrl": "https://www.default.com",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialMcp": "no",
+    "officialCli": "no",
     "officialApi": "unknown",
     "openApiSpec": "unknown",
     "llmsDocs": "unknown",
     "officialSdk": "yes",
-    "communityMcp": "unknown",
-    "communityCli": "unknown",
+    "communityMcp": "no",
+    "communityCli": "no",
     "communitySdkOrIntegration": "unknown"
   },
   "auth": {
@@ -37,8 +37,9 @@
   "destructiveActionRisk": "medium",
   "notes": [
     "Official help center documents generated inbound webhook URLs and a browser Forms SDK/listener script with JavaScript callbacks, but not a public REST API.",
+    "GitHub and npm searches for Default.com-specific MCP/CLI evidence did not surface credible official or community packages; results were dominated by generic matches for the word default.",
     "Use source links to refresh integration behavior before implementation."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Only official product/help-center integration docs surfaced: Forms SDK/listener callbacks, generated inbound webhook URLs, and CRM object triggers. No public REST API auth, OpenAPI, rate-limit, pagination, MCP, or CLI docs were found; confirm whether developer API docs are private/customer-only."
+  "reviewReason": "Still not publishable: only official product/help-center integration docs surfaced for Forms SDK/listener callbacks, generated inbound webhook URLs, and CRM object triggers. No public REST API auth, OpenAPI, rate-limit, pagination, MCP, CLI, or credible community agent connector evidence was found; confirm whether developer API docs are private/customer-only."
 }

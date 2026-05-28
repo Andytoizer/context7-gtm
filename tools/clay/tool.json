@@ -2,12 +2,12 @@
   "id": "/gtm/clay",
   "name": "Clay",
   "slug": "clay",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [
     "clay.com"
   ],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://www.clay.com/",
   "surfaces": {
     "officialMcp": "yes",
@@ -16,12 +16,12 @@
     "openApiSpec": "unknown",
     "llmsDocs": "unknown",
     "officialSdk": "unknown",
-    "communityMcp": "no",
-    "communityCli": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "no",
     "communitySdkOrIntegration": "unknown"
   },
   "auth": {
-    "notes": "Workspace login for MCP; table webhook endpoints; enterprise-only People and Company API access. Public docs did not expose a REST auth header format for the enterprise API."
+    "notes": "MCP connection is workspace/user based through ChatGPT or Claude, with admin credit controls and usage monitoring. Public docs also describe table webhooks and enterprise-only People and Company API access, but do not publish a full REST auth header model for that API."
   },
   "objects": [
     "Tables",
@@ -32,12 +32,13 @@
     "contacts"
   ],
   "rateLimits": "Unknown.",
-  "pagination": "MCP credit docs mention usage/credit limits, but public API pagination details were not found.",
+  "pagination": "Unknown for the enterprise People and Company API. Clay's public API guidance emphasizes webhooks, Make/Zapier wrappers, and enterprise API access rather than a traditional paginated REST reference.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Official Clay.com University docs confirm MCP settings for Clay workspaces and programmatic table webhooks.",
-    "Similarly named Clay/Me relationship-manager MCP material found in search was excluded as non-canonical for the Clay.com GTM enrichment workspace."
-  ],
-  "needsHumanReview": true,
-  "reviewReason": "Official Clay.com docs confirm MCP and API-like access, but no public MCP tool schema, enterprise API endpoint reference, REST auth header, rate limits, or API pagination details were found."
+    "Official Clay.com community and University docs confirm Clay MCP is live for ChatGPT and Claude, with admin controls, function enablement, credit limits, and usage monitoring.",
+    "Third-party MCP directories list the remote Clay MCP endpoint at https://api.clay.com/v3/mcp and describe enrichment/contact/company tools; treat those tool lists as secondary until Clay publishes a full first-party tool schema.",
+    "Clay's official API guidance says Clay is not a traditional API-first SaaS product; programmatic access is via table webhooks, Make/Zapier wrappers, or enterprise-only People and Company API access.",
+    "NPM/GitHub results for @clayhq/clay-mcp and clay-inc/clay-mcp were excluded from Clay.com evidence because they are for clay.earth personal CRM, not Clay.com GTM enrichment.",
+    "No official Clay.com CLI was found."
+  ]
 }

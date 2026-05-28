@@ -2,40 +2,45 @@
   "id": "/gtm/monaco",
   "name": "Monaco",
   "slug": "monaco",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 1,
-  "canonicalUrl": "https://www.monaco.com/",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://docs.monaco.com/beta-notice",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialMcp": "yes",
+    "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "unknown"
   },
   "auth": {
-    "notes": "Unknown."
+    "notes": "REST API uses API key authentication with Authorization: Bearer mks_<token>; keys are created in Monaco Settings > API Keys. MCP uses OAuth 2.0 at https://mcp.monaco.com/mcp, with an API-key bearer-token option documented for Codex/ChatGPT examples."
   },
   "objects": [
-    "Public site only: TAM/accounts",
-    "signals",
+    "Accounts",
+    "contacts",
+    "opportunities",
+    "tasks",
+    "meetings",
     "sequences",
-    "interactions",
-    "pipeline",
-    "calls/meetings/messages"
+    "sequence templates",
+    "tags",
+    "field schemas",
+    "authenticated user"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
-  "destructiveActionRisk": "unknown",
+  "rateLimits": "100 requests per minute per organization; 429 responses include X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, and Retry-After headers. MCP shares the same per-org limit.",
+  "pagination": "POST /v1/{entity}/list endpoints accept page and page_size in the JSON body; page is 1-indexed, page_size defaults to 50 and maxes at 500. List responses include pagination.page, page_size, total_count, and total_pages.",
+  "destructiveActionRisk": "high",
   "notes": [
-    "Official marketing pages identify Monaco as an AI-native revenue platform for startups.",
-    "Monaco security policy lists api.monaco.com as a public API, but no public developer reference, auth model, endpoint list, OpenAPI spec, CLI, SDK, or MCP docs were found."
-  ],
-  "needsHumanReview": true,
-  "reviewReason": "Public API host is listed at api.monaco.com, but no public API/MCP/CLI/SDK documentation, auth details, endpoints, rate limits, or pagination were found."
+    "Official docs now expose agent-readable llms.txt, endpoint markdown pages, OpenAPI 3.1 at https://api.monaco.com/openapi.json, REST authentication, pagination/filtering/sorting, rate limits, and an MCP overview.",
+    "REST paths cover accounts, contacts, opportunities, tasks, tags, meetings, sequences, sequence templates, schemas, and /v1/me.",
+    "MCP supports read and write/delete tools for Monaco records, uses existing user permissions, and prompts for writes/deletes by default in compatible clients.",
+    "Beta notice says API methods, responses, parameters, MCP tools, and MCP schemas may change while Monaco incorporates feedback.",
+    "No official CLI or SDK was found."
+  ]
 }
