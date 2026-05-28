@@ -1,0 +1,27 @@
+[
+  {
+    "title": "docs.pinecone.io/guides/operations/mcp-server",
+    "url": "https://docs.pinecone.io/guides/operations/mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "docs.pinecone.io/reference/cli/command-reference",
+    "url": "https://docs.pinecone.io/reference/cli/command-reference",
+    "type": "source"
+  },
+  {
+    "title": "docs.pinecone.io/reference/api/authentication",
+    "url": "https://docs.pinecone.io/reference/api/authentication",
+    "type": "source"
+  },
+  {
+    "title": "docs.pinecone.io/reference/list",
+    "url": "https://docs.pinecone.io/reference/list",
+    "type": "source"
+  },
+  {
+    "title": "docs.pinecone.io/reference/api/database-limits",
+    "url": "https://docs.pinecone.io/reference/api/database-limits",
+    "type": "source"
+  }
+]

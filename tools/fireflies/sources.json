@@ -1,0 +1,32 @@
+[
+  {
+    "title": "docs.fireflies.ai/getting-started/mcp-configuration",
+    "url": "https://docs.fireflies.ai/getting-started/mcp-configuration",
+    "type": "source"
+  },
+  {
+    "title": "docs.fireflies.ai/mcp-tools/overview",
+    "url": "https://docs.fireflies.ai/mcp-tools/overview",
+    "type": "source"
+  },
+  {
+    "title": "docs.fireflies.ai/introduction",
+    "url": "https://docs.fireflies.ai/introduction",
+    "type": "source"
+  },
+  {
+    "title": "docs.fireflies.ai/fundamentals/limits",
+    "url": "https://docs.fireflies.ai/fundamentals/limits",
+    "type": "source"
+  },
+  {
+    "title": "docs.fireflies.ai/graphql-api/mutation/delete-transcript",
+    "url": "https://docs.fireflies.ai/graphql-api/mutation/delete-transcript",
+    "type": "source"
+  },
+  {
+    "title": "github.com/props-labs/fireflies-mcp",
+    "url": "https://github.com/props-labs/fireflies-mcp",
+    "type": "source"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "/gtm/rb2b",
+  "name": "RB2B",
+  "slug": "rb2b",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://www.rb2b.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "unknown",
+    "openApiSpec": "no",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Outbound webhook URL; required auth must be embedded as query params."
+  },
+  "objects": [
+    "Identified visitors",
+    "company-only profiles",
+    "visitor page views",
+    "LinkedIn URL",
+    "first/last name"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Not applicable for webhook docs.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm whether partner/OEM API suite has accessible docs."
+}

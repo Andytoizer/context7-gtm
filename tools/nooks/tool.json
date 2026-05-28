@@ -1,0 +1,32 @@
+{
+  "id": "/gtm/nooks",
+  "name": "Nooks",
+  "slug": "nooks",
+  "status": "published",
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "surfaces": {
+    "officialMcp": false,
+    "officialCli": false,
+    "officialApi": true,
+    "openApiSpec": true,
+    "llmsDocs": false,
+    "officialSdk": false,
+    "communityMcp": false,
+    "communityCli": false,
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "methods": ["Bearer API key", "OAuth 2.0 authorization code with PKCE"],
+    "notes": "Nooks accepts bearer tokens in the Authorization header. API keys are long-lived workspace-scoped tokens; OAuth access tokens are short-lived and scope-limited."
+  },
+  "objects": ["Sequences", "Sequence steps", "Emails", "Users", "Sequence states", "Prospects", "Accounts", "Mailboxes", "Calls", "Call dispositions", "Tasks"],
+  "rateLimits": "Per-workspace, per-endpoint rate limits. Responses include X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, and 429 responses include Retry-After.",
+  "sourceQuality": "strong",
+  "notes": [
+    "Official OpenAPI-backed developer docs are available for the Nooks Sequencing API.",
+    "No official MCP or CLI surfaced during this audit.",
+    "API keys have full read/write access within the owning workspace, so agents should prefer OAuth scopes when available."
+  ],
+  "needsHumanReview": false
+}

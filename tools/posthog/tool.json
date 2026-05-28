@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/posthog",
+  "name": "PostHog",
+  "slug": "posthog",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://posthog.com/docs",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Personal API keys, project API keys/tokens, OAuth for app integrations."
+  },
+  "objects": [
+    "Projects",
+    "persons",
+    "events",
+    "insights",
+    "feature_flags",
+    "cohorts",
+    "experiments",
+    "surveys",
+    "dashboards",
+    "session_recordings"
+  ],
+  "rateLimits": "Documented by endpoint/class in API docs; 429 on excess.",
+  "pagination": "Cursor/next-link pagination in API responses.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

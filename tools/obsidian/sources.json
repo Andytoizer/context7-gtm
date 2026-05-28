@@ -1,0 +1,32 @@
+[
+  {
+    "title": "obsidian.md/cli",
+    "url": "https://obsidian.md/cli",
+    "type": "source"
+  },
+  {
+    "title": "obsidian.md/help/cli",
+    "url": "https://obsidian.md/help/cli",
+    "type": "source"
+  },
+  {
+    "title": "docs.obsidian.md/Home",
+    "url": "https://docs.obsidian.md/Home",
+    "type": "source"
+  },
+  {
+    "title": "community.obsidian.md/plugins/obsidian-local-rest-api",
+    "url": "https://community.obsidian.md/plugins/obsidian-local-rest-api",
+    "type": "source"
+  },
+  {
+    "title": "github.com/MarkusPfundstein/mcp-obsidian",
+    "url": "https://github.com/MarkusPfundstein/mcp-obsidian",
+    "type": "source"
+  },
+  {
+    "title": "github.com/cyanheads/obsidian-mcp-server",
+    "url": "https://github.com/cyanheads/obsidian-mcp-server",
+    "type": "source"
+  }
+]

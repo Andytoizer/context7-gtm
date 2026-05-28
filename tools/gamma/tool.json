@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/gamma",
+  "name": "Gamma",
+  "slug": "gamma",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://developers.gamma.app/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "no",
+    "llmsDocs": "yes",
+    "officialSdk": "no",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key / bearer token; MCP uses Gamma auth setup."
+  },
+  "objects": [
+    "Generations",
+    "presentations",
+    "themes",
+    "folders",
+    "exports",
+    "images"
+  ],
+  "rateLimits": "Documented mostly through usage/credits and 429 behavior; no stable global numeric limit found.",
+  "pagination": "Limited list endpoints; pagination model not fully clear.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

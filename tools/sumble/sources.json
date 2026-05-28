@@ -1,0 +1,22 @@
+[
+  {
+    "title": "docs.sumble.com/api",
+    "url": "https://docs.sumble.com/api",
+    "type": "source"
+  },
+  {
+    "title": "docs.sumble.com/api/people",
+    "url": "https://docs.sumble.com/api/people",
+    "type": "source"
+  },
+  {
+    "title": "sumble.com/integrations/mcp",
+    "url": "https://sumble.com/integrations/mcp",
+    "type": "source"
+  },
+  {
+    "title": "docs.sumble.com/trust-and-security",
+    "url": "https://docs.sumble.com/trust-and-security",
+    "type": "source"
+  }
+]

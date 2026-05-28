@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/crunchbase",
+  "name": "Crunchbase API",
+  "slug": "crunchbase",
+  "status": "published",
+  "aliases": [
+    "crunchbase"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://about.crunchbase.com/api-guide/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Token API key via user_key query parameter or X-cb-user-key header; enterprise/application license required for full API."
+  },
+  "objects": [
+    "Organizations",
+    "people",
+    "funding rounds",
+    "acquisitions",
+    "searches",
+    "autocomplete",
+    "entity lookups"
+  ],
+  "rateLimits": "200 calls per minute.",
+  "pagination": "Search API uses keyset pagination; default/max behavior varies, docs note 50 items/page when limit omitted.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

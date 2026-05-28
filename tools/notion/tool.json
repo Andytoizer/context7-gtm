@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/notion",
+  "name": "Notion",
+  "slug": "notion",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.notion.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth or internal integration token; MCP OAuth; CLI browser login/keychain or token env."
+  },
+  "objects": [
+    "Pages",
+    "blocks",
+    "databases/data sources",
+    "users",
+    "comments",
+    "files",
+    "workers"
+  ],
+  "rateLimits": "Average 3 requests/sec per connection; 429 with Retry-After.",
+  "pagination": "Cursor, start_cursor, has_more, page_size.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

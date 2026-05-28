@@ -1,0 +1,27 @@
+[
+  {
+    "title": "exa.ai/docs/reference/exa-mcp",
+    "url": "https://exa.ai/docs/reference/exa-mcp",
+    "type": "source"
+  },
+  {
+    "title": "exa.ai/docs/reference/rate-limits",
+    "url": "https://exa.ai/docs/reference/rate-limits",
+    "type": "source"
+  },
+  {
+    "title": "exa.ai/docs/reference/openapi-spec",
+    "url": "https://exa.ai/docs/reference/openapi-spec",
+    "type": "source"
+  },
+  {
+    "title": "exa.ai/docs/sdks/python-sdk",
+    "url": "https://exa.ai/docs/sdks/python-sdk",
+    "type": "source"
+  },
+  {
+    "title": "exa.ai/docs/reference/search",
+    "url": "https://exa.ai/docs/reference/search",
+    "type": "source"
+  }
+]

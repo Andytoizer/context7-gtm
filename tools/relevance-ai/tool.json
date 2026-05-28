@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/relevance-ai",
+  "name": "Relevance AI",
+  "slug": "relevance-ai",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://relevanceai.com",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "MCP OAuth per project; API trigger uses Authorization API key; SDK uses RAI_API_KEY/region/project."
+  },
+  "objects": [
+    "Agents",
+    "tools",
+    "knowledge",
+    "workforces",
+    "conversations",
+    "agent runs",
+    "integrations",
+    "projects"
+  ],
+  "rateLimits": "Plan-based; exact public limits not listed. MCP sync trigger timeout 120s; async trigger/poll pattern available.",
+  "pagination": "Not clearly documented for public supported API; MCP has async polling for long-running runs.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

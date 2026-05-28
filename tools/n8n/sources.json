@@ -1,0 +1,27 @@
+[
+  {
+    "title": "docs.n8n.io/advanced-ai/mcp/accessing-n8n-mcp-server",
+    "url": "https://docs.n8n.io/advanced-ai/mcp/accessing-n8n-mcp-server/",
+    "type": "source"
+  },
+  {
+    "title": "docs.n8n.io/api/api-reference",
+    "url": "https://docs.n8n.io/api/api-reference/",
+    "type": "source"
+  },
+  {
+    "title": "docs.n8n.io/api/authentication",
+    "url": "https://docs.n8n.io/api/authentication/",
+    "type": "source"
+  },
+  {
+    "title": "docs.n8n.io/api/pagination",
+    "url": "https://docs.n8n.io/api/pagination/",
+    "type": "source"
+  },
+  {
+    "title": "docs.n8n.io/api/n8n-cli",
+    "url": "https://docs.n8n.io/api/n8n-cli/",
+    "type": "source"
+  }
+]

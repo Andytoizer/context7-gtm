@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/vector",
+  "name": "Vector.co",
+  "slug": "vector",
+  "status": "needs-review",
+  "aliases": [
+    "vector"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 1,
+  "canonicalUrl": "https://www.vector.co/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "unknown",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Unknown."
+  },
+  "objects": [
+    "Contacts",
+    "audiences",
+    "segments",
+    "site visitors",
+    "ad clicks",
+    "ad-platform syncs"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Public docs expose product/help content, not source-backed API/CLI/MCP docs."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/n8n",
+  "name": "n8n",
+  "slug": "n8n",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://n8n.io",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "no",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key header X-N8N-API-KEY; MCP OAuth2 or bearer token; enterprise scoped API keys."
+  },
+  "objects": [
+    "Workflows",
+    "executions",
+    "credentials",
+    "projects",
+    "tags",
+    "variables",
+    "data tables",
+    "users",
+    "MCP-exposed workflows/tools"
+  ],
+  "rateLimits": "No clear public REST API rate limit found.",
+  "pagination": "Cursor pagination; default 100, max 250, nextCursor.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

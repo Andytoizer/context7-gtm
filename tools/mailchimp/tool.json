@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/mailchimp",
+  "name": "Mailchimp",
+  "slug": "mailchimp",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key or OAuth 2; Basic or Bearer auth; data-center-specific base URL."
+  },
+  "objects": [
+    "Audiences",
+    "contacts/members",
+    "campaigns",
+    "reports",
+    "automations",
+    "ecommerce stores/orders/products",
+    "batches",
+    "webhooks",
+    "transactional messages"
+  ],
+  "rateLimits": "10 simultaneous Marketing API connections/user; 120-second timeout; batch endpoint recommended for long-running work.",
+  "pagination": "count/offset plus partial-response capabilities.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

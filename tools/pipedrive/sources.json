@@ -1,0 +1,27 @@
+[
+  {
+    "title": "developers.pipedrive.com/docs/api/v1",
+    "url": "https://developers.pipedrive.com/docs/api/v1",
+    "type": "source"
+  },
+  {
+    "title": "pipedrive.readme.io/docs/core-api-concepts-rate-limiting",
+    "url": "https://pipedrive.readme.io/docs/core-api-concepts-rate-limiting",
+    "type": "source"
+  },
+  {
+    "title": "pipedrive.readme.io/docs/core-api-concepts-pagination",
+    "url": "https://pipedrive.readme.io/docs/core-api-concepts-pagination",
+    "type": "source"
+  },
+  {
+    "title": "github.com/pipedrive",
+    "url": "https://github.com/pipedrive",
+    "type": "source"
+  },
+  {
+    "title": "apideck.com/mcp-server/pipedrive",
+    "url": "https://www.apideck.com/mcp-server/pipedrive",
+    "type": "source"
+  }
+]

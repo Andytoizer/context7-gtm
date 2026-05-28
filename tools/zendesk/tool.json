@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/zendesk",
+  "name": "Zendesk",
+  "slug": "zendesk",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.zendesk.com/",
+  "surfaces": {
+    "officialMcp": "announced",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth, API token/basic for Support APIs; product-specific auth for Messaging/Sunshine."
+  },
+  "objects": [
+    "Tickets",
+    "users",
+    "organizations",
+    "groups",
+    "comments",
+    "help center articles",
+    "conversations",
+    "custom objects"
+  ],
+  "rateLimits": "Plan/endpoint-specific; headers expose remaining/reset; account-wide spike cap 100,000/min.",
+  "pagination": "Cursor recommended; offset still supported but limited.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Locate official Zendesk MCP server docs/config once public after the May 2026 announcement."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/demandbase",
+  "name": "Demandbase",
+  "slug": "demandbase",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.demandbase.com/",
+  "surfaces": {
+    "officialMcp": "announced",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "JWT Bearer token."
+  },
+  "objects": [
+    "Companies",
+    "contacts/people",
+    "exports",
+    "imports",
+    "users/admin",
+    "subscriptions/webhooks",
+    "credit usage",
+    "buying groups"
+  ],
+  "rateLimits": "Admin API 90/min per HTTP method; other quotas vary.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm MCP endpoint and access model; public search surfaced an official support title but not the full MCP docs."
+}

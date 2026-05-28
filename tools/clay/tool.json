@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/clay",
+  "name": "Clay",
+  "slug": "clay",
+  "status": "needs-review",
+  "aliases": [
+    "clay.com"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.clay.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Workspace login/API key; table webhooks; enterprise People/Company API access."
+  },
+  "objects": [
+    "Tables",
+    "webhooks",
+    "enrichments",
+    "people",
+    "companies",
+    "contacts"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm Clay MCP docs apply to Clay.com GTM enrichment workspace, not Clay.earth relationship-manager product lineage."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "developers.getcensus.com/api-reference/introduction/authorization",
+    "url": "https://developers.getcensus.com/api-reference/introduction/authorization",
+    "type": "source"
+  },
+  {
+    "title": "developers.getcensus.com/api-reference/introduction/pagination",
+    "url": "https://developers.getcensus.com/api-reference/introduction/pagination",
+    "type": "source"
+  },
+  {
+    "title": "postman.com/getcensus/census-api/overview",
+    "url": "https://www.postman.com/getcensus/census-api/overview",
+    "type": "source"
+  },
+  {
+    "title": "developers.getcensus.com/custom-destinations/destination-spec",
+    "url": "https://developers.getcensus.com/custom-destinations/destination-spec",
+    "type": "source"
+  }
+]

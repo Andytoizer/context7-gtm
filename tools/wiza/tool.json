@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/wiza",
+  "name": "Wiza",
+  "slug": "wiza",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://wiza.co/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "unknown",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Bearer API token."
+  },
+  "objects": [
+    "Individual reveals",
+    "credits",
+    "company enrichment",
+    "prospect search",
+    "lists",
+    "list contacts",
+    "prospect lists",
+    "webhooks"
+  ],
+  "rateLimits": "Individual Reveal concurrency Starter 5 / Enterprise 15+; queue is 200x concurrency. Help article also states Individual Reveal 15 RPS and list creation 10/min.",
+  "pagination": "Prospect/list endpoints support paged retrieval; exact prospect pagination needs endpoint-level confirmation.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

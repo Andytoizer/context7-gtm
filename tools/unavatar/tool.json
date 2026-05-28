@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/unavatar",
+  "name": "unavatar.io",
+  "slug": "unavatar",
+  "status": "needs-review",
+  "aliases": [
+    "unavatar"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://unavatar.io",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "no",
+    "llmsDocs": "no",
+    "officialSdk": "no",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Anonymous GET requests allowed; PRO uses x-api-key header."
+  },
+  "objects": [
+    "Avatar/logo lookups by provider",
+    "provider routes",
+    "cached image redirects",
+    "JSON metadata"
+  ],
+  "rateLimits": "Anonymous 25 requests/day/IP; authenticated origin 50 free/day then metered; x-rate-limit-* headers.",
+  "pagination": "None; single-resource lookup API.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm current official repo/docs alignment and whether lack of MCP/OpenAPI is acceptable for catalog inclusion."
+}

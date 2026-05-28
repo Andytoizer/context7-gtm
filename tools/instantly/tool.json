@@ -1,0 +1,48 @@
+{
+  "id": "/gtm/instantly",
+  "name": "Instantly",
+  "slug": "instantly",
+  "status": "published",
+  "aliases": [
+    "instantly.ai"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://instantly.ai/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Bearer API keys with scopes; multiple revocable keys."
+  },
+  "objects": [
+    "Accounts/mailboxes",
+    "campaigns",
+    "leads",
+    "lead lists",
+    "emails/unibox",
+    "blocklists",
+    "webhooks",
+    "analytics",
+    "workspaces",
+    "API keys",
+    "background jobs"
+  ],
+  "rateLimits": "Publicly announced 100 req/sec and 6,000 req/min; endpoint exceptions include email list 20/min and test email 10/min.",
+  "pagination": "Cursor pagination with starting_after / next_starting_after; limits often 1-100.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

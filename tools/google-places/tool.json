@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/google-places",
+  "name": "Google Places API",
+  "slug": "google-places",
+  "status": "needs-review",
+  "aliases": [
+    "places api",
+    "google places"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://developers.google.com/maps/documentation/places/web-service",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "no",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key or OAuth token; billing must be enabled; field masks required/recommended for cost control."
+  },
+  "objects": [
+    "Places",
+    "place photos",
+    "autocomplete sessions",
+    "text search",
+    "nearby search",
+    "place details"
+  ],
+  "rateLimits": "Places usage limit shown as 6,000 QPM; billable SKU and quota controls in Cloud Console.",
+  "pagination": "Text/Nearby Search use pageSize/pageToken with nextPageToken; usually 20/page, max 60 results/query.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Decide whether to include community MCP wrappers or only official Google REST/client-library docs."
+}

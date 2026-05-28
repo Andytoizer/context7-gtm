@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Reply.io",
+    "url": "https://reply.io/",
+    "type": "official-site"
+  },
+  {
+    "title": "Reply MCP",
+    "url": "https://reply.io/mcp/",
+    "type": "official-mcp"
+  },
+  {
+    "title": "Reply API Introduction",
+    "url": "https://docs.reply.io/api-reference/introduction",
+    "type": "official-api"
+  },
+  {
+    "title": "Reply llms.txt",
+    "url": "https://docs.reply.io/llms.txt",
+    "type": "official-ai-docs"
+  },
+  {
+    "title": "Reply OpenAPI YAML",
+    "url": "https://docs.reply.io/api-reference/bundled.yaml",
+    "type": "official-openapi"
+  }
+]

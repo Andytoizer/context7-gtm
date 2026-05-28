@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/census",
+  "name": "Census",
+  "slug": "census",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.getcensus.com",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Bearer tokens; workspace API keys for Workspace APIs, personal access tokens for Organization APIs."
+  },
+  "objects": [
+    "Syncs",
+    "sources",
+    "destinations",
+    "models",
+    "datasets",
+    "workspaces",
+    "organizations",
+    "custom destinations"
+  ],
+  "rateLimits": "Management API limits not clearly published; custom destination default is 50,000 req/sec, overrideable with X-RateLimit-Limit.",
+  "pagination": "page, per_page max 100, order; pagination object with next_page/last_page; legacy next URL being phased out.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

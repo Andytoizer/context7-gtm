@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/calendly",
+  "name": "Calendly",
+  "slug": "calendly",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://developer.calendly.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth 2.0 and personal access tokens."
+  },
+  "objects": [
+    "Users",
+    "organizations",
+    "event_types",
+    "scheduled_events",
+    "invitees",
+    "memberships",
+    "webhooks",
+    "routing_forms"
+  ],
+  "rateLimits": "Documented; 429 on excess.",
+  "pagination": "count/page_token style pagination with next_page_token.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

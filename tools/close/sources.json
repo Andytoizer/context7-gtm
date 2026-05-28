@@ -1,0 +1,27 @@
+[
+  {
+    "title": "help.close.com/docs/mcp-server",
+    "url": "https://help.close.com/docs/mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "developer.close.com/api/overview",
+    "url": "https://developer.close.com/api/overview",
+    "type": "source"
+  },
+  {
+    "title": "api.close.com/api/openapi.json",
+    "url": "https://api.close.com/api/openapi.json",
+    "type": "source"
+  },
+  {
+    "title": "developer.close.com/api/overview/api-clients",
+    "url": "https://developer.close.com/api/overview/api-clients",
+    "type": "source"
+  },
+  {
+    "title": "github.com/closeio/closeio-api",
+    "url": "https://github.com/closeio/closeio-api",
+    "type": "source"
+  }
+]

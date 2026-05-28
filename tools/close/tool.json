@@ -1,0 +1,48 @@
+{
+  "id": "/gtm/close",
+  "name": "Close",
+  "slug": "close",
+  "status": "published",
+  "aliases": [
+    "close crm"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.close.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key via Basic Auth; OAuth 2.0 supported for apps/MCP; MCP supports read, safe-write, and destructive scopes."
+  },
+  "objects": [
+    "Leads",
+    "contacts",
+    "opportunities",
+    "activities",
+    "emails",
+    "calls",
+    "SMS",
+    "tasks",
+    "users",
+    "custom objects",
+    "webhooks"
+  ],
+  "rateLimits": "Rate limits apply to all endpoints; numeric public limit not found in official overview.",
+  "pagination": "_skip/_limit and cursor-based pagination depending on endpoint.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

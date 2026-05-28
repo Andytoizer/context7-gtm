@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/pitchbook",
+  "name": "PitchBook API",
+  "slug": "pitchbook",
+  "status": "needs-review",
+  "aliases": [
+    "pitchbook"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://pitchbook.com",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Standalone API contract; API key or authentication token; access via PitchBook Direct Data/API team."
+  },
+  "objects": [
+    "Companies/entities",
+    "financing details",
+    "deal stock information",
+    "VC exit predictor data",
+    "relational endpoints"
+  ],
+  "rateLimits": "Unknown/publicly gated.",
+  "pagination": "Unknown/publicly gated.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Endpoint overview, pagination, rate limits, and machine-readable specs appear customer-gated; confirm via PitchBook API access."
+}

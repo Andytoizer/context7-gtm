@@ -1,0 +1,40 @@
+{
+  "id": "/gtm/prospeo",
+  "name": "Prospeo",
+  "slug": "prospeo",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://prospeo.io/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "no",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "X-KEY API key header; MCP hosted OAuth/API key or local PROSPEO_API_KEY."
+  },
+  "objects": [
+    "Enrich person/company",
+    "bulk enrich person/company",
+    "search person/company",
+    "search suggestions",
+    "account info"
+  ],
+  "rateLimits": "Search Free 1/s 20/min 50/day; Starter 1/s 30/min 1k/day; Growth 2/s 60/min 4k/day; Pro 5/s 180/min 250k/day. Enrich Pro up to 30/s 1,800/min 500k/day.",
+  "pagination": "Search pages return up to 25 results; MCP docs state up to 1,000 pages.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

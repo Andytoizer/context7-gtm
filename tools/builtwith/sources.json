@@ -1,0 +1,27 @@
+[
+  {
+    "title": "api.builtwith.com",
+    "url": "https://api.builtwith.com/",
+    "type": "source"
+  },
+  {
+    "title": "api.builtwith.com/domain-api",
+    "url": "https://api.builtwith.com/domain-api",
+    "type": "source"
+  },
+  {
+    "title": "github.com/builtwith/builtwith-mcp",
+    "url": "https://github.com/builtwith/builtwith-mcp",
+    "type": "source"
+  },
+  {
+    "title": "github.com/builtwith/builtwith-official-cli",
+    "url": "https://github.com/builtwith/builtwith-official-cli",
+    "type": "source"
+  },
+  {
+    "title": "api.builtwith.com/llms.txt",
+    "url": "https://api.builtwith.com/llms.txt",
+    "type": "source"
+  }
+]

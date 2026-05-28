@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/obsidian",
+  "name": "Obsidian",
+  "slug": "obsidian",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://obsidian.md/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Local vault access; official CLI enabled in desktop app; community REST/MCP uses local bearer API key."
+  },
+  "objects": [
+    "Vaults",
+    "files/notes",
+    "frontmatter",
+    "tags",
+    "commands",
+    "active file",
+    "periodic notes",
+    "search results"
+  ],
+  "rateLimits": "None documented; local app/plugin performance bound.",
+  "pagination": "Not central; file/search result handling varies by CLI/plugin.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

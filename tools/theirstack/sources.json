@@ -1,0 +1,32 @@
+[
+  {
+    "title": "theirstack.com/en/docs/api-reference",
+    "url": "https://theirstack.com/en/docs/api-reference",
+    "type": "source"
+  },
+  {
+    "title": "theirstack.com/en/docs/api-reference/authentication",
+    "url": "https://theirstack.com/en/docs/api-reference/authentication",
+    "type": "source"
+  },
+  {
+    "title": "theirstack.com/en/docs/api-reference/pagination",
+    "url": "https://theirstack.com/en/docs/api-reference/pagination",
+    "type": "source"
+  },
+  {
+    "title": "theirstack.com/en/docs/api-reference/rate-limit",
+    "url": "https://theirstack.com/en/docs/api-reference/rate-limit",
+    "type": "source"
+  },
+  {
+    "title": "theirstack.com/en/docs/mcp",
+    "url": "https://theirstack.com/en/docs/mcp",
+    "type": "source"
+  },
+  {
+    "title": "theirstack.com/en/product-updates/2026-02-13-mcp-server",
+    "url": "https://theirstack.com/en/product-updates/2026-02-13-mcp-server",
+    "type": "source"
+  }
+]

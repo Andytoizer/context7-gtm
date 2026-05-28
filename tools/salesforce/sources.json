@@ -1,0 +1,27 @@
+[
+  {
+    "title": "developer.salesforce.com/docs/platform/hosted-mcp-servers/references/reference/servers-reference.html",
+    "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/references/reference/servers-reference.html",
+    "type": "source"
+  },
+  {
+    "title": "github.com/salesforcecli/mcp",
+    "url": "https://github.com/salesforcecli/mcp",
+    "type": "source"
+  },
+  {
+    "title": "developer.salesforce.com/tools/salesforcecli",
+    "url": "https://developer.salesforce.com/tools/salesforcecli/",
+    "type": "source"
+  },
+  {
+    "title": "help.salesforce.com/s/articleView",
+    "url": "https://help.salesforce.com/s/articleView?id=000389027&language=en_US&type=1",
+    "type": "source"
+  },
+  {
+    "title": "help.salesforce.com/s/articleView",
+    "url": "https://help.salesforce.com/s/articleView?id=release-notes.rn_api_rest.htm&language=en_US&release=236&type=5",
+    "type": "source"
+  }
+]

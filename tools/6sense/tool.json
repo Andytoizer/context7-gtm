@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/6sense",
+  "name": "6sense",
+  "slug": "6sense",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://6sense.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Authorization: Token API token."
+  },
+  "objects": [
+    "Company identification",
+    "company firmographics",
+    "lead scoring",
+    "people enrichment",
+    "people search",
+    "API credits"
+  ],
+  "rateLimits": "General 100/min; People Enrichment 20 qps; People Search 10 qps.",
+  "pagination": "pageNo/pageSize; People Search max pageSize 1000.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

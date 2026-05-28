@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/granola",
+  "name": "Granola",
+  "slug": "granola",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.granola.ai/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "MCP browser OAuth only; API keys for Business/Enterprise API."
+  },
+  "objects": [
+    "Notes",
+    "transcripts",
+    "folders",
+    "action items",
+    "decisions",
+    "calendar-linked meetings"
+  ],
+  "rateLimits": "Unknown; API key count limit recently raised to 25/workspace and 25/user.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Find the public Granola API reference for exact endpoints, pagination, and rate limits."
+}

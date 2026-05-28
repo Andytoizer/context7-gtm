@@ -24,11 +24,11 @@ tools/<tool>/sources.json
 
 ## Current Tools
 
-- `/gtm/hubspot`
-- `/gtm/attio`
-- `/gtm/smartlead`
-- `/gtm/lemlist`
-- `/gtm/customerio`
+The registry is the source of truth for available tools:
+
+```bash
+npm run cli -- list
+```
 
 ## Local Usage
 
@@ -87,4 +87,3 @@ Minimum agent-useful fields:
 Prefer official sources. If official MCP, CLI, API, or SDK docs are missing or weak, community GitHub sources can be included, but must be marked unofficial and scored for quality.
 
 Human review should be asynchronous: mark unclear items as `needs-review`, include the exact review question, and keep processing other tools.
-

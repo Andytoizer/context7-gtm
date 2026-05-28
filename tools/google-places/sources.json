@@ -1,0 +1,27 @@
+[
+  {
+    "title": "developers.google.com/maps/documentation/places/web-service/reference/rest",
+    "url": "https://developers.google.com/maps/documentation/places/web-service/reference/rest",
+    "type": "source"
+  },
+  {
+    "title": "developers.google.com/maps/documentation/places/web-service/usage-and-billing",
+    "url": "https://developers.google.com/maps/documentation/places/web-service/usage-and-billing",
+    "type": "source"
+  },
+  {
+    "title": "developers.google.com/maps/faq",
+    "url": "https://developers.google.com/maps/faq",
+    "type": "source"
+  },
+  {
+    "title": "developers.google.com/maps/documentation/places/web-service/text-search",
+    "url": "https://developers.google.com/maps/documentation/places/web-service/text-search",
+    "type": "source"
+  },
+  {
+    "title": "developers.google.com/maps/documentation/places/web-service/reference/rest/v1/places/searchText",
+    "url": "https://developers.google.com/maps/documentation/places/web-service/reference/rest/v1/places/searchText",
+    "type": "source"
+  }
+]

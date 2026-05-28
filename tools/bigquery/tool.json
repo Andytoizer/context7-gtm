@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/bigquery",
+  "name": "BigQuery",
+  "slug": "bigquery",
+  "status": "published",
+  "aliases": [
+    "google bigquery"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://cloud.google.com/bigquery",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "no",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth 2.0/IAM/ADC/service accounts; MCP uses OAuth/IAM and does not accept API keys."
+  },
+  "objects": [
+    "Projects",
+    "datasets",
+    "tables",
+    "jobs",
+    "routines",
+    "models",
+    "row access policies",
+    "tabledata"
+  ],
+  "rateLimits": "BigQuery quotas apply across console, bq CLI, REST, libraries, and MCP; core API requests/day unlimited but method/data limits apply.",
+  "pagination": "REST list/tabledata methods use maxResults and pageToken; bq supports page_token.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

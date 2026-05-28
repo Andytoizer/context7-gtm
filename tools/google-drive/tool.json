@@ -1,0 +1,46 @@
+{
+  "id": "/gtm/google-drive",
+  "name": "Google Drive",
+  "slug": "google-drive",
+  "status": "needs-review",
+  "aliases": [
+    "drive",
+    "google workspace drive"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://drive.google.com/",
+  "surfaces": {
+    "officialMcp": "announced",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "no",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth 2.0 scopes; service accounts/domain-wide delegation for workspace admin scenarios."
+  },
+  "objects": [
+    "Files",
+    "folders",
+    "permissions",
+    "comments",
+    "revisions",
+    "drives",
+    "changes",
+    "channels"
+  ],
+  "rateLimits": "12,000 queries/60s and 12,000 queries/60s/user; 403/429 with backoff.",
+  "pagination": "pageToken/nextPageToken.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm public endpoint/config and availability tier for Google's managed Drive/Workspace MCP server."
+}

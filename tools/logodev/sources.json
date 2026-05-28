@@ -1,0 +1,32 @@
+[
+  {
+    "title": "docs.logo.dev",
+    "url": "https://docs.logo.dev/",
+    "type": "source"
+  },
+  {
+    "title": "logo.dev/docs/platform/rate-limits",
+    "url": "https://www.logo.dev/docs/platform/rate-limits",
+    "type": "source"
+  },
+  {
+    "title": "docs.logo.dev/logo-images/get",
+    "url": "https://docs.logo.dev/logo-images/get",
+    "type": "source"
+  },
+  {
+    "title": "docs.logo.dev/describe/introduction",
+    "url": "https://docs.logo.dev/describe/introduction",
+    "type": "source"
+  },
+  {
+    "title": "mcp.pipedream.com/app/logo_dev",
+    "url": "https://mcp.pipedream.com/app/logo_dev",
+    "type": "source"
+  },
+  {
+    "title": "composio.dev/toolkits/logo_dev/framework/ai-sdk",
+    "url": "https://composio.dev/toolkits/logo_dev/framework/ai-sdk",
+    "type": "source"
+  }
+]

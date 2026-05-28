@@ -1,0 +1,46 @@
+{
+  "id": "/gtm/calcom",
+  "name": "Cal.com",
+  "slug": "calcom",
+  "status": "published",
+  "aliases": [
+    "cal.com"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://cal.com/docs",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API keys, OAuth apps, platform/managed-user auth."
+  },
+  "objects": [
+    "Users",
+    "teams",
+    "event_types",
+    "bookings",
+    "availability",
+    "calendars",
+    "webhooks",
+    "organizations",
+    "routing_forms"
+  ],
+  "rateLimits": "Documented in API docs; limits vary by auth/product surface.",
+  "pagination": "limit/offset and cursor-like list behavior depending on endpoint/version.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

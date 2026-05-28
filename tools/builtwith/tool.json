@@ -1,0 +1,46 @@
+{
+  "id": "/gtm/builtwith",
+  "name": "BuiltWith",
+  "slug": "builtwith",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://api.builtwith.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "no",
+    "communityCli": "no",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key as KEY query param or Authorization: API/Bearer depending API/MCP surface."
+  },
+  "objects": [
+    "Domains",
+    "technologies",
+    "technology_lists",
+    "relationships",
+    "changes",
+    "redirects",
+    "keywords",
+    "trends",
+    "products",
+    "trust",
+    "credits"
+  ],
+  "rateLimits": "Domain API documents max 8 concurrent and 10 requests/second, with 429 format.",
+  "pagination": "Bulk jobs use async job_id/status/result; list pagination varies by endpoint.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

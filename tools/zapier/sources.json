@@ -1,0 +1,37 @@
+[
+  {
+    "title": "help.zapier.com/hc/en-us/articles/36265392843917-Use-Zapier-MCP-with-your-client",
+    "url": "https://help.zapier.com/hc/en-us/articles/36265392843917-Use-Zapier-MCP-with-your-client",
+    "type": "source"
+  },
+  {
+    "title": "docs.zapier.com/mcp/clients",
+    "url": "https://docs.zapier.com/mcp/clients",
+    "type": "source"
+  },
+  {
+    "title": "docs.zapier.com/sdk",
+    "url": "https://docs.zapier.com/sdk",
+    "type": "source"
+  },
+  {
+    "title": "docs.zapier.com/sdk/using-the-cli",
+    "url": "https://docs.zapier.com/sdk/using-the-cli",
+    "type": "source"
+  },
+  {
+    "title": "docs.zapier.com/platform/build-cli/overview",
+    "url": "https://docs.zapier.com/platform/build-cli/overview",
+    "type": "source"
+  },
+  {
+    "title": "docs.zapier.com/powered-by-zapier/api-reference/rate-limiting",
+    "url": "https://docs.zapier.com/powered-by-zapier/api-reference/rate-limiting",
+    "type": "source"
+  },
+  {
+    "title": "docs.zapier.com/llms.txt",
+    "url": "https://docs.zapier.com/llms.txt",
+    "type": "source"
+  }
+]

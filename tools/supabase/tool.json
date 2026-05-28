@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/supabase",
+  "name": "Supabase",
+  "slug": "supabase",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://supabase.com",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "MCP OAuth/PAT; Management API Bearer PAT; project APIs use anon/publishable or secret/service keys plus JWT/RLS."
+  },
+  "objects": [
+    "Projects",
+    "organizations",
+    "databases/tables",
+    "migrations",
+    "auth users",
+    "storage buckets",
+    "edge functions",
+    "logs",
+    "branches"
+  ],
+  "rateLimits": "Management API returns X-RateLimit-* headers; Auth has documented endpoint quotas and 429s.",
+  "pagination": "Management API offset pagination; PostgREST range/limit-offset patterns.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

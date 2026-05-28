@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/make",
+  "name": "Make",
+  "slug": "make",
+  "status": "published",
+  "aliases": [
+    "make.com"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.make.com",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "User authentication token with scopes for REST API; MCP via OAuth or MCP bearer token."
+  },
+  "objects": [
+    "Scenarios",
+    "executions",
+    "connections",
+    "data stores",
+    "webhooks/hooks",
+    "teams",
+    "organizations",
+    "templates"
+  ],
+  "rateLimits": "Core 60/min, Pro 120/min, Teams 240/min, Enterprise 1000/min per organization.",
+  "pagination": "pg[limit], pg[offset], pg[sortBy], pg[sortDir].",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

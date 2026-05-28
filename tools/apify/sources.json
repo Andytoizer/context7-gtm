@@ -1,0 +1,27 @@
+[
+  {
+    "title": "docs.apify.com/platform/integrations/mcp",
+    "url": "https://docs.apify.com/platform/integrations/mcp",
+    "type": "source"
+  },
+  {
+    "title": "docs.apify.com/api/v2",
+    "url": "https://docs.apify.com/api/v2/",
+    "type": "source"
+  },
+  {
+    "title": "docs.apify.com/cli",
+    "url": "https://docs.apify.com/cli",
+    "type": "source"
+  },
+  {
+    "title": "docs.apify.com/api/v2/getting-started",
+    "url": "https://docs.apify.com/api/v2/getting-started",
+    "type": "source"
+  },
+  {
+    "title": "docs.apify.com/api/v2/request-queue-requests-get",
+    "url": "https://docs.apify.com/api/v2/request-queue-requests-get",
+    "type": "source"
+  }
+]

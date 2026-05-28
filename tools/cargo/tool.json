@@ -1,0 +1,48 @@
+{
+  "id": "/gtm/cargo",
+  "name": "Cargo",
+  "slug": "cargo",
+  "status": "published",
+  "aliases": [
+    "getcargo"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.getcargo.ai/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Bearer API token."
+  },
+  "objects": [
+    "Datasets",
+    "models",
+    "connectors",
+    "actions",
+    "segments",
+    "tools",
+    "workflows",
+    "plays",
+    "agents",
+    "files",
+    "MCP server configs"
+  ],
+  "rateLimits": "Workspace-level API 429; connector-node limits only.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

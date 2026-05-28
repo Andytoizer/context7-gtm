@@ -1,0 +1,17 @@
+[
+  {
+    "title": "docs.crustdata.com/general/mcp",
+    "url": "https://docs.crustdata.com/general/mcp",
+    "type": "source"
+  },
+  {
+    "title": "docs.crustdata.com/api-reference/web-apis/web-search",
+    "url": "https://docs.crustdata.com/api-reference/web-apis/web-search",
+    "type": "source"
+  },
+  {
+    "title": "staging.crustdata.com/api-documentation",
+    "url": "https://staging.crustdata.com/api-documentation",
+    "type": "source"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "supabase.com/docs/guides/getting-started/mcp",
+    "url": "https://supabase.com/docs/guides/getting-started/mcp",
+    "type": "source"
+  },
+  {
+    "title": "supabase.com/docs/reference/api/getting-started",
+    "url": "https://supabase.com/docs/reference/api/getting-started",
+    "type": "source"
+  },
+  {
+    "title": "supabase.com/docs/guides/auth/rate-limits",
+    "url": "https://supabase.com/docs/guides/auth/rate-limits",
+    "type": "source"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/zapier",
+  "name": "Zapier",
+  "slug": "zapier",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://zapier.com",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Zapier account OAuth/connectors; SDK client credentials; Workflow API bearer auth; app connections managed by Zapier."
+  },
+  "objects": [
+    "MCP servers",
+    "tools/actions",
+    "apps",
+    "connections/accounts",
+    "zaps/workflows",
+    "triggers",
+    "action catalog"
+  ],
+  "rateLimits": "Workflow API: 60 req/min per IP or 150 req/min per partner; Zap/webhook limits vary by surface.",
+  "pagination": "Product-specific; app/action APIs vary, embedded triggers expose their own API contract.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

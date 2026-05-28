@@ -1,0 +1,22 @@
+[
+  {
+    "title": "docs.wiza.co",
+    "url": "https://docs.wiza.co/",
+    "type": "source"
+  },
+  {
+    "title": "docs.wiza.co/overview/usage-limits",
+    "url": "https://docs.wiza.co/overview/usage-limits",
+    "type": "source"
+  },
+  {
+    "title": "feedback.wiza.co/changelog/wiza-mcp",
+    "url": "https://feedback.wiza.co/changelog/wiza-mcp",
+    "type": "source"
+  },
+  {
+    "title": "help.wiza.co/en/articles/8392662-wiza-s-api-everything-you-need-to-know",
+    "url": "https://help.wiza.co/en/articles/8392662-wiza-s-api-everything-you-need-to-know",
+    "type": "source"
+  }
+]

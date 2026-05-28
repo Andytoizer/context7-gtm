@@ -1,0 +1,47 @@
+{
+  "id": "/gtm/gohighlevel",
+  "name": "GoHighLevel",
+  "slug": "gohighlevel",
+  "status": "published",
+  "aliases": [
+    "highlevel",
+    "ghl"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.gohighlevel.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth 2.0 for marketplace apps; Private Integration Tokens; bearer JWT scoped by company/location."
+  },
+  "objects": [
+    "Contacts",
+    "conversations/messages",
+    "calendars",
+    "appointments",
+    "opportunities/pipelines",
+    "payments/products",
+    "locations",
+    "workflows",
+    "webhooks"
+  ],
+  "rateLimits": "V2 public APIs: 100 requests/10 sec per app per resource; 200,000/day per app per resource.",
+  "pagination": "Endpoint-specific list/search pagination; needs per-endpoint handling.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

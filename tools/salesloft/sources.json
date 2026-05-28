@@ -1,0 +1,32 @@
+[
+  {
+    "title": "developers.salesloft.com/docs/api",
+    "url": "https://developers.salesloft.com/docs/api/",
+    "type": "source"
+  },
+  {
+    "title": "developers.salesloft.com/docs/platform/api-basics",
+    "url": "https://developers.salesloft.com/docs/platform/api-basics/",
+    "type": "source"
+  },
+  {
+    "title": "developer.salesloft.com/docs/platform/api-basics/rate-limits",
+    "url": "https://developer.salesloft.com/docs/platform/api-basics/rate-limits/",
+    "type": "source"
+  },
+  {
+    "title": "developers.salesloft.com/docs/platform/api-basics/filtering-paging-sorting",
+    "url": "https://developers.salesloft.com/docs/platform/api-basics/filtering-paging-sorting/",
+    "type": "source"
+  },
+  {
+    "title": "salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server",
+    "url": "https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "cdn.cdata.com/help/KBM/mcp",
+    "url": "https://cdn.cdata.com/help/KBM/mcp",
+    "type": "source"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/gong",
+  "name": "Gong",
+  "slug": "gong",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.gong.io/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "API access key/secret as basic auth; OAuth for published apps."
+  },
+  "objects": [
+    "Calls",
+    "transcripts",
+    "users",
+    "scorecards",
+    "stats",
+    "Engage flows"
+  ],
+  "rateLimits": "3 calls/sec and 10,000 calls/day; 429 with Retry-After.",
+  "pagination": "Cursor, commonly 100 records/page.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm whether Gong exposes a downloadable OpenAPI spec or official SDK behind authenticated developer docs."
+}

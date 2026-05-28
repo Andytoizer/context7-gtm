@@ -8,7 +8,10 @@
       "slug": "hubspot",
       "status": "published",
       "path": "tools/hubspot",
-      "aliases": ["hubspot crm", "hs"],
+      "aliases": [
+        "hubspot crm",
+        "hs"
+      ],
       "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
@@ -18,7 +21,9 @@
       "slug": "attio",
       "status": "published",
       "path": "tools/attio",
-      "aliases": ["attio crm"],
+      "aliases": [
+        "attio crm"
+      ],
       "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
@@ -28,7 +33,10 @@
       "slug": "smartlead",
       "status": "published",
       "path": "tools/smartlead",
-      "aliases": ["smartlead.ai", "smartlead outbound"],
+      "aliases": [
+        "smartlead.ai",
+        "smartlead outbound"
+      ],
       "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
@@ -38,7 +46,9 @@
       "slug": "lemlist",
       "status": "published",
       "path": "tools/lemlist",
-      "aliases": ["lemlist outbound"],
+      "aliases": [
+        "lemlist outbound"
+      ],
       "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
@@ -48,7 +58,10 @@
       "slug": "customerio",
       "status": "published",
       "path": "tools/customerio",
-      "aliases": ["customer.io", "cio"],
+      "aliases": [
+        "customer.io",
+        "cio"
+      ],
       "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
@@ -58,7 +71,10 @@
       "slug": "klaviyo",
       "status": "published",
       "path": "tools/klaviyo",
-      "aliases": ["klaviyo marketing", "klaviyo cdp"],
+      "aliases": [
+        "klaviyo marketing",
+        "klaviyo cdp"
+      ],
       "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
@@ -68,7 +84,9 @@
       "slug": "dripify",
       "status": "published",
       "path": "tools/dripify",
-      "aliases": ["dripify linkedin"],
+      "aliases": [
+        "dripify linkedin"
+      ],
       "agentReadinessScore": 2,
       "lastVerified": "2026-05-28"
     },
@@ -78,7 +96,10 @@
       "slug": "heyreach",
       "status": "published",
       "path": "tools/heyreach",
-      "aliases": ["heyreach linkedin", "heyreach.io"],
+      "aliases": [
+        "heyreach linkedin",
+        "heyreach.io"
+      ],
       "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
@@ -88,7 +109,10 @@
       "slug": "kondo",
       "status": "published",
       "path": "tools/kondo",
-      "aliases": ["trykondo", "kondo linkedin inbox"],
+      "aliases": [
+        "trykondo",
+        "kondo linkedin inbox"
+      ],
       "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
@@ -98,7 +122,888 @@
       "slug": "jungler",
       "status": "published",
       "path": "tools/jungler",
-      "aliases": ["jungler.ai"],
+      "aliases": [
+        "jungler.ai"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/nooks",
+      "name": "Nooks",
+      "slug": "nooks",
+      "status": "published",
+      "path": "tools/nooks",
+      "aliases": [
+        "nooks.ai"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/replyio",
+      "name": "Reply.io",
+      "slug": "replyio",
+      "status": "published",
+      "path": "tools/replyio",
+      "aliases": [
+        "reply",
+        "reply.io"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/vector",
+      "name": "Vector.co",
+      "slug": "vector",
+      "status": "needs-review",
+      "path": "tools/vector",
+      "aliases": [
+        "vector"
+      ],
+      "agentReadinessScore": 1,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/rb2b",
+      "name": "RB2B",
+      "slug": "rb2b",
+      "status": "needs-review",
+      "path": "tools/rb2b",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/warmly",
+      "name": "Warmly",
+      "slug": "warmly",
+      "status": "needs-review",
+      "path": "tools/warmly",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/salesforce",
+      "name": "Salesforce",
+      "slug": "salesforce",
+      "status": "published",
+      "path": "tools/salesforce",
+      "aliases": [
+        "salesforce crm",
+        "sfdc"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/monaco",
+      "name": "Monaco",
+      "slug": "monaco",
+      "status": "needs-review",
+      "path": "tools/monaco",
+      "aliases": [],
+      "agentReadinessScore": 1,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/clarify",
+      "name": "Clarify",
+      "slug": "clarify",
+      "status": "published",
+      "path": "tools/clarify",
+      "aliases": [
+        "clarify crm"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/pipedrive",
+      "name": "Pipedrive",
+      "slug": "pipedrive",
+      "status": "published",
+      "path": "tools/pipedrive",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/close",
+      "name": "Close",
+      "slug": "close",
+      "status": "published",
+      "path": "tools/close",
+      "aliases": [
+        "close crm"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/gohighlevel",
+      "name": "GoHighLevel",
+      "slug": "gohighlevel",
+      "status": "published",
+      "path": "tools/gohighlevel",
+      "aliases": [
+        "highlevel",
+        "ghl"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/lightfield",
+      "name": "Lightfield",
+      "slug": "lightfield",
+      "status": "published",
+      "path": "tools/lightfield",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/instantly",
+      "name": "Instantly",
+      "slug": "instantly",
+      "status": "published",
+      "path": "tools/instantly",
+      "aliases": [
+        "instantly.ai"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/outreach",
+      "name": "Outreach",
+      "slug": "outreach",
+      "status": "published",
+      "path": "tools/outreach",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/salesloft",
+      "name": "Salesloft",
+      "slug": "salesloft",
+      "status": "needs-review",
+      "path": "tools/salesloft",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/amplemarket",
+      "name": "Amplemarket",
+      "slug": "amplemarket",
+      "status": "published",
+      "path": "tools/amplemarket",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/apollo",
+      "name": "Apollo",
+      "slug": "apollo",
+      "status": "published",
+      "path": "tools/apollo",
+      "aliases": [
+        "apollo.io"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/lusha",
+      "name": "Lusha",
+      "slug": "lusha",
+      "status": "published",
+      "path": "tools/lusha",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/contactout",
+      "name": "ContactOut",
+      "slug": "contactout",
+      "status": "published",
+      "path": "tools/contactout",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/prospeo",
+      "name": "Prospeo",
+      "slug": "prospeo",
+      "status": "published",
+      "path": "tools/prospeo",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/wiza",
+      "name": "Wiza",
+      "slug": "wiza",
+      "status": "published",
+      "path": "tools/wiza",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/hunter",
+      "name": "Hunter.io",
+      "slug": "hunter",
+      "status": "published",
+      "path": "tools/hunter",
+      "aliases": [
+        "hunter"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/rocketreach",
+      "name": "RocketReach",
+      "slug": "rocketreach",
+      "status": "needs-review",
+      "path": "tools/rocketreach",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/leadmagic",
+      "name": "LeadMagic",
+      "slug": "leadmagic",
+      "status": "published",
+      "path": "tools/leadmagic",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/fastymail",
+      "name": "Fastymail",
+      "slug": "fastymail",
+      "status": "needs-review",
+      "path": "tools/fastymail",
+      "aliases": [],
+      "agentReadinessScore": 1,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/fullenrich",
+      "name": "FullEnrich",
+      "slug": "fullenrich",
+      "status": "needs-review",
+      "path": "tools/fullenrich",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/clay",
+      "name": "Clay",
+      "slug": "clay",
+      "status": "needs-review",
+      "path": "tools/clay",
+      "aliases": [
+        "clay.com"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/cargo",
+      "name": "Cargo",
+      "slug": "cargo",
+      "status": "published",
+      "path": "tools/cargo",
+      "aliases": [
+        "getcargo"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/unify",
+      "name": "Unify",
+      "slug": "unify",
+      "status": "published",
+      "path": "tools/unify",
+      "aliases": [
+        "unifygtm"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/crustdata",
+      "name": "CrustData",
+      "slug": "crustdata",
+      "status": "published",
+      "path": "tools/crustdata",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/ocean",
+      "name": "Ocean.io",
+      "slug": "ocean",
+      "status": "published",
+      "path": "tools/ocean",
+      "aliases": [
+        "ocean"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/common-room",
+      "name": "Common Room",
+      "slug": "common-room",
+      "status": "published",
+      "path": "tools/common-room",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/6sense",
+      "name": "6sense",
+      "slug": "6sense",
+      "status": "published",
+      "path": "tools/6sense",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/demandbase",
+      "name": "Demandbase",
+      "slug": "demandbase",
+      "status": "needs-review",
+      "path": "tools/demandbase",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/supabase",
+      "name": "Supabase",
+      "slug": "supabase",
+      "status": "published",
+      "path": "tools/supabase",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/pinecone",
+      "name": "Pinecone",
+      "slug": "pinecone",
+      "status": "published",
+      "path": "tools/pinecone",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/snowflake",
+      "name": "Snowflake",
+      "slug": "snowflake",
+      "status": "needs-review",
+      "path": "tools/snowflake",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/bigquery",
+      "name": "BigQuery",
+      "slug": "bigquery",
+      "status": "published",
+      "path": "tools/bigquery",
+      "aliases": [
+        "google bigquery"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/exa",
+      "name": "Exa",
+      "slug": "exa",
+      "status": "published",
+      "path": "tools/exa",
+      "aliases": [
+        "exa.ai"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/firecrawl",
+      "name": "Firecrawl",
+      "slug": "firecrawl",
+      "status": "published",
+      "path": "tools/firecrawl",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/apify",
+      "name": "Apify",
+      "slug": "apify",
+      "status": "published",
+      "path": "tools/apify",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/google-places",
+      "name": "Google Places API",
+      "slug": "google-places",
+      "status": "needs-review",
+      "path": "tools/google-places",
+      "aliases": [
+        "places api",
+        "google places"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/logodev",
+      "name": "Logo.dev",
+      "slug": "logodev",
+      "status": "needs-review",
+      "path": "tools/logodev",
+      "aliases": [
+        "logo.dev"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/unavatar",
+      "name": "unavatar.io",
+      "slug": "unavatar",
+      "status": "needs-review",
+      "path": "tools/unavatar",
+      "aliases": [
+        "unavatar"
+      ],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/gong",
+      "name": "Gong",
+      "slug": "gong",
+      "status": "needs-review",
+      "path": "tools/gong",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/sybill",
+      "name": "Sybill",
+      "slug": "sybill",
+      "status": "published",
+      "path": "tools/sybill",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/fathom",
+      "name": "Fathom",
+      "slug": "fathom",
+      "status": "published",
+      "path": "tools/fathom",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/fireflies",
+      "name": "Fireflies.ai",
+      "slug": "fireflies",
+      "status": "published",
+      "path": "tools/fireflies",
+      "aliases": [
+        "fireflies",
+        "firefiles"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/granola",
+      "name": "Granola",
+      "slug": "granola",
+      "status": "needs-review",
+      "path": "tools/granola",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/pylon",
+      "name": "Pylon",
+      "slug": "pylon",
+      "status": "published",
+      "path": "tools/pylon",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/intercom",
+      "name": "Intercom",
+      "slug": "intercom",
+      "status": "published",
+      "path": "tools/intercom",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/zendesk",
+      "name": "Zendesk",
+      "slug": "zendesk",
+      "status": "needs-review",
+      "path": "tools/zendesk",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/google-drive",
+      "name": "Google Drive",
+      "slug": "google-drive",
+      "status": "needs-review",
+      "path": "tools/google-drive",
+      "aliases": [
+        "drive",
+        "google workspace drive"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/notion",
+      "name": "Notion",
+      "slug": "notion",
+      "status": "published",
+      "path": "tools/notion",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/obsidian",
+      "name": "Obsidian",
+      "slug": "obsidian",
+      "status": "published",
+      "path": "tools/obsidian",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/webflow",
+      "name": "Webflow",
+      "slug": "webflow",
+      "status": "published",
+      "path": "tools/webflow",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/framer",
+      "name": "Framer",
+      "slug": "framer",
+      "status": "needs-review",
+      "path": "tools/framer",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/pendo",
+      "name": "Pendo",
+      "slug": "pendo",
+      "status": "published",
+      "path": "tools/pendo",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/posthog",
+      "name": "PostHog",
+      "slug": "posthog",
+      "status": "published",
+      "path": "tools/posthog",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/hockeystack",
+      "name": "HockeyStack",
+      "slug": "hockeystack",
+      "status": "needs-review",
+      "path": "tools/hockeystack",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/chili-piper",
+      "name": "Chili Piper",
+      "slug": "chili-piper",
+      "status": "published",
+      "path": "tools/chili-piper",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/calcom",
+      "name": "Cal.com",
+      "slug": "calcom",
+      "status": "published",
+      "path": "tools/calcom",
+      "aliases": [
+        "cal.com"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/calendly",
+      "name": "Calendly",
+      "slug": "calendly",
+      "status": "published",
+      "path": "tools/calendly",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/gamma",
+      "name": "Gamma",
+      "slug": "gamma",
+      "status": "published",
+      "path": "tools/gamma",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/n8n",
+      "name": "n8n",
+      "slug": "n8n",
+      "status": "published",
+      "path": "tools/n8n",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/zapier",
+      "name": "Zapier",
+      "slug": "zapier",
+      "status": "published",
+      "path": "tools/zapier",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/make",
+      "name": "Make",
+      "slug": "make",
+      "status": "published",
+      "path": "tools/make",
+      "aliases": [
+        "make.com"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/relevance-ai",
+      "name": "Relevance AI",
+      "slug": "relevance-ai",
+      "status": "published",
+      "path": "tools/relevance-ai",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/ai-ark",
+      "name": "AI Ark",
+      "slug": "ai-ark",
+      "status": "needs-review",
+      "path": "tools/ai-ark",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/default",
+      "name": "Default",
+      "slug": "default",
+      "status": "needs-review",
+      "path": "tools/default",
+      "aliases": [],
+      "agentReadinessScore": 1,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/census",
+      "name": "Census",
+      "slug": "census",
+      "status": "published",
+      "path": "tools/census",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/crunchbase",
+      "name": "Crunchbase API",
+      "slug": "crunchbase",
+      "status": "published",
+      "path": "tools/crunchbase",
+      "aliases": [
+        "crunchbase"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/pitchbook",
+      "name": "PitchBook API",
+      "slug": "pitchbook",
+      "status": "needs-review",
+      "path": "tools/pitchbook",
+      "aliases": [
+        "pitchbook"
+      ],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/trigify",
+      "name": "Trigify",
+      "slug": "trigify",
+      "status": "published",
+      "path": "tools/trigify",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/builtwith",
+      "name": "BuiltWith",
+      "slug": "builtwith",
+      "status": "published",
+      "path": "tools/builtwith",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/theirstack",
+      "name": "TheirStack",
+      "slug": "theirstack",
+      "status": "published",
+      "path": "tools/theirstack",
+      "aliases": [
+        "theirstack",
+        "their stack"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/sumble",
+      "name": "Sumble",
+      "slug": "sumble",
+      "status": "needs-review",
+      "path": "tools/sumble",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/braze",
+      "name": "Braze",
+      "slug": "braze",
+      "status": "published",
+      "path": "tools/braze",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/activecampaign",
+      "name": "ActiveCampaign",
+      "slug": "activecampaign",
+      "status": "published",
+      "path": "tools/activecampaign",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/mailchimp",
+      "name": "Mailchimp",
+      "slug": "mailchimp",
+      "status": "published",
+      "path": "tools/mailchimp",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/zerobounce",
+      "name": "ZeroBounce",
+      "slug": "zerobounce",
+      "status": "published",
+      "path": "tools/zerobounce",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/neverbounce",
+      "name": "NeverBounce",
+      "slug": "neverbounce",
+      "status": "published",
+      "path": "tools/neverbounce",
+      "aliases": [],
       "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     }

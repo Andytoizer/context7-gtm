@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/trigify",
+  "name": "Trigify",
+  "slug": "trigify",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://help.trigify.io",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "no",
+    "communityCli": "no",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "API key via x-api-key; MCP endpoint https://api.trigify.io/mcp."
+  },
+  "objects": [
+    "Searches",
+    "search_results",
+    "workflows",
+    "custom_signals",
+    "sources",
+    "posts",
+    "integrations"
+  ],
+  "rateLimits": "429 documented; exact public numeric limits not found.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/sumble",
+  "name": "Sumble",
+  "slug": "sumble",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://docs.sumble.com/api",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Bearer API key from account API keys."
+  },
+  "objects": [
+    "Organizations",
+    "people",
+    "jobs",
+    "account_lists",
+    "technologies",
+    "credits"
+  ],
+  "rateLimits": "10 requests/second per user across endpoints; 429 on limit.",
+  "pagination": "limit/offset on people and likely other find endpoints.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm whether Sumble publishes OpenAPI/llms.txt and any official SDK or CLI."
+}

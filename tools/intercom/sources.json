@@ -1,0 +1,22 @@
+[
+  {
+    "title": "developers.intercom.com/docs/guides/mcp",
+    "url": "https://developers.intercom.com/docs/guides/mcp",
+    "type": "source"
+  },
+  {
+    "title": "developers.intercom.com/docs/references/rest-api/api.intercom.io",
+    "url": "https://developers.intercom.com/docs/references/rest-api/api.intercom.io",
+    "type": "source"
+  },
+  {
+    "title": "developers.intercom.com/docs/references/2.13/rest-api/errors/rate-limiting",
+    "url": "https://developers.intercom.com/docs/references/2.13/rest-api/errors/rate-limiting",
+    "type": "source"
+  },
+  {
+    "title": "github.com/intercom/intercom-node",
+    "url": "https://github.com/intercom/intercom-node",
+    "type": "source"
+  }
+]

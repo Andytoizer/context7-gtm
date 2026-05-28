@@ -1,0 +1,27 @@
+[
+  {
+    "title": "docs.firecrawl.dev/api-reference/v2-introduction",
+    "url": "https://docs.firecrawl.dev/api-reference/v2-introduction",
+    "type": "source"
+  },
+  {
+    "title": "docs.firecrawl.dev/cli",
+    "url": "https://docs.firecrawl.dev/cli",
+    "type": "source"
+  },
+  {
+    "title": "github.com/firecrawl/firecrawl-mcp-server",
+    "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "docs.firecrawl.dev/sdks/overview",
+    "url": "https://docs.firecrawl.dev/sdks/overview",
+    "type": "source"
+  },
+  {
+    "title": "raw.githubusercontent.com/firecrawl/firecrawl-docs/main/api-reference/v2-openapi.json",
+    "url": "https://raw.githubusercontent.com/firecrawl/firecrawl-docs/main/api-reference/v2-openapi.json",
+    "type": "source"
+  }
+]

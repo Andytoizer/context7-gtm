@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/zerobounce",
+  "name": "ZeroBounce",
+  "slug": "zerobounce",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.zerobounce.net/docs/api-dashboard",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key; regional endpoints for US/EU/global."
+  },
+  "objects": [
+    "Validations",
+    "batch_validations",
+    "credits",
+    "API_usage",
+    "email_finder",
+    "activity_data",
+    "domain_search"
+  ],
+  "rateLimits": "Examples include validate 80,000 requests/10s, getcredits 80,000/hour, getapiusage 800/hour, batch validate 30/min up to 100 emails/request; temporary blocks on abuse.",
+  "pagination": "Mostly job/batch/download patterns; normal pagination not prominent.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

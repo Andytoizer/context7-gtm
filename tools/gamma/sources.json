@@ -1,0 +1,27 @@
+[
+  {
+    "title": "developers.gamma.app",
+    "url": "https://developers.gamma.app/",
+    "type": "source"
+  },
+  {
+    "title": "developers.gamma.app/docs/introduction",
+    "url": "https://developers.gamma.app/docs/introduction",
+    "type": "source"
+  },
+  {
+    "title": "developers.gamma.app/docs/api-reference",
+    "url": "https://developers.gamma.app/docs/api-reference",
+    "type": "source"
+  },
+  {
+    "title": "developers.gamma.app/docs/mcp-server",
+    "url": "https://developers.gamma.app/docs/mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "developers.gamma.app/llms.txt",
+    "url": "https://developers.gamma.app/llms.txt",
+    "type": "source"
+  }
+]

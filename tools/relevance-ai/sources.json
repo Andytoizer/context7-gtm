@@ -1,0 +1,32 @@
+[
+  {
+    "title": "relevanceai.com/docs/integrations/mcp/programmatic-gtm/mcp-server",
+    "url": "https://relevanceai.com/docs/integrations/mcp/programmatic-gtm/mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "relevanceai.com/docs/build/agents/build-your-agent/agent-triggers/api-trigger",
+    "url": "https://relevanceai.com/docs/build/agents/build-your-agent/agent-triggers/api-trigger",
+    "type": "source"
+  },
+  {
+    "title": "relevanceai.com/docs/build/agents/build-your-agent/agent-triggers/api",
+    "url": "https://relevanceai.com/docs/build/agents/build-your-agent/agent-triggers/api",
+    "type": "source"
+  },
+  {
+    "title": "relevanceai.com/docs/llms.txt",
+    "url": "https://relevanceai.com/docs/llms.txt",
+    "type": "source"
+  },
+  {
+    "title": "github.com/RelevanceAI/relevanceai",
+    "url": "https://github.com/RelevanceAI/relevanceai",
+    "type": "source"
+  },
+  {
+    "title": "github.com/RelevanceAI/relevance-js-sdk",
+    "url": "https://github.com/RelevanceAI/relevance-js-sdk",
+    "type": "source"
+  }
+]

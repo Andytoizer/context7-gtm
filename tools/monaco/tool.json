@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/monaco",
+  "name": "Monaco",
+  "slug": "monaco",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 1,
+  "canonicalUrl": "https://www.monaco.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "unknown",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Unknown."
+  },
+  "objects": [
+    "Public site only: TAM/accounts",
+    "signals",
+    "sequences",
+    "interactions",
+    "pipeline",
+    "calls/meetings/messages"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "unknown",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm Monaco is the revenue-engine product at monaco.com and whether private API/MCP docs exist."
+}

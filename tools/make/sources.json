@@ -1,0 +1,37 @@
+[
+  {
+    "title": "developers.make.com/mcp-server",
+    "url": "https://developers.make.com/mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "help.make.com/make-mcp-server",
+    "url": "https://help.make.com/make-mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "developers.make.com/api-documentation",
+    "url": "https://developers.make.com/api-documentation",
+    "type": "source"
+  },
+  {
+    "title": "developers.make.com/api-documentation/getting-started/rate-limiting",
+    "url": "https://developers.make.com/api-documentation/getting-started/rate-limiting",
+    "type": "source"
+  },
+  {
+    "title": "developers.make.com/api-documentation/pagination-sorting-filtering/pagination-and-sorting",
+    "url": "https://developers.make.com/api-documentation/pagination-sorting-filtering/pagination-and-sorting",
+    "type": "source"
+  },
+  {
+    "title": "help.make.com/the-make-cli-is-now-live",
+    "url": "https://help.make.com/the-make-cli-is-now-live",
+    "type": "source"
+  },
+  {
+    "title": "developers.make.com/api-documentation/client-libraries",
+    "url": "https://developers.make.com/api-documentation/client-libraries",
+    "type": "source"
+  }
+]

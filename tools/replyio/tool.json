@@ -1,0 +1,32 @@
+{
+  "id": "/gtm/replyio",
+  "name": "Reply.io",
+  "slug": "replyio",
+  "status": "published",
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "surfaces": {
+    "officialMcp": true,
+    "officialCli": false,
+    "officialApi": true,
+    "openApiSpec": true,
+    "llmsDocs": true,
+    "officialSdk": false,
+    "communityMcp": false,
+    "communityCli": false,
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "methods": ["Bearer API key", "MCP connection URL/API key"],
+    "notes": "Reply API V3 uses Authorization: Bearer <YOUR_API_KEY>. Reply MCP setup is based on the user's API key and encrypted HTTPS."
+  },
+  "objects": ["Contacts", "Contact lists", "Accounts", "Sequences", "Sequence steps", "Email accounts", "LinkedIn accounts", "Inbox", "Tasks", "Schedules", "Reports", "Webhooks", "Background jobs"],
+  "rateLimits": "Default per-user quotas are documented as 100 requests per minute and 3,000 requests per hour; 429 responses include Retry-After. Reporting/statistics endpoints may have tighter caps.",
+  "sourceQuality": "strong",
+  "notes": [
+    "Reply is highly agent-ready: official MCP, REST API docs, llms.txt, and a bundled OpenAPI YAML are available.",
+    "API V1/V2 are described as outdated and unsupported; prefer V3.",
+    "Some MCP commands consume Reply API credits while others do not."
+  ],
+  "needsHumanReview": false
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "docs.ocean.io",
+    "url": "https://docs.ocean.io/",
+    "type": "source"
+  },
+  {
+    "title": "docs.ocean.io/getting-started/authentication",
+    "url": "https://docs.ocean.io/getting-started/authentication",
+    "type": "source"
+  },
+  {
+    "title": "docs.ocean.io/getting-started/rate-limiting",
+    "url": "https://docs.ocean.io/getting-started/rate-limiting",
+    "type": "source"
+  },
+  {
+    "title": "docs.ocean.io/getting-started/pagination",
+    "url": "https://docs.ocean.io/getting-started/pagination",
+    "type": "source"
+  }
+]

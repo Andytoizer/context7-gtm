@@ -1,0 +1,46 @@
+{
+  "id": "/gtm/lightfield",
+  "name": "Lightfield",
+  "slug": "lightfield",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.lightfield.app/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "no",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Scoped bearer API key, sk_lf_..., with Lightfield-Version header."
+  },
+  "objects": [
+    "Accounts",
+    "contacts",
+    "lists",
+    "meetings",
+    "notes",
+    "opportunities",
+    "tasks",
+    "members",
+    "workflow runs",
+    "files",
+    "custom objects"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "limit/offset; max limit 25; list results served from a possibly stale search index.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

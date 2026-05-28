@@ -8,6 +8,7 @@
   },
   "scripts": {
     "cli": "node ./bin/gtm7.js",
+    "import:scouts": "node ./scripts/import-scout-findings.js",
     "validate": "node ./scripts/validate-registry.js",
     "mcp": "tsx ./mcp/server.ts"
   },

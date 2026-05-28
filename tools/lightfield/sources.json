@@ -1,0 +1,22 @@
+[
+  {
+    "title": "docs.lightfield.app/api",
+    "url": "https://docs.lightfield.app/api",
+    "type": "source"
+  },
+  {
+    "title": "docs.lightfield.app/getting-started/http-quickstart",
+    "url": "https://docs.lightfield.app/getting-started/http-quickstart/",
+    "type": "source"
+  },
+  {
+    "title": "docs.lightfield.app/using-the-api/list-endpoints",
+    "url": "https://docs.lightfield.app/using-the-api/list-endpoints",
+    "type": "source"
+  },
+  {
+    "title": "lightfield.app/blog/skills-knowledge-mcp-performance-improvements",
+    "url": "https://lightfield.app/blog/skills-knowledge-mcp-performance-improvements",
+    "type": "source"
+  }
+]

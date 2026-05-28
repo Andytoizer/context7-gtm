@@ -1,0 +1,40 @@
+{
+  "id": "/gtm/neverbounce",
+  "name": "NeverBounce",
+  "slug": "neverbounce",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://developers.neverbounce.com/v4.1/reference",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key; standard API should not be exposed client-side."
+  },
+  "objects": [
+    "Account",
+    "single_verification",
+    "jobs",
+    "POE/widget",
+    "job_results"
+  ],
+  "rateLimits": "Dashboard-configurable throttling; bulk guidance says avoid more than 10 jobs per 100k items/hour and 25MB payload cap.",
+  "pagination": "Job create/parse/start/status/result flow; result pagination endpoint details need endpoint-level scrape.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

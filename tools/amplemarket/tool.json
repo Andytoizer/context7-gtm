@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/amplemarket",
+  "name": "Amplemarket",
+  "slug": "amplemarket",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.amplemarket.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Official MCP uses OAuth per user with account permissions. API access appears governed by Amplemarket data-as-a-service API terms."
+  },
+  "objects": [
+    "People search",
+    "company search",
+    "enrichments",
+    "lead lists",
+    "sequences",
+    "buying signals",
+    "prospect activity"
+  ],
+  "rateLimits": "Official MCP docs state 100 requests per minute per user.",
+  "pagination": "MCP search tools return up to 100 results per page.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

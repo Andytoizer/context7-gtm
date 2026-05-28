@@ -1,0 +1,47 @@
+{
+  "id": "/gtm/salesforce",
+  "name": "Salesforce",
+  "slug": "salesforce",
+  "status": "published",
+  "aliases": [
+    "salesforce crm",
+    "sfdc"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.salesforce.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth 2.0, Connected Apps, and bearer tokens. Hosted MCP uses Salesforce auth and user permissions."
+  },
+  "objects": [
+    "Account",
+    "Contact",
+    "Lead",
+    "Opportunity",
+    "Task/Event",
+    "Campaign",
+    "Case",
+    "custom sObjects",
+    "Flow/Apex actions"
+  ],
+  "rateLimits": "Org/license-based API limits; common allocation cited as 1,000 requests per user license per 24h, Developer Edition 15,000/org/day.",
+  "pagination": "REST query locators/nextRecordsUrl; SOQL LIMIT/OFFSET; GraphQL cursor pagination.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

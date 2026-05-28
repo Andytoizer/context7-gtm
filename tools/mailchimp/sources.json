@@ -1,0 +1,27 @@
+[
+  {
+    "title": "mailchimp.com/developer/marketing/docs/fundamentals",
+    "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+    "type": "source"
+  },
+  {
+    "title": "mailchimp.com/developer/marketing/docs/errors",
+    "url": "https://mailchimp.com/developer/marketing/docs/errors/",
+    "type": "source"
+  },
+  {
+    "title": "mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp",
+    "url": "https://mailchimp.com/developer/transactional/guides/how-to-use-mailchimps-transactional-messaging-mcp/",
+    "type": "source"
+  },
+  {
+    "title": "github.com/mailchimp",
+    "url": "https://github.com/mailchimp",
+    "type": "source"
+  },
+  {
+    "title": "mailchimp.com/developer/release-notes/new-client-libraries-marketing-transactional-apis",
+    "url": "https://mailchimp.com/developer/release-notes/new-client-libraries-marketing-transactional-apis/",
+    "type": "source"
+  }
+]

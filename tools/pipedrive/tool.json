@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/pipedrive",
+  "name": "Pipedrive",
+  "slug": "pipedrive",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.pipedrive.com/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API token or OAuth 2.0 bearer tokens."
+  },
+  "objects": [
+    "Deals",
+    "leads",
+    "persons",
+    "organizations",
+    "products",
+    "activities",
+    "notes",
+    "pipelines/stages",
+    "users"
+  ],
+  "rateLimits": "Token-based burst limits; Search API 10 requests/2 sec; headers include x-ratelimit-* and daily write quota.",
+  "pagination": "Cursor-based pagination for many list endpoints; older endpoints vary.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

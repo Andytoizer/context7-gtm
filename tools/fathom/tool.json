@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/fathom",
+  "name": "Fathom",
+  "slug": "fathom",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://fathom.ai/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "X-Api-Key header; user-scoped access to owned/shared/team meetings."
+  },
+  "objects": [
+    "Meetings",
+    "recordings",
+    "teams",
+    "team members",
+    "webhooks",
+    "transcripts",
+    "summaries",
+    "action items"
+  ],
+  "rateLimits": "60 calls per 60-second window.",
+  "pagination": "List endpoints expose item collections; cursor/next semantics need endpoint-level verification.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

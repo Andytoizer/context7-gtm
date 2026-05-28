@@ -1,0 +1,27 @@
+[
+  {
+    "title": "posthog.com/docs/api",
+    "url": "https://posthog.com/docs/api",
+    "type": "source"
+  },
+  {
+    "title": "posthog.com/docs/model-context-protocol",
+    "url": "https://posthog.com/docs/model-context-protocol",
+    "type": "source"
+  },
+  {
+    "title": "posthog.com/docs/data/posthog-cli",
+    "url": "https://posthog.com/docs/data/posthog-cli",
+    "type": "source"
+  },
+  {
+    "title": "posthog.com/docs/libraries",
+    "url": "https://posthog.com/docs/libraries",
+    "type": "source"
+  },
+  {
+    "title": "posthog.com/llms.txt",
+    "url": "https://posthog.com/llms.txt",
+    "type": "source"
+  }
+]

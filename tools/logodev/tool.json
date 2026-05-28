@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/logodev",
+  "name": "Logo.dev",
+  "slug": "logodev",
+  "status": "needs-review",
+  "aliases": [
+    "logo.dev"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.logo.dev",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "no",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Image API uses publishable token query param; Describe/Brand API uses Bearer secret key."
+  },
+  "objects": [
+    "Domain logos",
+    "brand search results",
+    "stock ticker logos",
+    "crypto logos",
+    "brand describe records"
+  ],
+  "rateLimits": "Monthly request limits by plan; no per-second/minute burst limit; proactive/soft enforcement.",
+  "pagination": "No pagination found for image lookup; search/describe pagination unclear.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm whether an official OpenAPI spec exists and whether third-party MCP listings are acceptable."
+}

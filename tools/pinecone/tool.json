@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/pinecone",
+  "name": "Pinecone",
+  "slug": "pinecone",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.pinecone.io",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key in Api-Key header; MCP/CLI require Pinecone API key."
+  },
+  "objects": [
+    "Indexes",
+    "namespaces",
+    "records/vectors",
+    "metadata",
+    "assistants",
+    "rerank models",
+    "inference models"
+  ],
+  "rateLimits": "Documented data-plane/index limits; 429 on namespace/API operation limits; exponential backoff recommended.",
+  "pagination": "Vector ID list uses pagination_token; default 100 IDs.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

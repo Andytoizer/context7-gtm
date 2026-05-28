@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/crustdata",
+  "name": "CrustData",
+  "slug": "crustdata",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://crustdata.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "unknown",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "API key/Bearer token; MCP OAuth 2.1 with API-key pass-through."
+  },
+  "objects": [
+    "Companies",
+    "people",
+    "jobs",
+    "social posts",
+    "watchers/webhooks",
+    "credits",
+    "web search/fetch"
+  ],
+  "rateLimits": "Endpoint-specific; web search default 10/min.",
+  "pagination": "Yes.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

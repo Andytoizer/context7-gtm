@@ -1,0 +1,22 @@
+[
+  {
+    "title": "data.crunchbase.com/docs/using-the-api",
+    "url": "https://data.crunchbase.com/docs/using-the-api",
+    "type": "source"
+  },
+  {
+    "title": "data.crunchbase.com/v4-legacy/docs/using-search-apis",
+    "url": "https://data.crunchbase.com/v4-legacy/docs/using-search-apis",
+    "type": "source"
+  },
+  {
+    "title": "support.crunchbase.com/hc/en-us/articles/32319290128019-Crunchbase-API-FAQ",
+    "url": "https://support.crunchbase.com/hc/en-us/articles/32319290128019-Crunchbase-API-FAQ",
+    "type": "source"
+  },
+  {
+    "title": "about.crunchbase.com/api-guide",
+    "url": "https://about.crunchbase.com/api-guide/",
+    "type": "source"
+  }
+]

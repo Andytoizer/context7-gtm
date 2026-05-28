@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/webflow",
+  "name": "Webflow",
+  "slug": "webflow",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://developers.webflow.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth 2.0 apps, site/workspace tokens, bearer access tokens."
+  },
+  "objects": [
+    "Sites",
+    "pages",
+    "collections",
+    "collection_items",
+    "forms",
+    "assets",
+    "users",
+    "webhooks"
+  ],
+  "rateLimits": "Documented per API/app/token in official docs.",
+  "pagination": "limit/offset style on list endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

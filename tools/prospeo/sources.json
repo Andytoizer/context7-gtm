@@ -1,0 +1,22 @@
+[
+  {
+    "title": "prospeo.io/api-docs",
+    "url": "https://prospeo.io/api-docs",
+    "type": "source"
+  },
+  {
+    "title": "prospeo.io/api-docs/rate-limits",
+    "url": "https://prospeo.io/api-docs/rate-limits",
+    "type": "source"
+  },
+  {
+    "title": "prospeo.io/mcp",
+    "url": "https://prospeo.io/mcp",
+    "type": "source"
+  },
+  {
+    "title": "prospeo.io/mcp-docs/quick-start",
+    "url": "https://prospeo.io/mcp-docs/quick-start",
+    "type": "source"
+  }
+]

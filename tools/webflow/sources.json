@@ -1,0 +1,27 @@
+[
+  {
+    "title": "developers.webflow.com",
+    "url": "https://developers.webflow.com/",
+    "type": "source"
+  },
+  {
+    "title": "developers.webflow.com/mcp/reference/overview",
+    "url": "https://developers.webflow.com/mcp/reference/overview",
+    "type": "source"
+  },
+  {
+    "title": "developers.webflow.com/data/reference/rest-introduction",
+    "url": "https://developers.webflow.com/data/reference/rest-introduction",
+    "type": "source"
+  },
+  {
+    "title": "developers.webflow.com/llms.txt",
+    "url": "https://developers.webflow.com/llms.txt",
+    "type": "source"
+  },
+  {
+    "title": "npmjs.com/package/@webflow/webflow-cli",
+    "url": "https://www.npmjs.com/package/@webflow/webflow-cli",
+    "type": "source"
+  }
+]

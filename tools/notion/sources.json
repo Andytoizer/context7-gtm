@@ -1,0 +1,27 @@
+[
+  {
+    "title": "developers.notion.com/guides/mcp/mcp",
+    "url": "https://developers.notion.com/guides/mcp/mcp",
+    "type": "source"
+  },
+  {
+    "title": "developers.notion.com/cli/get-started/overview",
+    "url": "https://developers.notion.com/cli/get-started/overview",
+    "type": "source"
+  },
+  {
+    "title": "developers.notion.com/reference/request-limits",
+    "url": "https://developers.notion.com/reference/request-limits",
+    "type": "source"
+  },
+  {
+    "title": "developers.notion.com/reference/intro",
+    "url": "https://developers.notion.com/reference/intro",
+    "type": "source"
+  },
+  {
+    "title": "github.com/makenotion/notion-sdk-js",
+    "url": "https://github.com/makenotion/notion-sdk-js",
+    "type": "source"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "cal.com/docs",
+    "url": "https://cal.com/docs",
+    "type": "source"
+  },
+  {
+    "title": "cal.com/docs/api-reference/v2",
+    "url": "https://cal.com/docs/api-reference/v2",
+    "type": "source"
+  },
+  {
+    "title": "cal.com/docs/mcp",
+    "url": "https://cal.com/docs/mcp",
+    "type": "source"
+  },
+  {
+    "title": "cal.com/docs/llms.txt",
+    "url": "https://cal.com/docs/llms.txt",
+    "type": "source"
+  },
+  {
+    "title": "npmjs.com/package/@calcom/cli",
+    "url": "https://www.npmjs.com/package/@calcom/cli",
+    "type": "source"
+  },
+  {
+    "title": "npmjs.com/package/@calcom/platform-libraries",
+    "url": "https://www.npmjs.com/package/@calcom/platform-libraries",
+    "type": "source"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/pylon",
+  "name": "Pylon",
+  "slug": "pylon",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://usepylon.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "MCP OAuth; REST bearer API token."
+  },
+  "objects": [
+    "Users",
+    "contacts",
+    "accounts",
+    "issues",
+    "messages",
+    "teams",
+    "KB articles",
+    "audit logs",
+    "training data"
+  ],
+  "rateLimits": "Often 60/min read, 20/min write/search; endpoint-specific.",
+  "pagination": "Cursor; audit logs max page size 999; search limits up to 1000 on users.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

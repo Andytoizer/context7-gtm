@@ -1,0 +1,27 @@
+[
+  {
+    "title": "docs.fathom.ai",
+    "url": "https://docs.fathom.ai/",
+    "type": "source"
+  },
+  {
+    "title": "developers.fathom.ai/quickstart",
+    "url": "https://developers.fathom.ai/quickstart",
+    "type": "source"
+  },
+  {
+    "title": "developers.fathom.ai/webhooks",
+    "url": "https://developers.fathom.ai/webhooks",
+    "type": "source"
+  },
+  {
+    "title": "developers.fathom.ai/sdks/available-methods",
+    "url": "https://developers.fathom.ai/sdks/available-methods",
+    "type": "source"
+  },
+  {
+    "title": "github.com/Dot-Fun/fathom-mcp",
+    "url": "https://github.com/Dot-Fun/fathom-mcp",
+    "type": "source"
+  }
+]

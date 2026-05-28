@@ -1,0 +1,27 @@
+[
+  {
+    "title": "docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+    "type": "source"
+  },
+  {
+    "title": "docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/overview",
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/overview",
+    "type": "source"
+  },
+  {
+    "title": "docs.snowflake.com/en/developer-guide/snowflake-rest-api/reference",
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/reference",
+    "type": "source"
+  },
+  {
+    "title": "docs.snowflake.com/en/developer-guide/sql-api/index",
+    "url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+    "type": "source"
+  },
+  {
+    "title": "github.com/Snowflake-Labs/mcp",
+    "url": "https://github.com/Snowflake-Labs/mcp",
+    "type": "source"
+  }
+]

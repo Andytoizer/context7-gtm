@@ -1,0 +1,27 @@
+[
+  {
+    "title": "developers.activecampaign.com/reference/overview",
+    "url": "https://developers.activecampaign.com/reference/overview",
+    "type": "source"
+  },
+  {
+    "title": "developers.activecampaign.com/page/mcp",
+    "url": "https://developers.activecampaign.com/page/mcp",
+    "type": "source"
+  },
+  {
+    "title": "developers.activecampaign.com/page/mcp-available-tools",
+    "url": "https://developers.activecampaign.com/page/mcp-available-tools/",
+    "type": "source"
+  },
+  {
+    "title": "developers.activecampaign.com/reference/rate-limits",
+    "url": "https://developers.activecampaign.com/reference/rate-limits",
+    "type": "source"
+  },
+  {
+    "title": "github.com/ActiveCampaign/activecampaign-api-php",
+    "url": "https://github.com/ActiveCampaign/activecampaign-api-php",
+    "type": "source"
+  }
+]

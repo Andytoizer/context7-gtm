@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/chili-piper",
+  "name": "Chili Piper",
+  "slug": "chili-piper",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://help.chilipiper.com/hc/en-us",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "API keys / bearer auth; MCP connected through Chili Piper auth."
+  },
+  "objects": [
+    "Users",
+    "prospects",
+    "meetings",
+    "routers",
+    "queues",
+    "teams",
+    "workspaces",
+    "calendars",
+    "distributions"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Endpoint-specific; not enough public evidence for a global model.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

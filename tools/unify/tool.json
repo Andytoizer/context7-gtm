@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/unify",
+  "name": "Unify",
+  "slug": "unify",
+  "status": "published",
+  "aliases": [
+    "unifygtm"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.unifygtm.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "X-Api-Key header."
+  },
+  "objects": [
+    "Objects",
+    "attributes",
+    "records",
+    "company",
+    "person",
+    "opportunity",
+    "intent/events"
+  ],
+  "rateLimits": "100000 requests per 5 minutes.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "developer.zendesk.com/api-reference",
+    "url": "https://developer.zendesk.com/api-reference/",
+    "type": "source"
+  },
+  {
+    "title": "developer.zendesk.com/api-reference/ticketing/introduction",
+    "url": "https://developer.zendesk.com/api-reference/ticketing/introduction/",
+    "type": "source"
+  },
+  {
+    "title": "developer.zendesk.com/documentation/conversations/references/openapi-specification",
+    "url": "https://developer.zendesk.com/documentation/conversations/references/openapi-specification/",
+    "type": "source"
+  },
+  {
+    "title": "developer.zendesk.com/api-reference/introduction/rate-limits",
+    "url": "https://developer.zendesk.com/api-reference/introduction/rate-limits/",
+    "type": "source"
+  },
+  {
+    "title": "developer.zendesk.com/api-reference/introduction/pagination",
+    "url": "https://developer.zendesk.com/api-reference/introduction/pagination/",
+    "type": "source"
+  },
+  {
+    "title": "developer.zendesk.com/documentation/apps/getting-started/using-zcli",
+    "url": "https://developer.zendesk.com/documentation/apps/getting-started/using-zcli/",
+    "type": "source"
+  },
+  {
+    "title": "techradar.com/pro/zendesk-becomes-the-latest-to-adopt-mcp-to-futureproof-customers-in-the-ai-first-era",
+    "url": "https://www.techradar.com/pro/zendesk-becomes-the-latest-to-adopt-mcp-to-futureproof-customers-in-the-ai-first-era",
+    "type": "source"
+  }
+]

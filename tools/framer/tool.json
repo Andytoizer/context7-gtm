@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/framer",
+  "name": "Framer",
+  "slug": "framer",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.framer.com/developers/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "no",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Framer API tokens / auth token for Server API."
+  },
+  "objects": [
+    "Sites",
+    "projects",
+    "pages",
+    "redirects",
+    "collection_items",
+    "folders",
+    "locales"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Cursor-style pagination appears in Server API list flows.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm whether any Framer MCP is officially maintained; public official docs clearly cover Server API/SDK but not an official MCP install surface."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "framer.com/developers/server-api-introduction",
+    "url": "https://www.framer.com/developers/server-api-introduction",
+    "type": "source"
+  },
+  {
+    "title": "framer.com/developers/server-api-quick-start",
+    "url": "https://www.framer.com/developers/server-api-quick-start",
+    "type": "source"
+  },
+  {
+    "title": "framer.com/llms.txt",
+    "url": "https://www.framer.com/llms.txt",
+    "type": "source"
+  },
+  {
+    "title": "npmjs.com/package/framer-api",
+    "url": "https://www.npmjs.com/package/framer-api",
+    "type": "source"
+  }
+]

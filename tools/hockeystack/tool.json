@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/hockeystack",
+  "name": "HockeyStack",
+  "slug": "hockeystack",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://docs.hockeystack.com/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "unknown",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Tracking script/API token surfaces; server API auth not clearly public."
+  },
+  "objects": [
+    "Users",
+    "accounts",
+    "events",
+    "properties",
+    "journeys",
+    "attribution",
+    "campaigns",
+    "reports"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "unknown",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Public docs expose tracking/SDK and AI-docs surfaces, but a stable public server API reference, auth model, pagination, and rate limits need confirmation."
+}

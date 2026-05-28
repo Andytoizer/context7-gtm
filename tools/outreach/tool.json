@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/outreach",
+  "name": "Outreach",
+  "slug": "outreach",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.outreach.io/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "OAuth 2.0 bearer tokens with Outreach API access/scopes."
+  },
+  "objects": [
+    "Prospects",
+    "accounts",
+    "sequences",
+    "sequence states",
+    "tasks",
+    "calls",
+    "mailings",
+    "opportunities",
+    "users",
+    "stages"
+  ],
+  "rateLimits": "Generally 10,000 requests/hour per user.",
+  "pagination": "Cursor-based page[size] with links.next; offset pagination deprecated, max offset 10,000, page limit max 1,000.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

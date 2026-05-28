@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/apify",
+  "name": "Apify",
+  "slug": "apify",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://apify.com",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Bearer API token; hosted MCP supports OAuth or Bearer token."
+  },
+  "objects": [
+    "Actors",
+    "actor runs",
+    "tasks",
+    "datasets",
+    "key-value stores",
+    "request queues",
+    "webhooks",
+    "builds"
+  ],
+  "rateLimits": "API global 250,000 req/min; default per-resource 60 req/s; MCP 30 req/s/user; X-RateLimit-Limit returned.",
+  "pagination": "Offset/limit common; request queues use cursor/exclusiveStartId; endpoints cap max limit.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

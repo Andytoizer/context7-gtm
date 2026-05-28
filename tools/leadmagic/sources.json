@@ -1,0 +1,22 @@
+[
+  {
+    "title": "leadmagic.io/docs/developer-experience",
+    "url": "https://leadmagic.io/docs/developer-experience",
+    "type": "source"
+  },
+  {
+    "title": "leadmagic.io/docs/cli/commands",
+    "url": "https://leadmagic.io/docs/cli/commands",
+    "type": "source"
+  },
+  {
+    "title": "leadmagic.io/solutions/developers",
+    "url": "https://leadmagic.io/solutions/developers",
+    "type": "source"
+  },
+  {
+    "title": "github.com/LeadMagic/leadmagic-mcp",
+    "url": "https://github.com/LeadMagic/leadmagic-mcp",
+    "type": "source"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/firecrawl",
+  "name": "Firecrawl",
+  "slug": "firecrawl",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.firecrawl.dev",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Authorization: Bearer fc-* API key; CLI login/browser/API-key/env auth; self-host can bypass cloud key."
+  },
+  "objects": [
+    "Scrape jobs",
+    "crawl jobs",
+    "batch scrape jobs",
+    "search results",
+    "extracted structured data",
+    "maps"
+  ],
+  "rateLimits": "Plan-based rate and concurrency limits; 429 on exceeded limits; CLI status shows concurrency and credits.",
+  "pagination": "Crawl and batch scrape status can return next URL; SDKs can auto-paginate with controls.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

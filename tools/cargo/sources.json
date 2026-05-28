@@ -1,0 +1,17 @@
+[
+  {
+    "title": "docs.getcargo.ai/api-reference/introduction",
+    "url": "https://docs.getcargo.ai/api-reference/introduction",
+    "type": "source"
+  },
+  {
+    "title": "docs.getcargo.ai/cli/overview",
+    "url": "https://docs.getcargo.ai/cli/overview",
+    "type": "source"
+  },
+  {
+    "title": "docs.getcargo.ai/api-reference/ai--mcp/list-mcp-servers",
+    "url": "https://docs.getcargo.ai/api-reference/ai--mcp/list-mcp-servers",
+    "type": "source"
+  }
+]

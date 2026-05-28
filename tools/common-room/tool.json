@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/common-room",
+  "name": "Common Room",
+  "slug": "common-room",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.commonroom.io/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Core API Bearer JWT; MCP OAuth 2.1."
+  },
+  "objects": [
+    "Contacts/members",
+    "organizations",
+    "activities",
+    "segments",
+    "custom fields",
+    "signals"
+  ],
+  "rateLimits": "Documented 429 responses; numeric limits unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

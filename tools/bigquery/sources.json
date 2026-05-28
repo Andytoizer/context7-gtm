@@ -1,0 +1,32 @@
+[
+  {
+    "title": "docs.cloud.google.com/bigquery/docs/use-bigquery-mcp",
+    "url": "https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp",
+    "type": "source"
+  },
+  {
+    "title": "cloud.google.com/bigquery/docs/reference/bq-cli-reference",
+    "url": "https://cloud.google.com/bigquery/docs/reference/bq-cli-reference",
+    "type": "source"
+  },
+  {
+    "title": "cloud.google.com/bigquery/docs/reference/rest",
+    "url": "https://cloud.google.com/bigquery/docs/reference/rest/",
+    "type": "source"
+  },
+  {
+    "title": "docs.cloud.google.com/bigquery/docs/paging-results",
+    "url": "https://docs.cloud.google.com/bigquery/docs/paging-results",
+    "type": "source"
+  },
+  {
+    "title": "docs.cloud.google.com/bigquery/quotas",
+    "url": "https://docs.cloud.google.com/bigquery/quotas",
+    "type": "source"
+  },
+  {
+    "title": "docs.cloud.google.com/bigquery/docs/reference/libraries-overview",
+    "url": "https://docs.cloud.google.com/bigquery/docs/reference/libraries-overview",
+    "type": "source"
+  }
+]

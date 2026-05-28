@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/contactout",
+  "name": "ContactOut",
+  "slug": "contactout",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://contactout.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "no",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "API token in token header."
+  },
+  "objects": [
+    "LinkedIn profile enrich",
+    "people search/count",
+    "contact info single/bulk",
+    "company info/search",
+    "decision makers",
+    "email verifier",
+    "contact checkers",
+    "API usage"
+  ],
+  "rateLimits": "People Search 60/min; Contact Checker 150/min; other APIs 1000/min; 429 includes retry-after.",
+  "pagination": "page parameter; responses include metadata.page, page_size, total_results.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

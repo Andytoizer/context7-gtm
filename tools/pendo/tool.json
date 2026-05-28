@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/pendo",
+  "name": "Pendo",
+  "slug": "pendo",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://support.pendo.io/hc/en-us/articles/38099922926875-Pendo-developer-documentation",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Integration/API key for API; OAuth/service-account style setup for MCP."
+  },
+  "objects": [
+    "Visitors",
+    "accounts",
+    "guides",
+    "segments",
+    "reports",
+    "features",
+    "events",
+    "metadata",
+    "product_areas"
+  ],
+  "rateLimits": "No clear public numeric limits found; docs mention aggregation/report constraints.",
+  "pagination": "Mixed/endpoint-specific; MCP docs describe paginated product-area retrieval.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

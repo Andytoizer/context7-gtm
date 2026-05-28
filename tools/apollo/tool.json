@@ -1,0 +1,48 @@
+{
+  "id": "/gtm/apollo",
+  "name": "Apollo",
+  "slug": "apollo",
+  "status": "published",
+  "aliases": [
+    "apollo.io"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.apollo.io/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "API key for REST; OAuth for Apollo CLI/MCP connectors."
+  },
+  "objects": [
+    "People",
+    "organizations",
+    "contacts",
+    "accounts",
+    "deals",
+    "sequences",
+    "email accounts",
+    "calls",
+    "tasks",
+    "users",
+    "usage/analytics"
+  ],
+  "rateLimits": "Plan-based per endpoint; usage endpoint reports per-minute/hour/day limits.",
+  "pagination": "page/per_page; People Search max 100/page, 500 pages / 50k display limit.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

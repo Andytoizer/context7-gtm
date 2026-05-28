@@ -1,0 +1,48 @@
+{
+  "id": "/gtm/hunter",
+  "name": "Hunter.io",
+  "slug": "hunter",
+  "status": "published",
+  "aliases": [
+    "hunter"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://hunter.io/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "no",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "api_key query param for REST; MCP accepts Authorization Bearer or X-API-KEY."
+  },
+  "objects": [
+    "Discover",
+    "domain search",
+    "email finder",
+    "email verifier/count/enrichment",
+    "company enrichment",
+    "combined enrichment",
+    "account",
+    "leads",
+    "lead lists",
+    "custom attributes",
+    "email sequences"
+  ],
+  "rateLimits": "Domain Search and Email Finder 15 RPS / 500 per minute; Email Verifier 10 RPS / 300 per minute.",
+  "pagination": "limit/offset; Discover max 100/page; Domain Search default 10 max 100; leads/lists/sequences use limit/offset.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

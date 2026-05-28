@@ -1,0 +1,40 @@
+{
+  "id": "/gtm/rocketreach",
+  "name": "RocketReach",
+  "slug": "rocketreach",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://rocketreach.co/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key; Python SDK uses Gateway(api_key=...); REST commonly uses Api-Key header."
+  },
+  "objects": [
+    "Person search",
+    "person lookup",
+    "lookup status",
+    "company/profile lookup",
+    "account"
+  ],
+  "rateLimits": "Exact published limits not found; SDK warns tight polling may return 429 with retry wait.",
+  "pagination": "Python SDK search uses start and size params.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from parallel specialist scout findings.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm current official REST docs, exact rate limits, and whether an official OpenAPI spec exists."
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "braze.com/docs/api/basics",
+    "url": "https://www.braze.com/docs/api/basics",
+    "type": "source"
+  },
+  {
+    "title": "braze.com/docs/api/api_limits",
+    "url": "https://www.braze.com/docs/api/api_limits",
+    "type": "source"
+  },
+  {
+    "title": "braze.com/resources/articles/introducing-braze-mcp-server",
+    "url": "https://www.braze.com/resources/articles/introducing-braze-mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "braze.com/resources/articles/braze-mcp-claude-desktop",
+    "url": "https://www.braze.com/resources/articles/braze-mcp-claude-desktop",
+    "type": "source"
+  },
+  {
+    "title": "braze.com/dev-portal",
+    "url": "https://www.braze.com/dev-portal",
+    "type": "source"
+  }
+]
