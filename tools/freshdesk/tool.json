@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/freshdesk",
+  "name": "Freshdesk",
+  "slug": "freshdesk",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://freshdesk.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key with Basic auth or OAuth depending app/integration."
+  },
+  "objects": [
+    "Tickets",
+    "Contacts",
+    "Companies",
+    "Agents",
+    "Groups",
+    "Conversations",
+    "Time Entries",
+    "Products",
+    "Solutions",
+    "Forums"
+  ],
+  "rateLimits": "Plan-based API rate limits; 429 with Retry-After.",
+  "pagination": "page/per_page and cursor pagination for selected endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

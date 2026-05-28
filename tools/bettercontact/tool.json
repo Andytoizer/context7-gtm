@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/bettercontact",
+  "name": "BetterContact",
+  "slug": "bettercontact",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.bettercontact.rocks/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key/Bearer token."
+  },
+  "objects": [
+    "Enrichment jobs",
+    "Contacts",
+    "Emails",
+    "Phone numbers",
+    "Credits",
+    "Webhooks"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Job/batch result retrieval patterns.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

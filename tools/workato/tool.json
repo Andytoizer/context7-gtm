@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/workato",
+  "name": "Workato",
+  "slug": "workato",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.workato.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API client tokens and OAuth client credentials for Workato API platform access."
+  },
+  "objects": [
+    "Recipes",
+    "Jobs",
+    "Connections",
+    "Folders",
+    "Projects",
+    "Packages",
+    "Manifests",
+    "Users",
+    "Roles",
+    "Lookup Tables"
+  ],
+  "rateLimits": "Account and API endpoint limits apply; 429 responses should be retried.",
+  "pagination": "Page and per_page list pagination on many endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

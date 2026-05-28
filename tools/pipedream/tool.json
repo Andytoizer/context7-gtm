@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/pipedream",
+  "name": "Pipedream",
+  "slug": "pipedream",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://pipedream.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Bearer OAuth/API tokens; connected accounts are managed per app/account."
+  },
+  "objects": [
+    "Workflows",
+    "Components",
+    "Sources",
+    "Connected Accounts",
+    "Apps",
+    "Projects",
+    "Events",
+    "Data Stores",
+    "MCP Servers"
+  ],
+  "rateLimits": "Plan and endpoint-based API limits; 429 on excess.",
+  "pagination": "Cursor/page-style pagination on API lists.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

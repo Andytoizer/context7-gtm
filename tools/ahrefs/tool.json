@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/ahrefs",
+  "name": "Ahrefs",
+  "slug": "ahrefs",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://ahrefs.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "API keys for REST API; MCP uses consent flow/dedicated MCP-scoped API key, with optional manual MCP key."
+  },
+  "objects": [
+    "Site Explorer",
+    "Backlinks",
+    "Keywords",
+    "SERP Overview",
+    "Rank Tracker",
+    "Site Audit",
+    "Batch Analysis",
+    "Brand Radar",
+    "Social Media"
+  ],
+  "rateLimits": "60 requests/minute default plus dynamic throttling; unit-based monthly plan limits.",
+  "pagination": "Endpoint-specific rows/limits; plan-specific max rows per MCP/API request.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

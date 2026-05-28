@@ -1,0 +1,50 @@
+{
+  "id": "/gtm/zoho-crm",
+  "name": "Zoho CRM",
+  "slug": "zoho-crm",
+  "status": "published",
+  "aliases": [
+    "zoho"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.zoho.com/crm/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth 2.0 access tokens with Zoho account data-center-specific domains."
+  },
+  "objects": [
+    "Leads",
+    "Contacts",
+    "Accounts",
+    "Deals",
+    "Tasks",
+    "Events",
+    "Calls",
+    "Campaigns",
+    "Products",
+    "Quotes",
+    "Sales Orders",
+    "Invoices",
+    "custom modules"
+  ],
+  "rateLimits": "Edition and API-credit based limits; concurrency and daily credit limits vary by org and endpoint.",
+  "pagination": "page/per_page for many list APIs; bulk/read APIs use job-based retrieval.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

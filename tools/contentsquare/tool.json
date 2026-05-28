@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/contentsquare",
+  "name": "Contentsquare",
+  "slug": "contentsquare",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://docs.contentsquare.com/en/",
+  "surfaces": {
+    "officialMcp": "announced",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth/login for MCP; API credentials for export/data APIs."
+  },
+  "objects": [
+    "Projects",
+    "Metrics",
+    "Journeys",
+    "Funnels",
+    "Pages",
+    "Errors",
+    "Exports",
+    "Job Runs",
+    "Sessions"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Export APIs use jobs/job_runs/job_run_parts.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "MCP is closed beta; confirm access requirements and tool scope."
+}

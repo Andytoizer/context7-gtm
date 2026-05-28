@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/userflow",
+  "name": "Userflow",
+  "slug": "userflow",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://docs.userflow.com/docs/api",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Bearer environment API keys for Users API; bearer personal API keys for Accounts API."
+  },
+  "objects": [
+    "Users",
+    "Groups",
+    "Events",
+    "Content",
+    "Content Versions",
+    "Flows",
+    "Checklists",
+    "Launchers",
+    "Members",
+    "Invites"
+  ],
+  "rateLimits": "Account-plan-dependent per-minute limiter plus concurrency limiter; 429/503 responses.",
+  "pagination": "List endpoints support ordering/expansion; pagination endpoint-specific.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

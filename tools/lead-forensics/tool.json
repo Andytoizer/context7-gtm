@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/lead-forensics",
+  "name": "Lead Forensics",
+  "slug": "lead-forensics",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.leadforensics.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key/token; exact public docs should be checked in customer portal."
+  },
+  "objects": [
+    "Visits",
+    "Companies",
+    "Leads",
+    "Website Sessions",
+    "Users",
+    "CRM Exports"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Endpoint-specific.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

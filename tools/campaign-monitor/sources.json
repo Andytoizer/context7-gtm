@@ -1,0 +1,17 @@
+[
+  {
+    "title": "campaignmonitor.com/api",
+    "url": "https://www.campaignmonitor.com/api/",
+    "type": "source"
+  },
+  {
+    "title": "campaignmonitor.com/api/v3-3/getting-started",
+    "url": "https://www.campaignmonitor.com/api/v3-3/getting-started/",
+    "type": "source"
+  },
+  {
+    "title": "github.com/campaignmonitor/createsend-php",
+    "url": "https://github.com/campaignmonitor/createsend-php",
+    "type": "source"
+  }
+]

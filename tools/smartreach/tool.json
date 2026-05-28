@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/smartreach",
+  "name": "SmartReach.io",
+  "slug": "smartreach",
+  "status": "published",
+  "aliases": [
+    "smartreach"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://smartreach.io/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key for REST API."
+  },
+  "objects": [
+    "Prospects",
+    "Campaigns",
+    "Mailboxes",
+    "Teams",
+    "Replies",
+    "Webhooks",
+    "Stats"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Endpoint-specific pagination.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

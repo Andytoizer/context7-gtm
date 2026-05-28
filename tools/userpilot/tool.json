@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/userpilot",
+  "name": "Userpilot",
+  "slug": "userpilot",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://docs.userpilot.com/api-references/overview",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API token in Authorization header."
+  },
+  "objects": [
+    "Users",
+    "Companies",
+    "Events",
+    "Segments",
+    "Goals",
+    "Exports",
+    "Imports",
+    "Bulk Updates",
+    "Deletes"
+  ],
+  "rateLimits": "Unknown in surfaced official docs.",
+  "pagination": "Endpoint-specific/unknown.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

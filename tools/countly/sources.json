@@ -1,0 +1,17 @@
+[
+  {
+    "title": "api.count.ly/reference/rest-api-reference",
+    "url": "https://api.count.ly/reference/rest-api-reference",
+    "type": "source"
+  },
+  {
+    "title": "support.countly.com/hc/en-us/articles/26173669019804",
+    "url": "https://support.countly.com/hc/en-us/articles/26173669019804",
+    "type": "source"
+  },
+  {
+    "title": "github.com/Countly/countly-server",
+    "url": "https://github.com/Countly/countly-server",
+    "type": "source"
+  }
+]

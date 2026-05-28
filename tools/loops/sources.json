@@ -1,0 +1,22 @@
+[
+  {
+    "title": "loops.so/docs/api-reference/intro",
+    "url": "https://loops.so/docs/api-reference/intro",
+    "type": "source"
+  },
+  {
+    "title": "loops.so/docs/cli",
+    "url": "https://loops.so/docs/cli",
+    "type": "source"
+  },
+  {
+    "title": "loops.so/docs/llms.txt",
+    "url": "https://loops.so/docs/llms.txt",
+    "type": "source"
+  },
+  {
+    "title": "app.loops.so/openapi.json",
+    "url": "https://app.loops.so/openapi.json",
+    "type": "source"
+  }
+]

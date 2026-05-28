@@ -1,0 +1,46 @@
+{
+  "id": "/gtm/diffbot",
+  "name": "Diffbot",
+  "slug": "diffbot",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.diffbot.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API token."
+  },
+  "objects": [
+    "Knowledge Graph Entities",
+    "Organizations",
+    "People",
+    "Articles",
+    "Products",
+    "Events",
+    "Extract",
+    "Crawl",
+    "Bulk",
+    "Enhance",
+    "Natural Language"
+  ],
+  "rateLimits": "Plan-based: Free 5 calls/min, Startup 5 calls/sec, Plus 25 calls/sec, Enterprise 25+/sec.",
+  "pagination": "size/from-style KG queries and job/search metadata; endpoint-specific.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

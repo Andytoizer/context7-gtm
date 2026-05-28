@@ -1,0 +1,17 @@
+[
+  {
+    "title": "experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/rest-api",
+    "url": "https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/rest-api",
+    "type": "source"
+  },
+  {
+    "title": "developer.adobe.com/marketo-apis/api/mapi",
+    "url": "https://developer.adobe.com/marketo-apis/api/mapi",
+    "type": "source"
+  },
+  {
+    "title": "github.com/CDataSoftware/marketo-mcp-server-by-cdata",
+    "url": "https://github.com/CDataSoftware/marketo-mcp-server-by-cdata",
+    "type": "source"
+  }
+]

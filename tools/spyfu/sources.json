@@ -1,0 +1,22 @@
+[
+  {
+    "title": "developer.spyfu.com",
+    "url": "https://developer.spyfu.com/",
+    "type": "source"
+  },
+  {
+    "title": "developer.spyfu.com/docs/rate-limits",
+    "url": "https://developer.spyfu.com/docs/rate-limits",
+    "type": "source"
+  },
+  {
+    "title": "developer.spyfu.com/docs/api-pricing",
+    "url": "https://developer.spyfu.com/docs/api-pricing",
+    "type": "source"
+  },
+  {
+    "title": "help.spyfu.com/en/articles/12195281-how-do-i-get-spyfu-data-in-chatgpt",
+    "url": "https://help.spyfu.com/en/articles/12195281-how-do-i-get-spyfu-data-in-chatgpt",
+    "type": "source"
+  }
+]

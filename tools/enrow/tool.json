@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/enrow",
+  "name": "Enrow",
+  "slug": "enrow",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.enrow.io/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key/Bearer token; exact docs need confirmation."
+  },
+  "objects": [
+    "Contacts",
+    "Companies",
+    "Emails",
+    "Phone numbers",
+    "Waterfall enrichment",
+    "Credits"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm official API docs, auth, limits, and pagination."
+}

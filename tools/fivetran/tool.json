@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/fivetran",
+  "name": "Fivetran",
+  "slug": "fivetran",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.fivetran.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key and secret with Basic auth; OAuth support for selected connector setup flows."
+  },
+  "objects": [
+    "Connectors",
+    "Groups",
+    "Destinations",
+    "Users",
+    "Teams",
+    "Roles",
+    "Webhooks",
+    "Logs",
+    "Transformations",
+    "Certificates"
+  ],
+  "rateLimits": "REST API has documented concurrent and per-minute limits; 429 on excess.",
+  "pagination": "Cursor pagination with next_cursor on list endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

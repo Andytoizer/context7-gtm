@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/chameleon",
+  "name": "Chameleon",
+  "slug": "chameleon",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://developers.chameleon.io/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "REST API auth plus JavaScript API installation; exact token model endpoint-specific."
+  },
+  "objects": [
+    "Users",
+    "Companies",
+    "Events",
+    "Experiences",
+    "Tours",
+    "Microsurveys",
+    "Launchers",
+    "Segments",
+    "Deliveries",
+    "Webhooks"
+  ],
+  "rateLimits": "Global 60-120 requests/min; some concurrency limits.",
+  "pagination": "Bulk/list docs reference limit=500.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

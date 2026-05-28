@@ -1,0 +1,27 @@
+[
+  {
+    "title": "owox.com",
+    "url": "https://www.owox.com/",
+    "type": "source"
+  },
+  {
+    "title": "docs.owox.com",
+    "url": "https://docs.owox.com/",
+    "type": "source"
+  },
+  {
+    "title": "docs.owox.com/docs/getting-started/quick-start",
+    "url": "https://docs.owox.com/docs/getting-started/quick-start/",
+    "type": "source"
+  },
+  {
+    "title": "docs.owox.com/docs/storages/supported-storages/google-bigquery",
+    "url": "https://docs.owox.com/docs/storages/supported-storages/google-bigquery/",
+    "type": "source"
+  },
+  {
+    "title": "docs.owox.com/apps/owox/publishing",
+    "url": "https://docs.owox.com/apps/owox/publishing/",
+    "type": "source"
+  }
+]

@@ -1006,6 +1006,1028 @@
       "aliases": [],
       "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/zoho-crm",
+      "name": "Zoho CRM",
+      "slug": "zoho-crm",
+      "status": "published",
+      "path": "tools/zoho-crm",
+      "aliases": [
+        "zoho"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/microsoft-dynamics-365-sales",
+      "name": "Microsoft Dynamics 365 Sales",
+      "slug": "microsoft-dynamics-365-sales",
+      "status": "published",
+      "path": "tools/microsoft-dynamics-365-sales",
+      "aliases": [
+        "dynamics 365 sales",
+        "dynamics crm"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/freshsales",
+      "name": "Freshsales",
+      "slug": "freshsales",
+      "status": "published",
+      "path": "tools/freshsales",
+      "aliases": [
+        "freshworks crm",
+        "freshsales crm"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/copper",
+      "name": "Copper",
+      "slug": "copper",
+      "status": "published",
+      "path": "tools/copper",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/nutshell",
+      "name": "Nutshell",
+      "slug": "nutshell",
+      "status": "published",
+      "path": "tools/nutshell",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/insightly",
+      "name": "Insightly",
+      "slug": "insightly",
+      "status": "published",
+      "path": "tools/insightly",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/creatio",
+      "name": "Creatio",
+      "slug": "creatio",
+      "status": "needs-review",
+      "path": "tools/creatio",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/monday-crm",
+      "name": "Monday CRM",
+      "slug": "monday-crm",
+      "status": "published",
+      "path": "tools/monday-crm",
+      "aliases": [
+        "monday sales crm",
+        "monday.com crm"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/keap",
+      "name": "Keap",
+      "slug": "keap",
+      "status": "needs-review",
+      "path": "tools/keap",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/teamleader",
+      "name": "Teamleader",
+      "slug": "teamleader",
+      "status": "published",
+      "path": "tools/teamleader",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/hightouch",
+      "name": "Hightouch",
+      "slug": "hightouch",
+      "status": "published",
+      "path": "tools/hightouch",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/fivetran",
+      "name": "Fivetran",
+      "slug": "fivetran",
+      "status": "published",
+      "path": "tools/fivetran",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/airbyte",
+      "name": "Airbyte",
+      "slug": "airbyte",
+      "status": "published",
+      "path": "tools/airbyte",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/dbt-cloud",
+      "name": "dbt Cloud",
+      "slug": "dbt-cloud",
+      "status": "needs-review",
+      "path": "tools/dbt-cloud",
+      "aliases": [
+        "dbt"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/tray",
+      "name": "Tray.io",
+      "slug": "tray",
+      "status": "published",
+      "path": "tools/tray",
+      "aliases": [
+        "tray"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/workato",
+      "name": "Workato",
+      "slug": "workato",
+      "status": "published",
+      "path": "tools/workato",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/pipedream",
+      "name": "Pipedream",
+      "slug": "pipedream",
+      "status": "published",
+      "path": "tools/pipedream",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/parabola",
+      "name": "Parabola",
+      "slug": "parabola",
+      "status": "needs-review",
+      "path": "tools/parabola",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/saleshandy",
+      "name": "Saleshandy",
+      "slug": "saleshandy",
+      "status": "published",
+      "path": "tools/saleshandy",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/salesblink",
+      "name": "SalesBlink",
+      "slug": "salesblink",
+      "status": "published",
+      "path": "tools/salesblink",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/smartreach",
+      "name": "SmartReach.io",
+      "slug": "smartreach",
+      "status": "published",
+      "path": "tools/smartreach",
+      "aliases": [
+        "smartreach"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/waalaxy",
+      "name": "Waalaxy",
+      "slug": "waalaxy",
+      "status": "published",
+      "path": "tools/waalaxy",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/reachinbox",
+      "name": "ReachInbox",
+      "slug": "reachinbox",
+      "status": "published",
+      "path": "tools/reachinbox",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/emelia",
+      "name": "Emelia",
+      "slug": "emelia",
+      "status": "published",
+      "path": "tools/emelia",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/la-growth-machine",
+      "name": "La Growth Machine",
+      "slug": "la-growth-machine",
+      "status": "needs-review",
+      "path": "tools/la-growth-machine",
+      "aliases": [
+        "lgm"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/quickmail",
+      "name": "QuickMail",
+      "slug": "quickmail",
+      "status": "needs-review",
+      "path": "tools/quickmail",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/outplay",
+      "name": "Outplay",
+      "slug": "outplay",
+      "status": "needs-review",
+      "path": "tools/outplay",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/autoklose",
+      "name": "Autoklose",
+      "slug": "autoklose",
+      "status": "needs-review",
+      "path": "tools/autoklose",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/uptics",
+      "name": "Uptics",
+      "slug": "uptics",
+      "status": "needs-review",
+      "path": "tools/uptics",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/metadata",
+      "name": "Metadata.io",
+      "slug": "metadata",
+      "status": "published",
+      "path": "tools/metadata",
+      "aliases": [
+        "metadata"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/rollworks",
+      "name": "RollWorks",
+      "slug": "rollworks",
+      "status": "published",
+      "path": "tools/rollworks",
+      "aliases": [
+        "adroll abm",
+        "rollworks abm"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/pathfactory",
+      "name": "PathFactory",
+      "slug": "pathfactory",
+      "status": "published",
+      "path": "tools/pathfactory",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/uberflip",
+      "name": "Uberflip",
+      "slug": "uberflip",
+      "status": "published",
+      "path": "tools/uberflip",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/lead-forensics",
+      "name": "Lead Forensics",
+      "slug": "lead-forensics",
+      "status": "published",
+      "path": "tools/lead-forensics",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/snitcher",
+      "name": "Snitcher",
+      "slug": "snitcher",
+      "status": "published",
+      "path": "tools/snitcher",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/dreamdata",
+      "name": "Dreamdata",
+      "slug": "dreamdata",
+      "status": "published",
+      "path": "tools/dreamdata",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/ruler-analytics",
+      "name": "Ruler Analytics",
+      "slug": "ruler-analytics",
+      "status": "published",
+      "path": "tools/ruler-analytics",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/influ2",
+      "name": "Influ2",
+      "slug": "influ2",
+      "status": "needs-review",
+      "path": "tools/influ2",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/webeo",
+      "name": "Webeo",
+      "slug": "webeo",
+      "status": "needs-review",
+      "path": "tools/webeo",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/folloze",
+      "name": "Folloze",
+      "slug": "folloze",
+      "status": "needs-review",
+      "path": "tools/folloze",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/front",
+      "name": "Front",
+      "slug": "front",
+      "status": "published",
+      "path": "tools/front",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/help-scout",
+      "name": "Help Scout",
+      "slug": "help-scout",
+      "status": "published",
+      "path": "tools/help-scout",
+      "aliases": [
+        "helpscout"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/freshdesk",
+      "name": "Freshdesk",
+      "slug": "freshdesk",
+      "status": "published",
+      "path": "tools/freshdesk",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/gorgias",
+      "name": "Gorgias",
+      "slug": "gorgias",
+      "status": "published",
+      "path": "tools/gorgias",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/crisp",
+      "name": "Crisp",
+      "slug": "crisp",
+      "status": "published",
+      "path": "tools/crisp",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/tidio",
+      "name": "Tidio",
+      "slug": "tidio",
+      "status": "needs-review",
+      "path": "tools/tidio",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/clari-copilot",
+      "name": "Clari Copilot",
+      "slug": "clari-copilot",
+      "status": "published",
+      "path": "tools/clari-copilot",
+      "aliases": [
+        "chorus",
+        "chorus.ai"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/avoma",
+      "name": "Avoma",
+      "slug": "avoma",
+      "status": "published",
+      "path": "tools/avoma",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/tldv",
+      "name": "tl;dv",
+      "slug": "tldv",
+      "status": "needs-review",
+      "path": "tools/tldv",
+      "aliases": [
+        "tldv"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/meetgeek",
+      "name": "MeetGeek",
+      "slug": "meetgeek",
+      "status": "published",
+      "path": "tools/meetgeek",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/zoominfo",
+      "name": "ZoomInfo",
+      "slug": "zoominfo",
+      "status": "published",
+      "path": "tools/zoominfo",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/cognism",
+      "name": "Cognism",
+      "slug": "cognism",
+      "status": "published",
+      "path": "tools/cognism",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/clearbit",
+      "name": "Clearbit",
+      "slug": "clearbit",
+      "status": "needs-review",
+      "path": "tools/clearbit",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/people-data-labs",
+      "name": "People Data Labs",
+      "slug": "people-data-labs",
+      "status": "published",
+      "path": "tools/people-data-labs",
+      "aliases": [
+        "pdl"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/seamless",
+      "name": "Seamless.AI",
+      "slug": "seamless",
+      "status": "needs-review",
+      "path": "tools/seamless",
+      "aliases": [
+        "seamless ai"
+      ],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/leadiq",
+      "name": "LeadIQ",
+      "slug": "leadiq",
+      "status": "published",
+      "path": "tools/leadiq",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/kaspr",
+      "name": "Kaspr",
+      "slug": "kaspr",
+      "status": "needs-review",
+      "path": "tools/kaspr",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/signalhire",
+      "name": "SignalHire",
+      "slug": "signalhire",
+      "status": "published",
+      "path": "tools/signalhire",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/datagma",
+      "name": "Datagma",
+      "slug": "datagma",
+      "status": "published",
+      "path": "tools/datagma",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/bettercontact",
+      "name": "BetterContact",
+      "slug": "bettercontact",
+      "status": "published",
+      "path": "tools/bettercontact",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/enrow",
+      "name": "Enrow",
+      "slug": "enrow",
+      "status": "needs-review",
+      "path": "tools/enrow",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/icypeas",
+      "name": "Icypeas",
+      "slug": "icypeas",
+      "status": "published",
+      "path": "tools/icypeas",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/iterable",
+      "name": "Iterable",
+      "slug": "iterable",
+      "status": "published",
+      "path": "tools/iterable",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/marketo",
+      "name": "Adobe Marketo Engage",
+      "slug": "marketo",
+      "status": "published",
+      "path": "tools/marketo",
+      "aliases": [
+        "marketo"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/pardot",
+      "name": "Salesforce Account Engagement",
+      "slug": "pardot",
+      "status": "published",
+      "path": "tools/pardot",
+      "aliases": [
+        "pardot",
+        "salesforce pardot"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/drip",
+      "name": "Drip",
+      "slug": "drip",
+      "status": "published",
+      "path": "tools/drip",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/campaign-monitor",
+      "name": "Campaign Monitor",
+      "slug": "campaign-monitor",
+      "status": "published",
+      "path": "tools/campaign-monitor",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/sendgrid",
+      "name": "SendGrid",
+      "slug": "sendgrid",
+      "status": "published",
+      "path": "tools/sendgrid",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/resend",
+      "name": "Resend",
+      "slug": "resend",
+      "status": "published",
+      "path": "tools/resend",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/loops",
+      "name": "Loops",
+      "slug": "loops",
+      "status": "needs-review",
+      "path": "tools/loops",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/ortto",
+      "name": "Ortto",
+      "slug": "ortto",
+      "status": "published",
+      "path": "tools/ortto",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/vero",
+      "name": "Vero",
+      "slug": "vero",
+      "status": "needs-review",
+      "path": "tools/vero",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/owler",
+      "name": "Owler",
+      "slug": "owler",
+      "status": "needs-review",
+      "path": "tools/owler",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/similarweb",
+      "name": "Similarweb",
+      "slug": "similarweb",
+      "status": "needs-review",
+      "path": "tools/similarweb",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/semrush",
+      "name": "Semrush",
+      "slug": "semrush",
+      "status": "published",
+      "path": "tools/semrush",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/ahrefs",
+      "name": "Ahrefs",
+      "slug": "ahrefs",
+      "status": "published",
+      "path": "tools/ahrefs",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/spyfu",
+      "name": "SpyFu",
+      "slug": "spyfu",
+      "status": "published",
+      "path": "tools/spyfu",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/serpapi",
+      "name": "SerpAPI",
+      "slug": "serpapi",
+      "status": "published",
+      "path": "tools/serpapi",
+      "aliases": [
+        "serp api"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/serper",
+      "name": "Serper",
+      "slug": "serper",
+      "status": "needs-review",
+      "path": "tools/serper",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/diffbot",
+      "name": "Diffbot",
+      "slug": "diffbot",
+      "status": "published",
+      "path": "tools/diffbot",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/owox",
+      "name": "OWOX",
+      "slug": "owox",
+      "status": "needs-review",
+      "path": "tools/owox",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/rudderstack",
+      "name": "RudderStack",
+      "slug": "rudderstack",
+      "status": "published",
+      "path": "tools/rudderstack",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/mparticle",
+      "name": "mParticle",
+      "slug": "mparticle",
+      "status": "published",
+      "path": "tools/mparticle",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/tealium",
+      "name": "Tealium",
+      "slug": "tealium",
+      "status": "needs-review",
+      "path": "tools/tealium",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/segment",
+      "name": "Segment",
+      "slug": "segment",
+      "status": "published",
+      "path": "tools/segment",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/countly",
+      "name": "Countly",
+      "slug": "countly",
+      "status": "published",
+      "path": "tools/countly",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/matomo",
+      "name": "Matomo",
+      "slug": "matomo",
+      "status": "published",
+      "path": "tools/matomo",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/contentsquare",
+      "name": "Contentsquare",
+      "slug": "contentsquare",
+      "status": "needs-review",
+      "path": "tools/contentsquare",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/appcues",
+      "name": "Appcues",
+      "slug": "appcues",
+      "status": "published",
+      "path": "tools/appcues",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/userflow",
+      "name": "Userflow",
+      "slug": "userflow",
+      "status": "published",
+      "path": "tools/userflow",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/userpilot",
+      "name": "Userpilot",
+      "slug": "userpilot",
+      "status": "published",
+      "path": "tools/userpilot",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/chameleon",
+      "name": "Chameleon",
+      "slug": "chameleon",
+      "status": "published",
+      "path": "tools/chameleon",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/mouseflow",
+      "name": "Mouseflow",
+      "slug": "mouseflow",
+      "status": "published",
+      "path": "tools/mouseflow",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/woopra",
+      "name": "Woopra",
+      "slug": "woopra",
+      "status": "published",
+      "path": "tools/woopra",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/kissmetrics",
+      "name": "Kissmetrics",
+      "slug": "kissmetrics",
+      "status": "needs-review",
+      "path": "tools/kissmetrics",
+      "aliases": [],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/inspectlet",
+      "name": "Inspectlet",
+      "slug": "inspectlet",
+      "status": "needs-review",
+      "path": "tools/inspectlet",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/crazy-egg",
+      "name": "Crazy Egg",
+      "slug": "crazy-egg",
+      "status": "needs-review",
+      "path": "tools/crazy-egg",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/userguiding",
+      "name": "UserGuiding",
+      "slug": "userguiding",
+      "status": "needs-review",
+      "path": "tools/userguiding",
+      "aliases": [],
+      "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
     }
   ]
 }

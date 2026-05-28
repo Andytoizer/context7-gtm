@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/gorgias",
+  "name": "Gorgias",
+  "slug": "gorgias",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.gorgias.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Basic auth or OAuth app tokens depending integration model."
+  },
+  "objects": [
+    "Tickets",
+    "Customers",
+    "Messages",
+    "Tags",
+    "Macros",
+    "Rules",
+    "Teams",
+    "Users",
+    "Satisfaction Surveys",
+    "Integrations"
+  ],
+  "rateLimits": "Endpoint-specific limits and 429 behavior documented in API reference.",
+  "pagination": "Cursor/limit style pagination on list endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

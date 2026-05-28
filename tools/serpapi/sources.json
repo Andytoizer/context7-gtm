@@ -1,0 +1,27 @@
+[
+  {
+    "title": "serpapi.com/search-api",
+    "url": "https://serpapi.com/search-api",
+    "type": "source"
+  },
+  {
+    "title": "serpapi.com/blog/introducing-serpapis-mcp-server",
+    "url": "https://serpapi.com/blog/introducing-serpapis-mcp-server/",
+    "type": "source"
+  },
+  {
+    "title": "github.com/serpapi/mcp-server",
+    "url": "https://github.com/serpapi/mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "serpapi.com/integrations/node",
+    "url": "https://serpapi.com/integrations/node",
+    "type": "source"
+  },
+  {
+    "title": "github.com/serpapi/serpapi-python",
+    "url": "https://github.com/serpapi/serpapi-python",
+    "type": "source"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "id": "/gtm/pardot",
+  "name": "Salesforce Account Engagement",
+  "slug": "pardot",
+  "status": "published",
+  "aliases": [
+    "pardot",
+    "salesforce pardot"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.salesforce.com/marketing/b2b-automation/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "no",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Salesforce OAuth access token plus Account Engagement business unit context/domain."
+  },
+  "objects": [
+    "Prospects",
+    "Accounts",
+    "Campaigns",
+    "Lists",
+    "List Memberships",
+    "Custom Fields",
+    "Visitor Activities",
+    "Forms",
+    "Emails"
+  ],
+  "rateLimits": "Daily by edition: 25k Growth, 50k Plus, 100k Advanced/Premium; 5 concurrent requests.",
+  "pagination": "v5 collection pagination via next-page style URLs/tokens; v3/v4 use older query patterns.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

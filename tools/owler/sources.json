@@ -1,0 +1,27 @@
+[
+  {
+    "title": "owler.com",
+    "url": "https://www.owler.com/",
+    "type": "source"
+  },
+  {
+    "title": "owler.com/data-licensing",
+    "url": "https://www.owler.com/data-licensing",
+    "type": "source"
+  },
+  {
+    "title": "docs.owler.cloud/api/requests.html",
+    "url": "https://docs.owler.cloud/api/requests.html",
+    "type": "source"
+  },
+  {
+    "title": "docs.owler.cloud/api/auth.html",
+    "url": "https://docs.owler.cloud/api/auth.html",
+    "type": "source"
+  },
+  {
+    "title": "central.ballerina.io/ballerinax/owler/latest",
+    "url": "https://central.ballerina.io/ballerinax/owler/latest",
+    "type": "source"
+  }
+]

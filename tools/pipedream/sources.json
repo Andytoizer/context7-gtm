@@ -1,0 +1,22 @@
+[
+  {
+    "title": "pipedream.com/docs/api/rest",
+    "url": "https://pipedream.com/docs/api/rest/",
+    "type": "source"
+  },
+  {
+    "title": "pipedream.com/docs/cli",
+    "url": "https://pipedream.com/docs/cli/",
+    "type": "source"
+  },
+  {
+    "title": "pipedream.com/docs/mcp",
+    "url": "https://pipedream.com/docs/mcp/",
+    "type": "source"
+  },
+  {
+    "title": "mcp.pipedream.com",
+    "url": "https://mcp.pipedream.com/",
+    "type": "source"
+  }
+]

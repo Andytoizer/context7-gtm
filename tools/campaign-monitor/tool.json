@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/campaign-monitor",
+  "name": "Campaign Monitor",
+  "slug": "campaign-monitor",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.campaignmonitor.com/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth2 preferred for multi-account integrations; API key via Basic auth for internal/testing use."
+  },
+  "objects": [
+    "Account",
+    "Clients",
+    "Campaigns",
+    "Journeys",
+    "Lists",
+    "Segments",
+    "Subscribers",
+    "Templates",
+    "Transactional",
+    "Webhooks"
+  ],
+  "rateLimits": "Transactional endpoints expose X-RateLimit headers; broader numeric limits not clearly published.",
+  "pagination": "Paged endpoints use endpoint-specific page/page-size style parameters.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

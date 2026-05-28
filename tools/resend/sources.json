@@ -1,0 +1,22 @@
+[
+  {
+    "title": "resend.com/docs/api-reference/introduction",
+    "url": "https://www.resend.com/docs/api-reference/introduction",
+    "type": "source"
+  },
+  {
+    "title": "resend.com/docs/cli",
+    "url": "https://resend.com/docs/cli",
+    "type": "source"
+  },
+  {
+    "title": "resend.com/changelog/mcp",
+    "url": "https://resend.com/changelog/mcp",
+    "type": "source"
+  },
+  {
+    "title": "github.com/resend/mcp-send-email",
+    "url": "https://github.com/resend/mcp-send-email",
+    "type": "source"
+  }
+]

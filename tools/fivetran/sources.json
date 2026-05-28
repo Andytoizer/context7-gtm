@@ -1,0 +1,22 @@
+[
+  {
+    "title": "fivetran.com/docs/rest-api",
+    "url": "https://fivetran.com/docs/rest-api",
+    "type": "source"
+  },
+  {
+    "title": "fivetran.com/docs/rest-api/getting-started",
+    "url": "https://fivetran.com/docs/rest-api/getting-started",
+    "type": "source"
+  },
+  {
+    "title": "fivetran.com/docs/cli",
+    "url": "https://fivetran.com/docs/cli",
+    "type": "source"
+  },
+  {
+    "title": "github.com/fivetran/mcp-server",
+    "url": "https://github.com/fivetran/mcp-server",
+    "type": "source"
+  }
+]

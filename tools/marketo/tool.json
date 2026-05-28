@@ -1,0 +1,48 @@
+{
+  "id": "/gtm/marketo",
+  "name": "Adobe Marketo Engage",
+  "slug": "marketo",
+  "status": "published",
+  "aliases": [
+    "marketo"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://business.adobe.com/products/marketo/adobe-marketo.html",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "LaunchPoint API-only user; OAuth access token sent as Authorization Bearer."
+  },
+  "objects": [
+    "Leads",
+    "Persons",
+    "Activities",
+    "Lists",
+    "Companies",
+    "Opportunities",
+    "Programs",
+    "Campaigns",
+    "Assets",
+    "Forms",
+    "Email Templates"
+  ],
+  "rateLimits": "50,000 calls/day default, 100 calls/20 seconds, 10 concurrent calls.",
+  "pagination": "nextPageToken for lead/activity-style reads; endpoint-specific bulk/export paging.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

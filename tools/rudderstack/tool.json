@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/rudderstack",
+  "name": "RudderStack",
+  "slug": "rudderstack",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.rudderstack.com/docs/",
+  "surfaces": {
+    "officialMcp": "announced",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API tokens / workspace credentials; CLI config; MCP positioned read-only."
+  },
+  "objects": [
+    "Sources",
+    "Destinations",
+    "Tracking Plans",
+    "Transformations",
+    "Pipelines",
+    "Audiences",
+    "Profiles"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

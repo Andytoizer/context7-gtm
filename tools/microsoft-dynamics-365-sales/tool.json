@@ -1,0 +1,49 @@
+{
+  "id": "/gtm/microsoft-dynamics-365-sales",
+  "name": "Microsoft Dynamics 365 Sales",
+  "slug": "microsoft-dynamics-365-sales",
+  "status": "published",
+  "aliases": [
+    "dynamics 365 sales",
+    "dynamics crm"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.microsoft.com/en-us/dynamics-365/products/sales",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Microsoft Entra ID OAuth 2.0 tokens with Dataverse permissions and security roles."
+  },
+  "objects": [
+    "Accounts",
+    "Contacts",
+    "Leads",
+    "Opportunities",
+    "Activities",
+    "Cases",
+    "Products",
+    "Quotes",
+    "Orders",
+    "Invoices",
+    "custom tables"
+  ],
+  "rateLimits": "Dataverse service protection limits apply by user, organization, and time window; 429 responses include retry guidance.",
+  "pagination": "OData nextLink and paging cookies; Dataverse Web API supports $top, $skiptoken, and server-driven paging.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

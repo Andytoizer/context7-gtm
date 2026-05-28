@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/parabola",
+  "name": "Parabola",
+  "slug": "parabola",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://parabola.io/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "unknown",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Unknown for public API; connector auth varies by source/destination."
+  },
+  "objects": [
+    "Flows",
+    "Steps",
+    "Tables",
+    "Runs",
+    "Imports",
+    "Exports"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm whether Parabola has public API/CLI/MCP docs or only product integrations and webhooks."
+}

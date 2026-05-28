@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/semrush",
+  "name": "Semrush",
+  "slug": "semrush",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.semrush.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "no",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key for APIs; MCP supports OAuth 2.1 by default and API-key header for some clients."
+  },
+  "objects": [
+    "Domains",
+    "Keywords",
+    "Backlinks",
+    "Competitors",
+    "Traffic Trends",
+    "Projects",
+    "Site Audits",
+    "Listings",
+    "Map Rank Campaigns"
+  ],
+  "rateLimits": "Unit-based consumption; Trends API includes 10,000 requests/month by default; endpoint/report costs vary.",
+  "pagination": "Endpoint/report-specific line limits and result sizing.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

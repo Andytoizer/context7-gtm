@@ -1,0 +1,48 @@
+{
+  "id": "/gtm/freshsales",
+  "name": "Freshsales",
+  "slug": "freshsales",
+  "status": "published",
+  "aliases": [
+    "freshworks crm",
+    "freshsales crm"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.freshworks.com/crm/sales/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Freshsales API key in Authorization header, scoped to account/domain."
+  },
+  "objects": [
+    "Contacts",
+    "Accounts",
+    "Deals",
+    "Leads",
+    "Tasks",
+    "Appointments",
+    "Notes",
+    "Sales Activities",
+    "Users",
+    "Territories"
+  ],
+  "rateLimits": "Plan-based API limits; 429 responses indicate throttling.",
+  "pagination": "page and per_page parameters on list endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

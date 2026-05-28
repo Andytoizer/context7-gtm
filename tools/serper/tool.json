@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/serper",
+  "name": "Serper",
+  "slug": "serper",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://serper.dev/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "no",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "X-API-KEY header."
+  },
+  "objects": [
+    "Google Search",
+    "Organic Results",
+    "Knowledge Graph",
+    "People Also Ask",
+    "Images",
+    "News",
+    "Maps",
+    "Shopping"
+  ],
+  "rateLimits": "Plan-specific; Serper homepage says Ultimate credits default to 300 queries/second.",
+  "pagination": "Likely num/page-style request parameters; official docs should be checked in-app/dashboard.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Official API docs were not easily crawlable; confirm pagination parameters and exact plan rate limits from Serper dashboard/docs."
+}

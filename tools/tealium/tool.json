@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/tealium",
+  "name": "Tealium",
+  "slug": "tealium",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://docs.tealium.com/api/v3/",
+  "surfaces": {
+    "officialMcp": "announced",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Tealium API auth varies by endpoint; Moments API/MCP for consented profile access."
+  },
+  "objects": [
+    "Profiles",
+    "Audiences",
+    "Consent State",
+    "Events",
+    "Tags",
+    "Connectors",
+    "Moments"
+  ],
+  "rateLimits": "Endpoint-specific; 429 on excess.",
+  "pagination": "Endpoint-specific.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm whether MCP is generally available or customer/feature-gated."
+}

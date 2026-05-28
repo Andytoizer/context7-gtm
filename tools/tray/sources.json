@@ -1,0 +1,17 @@
+[
+  {
+    "title": "developer.tray.io",
+    "url": "https://developer.tray.io/",
+    "type": "source"
+  },
+  {
+    "title": "developer.tray.io/graphql",
+    "url": "https://developer.tray.io/graphql/",
+    "type": "source"
+  },
+  {
+    "title": "docs.tray.ai/platform/connectors/tray-cli",
+    "url": "https://docs.tray.ai/platform/connectors/tray-cli",
+    "type": "source"
+  }
+]

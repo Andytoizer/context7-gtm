@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/inspectlet",
+  "name": "Inspectlet",
+  "slug": "inspectlet",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://docs.inspectlet.com/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API credentials; details in Inspectlet API docs."
+  },
+  "objects": [
+    "Sessions",
+    "Recordings",
+    "Heatmaps",
+    "Forms",
+    "Funnels",
+    "Tags",
+    "Custom Metadata",
+    "Users"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm current API auth, pagination, and whether session download/delete endpoints are public."
+}

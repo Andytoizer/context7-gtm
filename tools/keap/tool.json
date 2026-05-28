@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/keap",
+  "name": "Keap",
+  "slug": "keap",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://keap.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth 2.0 access tokens for Keap REST API apps."
+  },
+  "objects": [
+    "Contacts",
+    "Companies",
+    "Tags",
+    "Campaigns",
+    "Opportunities",
+    "Orders",
+    "Products",
+    "Invoices",
+    "Payments",
+    "Tasks"
+  ],
+  "rateLimits": "Public limits need confirmation; docs reference throttling and OAuth-app usage constraints.",
+  "pagination": "limit/offset pagination on many list endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm current Keap REST API docs, limits, and whether older Infusionsoft references should be treated as legacy."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/countly",
+  "name": "Countly",
+  "slug": "countly",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://api.count.ly/reference/rest-api-reference",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Countly API keys; self-hosted/server config controls access."
+  },
+  "objects": [
+    "Apps",
+    "Users",
+    "Events",
+    "Sessions",
+    "Cohorts",
+    "Dashboards",
+    "Funnels",
+    "Push",
+    "Feedback",
+    "Remote Config"
+  ],
+  "rateLimits": "Configurable server/API settings; no single public global limit found.",
+  "pagination": "Endpoint-specific.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

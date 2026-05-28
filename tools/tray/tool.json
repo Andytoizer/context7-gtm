@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/tray",
+  "name": "Tray.io",
+  "slug": "tray",
+  "status": "published",
+  "aliases": [
+    "tray"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://tray.ai/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Bearer API tokens for Tray Platform APIs; connector auth varies by service."
+  },
+  "objects": [
+    "Workflows",
+    "Solutions",
+    "Instances",
+    "Authentications",
+    "Connectors",
+    "Projects",
+    "Users",
+    "Logs"
+  ],
+  "rateLimits": "Endpoint and account-level limits; 429 indicates throttling.",
+  "pagination": "Cursor or page-style list pagination depending endpoint.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

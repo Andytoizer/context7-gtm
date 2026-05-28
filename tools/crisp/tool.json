@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/crisp",
+  "name": "Crisp",
+  "slug": "crisp",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://crisp.chat/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Identifier/key Basic auth or plugin tokens depending API surface."
+  },
+  "objects": [
+    "Websites",
+    "Conversations",
+    "Messages",
+    "People",
+    "Contacts",
+    "Segments",
+    "Operators",
+    "Plugins",
+    "Campaigns"
+  ],
+  "rateLimits": "Public API rate limits exist by route/token; 429 responses should be retried.",
+  "pagination": "page-number pagination on list endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

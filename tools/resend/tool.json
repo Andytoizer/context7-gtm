@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/resend",
+  "name": "Resend",
+  "slug": "resend",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://resend.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "no",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key in Authorization Bearer header; direct HTTP requires User-Agent."
+  },
+  "objects": [
+    "Emails",
+    "Batches",
+    "Domains",
+    "Audiences",
+    "Contacts",
+    "Broadcasts",
+    "Templates",
+    "Webhooks",
+    "API Keys",
+    "Logs"
+  ],
+  "rateLimits": "Default 5 requests/second per team; 429 on exceed; increase available by request.",
+  "pagination": "Cursor-based on supported list endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

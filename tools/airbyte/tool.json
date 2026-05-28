@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/airbyte",
+  "name": "Airbyte",
+  "slug": "airbyte",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://airbyte.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Bearer tokens for Cloud API; workspace credentials and environment variables for local/OSS."
+  },
+  "objects": [
+    "Workspaces",
+    "Sources",
+    "Destinations",
+    "Connections",
+    "Jobs",
+    "Streams",
+    "Schemas",
+    "Connector Definitions"
+  ],
+  "rateLimits": "API rate limits vary by deployment/cloud tier; 429 should be retried with backoff.",
+  "pagination": "limit/offset or tokenized pagination depending API generation/version.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

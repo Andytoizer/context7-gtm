@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/mparticle",
+  "name": "mParticle",
+  "slug": "mparticle",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://docs.mparticle.com/developers/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth client_credentials for Platform API; platform API key/secret for event/identity APIs."
+  },
+  "objects": [
+    "Workspaces",
+    "Apps",
+    "Audiences",
+    "Feeds",
+    "Services",
+    "Users",
+    "Events",
+    "Identities",
+    "Data Plans"
+  ],
+  "rateLimits": "Documented default service limits; endpoint/class-specific.",
+  "pagination": "Endpoint-specific JSON wrappers.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

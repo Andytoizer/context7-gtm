@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/webeo",
+  "name": "Webeo",
+  "slug": "webeo",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://www.webeo.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "unknown",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Unknown."
+  },
+  "objects": [
+    "Accounts",
+    "Segments",
+    "Personalization",
+    "Campaigns",
+    "Website Experiences",
+    "Analytics"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm whether Webeo exposes public API docs or only managed integrations."
+}

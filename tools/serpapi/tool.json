@@ -1,0 +1,48 @@
+{
+  "id": "/gtm/serpapi",
+  "name": "SerpAPI",
+  "slug": "serpapi",
+  "status": "published",
+  "aliases": [
+    "serp api"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://serpapi.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key query parameter; hosted MCP URL embeds key; SDKs pass api_key."
+  },
+  "objects": [
+    "Search Engines",
+    "Organic Results",
+    "Local Results",
+    "Ads",
+    "Knowledge Graph",
+    "Images",
+    "News",
+    "Shopping",
+    "Jobs",
+    "Flights",
+    "Search Archive"
+  ],
+  "rateLimits": "Plan/quota based; docs surface rate-limit errors, but exact default throughput is plan-specific.",
+  "pagination": "Google-style start offset; serpapi_pagination/next links; async archive retrieval.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

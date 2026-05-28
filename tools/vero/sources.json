@@ -1,0 +1,22 @@
+[
+  {
+    "title": "getvero.com",
+    "url": "https://www.getvero.com/",
+    "type": "source"
+  },
+  {
+    "title": "vero-c561507b.mintlify.app/api-reference/track/overview",
+    "url": "https://vero-c561507b.mintlify.app/api-reference/track/overview",
+    "type": "source"
+  },
+  {
+    "title": "vero-c561507b.mintlify.app/developer-docs/overview",
+    "url": "https://vero-c561507b.mintlify.app/developer-docs/overview",
+    "type": "source"
+  },
+  {
+    "title": "help.getvero.com/llms.txt",
+    "url": "https://help.getvero.com/llms.txt",
+    "type": "source"
+  }
+]

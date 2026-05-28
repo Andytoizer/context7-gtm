@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/nutshell",
+  "name": "Nutshell",
+  "slug": "nutshell",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.nutshell.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key with HTTP Basic auth; user-specific access."
+  },
+  "objects": [
+    "Accounts",
+    "Contacts",
+    "Leads",
+    "Activities",
+    "Tasks",
+    "Products",
+    "Users",
+    "Pipelines",
+    "Custom Fields"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "JSON-RPC style pagination and filtering by method.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

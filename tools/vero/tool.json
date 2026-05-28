@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/vero",
+  "name": "Vero",
+  "slug": "vero",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.getvero.com/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Track API auth_token parameter per request; HTTPS required."
+  },
+  "objects": [
+    "Users",
+    "Customers",
+    "Identities",
+    "Tags",
+    "Events",
+    "Subscriptions",
+    "Campaigns",
+    "Templates",
+    "Webhooks"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown for Track API; Campaigns REST API is preview and needs verification.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Public docs clearly cover Track REST API, but rate limits, pagination, and Campaigns REST API preview coverage need confirmation before publishing broad agent actions."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/drip",
+  "name": "Drip",
+  "slug": "drip",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.drip.com/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Private API key via Basic auth; OAuth2/Bearer required for public integrations."
+  },
+  "objects": [
+    "Accounts",
+    "Subscribers",
+    "Campaigns",
+    "Workflows",
+    "Events",
+    "Tags",
+    "Forms",
+    "Broadcasts",
+    "Conversions",
+    "Webhooks"
+  ],
+  "rateLimits": "3,600 individual requests/hour; 50 batch requests/hour; batch payloads up to 1,000 records.",
+  "pagination": "page parameter with meta.page, count, total_pages, total_count.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

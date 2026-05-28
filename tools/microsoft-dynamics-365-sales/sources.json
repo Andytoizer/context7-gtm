@@ -1,0 +1,27 @@
+[
+  {
+    "title": "learn.microsoft.com/en-us/dynamics365/sales/developer/overview",
+    "url": "https://learn.microsoft.com/en-us/dynamics365/sales/developer/overview",
+    "type": "source"
+  },
+  {
+    "title": "learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/overview",
+    "url": "https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/overview",
+    "type": "source"
+  },
+  {
+    "title": "learn.microsoft.com/en-us/power-apps/developer/data-platform/api-limits",
+    "url": "https://learn.microsoft.com/en-us/power-apps/developer/data-platform/api-limits",
+    "type": "source"
+  },
+  {
+    "title": "learn.microsoft.com/en-us/power-platform/developer/cli/introduction",
+    "url": "https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction",
+    "type": "source"
+  },
+  {
+    "title": "github.com/microsoft/PowerPlatformConnectors",
+    "url": "https://github.com/microsoft/PowerPlatformConnectors",
+    "type": "source"
+  }
+]

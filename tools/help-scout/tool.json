@@ -1,0 +1,47 @@
+{
+  "id": "/gtm/help-scout",
+  "name": "Help Scout",
+  "slug": "help-scout",
+  "status": "published",
+  "aliases": [
+    "helpscout"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.helpscout.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth 2.0 or API app credentials for Mailbox API and Docs API."
+  },
+  "objects": [
+    "Mailboxes",
+    "Conversations",
+    "Customers",
+    "Threads",
+    "Users",
+    "Teams",
+    "Tags",
+    "Workflows",
+    "Docs Collections",
+    "Articles"
+  ],
+  "rateLimits": "Documented per-endpoint and global limits with 429 retry behavior.",
+  "pagination": "page/size pagination and embedded collection links.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

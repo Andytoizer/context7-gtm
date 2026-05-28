@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/insightly",
+  "name": "Insightly",
+  "slug": "insightly",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.insightly.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key in Basic auth; account-specific API access."
+  },
+  "objects": [
+    "Contacts",
+    "Organizations",
+    "Opportunities",
+    "Leads",
+    "Projects",
+    "Tasks",
+    "Events",
+    "Notes",
+    "Emails",
+    "Custom Objects"
+  ],
+  "rateLimits": "Plan-based limits with 429 responses when exceeded.",
+  "pagination": "skip/top style list pagination on REST endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

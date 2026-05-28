@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/metadata",
+  "name": "Metadata.io",
+  "slug": "metadata",
+  "status": "published",
+  "aliases": [
+    "metadata"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://metadata.io/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key or OAuth depending integration; public auth docs need endpoint-level verification."
+  },
+  "objects": [
+    "Audiences",
+    "Campaigns",
+    "Accounts",
+    "Leads",
+    "Ad Channels",
+    "Experiments",
+    "Reports"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Endpoint-specific.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

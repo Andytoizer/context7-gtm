@@ -1,0 +1,40 @@
+{
+  "id": "/gtm/clearbit",
+  "name": "Clearbit",
+  "slug": "clearbit",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://clearbit.com/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "no",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Bearer secret key for API/webhook access; newer HubSpot/Breeze paths may differ."
+  },
+  "objects": [
+    "Person enrichment",
+    "Company enrichment",
+    "Company attributes",
+    "Person attributes",
+    "Reveal IP-to-company"
+  ],
+  "rateLimits": "Soft enrichment limit around 600 requests/min; exact current limits and availability need confirmation.",
+  "pagination": "Single lookup APIs; batch enrichment is CSV/list based rather than cursor pagination.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Clearbit is now HubSpot/Breeze-adjacent and docs are partly legacy; confirm current new-customer API availability for Enrichment vs Reveal."
+}

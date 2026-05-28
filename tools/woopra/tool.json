@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/woopra",
+  "name": "Woopra",
+  "slug": "woopra",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://docs.woopra.com/reference/intro-http-apis",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "HTTP Basic Auth with App ID and Secret Key."
+  },
+  "objects": [
+    "Projects",
+    "Visitors",
+    "Profiles",
+    "Events",
+    "Journeys",
+    "Trends",
+    "Funnels",
+    "Cohorts",
+    "Reports",
+    "Segments"
+  ],
+  "rateLimits": "300/min, 600/hour, 3000/day per project.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

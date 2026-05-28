@@ -1,0 +1,17 @@
+[
+  {
+    "title": "docs.workato.com/workato-api.html",
+    "url": "https://docs.workato.com/workato-api.html",
+    "type": "source"
+  },
+  {
+    "title": "docs.workato.com/developing-connectors/sdk.html",
+    "url": "https://docs.workato.com/developing-connectors/sdk.html",
+    "type": "source"
+  },
+  {
+    "title": "docs.workato.com/workato-cli.html",
+    "url": "https://docs.workato.com/workato-cli.html",
+    "type": "source"
+  }
+]

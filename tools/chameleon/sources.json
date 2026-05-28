@@ -1,0 +1,17 @@
+[
+  {
+    "title": "developers.chameleon.io",
+    "url": "https://developers.chameleon.io/",
+    "type": "source"
+  },
+  {
+    "title": "developers.chameleon.io/concepts/rate-limiting",
+    "url": "https://developers.chameleon.io/concepts/rate-limiting",
+    "type": "source"
+  },
+  {
+    "title": "developers.chameleon.io/guides/api/bulk-operations",
+    "url": "https://developers.chameleon.io/guides/api/bulk-operations",
+    "type": "source"
+  }
+]

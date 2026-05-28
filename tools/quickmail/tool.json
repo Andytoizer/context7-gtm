@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/quickmail",
+  "name": "QuickMail",
+  "slug": "quickmail",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://quickmail.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key; exact current API docs need verification."
+  },
+  "objects": [
+    "Prospects",
+    "Campaigns",
+    "Inboxes",
+    "Emails",
+    "Tags",
+    "Tasks",
+    "Webhooks"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm current QuickMail API docs, pagination, and throttling details."
+}

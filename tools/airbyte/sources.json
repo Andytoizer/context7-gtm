@@ -1,0 +1,22 @@
+[
+  {
+    "title": "reference.airbyte.com/reference/start",
+    "url": "https://reference.airbyte.com/reference/start",
+    "type": "source"
+  },
+  {
+    "title": "docs.airbyte.com/platform/api-documentation",
+    "url": "https://docs.airbyte.com/platform/api-documentation",
+    "type": "source"
+  },
+  {
+    "title": "docs.airbyte.com/platform/operator-guides/using-the-airbyte-cli",
+    "url": "https://docs.airbyte.com/platform/operator-guides/using-the-airbyte-cli",
+    "type": "source"
+  },
+  {
+    "title": "docs.airbyte.com/platform/mcp-server",
+    "url": "https://docs.airbyte.com/platform/mcp-server",
+    "type": "source"
+  }
+]

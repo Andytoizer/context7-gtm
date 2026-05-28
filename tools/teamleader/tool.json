@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/teamleader",
+  "name": "Teamleader",
+  "slug": "teamleader",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.teamleader.eu/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "OAuth 2.0 authorization code flow with scoped access."
+  },
+  "objects": [
+    "Companies",
+    "Contacts",
+    "Deals",
+    "Activities",
+    "Tasks",
+    "Invoices",
+    "Projects",
+    "Users",
+    "Custom Fields"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "page and size parameters on many list endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

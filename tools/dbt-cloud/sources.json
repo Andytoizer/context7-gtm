@@ -1,0 +1,17 @@
+[
+  {
+    "title": "docs.getdbt.com/dbt-cloud/api-v2",
+    "url": "https://docs.getdbt.com/dbt-cloud/api-v2",
+    "type": "source"
+  },
+  {
+    "title": "docs.getdbt.com/docs/cloud/dbt-cloud-cli-installation",
+    "url": "https://docs.getdbt.com/docs/cloud/dbt-cloud-cli-installation",
+    "type": "source"
+  },
+  {
+    "title": "docs.getdbt.com/docs/dbt-cloud-apis/admin-cloud-api",
+    "url": "https://docs.getdbt.com/docs/dbt-cloud-apis/admin-cloud-api",
+    "type": "source"
+  }
+]

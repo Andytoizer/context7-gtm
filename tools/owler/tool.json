@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/owler",
+  "name": "Owler",
+  "slug": "owler",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://www.owler.com/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "no",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Legacy docs show Basic Auth; current Data Licensing/API appears sales-gated/API-key based."
+  },
+  "objects": [
+    "Companies",
+    "Competitors",
+    "Firmographics",
+    "Funding",
+    "Acquisitions",
+    "News",
+    "Contacts"
+  ],
+  "rateLimits": "Legacy docs: most endpoints 100 requests/hour.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Which Owler API surface is current: legacy docs.owler.cloud Basic Auth, or sales-gated Meltwater/Owler Data Licensing API?"
+}

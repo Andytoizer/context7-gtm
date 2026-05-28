@@ -1,0 +1,47 @@
+{
+  "id": "/gtm/sendgrid",
+  "name": "SendGrid",
+  "slug": "sendgrid",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://sendgrid.com/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key in Authorization Bearer header; scoped API keys supported."
+  },
+  "objects": [
+    "Mail Send",
+    "Contacts",
+    "Lists",
+    "Segments",
+    "Single Sends",
+    "Templates",
+    "Suppressions",
+    "Webhooks",
+    "Domains",
+    "IPs",
+    "Subusers",
+    "Stats"
+  ],
+  "rateLimits": "Endpoint-specific refresh windows; X-RateLimit-Limit/Remaining/Reset headers; 429 on exhaustion.",
+  "pagination": "limit/offset for many GET resources, Link header where batched.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

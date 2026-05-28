@@ -1,0 +1,22 @@
+[
+  {
+    "title": "docs.contentsquare.com/en",
+    "url": "https://docs.contentsquare.com/en/",
+    "type": "source"
+  },
+  {
+    "title": "support.contentsquare.com/hc/en-us/articles/41563169756945-Model-Context-Protocol-MCP",
+    "url": "https://support.contentsquare.com/hc/en-us/articles/41563169756945-Model-Context-Protocol-MCP",
+    "type": "source"
+  },
+  {
+    "title": "docs.contentsquare.com/en/api/export",
+    "url": "https://docs.contentsquare.com/en/api/export/",
+    "type": "source"
+  },
+  {
+    "title": "docs.contentsquare.com/en/csq-sdk-flutter/experience-analytics/contentsquare-cli",
+    "url": "https://docs.contentsquare.com/en/csq-sdk-flutter/experience-analytics/contentsquare-cli/",
+    "type": "source"
+  }
+]

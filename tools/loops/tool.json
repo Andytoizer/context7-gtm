@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/loops",
+  "name": "Loops",
+  "slug": "loops",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://loops.so/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "no",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key in Authorization Bearer header; CLI uses LOOPS_API_KEY or keyring."
+  },
+  "objects": [
+    "Contacts",
+    "Contact Properties",
+    "Mailing Lists",
+    "Events",
+    "Transactional Emails",
+    "Campaigns",
+    "Email Messages",
+    "Themes",
+    "Components",
+    "Uploads"
+  ],
+  "rateLimits": "10 requests/second per team; x-ratelimit headers; 429 on exceed.",
+  "pagination": "Endpoint-specific; inspect official OpenAPI for exact list parameters.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Confirm this entry should target Loops.so email platform; separate useLoops.io MCP docs appear to describe a different agent/workspace product."
+}

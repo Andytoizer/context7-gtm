@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/copper",
+  "name": "Copper",
+  "slug": "copper",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.copper.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key and user email headers; OAuth available for integrations."
+  },
+  "objects": [
+    "People",
+    "Companies",
+    "Opportunities",
+    "Tasks",
+    "Activities",
+    "Projects",
+    "Leads",
+    "Pipelines",
+    "Custom Fields"
+  ],
+  "rateLimits": "Public docs describe rate limiting and 429 behavior; exact limits vary by plan and endpoint.",
+  "pagination": "page_number and page_size style pagination on search/list endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

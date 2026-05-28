@@ -1,0 +1,17 @@
+[
+  {
+    "title": "twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+    "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/authentication",
+    "type": "source"
+  },
+  {
+    "title": "twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/rate-limits",
+    "url": "https://www.twilio.com/docs/sendgrid/api-reference/how-to-use-the-sendgrid-v3-api/rate-limits",
+    "type": "source"
+  },
+  {
+    "title": "github.com/Garoth/sendgrid-mcp",
+    "url": "https://github.com/Garoth/sendgrid-mcp",
+    "type": "source"
+  }
+]

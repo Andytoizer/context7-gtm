@@ -1,0 +1,27 @@
+[
+  {
+    "title": "docs.mparticle.com/developers",
+    "url": "https://docs.mparticle.com/developers/",
+    "type": "source"
+  },
+  {
+    "title": "docs.mparticle.com/developers/tools/cli",
+    "url": "https://docs.mparticle.com/developers/tools/cli/",
+    "type": "source"
+  },
+  {
+    "title": "docs.mparticle.com/developers/apis/platform/overview",
+    "url": "https://docs.mparticle.com/developers/apis/platform/overview/",
+    "type": "source"
+  },
+  {
+    "title": "docs.mparticle.com/developers/server/http",
+    "url": "https://docs.mparticle.com/developers/server/http",
+    "type": "source"
+  },
+  {
+    "title": "docs.mparticle.com/guides/default-service-limits",
+    "url": "https://docs.mparticle.com/guides/default-service-limits/",
+    "type": "source"
+  }
+]

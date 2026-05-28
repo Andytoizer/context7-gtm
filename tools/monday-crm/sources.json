@@ -1,0 +1,27 @@
+[
+  {
+    "title": "developer.monday.com/api-reference/docs",
+    "url": "https://developer.monday.com/api-reference/docs",
+    "type": "source"
+  },
+  {
+    "title": "developer.monday.com/api-reference/docs/rate-limits",
+    "url": "https://developer.monday.com/api-reference/docs/rate-limits",
+    "type": "source"
+  },
+  {
+    "title": "developer.monday.com/api-reference/reference/items-page",
+    "url": "https://developer.monday.com/api-reference/reference/items-page",
+    "type": "source"
+  },
+  {
+    "title": "developer.monday.com/apps/docs/monday-code-cli",
+    "url": "https://developer.monday.com/apps/docs/monday-code-cli",
+    "type": "source"
+  },
+  {
+    "title": "developer.monday.com/apps/docs/mcp",
+    "url": "https://developer.monday.com/apps/docs/mcp",
+    "type": "source"
+  }
+]

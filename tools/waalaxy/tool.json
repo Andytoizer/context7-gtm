@@ -1,0 +1,42 @@
+{
+  "id": "/gtm/waalaxy",
+  "name": "Waalaxy",
+  "slug": "waalaxy",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.waalaxy.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key or app token depending endpoint/integration."
+  },
+  "objects": [
+    "Prospects",
+    "Campaigns",
+    "Lists",
+    "Messages",
+    "LinkedIn actions",
+    "Email actions",
+    "Webhooks"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Endpoint-specific pagination.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

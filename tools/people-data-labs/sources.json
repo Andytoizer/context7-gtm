@@ -1,0 +1,22 @@
+[
+  {
+    "title": "docs.peopledatalabs.com",
+    "url": "https://docs.peopledatalabs.com/",
+    "type": "source"
+  },
+  {
+    "title": "docs.peopledatalabs.com/docs/authentication",
+    "url": "https://docs.peopledatalabs.com/docs/authentication",
+    "type": "source"
+  },
+  {
+    "title": "docs.peopledatalabs.com/docs/rate-limits",
+    "url": "https://docs.peopledatalabs.com/docs/rate-limits",
+    "type": "source"
+  },
+  {
+    "title": "github.com/peopledatalabs/peopledatalabs-python",
+    "url": "https://github.com/peopledatalabs/peopledatalabs-python",
+    "type": "source"
+  }
+]

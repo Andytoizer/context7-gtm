@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/front",
+  "name": "Front",
+  "slug": "front",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://front.com/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Bearer API token or OAuth; scopes and teammate permissions apply."
+  },
+  "objects": [
+    "Accounts",
+    "Contacts",
+    "Conversations",
+    "Messages",
+    "Inboxes",
+    "Channels",
+    "Tags",
+    "Teammates",
+    "Comments",
+    "Rules"
+  ],
+  "rateLimits": "Workspace and endpoint-specific rate limits; 429 responses include retry behavior.",
+  "pagination": "Cursor pagination with next links for list endpoints.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

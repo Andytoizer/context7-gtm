@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/matomo",
+  "name": "Matomo",
+  "slug": "matomo",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://developer.matomo.org/api-reference",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "token_auth/API token; MCP supports API token or OAuth 2.0."
+  },
+  "objects": [
+    "Sites",
+    "Visits",
+    "Events",
+    "Goals",
+    "Segments",
+    "Reports",
+    "Users",
+    "Tag Manager"
+  ],
+  "rateLimits": "Self-host/server-dependent; no global SaaS limit found.",
+  "pagination": "Reporting/API endpoint-specific.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

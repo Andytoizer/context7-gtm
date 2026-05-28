@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/similarweb",
+  "name": "Similarweb",
+  "slug": "similarweb",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.similarweb.com/",
+  "surfaces": {
+    "officialMcp": "announced",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Admin-generated API keys tied to account permissions and user credit allowances."
+  },
+  "objects": [
+    "Websites",
+    "Apps",
+    "Traffic Metrics",
+    "Engagement Metrics",
+    "Keywords",
+    "Referrals",
+    "Audiences",
+    "Batch Reports",
+    "Capabilities",
+    "Credits"
+  ],
+  "rateLimits": "REST: 10 requests/second/account; Batch: 20 pending requests/user.",
+  "pagination": "limit, offset, sort, asc on many aggregated endpoints.",
+  "destructiveActionRisk": "low",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Similarweb mentions/developed MCP in company materials, but public setup docs were not found; confirm availability before marking official_mcp yes."
+}

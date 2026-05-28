@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/people-data-labs",
+  "name": "People Data Labs",
+  "slug": "people-data-labs",
+  "status": "published",
+  "aliases": [
+    "pdl"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://www.peopledatalabs.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API key in X-Api-Key header or query parameter depending client."
+  },
+  "objects": [
+    "Person",
+    "Company",
+    "Enrichment",
+    "Search",
+    "Bulk Enrichment",
+    "Autocomplete",
+    "Cleaner",
+    "Usage"
+  ],
+  "rateLimits": "Plan-based requests and concurrency; 429 on exceeded limits.",
+  "pagination": "scroll_token for search; batch jobs for bulk.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

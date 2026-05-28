@@ -1,0 +1,41 @@
+{
+  "id": "/gtm/kissmetrics",
+  "name": "Kissmetrics",
+  "slug": "kissmetrics",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://www.kissmetrics.io/lp/api-first-analytics",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API credentials; exact current auth model needs confirmation in API reference."
+  },
+  "objects": [
+    "Events",
+    "Identities",
+    "Properties",
+    "People",
+    "Queries",
+    "Exports"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Verify current REST API reference/auth docs beyond the API-first landing page."
+}

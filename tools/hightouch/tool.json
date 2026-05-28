@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/hightouch",
+  "name": "Hightouch",
+  "slug": "hightouch",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://hightouch.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API keys and workspace-scoped credentials; CLI uses local/authenticated workspace config."
+  },
+  "objects": [
+    "Models",
+    "Syncs",
+    "Sources",
+    "Destinations",
+    "Audiences",
+    "Segments",
+    "Events",
+    "Users",
+    "Workspaces"
+  ],
+  "rateLimits": "Endpoint-specific limits; 429 behavior should be handled with backoff.",
+  "pagination": "Cursor or page-style list pagination depending endpoint.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

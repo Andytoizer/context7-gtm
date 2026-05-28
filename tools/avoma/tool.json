@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/avoma",
+  "name": "Avoma",
+  "slug": "avoma",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.avoma.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "yes",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API token/Bearer auth for Avoma API."
+  },
+  "objects": [
+    "Meetings",
+    "Calls",
+    "Transcripts",
+    "Notes",
+    "Users",
+    "Contacts",
+    "Deals",
+    "Scorecards",
+    "Topics"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Endpoint-specific.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/spyfu",
+  "name": "SpyFu",
+  "slug": "spyfu",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.spyfu.com/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "no",
+    "communityMcp": "unknown",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Bearer API key."
+  },
+  "objects": [
+    "Domains",
+    "Keywords",
+    "Competitors",
+    "PPC SERPs",
+    "SEO SERPs",
+    "Ad History",
+    "Ranking History",
+    "Projects",
+    "Account Usage"
+  ],
+  "rateLimits": "Endpoint-specific rolling 1-second RPS limits, roughly 2-1000 RPS; 429 includes Retry-After.",
+  "pagination": "Endpoint-specific; docs recommend batch/paginate where supported; billing is per row returned.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}

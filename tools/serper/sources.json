@@ -1,0 +1,22 @@
+[
+  {
+    "title": "serper.dev",
+    "url": "https://serper.dev/",
+    "type": "source"
+  },
+  {
+    "title": "github.com/garylab/serper-mcp-server",
+    "url": "https://github.com/garylab/serper-mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "pkg.go.dev/github.com/SecKatie/serper-mcp",
+    "url": "https://pkg.go.dev/github.com/SecKatie/serper-mcp",
+    "type": "source"
+  },
+  {
+    "title": "github.com/topics/serper",
+    "url": "https://github.com/topics/serper",
+    "type": "source"
+  }
+]

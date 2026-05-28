@@ -1,0 +1,22 @@
+[
+  {
+    "title": "developer.matomo.org/api-reference",
+    "url": "https://developer.matomo.org/api-reference",
+    "type": "source"
+  },
+  {
+    "title": "matomo.org/docs/analytics-api",
+    "url": "https://matomo.org/docs/analytics-api/",
+    "type": "source"
+  },
+  {
+    "title": "matomo.org/guide/apis/mcp-model-context-protocol",
+    "url": "https://matomo.org/guide/apis/mcp-model-context-protocol/",
+    "type": "source"
+  },
+  {
+    "title": "matomo.org/faq/how-to/configure-the-matomo-mcp-server",
+    "url": "https://matomo.org/faq/how-to/configure-the-matomo-mcp-server/",
+    "type": "source"
+  }
+]

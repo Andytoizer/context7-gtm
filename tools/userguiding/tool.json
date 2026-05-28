@@ -1,0 +1,40 @@
+{
+  "id": "/gtm/userguiding",
+  "name": "UserGuiding",
+  "slug": "userguiding",
+  "status": "needs-review",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://help.userguiding.com/en/articles/4493538-userguiding-user-api",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "API Access Token after User Identification is enabled."
+  },
+  "objects": [
+    "Users",
+    "User Attributes",
+    "User Events",
+    "Guide Interactions",
+    "Onboarding Material"
+  ],
+  "rateLimits": "Unknown.",
+  "pagination": "Unknown.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Interactive API docs should be checked for auth headers, pagination, delete semantics, and rate limits."
+}

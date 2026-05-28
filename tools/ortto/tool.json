@@ -1,0 +1,43 @@
+{
+  "id": "/gtm/ortto",
+  "name": "Ortto",
+  "slug": "ortto",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://ortto.com/",
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Custom private API key via X-Api-Key header; regional API hosts."
+  },
+  "objects": [
+    "Account",
+    "People",
+    "Organizations",
+    "Audiences",
+    "Custom Fields",
+    "Activities",
+    "Tags",
+    "Campaigns"
+  ],
+  "rateLimits": "Professional 10 req/s, Business 30 req/s, Enterprise 30 req/s default; IP and bad-request limiters also apply.",
+  "pagination": "limit/offset in POST query bodies for retrieval endpoints such as person/get.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false,
+  "reviewReason": ""
+}
