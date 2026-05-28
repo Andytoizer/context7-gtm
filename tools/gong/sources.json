@@ -2,16 +2,46 @@
   {
     "title": "help.gong.io/docs/receive-access-to-the-api",
     "url": "https://help.gong.io/docs/receive-access-to-the-api",
-    "type": "source"
+    "type": "official"
   },
   {
     "title": "help.gong.io/docs/what-the-gong-api-provides",
     "url": "https://help.gong.io/docs/what-the-gong-api-provides",
-    "type": "source"
+    "type": "official"
   },
   {
-    "title": "visioneers.gong.io/developers-79/gong-api-pagination-limit-1036",
-    "url": "https://visioneers.gong.io/developers-79/gong-api-pagination-limit-1036",
-    "type": "source"
+    "title": "help.gong.io/docs/how-to-use-the-gong-developers-hub",
+    "url": "https://help.gong.io/docs/how-to-use-the-gong-developers-hub",
+    "type": "official"
+  },
+  {
+    "title": "help.gong.io/docs/create-an-app-for-gong",
+    "url": "https://help.gong.io/docs/create-an-app-for-gong",
+    "type": "official"
+  },
+  {
+    "title": "help.gong.io/docs/gong-engage-api-capabilities",
+    "url": "https://help.gong.io/docs/gong-engage-api-capabilities",
+    "type": "official"
+  },
+  {
+    "title": "Gong public API docs",
+    "url": "https://app.gong.io/settings/api/documentation",
+    "type": "official"
+  },
+  {
+    "title": "Gong OpenAPI spec endpoint",
+    "url": "https://app.gong.io/ajax/settings/api/documentation/specs?version=",
+    "type": "official"
+  },
+  {
+    "title": "ksindi/gong-client",
+    "url": "https://github.com/ksindi/gong-client",
+    "type": "community"
+  },
+  {
+    "title": "aaronsb/gong-api-client",
+    "url": "https://github.com/aaronsb/gong-api-client",
+    "type": "community"
   }
 ]

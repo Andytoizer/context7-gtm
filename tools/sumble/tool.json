@@ -2,7 +2,7 @@
   "id": "/gtm/sumble",
   "name": "Sumble",
   "slug": "sumble",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
   "agentReadinessScore": 4,
@@ -11,8 +11,8 @@
     "officialMcp": "yes",
     "officialCli": "unknown",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
     "officialSdk": "unknown",
     "communityMcp": "unknown",
     "communityCli": "unknown",
@@ -23,19 +23,21 @@
   },
   "objects": [
     "Organizations",
-    "people",
-    "jobs",
-    "account_lists",
-    "technologies",
+    "People",
+    "Jobs",
+    "Organization lists",
+    "Contact lists",
+    "Technologies",
+    "Intelligence briefs",
     "credits"
   ],
   "rateLimits": "10 requests/second per user across endpoints; 429 on limit.",
-  "pagination": "limit/offset on people and likely other find endpoints.",
-  "destructiveActionRisk": "medium",
+  "pagination": "limit/offset on find/list endpoints; documented limits include people find limit up to 250 and offset up to 10000.",
+  "destructiveActionRisk": "high",
   "notes": [
     "Generated from parallel specialist scout findings.",
     "Use source links to refresh endpoint-level details before implementation."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm whether Sumble publishes OpenAPI/llms.txt and any official SDK or CLI."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

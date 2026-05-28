@@ -2,7 +2,7 @@
   "id": "/gtm/dbt-cloud",
   "name": "dbt Cloud",
   "slug": "dbt-cloud",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [
     "dbt"
   ],
@@ -10,11 +10,11 @@
   "agentReadinessScore": 4,
   "canonicalUrl": "https://www.getdbt.com/product/dbt-cloud",
   "surfaces": {
-    "officialMcp": "unknown",
+    "officialMcp": "yes",
     "officialCli": "yes",
     "officialApi": "yes",
     "openApiSpec": "yes",
-    "llmsDocs": "unknown",
+    "llmsDocs": "yes",
     "officialSdk": "yes",
     "communityMcp": "yes",
     "communityCli": "unknown",
@@ -38,9 +38,9 @@
   "pagination": "limit/offset pagination for many list endpoints.",
   "destructiveActionRisk": "high",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
+    "dbt Labs currently brands dbt Cloud capabilities under dbt Platform in many docs.",
     "Use source links to refresh endpoint-level details before implementation."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm whether MCP coverage is first-party dbt Labs or community-only for dbt Cloud."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

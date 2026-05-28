@@ -5,6 +5,46 @@
     "type": "source"
   },
   {
+    "title": "docs.rocketreach.co/llms.txt",
+    "url": "https://docs.rocketreach.co/llms.txt",
+    "type": "source"
+  },
+  {
+    "title": "docs.rocketreach.co/openapi/index.yaml",
+    "url": "https://docs.rocketreach.co/openapi/index.yaml",
+    "type": "source"
+  },
+  {
+    "title": "docs.rocketreach.co/reference/rate-limits",
+    "url": "https://docs.rocketreach.co/reference/rate-limits",
+    "type": "source"
+  },
+  {
+    "title": "docs.rocketreach.co/reference/responses-and-errors",
+    "url": "https://docs.rocketreach.co/reference/responses-and-errors",
+    "type": "source"
+  },
+  {
+    "title": "docs.rocketreach.co/reference/people-search-api",
+    "url": "https://docs.rocketreach.co/reference/people-search-api",
+    "type": "source"
+  },
+  {
+    "title": "docs.rocketreach.co/reference/create_universal_person_search",
+    "url": "https://docs.rocketreach.co/reference/create_universal_person_search",
+    "type": "source"
+  },
+  {
+    "title": "docs.rocketreach.co/reference/create_universal_person_lookup",
+    "url": "https://docs.rocketreach.co/reference/create_universal_person_lookup",
+    "type": "source"
+  },
+  {
+    "title": "docs.rocketreach.co/reference/get_universal_account",
+    "url": "https://docs.rocketreach.co/reference/get_universal_account",
+    "type": "source"
+  },
+  {
     "title": "pypi.org/project/rocketreach",
     "url": "https://pypi.org/project/rocketreach/",
     "type": "source"

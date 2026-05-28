@@ -11,8 +11,8 @@ Agent readiness score: 4/5.
 - Official MCP: yes
 - Official CLI: yes
 - Official API: yes
-- OpenAPI/spec: unknown
-- llms/AI docs: unknown
+- OpenAPI/spec: yes
+- llms/AI docs: yes
 - Official SDK: yes
 - Community MCP: yes
 - Community CLI: unknown
@@ -20,7 +20,7 @@ Agent readiness score: 4/5.
 
 ## Auth
 
-REST APIs use key-pair JWT, OAuth, or PAT; managed MCP uses OAuth 2.0 and Snowflake RBAC.
+REST APIs use key-pair JWT, OAuth, or PAT depending on endpoint family; the Snowflake-managed MCP server uses OAuth 2.0 aligned with MCP authorization guidance and Snowflake RBAC. PAT use should be least-privilege.
 
 ## Main Objects
 
@@ -34,6 +34,8 @@ REST APIs use key-pair JWT, OAuth, or PAT; managed MCP uses OAuth 2.0 and Snowfl
 - stages
 - tasks
 - Cortex Search/Analyst/Agents
+- MCP server objects
+- UDFs and stored procedures as MCP tools
 
 ## Rate Limits
 
@@ -46,17 +48,18 @@ REST resources commonly use token/pageToken-style pagination; SQL API has async 
 ## Agent Caveats
 
 - Destructive action risk: high.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
-- Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm whether Snowflake publishes first-party OpenAPI specs for REST/SQL APIs and whether docs expose llms.txt.
+- Snowflake-managed MCP supports tool discovery/invocation for Cortex Search, Cortex Analyst, Cortex Agents, SQL execution, and UDF/stored procedure tools; SQL execution can be configured read-only or write-capable.
+- Snowflake REST APIs are OpenAPI-compliant and Snowflake publishes first-party specs in `snowflakedb/snowflake-rest-api-specs`.
+- Snowflake documentation exposes `https://docs.snowflake.com/llms.txt`, section-level llms indexes, and Markdown page variants.
+- General REST rate limits are not consolidated in one official page; refresh endpoint-specific limits before operational use.
 
 ## Sources
 
 - https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp
 - https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/overview
+- https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/snowflake-rest-api
 - https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/reference
 - https://docs.snowflake.com/en/developer-guide/sql-api/index
+- https://docs.snowflake.com/llms.txt
+- https://github.com/snowflakedb/snowflake-rest-api-specs
 - https://github.com/Snowflake-Labs/mcp

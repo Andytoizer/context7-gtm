@@ -2,7 +2,7 @@
   "id": "/gtm/fullenrich",
   "name": "FullEnrich",
   "slug": "fullenrich",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
   "agentReadinessScore": 4,
@@ -13,7 +13,7 @@
     "officialApi": "yes",
     "openApiSpec": "unknown",
     "llmsDocs": "yes",
-    "officialSdk": "unknown",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "unknown"
@@ -30,13 +30,13 @@
     "exports",
     "credits"
   ],
-  "rateLimits": "Exact limits not found; docs warn polling consumes rate-limit quota and API/integration credit limits can be configured.",
-  "pagination": "Unknown.",
+  "rateLimits": "60 API calls per minute across Enrich, Reverse Email Lookup, and Search; Enrich and Reverse Email Lookup allow up to 100 contacts per bulk request and default workspace queues of 100 concurrent jobs each.",
+  "pagination": "Search API uses offset and limit parameters; endpoint examples also expose search_after in request metadata/response metadata.",
   "destructiveActionRisk": "medium",
   "notes": [
     "Generated from parallel specialist scout findings.",
     "Use source links to refresh endpoint-level details before implementation."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm exact API rate limits, Search API pagination model, and whether an official OpenAPI spec is published."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

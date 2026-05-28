@@ -8,11 +8,11 @@ Agent readiness score: 4/5.
 
 ## Available Surfaces
 
-- Official MCP: unknown
+- Official MCP: yes
 - Official CLI: yes
 - Official API: yes
 - OpenAPI/spec: yes
-- llms/AI docs: unknown
+- llms/AI docs: yes
 - Official SDK: yes
 - Community MCP: yes
 - Community CLI: unknown
@@ -47,13 +47,20 @@ limit/offset pagination for many list endpoints.
 - Destructive action risk: high.
 - Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm whether MCP coverage is first-party dbt Labs or community-only for dbt Cloud.
+- dbt Labs currently brands many dbt Cloud surfaces as dbt Platform; use dbt Platform docs when they cover Cloud API, CLI, Semantic Layer, Discovery, and MCP capabilities.
+- The first-party dbt MCP server is maintained under the dbt-labs GitHub organization and includes dbt Platform, Admin API, Semantic Layer, Discovery, CLI, and product-doc retrieval tools.
+- The dbt Cloud OpenAPI specs are maintained in dbt-labs/dbt-cloud-openapi-spec; v3 is recommended, with v2 retained for routes not yet upgraded.
 
 ## Sources
 
 - https://docs.getdbt.com/dbt-cloud/api-v2
+- https://docs.getdbt.com/dbt-cloud/api-v3
 - https://docs.getdbt.com/docs/cloud/dbt-cloud-cli-installation
 - https://docs.getdbt.com/docs/dbt-cloud-apis/admin-cloud-api
+- https://docs.getdbt.com/docs/dbt-apis/authentication
+- https://docs.getdbt.com/docs/dbt-apis/sl-api-overview
+- https://docs.getdbt.com/docs/dbt-apis/sl-python
+- https://docs.getdbt.com/llms.txt
+- https://github.com/dbt-labs/dbt-cloud-openapi-spec
+- https://github.com/dbt-labs/dbt-mcp
+- https://www.getdbt.com/blog/mcp

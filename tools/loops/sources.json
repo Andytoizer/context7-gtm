@@ -2,21 +2,46 @@
   {
     "title": "loops.so/docs/api-reference/intro",
     "url": "https://loops.so/docs/api-reference/intro",
-    "type": "source"
+    "type": "official"
   },
   {
     "title": "loops.so/docs/cli",
     "url": "https://loops.so/docs/cli",
-    "type": "source"
+    "type": "official"
   },
   {
     "title": "loops.so/docs/llms.txt",
     "url": "https://loops.so/docs/llms.txt",
-    "type": "source"
+    "type": "official"
   },
   {
     "title": "app.loops.so/openapi.json",
     "url": "https://app.loops.so/openapi.json",
-    "type": "source"
+    "type": "official"
+  },
+  {
+    "title": "app.loops.so/openapi.yaml",
+    "url": "https://app.loops.so/openapi.yaml",
+    "type": "official"
+  },
+  {
+    "title": "loops.so/docs/sdks.md",
+    "url": "https://loops.so/docs/sdks.md",
+    "type": "official"
+  },
+  {
+    "title": "Loops-so/cli",
+    "url": "https://github.com/Loops-so/cli",
+    "type": "official"
+  },
+  {
+    "title": "viaSocket Loops.so MCP Server",
+    "url": "https://viasocket.com/mcp/loopsso",
+    "type": "community"
+  },
+  {
+    "title": "Pipedream Loops.so MCP Server",
+    "url": "https://mcp.pipedream.com/app/loops_so",
+    "type": "community"
   }
 ]

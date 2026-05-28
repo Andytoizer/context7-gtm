@@ -2,19 +2,19 @@
   "id": "/gtm/loops",
   "name": "Loops",
   "slug": "loops",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 4,
+  "agentReadinessScore": 5,
   "canonicalUrl": "https://loops.so/",
   "surfaces": {
-    "officialMcp": "unknown",
+    "officialMcp": "no",
     "officialCli": "yes",
     "officialApi": "yes",
     "openApiSpec": "yes",
     "llmsDocs": "yes",
     "officialSdk": "yes",
-    "communityMcp": "unknown",
+    "communityMcp": "yes",
     "communityCli": "no",
     "communitySdkOrIntegration": "yes"
   },
@@ -34,12 +34,12 @@
     "Uploads"
   ],
   "rateLimits": "10 requests/second per team; x-ratelimit headers; 429 on exceed.",
-  "pagination": "Endpoint-specific; inspect official OpenAPI for exact list parameters.",
+  "pagination": "Cursor/perPage on paginated list endpoints such as campaigns, themes, components, and dedicated sending IPs; inspect official OpenAPI for exact endpoint support.",
   "destructiveActionRisk": "high",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Profile targets Loops.so, the email platform for software companies; useLoops.io is a different product and is intentionally excluded.",
+    "Official OpenAPI 3.1.0 spec currently reports version 1.8.1 and 20 API paths; use source links to refresh endpoint-level details before implementation."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm this entry should target Loops.so email platform; separate useLoops.io MCP docs appear to describe a different agent/workspace product."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

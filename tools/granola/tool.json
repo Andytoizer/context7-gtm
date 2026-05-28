@@ -2,7 +2,7 @@
   "id": "/gtm/granola",
   "name": "Granola",
   "slug": "granola",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
   "agentReadinessScore": 4,
@@ -11,31 +11,31 @@
     "officialMcp": "yes",
     "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
+    "openApiSpec": "yes",
     "llmsDocs": "yes",
-    "officialSdk": "unknown",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "MCP browser OAuth only; API keys for Business/Enterprise API."
+    "notes": "MCP uses browser OAuth with Dynamic Client Registration and no API key/service-account auth. REST API uses Bearer API keys created in the Granola desktop app; available on Business/Enterprise with admin-controlled access scopes on Enterprise."
   },
   "objects": [
     "Notes",
     "transcripts",
-    "folders",
     "action items",
     "decisions",
-    "calendar-linked meetings"
+    "calendar-linked meetings",
+    "folders"
   ],
-  "rateLimits": "Unknown; API key count limit recently raised to 25/workspace and 25/user.",
-  "pagination": "Unknown.",
+  "rateLimits": "REST API: burst capacity 25 requests, 5-second window, sustained 5 requests/second (300/minute), returns 429 when exceeded. MCP docs state limits vary by plan/tool and average around 100 requests/minute across tools.",
+  "pagination": "REST list endpoints use cursor pagination with hasMore/cursor response fields and page_size query parameter from 1 to 30.",
   "destructiveActionRisk": "low",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official docs expose llms.txt and an OpenAPI 3.1 spec.",
+    "Public REST endpoints currently cover listing notes, getting a note, and listing folders; use MCP for AI-assistant retrieval across notes/transcripts."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Find the public Granola API reference for exact endpoints, pagination, and rate limits."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

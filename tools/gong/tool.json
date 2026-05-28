@@ -2,40 +2,44 @@
   "id": "/gtm/gong",
   "name": "Gong",
   "slug": "gong",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://www.gong.io/",
   "surfaces": {
     "officialMcp": "no",
     "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
+    "openApiSpec": "yes",
     "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
-    "communitySdkOrIntegration": "unknown"
+    "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "API access key/secret as basic auth; OAuth for published apps."
+    "notes": "Access Key and Access Key Secret via HTTP Basic auth; OAuth apps use Bearer tokens and customer-specific api_base_url_for_customer."
   },
   "objects": [
     "Calls",
     "transcripts",
     "users",
+    "user settings",
     "scorecards",
     "stats",
+    "libraries",
+    "CRM entities",
+    "data privacy",
     "Engage flows"
   ],
   "rateLimits": "3 calls/sec and 10,000 calls/day; 429 with Retry-After.",
-  "pagination": "Cursor, commonly 100 records/page.",
+  "pagination": "Cursor pagination for list endpoints that return a records field; repeat the same request with the returned cursor.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official Gong public API docs are rendered with RapiDoc from an OpenAPI 3.0.1 spec endpoint.",
+    "The spec endpoint currently reports Gong API V2 with 55 paths; use the source links to refresh endpoint-level details before implementation."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm whether Gong exposes a downloadable OpenAPI spec or official SDK behind authenticated developer docs."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

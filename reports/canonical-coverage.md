@@ -50,7 +50,7 @@ Tools with no sources: 0.
 | [CrustData](../tools/crustdata/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Customer.io](../tools/customerio/tool.json) | missing | 7 total; 7 official; 0 community | published | 5 |
 | [Datagma](../tools/datagma/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
-| [dbt Cloud](../tools/dbt-cloud/tool.json) | yes | 3 total; 0 official; 0 community | needs-review | 4 |
+| [dbt Cloud](../tools/dbt-cloud/tool.json) | yes | 11 total; 0 official; 0 community | published | 4 |
 | [Default](../tools/default/tool.json) | yes | 1 total; 0 official; 0 community | needs-review | 1 |
 | [Demandbase](../tools/demandbase/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 4 |
 | [Diffbot](../tools/diffbot/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
@@ -66,18 +66,18 @@ Tools with no sources: 0.
 | [Fireflies.ai](../tools/fireflies/tool.json) | yes | 6 total; 0 official; 0 community | published | 5 |
 | [Fivetran](../tools/fivetran/tool.json) | yes | 4 total; 0 official; 0 community | published | 5 |
 | [Folloze](../tools/folloze/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 2 |
-| [Framer](../tools/framer/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 3 |
+| [Framer](../tools/framer/tool.json) | yes | 9 total; 0 official; 0 community | needs-review | 3 |
 | [Freshdesk](../tools/freshdesk/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [Freshsales](../tools/freshsales/tool.json) | yes | 3 total; 0 official; 0 community | published | 3 |
 | [Front](../tools/front/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
-| [FullEnrich](../tools/fullenrich/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 4 |
+| [FullEnrich](../tools/fullenrich/tool.json) | yes | 9 total; 0 official; 0 community | published | 4 |
 | [Gamma](../tools/gamma/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [GoHighLevel](../tools/gohighlevel/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
-| [Gong](../tools/gong/tool.json) | yes | 3 total; 0 official; 0 community | needs-review | 3 |
+| [Gong](../tools/gong/tool.json) | yes | 9 total; 7 official; 2 community | published | 4 |
 | [Google Drive](../tools/google-drive/tool.json) | yes | 6 total; 0 official; 0 community | needs-review | 4 |
 | [Google Places API](../tools/google-places/tool.json) | yes | 5 total; 0 official; 0 community | published | 3 |
 | [Gorgias](../tools/gorgias/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
-| [Granola](../tools/granola/tool.json) | yes | 3 total; 0 official; 0 community | needs-review | 4 |
+| [Granola](../tools/granola/tool.json) | yes | 9 total; 0 official; 0 community | published | 4 |
 | [Help Scout](../tools/help-scout/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [HeyReach](../tools/heyreach/tool.json) | missing | 8 total; 0 official; 0 community | published | 4 |
 | [Hightouch](../tools/hightouch/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
@@ -103,8 +103,8 @@ Tools with no sources: 0.
 | [LeadMagic](../tools/leadmagic/tool.json) | yes | 4 total; 0 official; 0 community | published | 5 |
 | [Lemlist](../tools/lemlist/tool.json) | missing | 7 total; 7 official; 0 community | published | 5 |
 | [Lightfield](../tools/lightfield/tool.json) | yes | 4 total; 0 official; 0 community | published | 4 |
-| [Logo.dev](../tools/logodev/tool.json) | yes | 6 total; 0 official; 0 community | needs-review | 3 |
-| [Loops](../tools/loops/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 4 |
+| [Logo.dev](../tools/logodev/tool.json) | yes | 8 total; 0 official; 0 community | published | 3 |
+| [Loops](../tools/loops/tool.json) | yes | 9 total; 7 official; 2 community | published | 5 |
 | [Lusha](../tools/lusha/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Mailchimp](../tools/mailchimp/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [Make](../tools/make/tool.json) | yes | 7 total; 0 official; 0 community | published | 5 |
@@ -148,7 +148,7 @@ Tools with no sources: 0.
 | [Relevance AI](../tools/relevance-ai/tool.json) | yes | 6 total; 0 official; 0 community | published | 4 |
 | [Reply.io](../tools/replyio/tool.json) | missing | 5 total; 0 official; 0 community | published | 5 |
 | [Resend](../tools/resend/tool.json) | yes | 4 total; 0 official; 0 community | published | 5 |
-| [RocketReach](../tools/rocketreach/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 3 |
+| [RocketReach](../tools/rocketreach/tool.json) | yes | 12 total; 0 official; 0 community | published | 5 |
 | [RollWorks](../tools/rollworks/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [RudderStack](../tools/rudderstack/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Ruler Analytics](../tools/ruler-analytics/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
@@ -168,9 +168,9 @@ Tools with no sources: 0.
 | [Smartlead](../tools/smartlead/tool.json) | missing | 5 total; 5 official; 0 community | published | 5 |
 | [SmartReach.io](../tools/smartreach/tool.json) | yes | 1 total; 0 official; 0 community | published | 3 |
 | [Snitcher](../tools/snitcher/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
-| [Snowflake](../tools/snowflake/tool.json) | yes | 5 total; 0 official; 0 community | needs-review | 4 |
+| [Snowflake](../tools/snowflake/tool.json) | yes | 8 total; 0 official; 0 community | published | 4 |
 | [SpyFu](../tools/spyfu/tool.json) | yes | 4 total; 0 official; 0 community | published | 4 |
-| [Sumble](../tools/sumble/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 4 |
+| [Sumble](../tools/sumble/tool.json) | yes | 8 total; 0 official; 0 community | published | 4 |
 | [Supabase](../tools/supabase/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Sybill](../tools/sybill/tool.json) | yes | 2 total; 0 official; 0 community | published | 5 |
 | [Tally](../tools/tally/tool.json) | yes | 8 total; 8 official; 0 community | published | 5 |

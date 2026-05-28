@@ -2,7 +2,7 @@
   "id": "/gtm/logodev",
   "name": "Logo.dev",
   "slug": "logodev",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [
     "logo.dev"
   ],
@@ -13,7 +13,7 @@
     "officialMcp": "no",
     "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
+    "openApiSpec": "no",
     "llmsDocs": "yes",
     "officialSdk": "no",
     "communityMcp": "yes",
@@ -31,12 +31,12 @@
     "brand describe records"
   ],
   "rateLimits": "Monthly request limits by plan; no per-second/minute burst limit; proactive/soft enforcement.",
-  "pagination": "No pagination found for image lookup; search/describe pagination unclear.",
+  "pagination": "Image and Describe lookups are single-resource requests; Brand Search returns a maximum of 10 results and does not document cursor/offset pagination.",
   "destructiveActionRisk": "low",
   "notes": [
     "Generated from parallel specialist scout findings.",
     "Use source links to refresh endpoint-level details before implementation."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm whether an official OpenAPI spec exists and whether third-party MCP listings are acceptable."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

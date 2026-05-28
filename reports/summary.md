@@ -7,25 +7,25 @@ Generated from `registry.json` and `tools/*/{tool.json,sources.json}`.
 ## Counts
 
 - Total tools: 196
-- Needs review: 53
-- High-readiness published tools: 53
-- Official MCP yes: 74
+- Needs review: 44
+- High-readiness published tools: 55
+- Official MCP yes: 75
 - Official MCP announced: 9
 
 ## Status Counts
 
 | Status | Count |
 | --- | --- |
-| needs-review | 53 |
-| published | 143 |
+| needs-review | 44 |
+| published | 152 |
 
 ## Readiness Score Distribution
 
 | Score | Count |
 | --- | --- |
-| 5 | 53 |
+| 5 | 55 |
 | 4 | 67 |
-| 3 | 55 |
+| 3 | 53 |
 | 2 | 18 |
 | 1 | 3 |
 
@@ -34,6 +34,6 @@ Generated from `registry.json` and `tools/*/{tool.json,sources.json}`.
 | Official MCP | Count |
 | --- | --- |
 | announced | 9 |
-| no | 38 |
-| unknown | 75 |
-| yes | 74 |
+| no | 39 |
+| unknown | 73 |
+| yes | 75 |

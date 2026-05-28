@@ -4,17 +4,17 @@
 
 Loops is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
 
-Agent readiness score: 4/5.
+Agent readiness score: 5/5.
 
 ## Available Surfaces
 
-- Official MCP: unknown
+- Official MCP: no
 - Official CLI: yes
 - Official API: yes
 - OpenAPI/spec: yes
 - llms/AI docs: yes
 - Official SDK: yes
-- Community MCP: unknown
+- Community MCP: yes
 - Community CLI: no
 - Community SDK / integration: yes
 
@@ -41,7 +41,7 @@ API key in Authorization Bearer header; CLI uses LOOPS_API_KEY or keyring.
 
 ## Pagination
 
-Endpoint-specific; inspect official OpenAPI for exact list parameters.
+Cursor/perPage on paginated list endpoints such as campaigns, themes, components, and dedicated sending IPs; inspect official OpenAPI for exact endpoint support.
 
 ## Agent Caveats
 
@@ -49,13 +49,14 @@ Endpoint-specific; inspect official OpenAPI for exact list parameters.
 - Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
 
-## Needs Human Review
-
-Confirm this entry should target Loops.so email platform; separate useLoops.io MCP docs appear to describe a different agent/workspace product.
-
 ## Sources
 
 - https://loops.so/docs/api-reference/intro
 - https://loops.so/docs/cli
 - https://loops.so/docs/llms.txt
 - https://app.loops.so/openapi.json
+- https://app.loops.so/openapi.yaml
+- https://loops.so/docs/sdks.md
+- https://github.com/Loops-so/cli
+- https://viasocket.com/mcp/loopsso
+- https://mcp.pipedream.com/app/loops_so

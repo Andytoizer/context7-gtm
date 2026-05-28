@@ -11,7 +11,7 @@ Agent readiness score: 3/5.
 - Official MCP: no
 - Official CLI: no
 - Official API: yes
-- OpenAPI/spec: unknown
+- OpenAPI/spec: no
 - llms/AI docs: yes
 - Official SDK: no
 - Community MCP: yes
@@ -36,23 +36,21 @@ Monthly request limits by plan; no per-second/minute burst limit; proactive/soft
 
 ## Pagination
 
-No pagination found for image lookup; search/describe pagination unclear.
+Image and Describe lookups are single-resource requests. Brand Search returns a maximum of 10 results and does not document cursor/offset pagination.
 
 ## Agent Caveats
 
 - Destructive action risk: low.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
-- Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm whether an official OpenAPI spec exists and whether third-party MCP listings are acceptable.
+- The public `api-reference/openapi.json` endpoint currently returns Mintlify sample content, not a Logo.dev API spec.
+- Prefer official docs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
 
 ## Sources
 
 - https://docs.logo.dev/
 - https://www.logo.dev/docs/platform/rate-limits
 - https://docs.logo.dev/logo-images/get
+- https://docs.logo.dev/brand-search/introduction
 - https://docs.logo.dev/describe/introduction
+- https://docs.logo.dev/platform/api-keys
 - https://mcp.pipedream.com/app/logo_dev
 - https://composio.dev/toolkits/logo_dev/framework/ai-sdk

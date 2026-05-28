@@ -375,10 +375,10 @@
       "id": "/gtm/rocketreach",
       "name": "RocketReach",
       "slug": "rocketreach",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/rocketreach",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
     {
@@ -395,7 +395,7 @@
       "id": "/gtm/fullenrich",
       "name": "FullEnrich",
       "slug": "fullenrich",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/fullenrich",
       "aliases": [],
       "agentReadinessScore": 4,
@@ -513,7 +513,7 @@
       "id": "/gtm/snowflake",
       "name": "Snowflake",
       "slug": "snowflake",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/snowflake",
       "aliases": [],
       "agentReadinessScore": 4,
@@ -580,7 +580,7 @@
       "id": "/gtm/logodev",
       "name": "Logo.dev",
       "slug": "logodev",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/logodev",
       "aliases": [
         "logo.dev"
@@ -604,10 +604,10 @@
       "id": "/gtm/gong",
       "name": "Gong",
       "slug": "gong",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/gong",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
@@ -647,7 +647,7 @@
       "id": "/gtm/granola",
       "name": "Granola",
       "slug": "granola",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/granola",
       "aliases": [],
       "agentReadinessScore": 4,
@@ -941,7 +941,7 @@
       "id": "/gtm/sumble",
       "name": "Sumble",
       "slug": "sumble",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/sumble",
       "aliases": [],
       "agentReadinessScore": 4,
@@ -1142,7 +1142,7 @@
       "id": "/gtm/dbt-cloud",
       "name": "dbt Cloud",
       "slug": "dbt-cloud",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/dbt-cloud",
       "aliases": [
         "dbt"
@@ -1731,10 +1731,10 @@
       "id": "/gtm/loops",
       "name": "Loops",
       "slug": "loops",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/loops",
       "aliases": [],
-      "agentReadinessScore": 4,
+      "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
     {

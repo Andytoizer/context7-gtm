@@ -5,8 +5,28 @@
     "type": "source"
   },
   {
+    "title": "docs.sumble.com/api.md",
+    "url": "https://docs.sumble.com/api.md",
+    "type": "source"
+  },
+  {
     "title": "docs.sumble.com/api/people",
     "url": "https://docs.sumble.com/api/people",
+    "type": "source"
+  },
+  {
+    "title": "docs.sumble.com/api/people.md",
+    "url": "https://docs.sumble.com/api/people.md",
+    "type": "source"
+  },
+  {
+    "title": "docs.sumble.com/api/mcp.md",
+    "url": "https://docs.sumble.com/api/mcp.md",
+    "type": "source"
+  },
+  {
+    "title": "docs.sumble.com/llms.txt",
+    "url": "https://docs.sumble.com/llms.txt",
     "type": "source"
   },
   {

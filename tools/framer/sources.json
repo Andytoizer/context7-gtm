@@ -10,6 +10,21 @@
     "type": "source"
   },
   {
+    "title": "framer.com/developers/server-api-reference",
+    "url": "https://www.framer.com/developers/server-api-reference",
+    "type": "source"
+  },
+  {
+    "title": "framer.com/developers/server-api-faq",
+    "url": "https://www.framer.com/developers/server-api-faq",
+    "type": "source"
+  },
+  {
+    "title": "framer.com/developers/reference",
+    "url": "https://www.framer.com/developers/reference",
+    "type": "source"
+  },
+  {
     "title": "framer.com/llms.txt",
     "url": "https://www.framer.com/llms.txt",
     "type": "source"
@@ -17,6 +32,16 @@
   {
     "title": "npmjs.com/package/framer-api",
     "url": "https://www.npmjs.com/package/framer-api",
+    "type": "source"
+  },
+  {
+    "title": "github.com/framer/server-api-examples",
+    "url": "https://github.com/framer/server-api-examples",
+    "type": "source"
+  },
+  {
+    "title": "mcp.directory/servers/framer",
+    "url": "https://mcp.directory/servers/framer",
     "type": "source"
   }
 ]

@@ -5,13 +5,38 @@
     "type": "source"
   },
   {
+    "title": "docs.fullenrich.com/api/v2/general/ratelimit",
+    "url": "https://docs.fullenrich.com/api/v2/general/ratelimit",
+    "type": "source"
+  },
+  {
+    "title": "docs.fullenrich.com/api/v2/general/intro-search",
+    "url": "https://docs.fullenrich.com/api/v2/general/intro-search",
+    "type": "source"
+  },
+  {
     "title": "fullenrich.mintlify.app/api/v2/implement-in-product/getting-started",
     "url": "https://fullenrich.mintlify.app/api/v2/implement-in-product/getting-started",
     "type": "source"
   },
   {
+    "title": "docs.fullenrich.com/api/v2/people/search/post",
+    "url": "https://docs.fullenrich.com/api/v2/people/search/post",
+    "type": "source"
+  },
+  {
+    "title": "docs.fullenrich.com/api/v2/company/search/post",
+    "url": "https://docs.fullenrich.com/api/v2/company/search/post",
+    "type": "source"
+  },
+  {
     "title": "help.fullenrich.com/en/articles/14190120-mcp-server",
     "url": "https://help.fullenrich.com/en/articles/14190120-mcp-server",
+    "type": "source"
+  },
+  {
+    "title": "help.fullenrich.com/en/articles/15025057-build-a-custom-mcp-client",
+    "url": "https://help.fullenrich.com/en/articles/15025057-build-a-custom-mcp-client",
     "type": "source"
   },
   {

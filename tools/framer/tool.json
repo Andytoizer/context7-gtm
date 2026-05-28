@@ -19,24 +19,26 @@
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Framer API tokens / auth token for Server API."
+    "notes": "Framer Server API requires a project-bound API key generated from the project's Site Settings; scripts pass it to the framer-api connect call, commonly through FRAMER_API_KEY."
   },
   "objects": [
-    "Sites",
-    "projects",
+    "Projects",
     "pages",
-    "redirects",
-    "collection_items",
-    "folders",
-    "locales"
+    "CMS collections",
+    "CMS collection items",
+    "code files",
+    "canvas nodes",
+    "images/assets",
+    "deployments",
+    "users"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Cursor-style pagination appears in Server API list flows.",
+  "rateLimits": "No public per-endpoint rate limits found; Server API is in open beta and FAQ says beta usage is free with future per-use pricing likely.",
+  "pagination": "No general REST pagination model; official FAQ says Server API uses persistent streaming WebSockets, with REST only shown as an example wrapper.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official Framer docs cover the beta Server API, framer-api JavaScript package, Plugin API reference, llms.txt, and GitHub examples.",
+    "Official docs mention building an MCP server on top of the Server API, but no first-party MCP server/install documentation was found."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Confirm whether any Framer MCP is officially maintained; public official docs clearly cover Server API/SDK but not an official MCP install surface."
+  "reviewReason": "Keep in review: official Framer docs source the beta Server API/SDK and mention MCP as a possible use case, but do not publish a first-party MCP server or install surface; community directories disagree on whether a Framer MCP is official."
 }

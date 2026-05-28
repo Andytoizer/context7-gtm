@@ -5,6 +5,11 @@
     "type": "source"
   },
   {
+    "title": "docs.getdbt.com/dbt-cloud/api-v3",
+    "url": "https://docs.getdbt.com/dbt-cloud/api-v3",
+    "type": "source"
+  },
+  {
     "title": "docs.getdbt.com/docs/cloud/dbt-cloud-cli-installation",
     "url": "https://docs.getdbt.com/docs/cloud/dbt-cloud-cli-installation",
     "type": "source"
@@ -12,6 +17,41 @@
   {
     "title": "docs.getdbt.com/docs/dbt-cloud-apis/admin-cloud-api",
     "url": "https://docs.getdbt.com/docs/dbt-cloud-apis/admin-cloud-api",
+    "type": "source"
+  },
+  {
+    "title": "docs.getdbt.com/docs/dbt-apis/authentication",
+    "url": "https://docs.getdbt.com/docs/dbt-apis/authentication",
+    "type": "source"
+  },
+  {
+    "title": "docs.getdbt.com/docs/dbt-apis/sl-api-overview",
+    "url": "https://docs.getdbt.com/docs/dbt-apis/sl-api-overview",
+    "type": "source"
+  },
+  {
+    "title": "docs.getdbt.com/docs/dbt-apis/sl-python",
+    "url": "https://docs.getdbt.com/docs/dbt-apis/sl-python",
+    "type": "source"
+  },
+  {
+    "title": "docs.getdbt.com/llms.txt",
+    "url": "https://docs.getdbt.com/llms.txt",
+    "type": "source"
+  },
+  {
+    "title": "github.com/dbt-labs/dbt-cloud-openapi-spec",
+    "url": "https://github.com/dbt-labs/dbt-cloud-openapi-spec",
+    "type": "source"
+  },
+  {
+    "title": "github.com/dbt-labs/dbt-mcp",
+    "url": "https://github.com/dbt-labs/dbt-mcp",
+    "type": "source"
+  },
+  {
+    "title": "getdbt.com/blog/mcp",
+    "url": "https://www.getdbt.com/blog/mcp",
     "type": "source"
   }
 ]

@@ -1,12 +1,42 @@
 [
   {
+    "title": "docs.granola.ai/introduction",
+    "url": "https://docs.granola.ai/introduction",
+    "type": "source"
+  },
+  {
+    "title": "docs.granola.ai/api-reference/openapi.json",
+    "url": "https://docs.granola.ai/api-reference/openapi.json",
+    "type": "source"
+  },
+  {
+    "title": "docs.granola.ai/api-reference/list-notes",
+    "url": "https://docs.granola.ai/api-reference/list-notes",
+    "type": "source"
+  },
+  {
+    "title": "docs.granola.ai/api-reference/get-note",
+    "url": "https://docs.granola.ai/api-reference/get-note",
+    "type": "source"
+  },
+  {
+    "title": "docs.granola.ai/api-reference/list-folders",
+    "url": "https://docs.granola.ai/api-reference/list-folders",
+    "type": "source"
+  },
+  {
+    "title": "docs.granola.ai/llms.txt",
+    "url": "https://docs.granola.ai/llms.txt",
+    "type": "source"
+  },
+  {
     "title": "docs.granola.ai/help-center/sharing/integrations/mcp",
     "url": "https://docs.granola.ai/help-center/sharing/integrations/mcp",
     "type": "source"
   },
   {
-    "title": "docs.granola.ai/article/integrations-with-granola",
-    "url": "https://docs.granola.ai/article/integrations-with-granola",
+    "title": "docs.granola.ai/help-center/sharing/integrations/integrations-with-granola",
+    "url": "https://docs.granola.ai/help-center/sharing/integrations/integrations-with-granola",
     "type": "source"
   },
   {

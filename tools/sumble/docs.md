@@ -11,8 +11,8 @@ Agent readiness score: 4/5.
 - Official MCP: yes
 - Official CLI: unknown
 - Official API: yes
-- OpenAPI/spec: unknown
-- llms/AI docs: unknown
+- OpenAPI/spec: yes
+- llms/AI docs: yes
 - Official SDK: unknown
 - Community MCP: unknown
 - Community CLI: unknown
@@ -25,10 +25,12 @@ Bearer API key from account API keys.
 ## Main Objects
 
 - Organizations
-- people
-- jobs
-- account_lists
-- technologies
+- People
+- Jobs
+- Organization lists
+- Contact lists
+- Technologies
+- Intelligence briefs
 - credits
 
 ## Rate Limits
@@ -37,21 +39,23 @@ Bearer API key from account API keys.
 
 ## Pagination
 
-limit/offset on people and likely other find endpoints.
+limit/offset on find/list endpoints; documented limits include people find limit up to 250 and offset up to 10000.
 
 ## Agent Caveats
 
-- Destructive action risk: medium.
+- Destructive action risk: high.
 - Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm whether Sumble publishes OpenAPI/llms.txt and any official SDK or CLI.
+- Sumble publishes per-endpoint OpenAPI snippets in the Markdown API docs; no standalone public OpenAPI bundle was found at common official API/spec URLs during verification.
+- Official CLI and SDK surfaces were not found in the current official docs; treat them as unknown unless Sumble publishes them later.
 
 ## Sources
 
 - https://docs.sumble.com/api
+- https://docs.sumble.com/api.md
 - https://docs.sumble.com/api/people
+- https://docs.sumble.com/api/people.md
+- https://docs.sumble.com/api/mcp.md
+- https://docs.sumble.com/llms.txt
 - https://sumble.com/integrations/mcp
 - https://docs.sumble.com/trust-and-security

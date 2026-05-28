@@ -4,31 +4,35 @@
 
 Gong is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
 
-Agent readiness score: 3/5.
+Agent readiness score: 4/5.
 
 ## Available Surfaces
 
 - Official MCP: no
 - Official CLI: no
 - Official API: yes
-- OpenAPI/spec: unknown
+- OpenAPI/spec: yes
 - llms/AI docs: unknown
-- Official SDK: unknown
+- Official SDK: no
 - Community MCP: unknown
 - Community CLI: unknown
-- Community SDK / integration: unknown
+- Community SDK / integration: yes
 
 ## Auth
 
-API access key/secret as basic auth; OAuth for published apps.
+Access Key and Access Key Secret via HTTP Basic auth; OAuth apps use Bearer tokens and customer-specific `api_base_url_for_customer`.
 
 ## Main Objects
 
 - Calls
 - transcripts
 - users
+- user settings
 - scorecards
 - stats
+- libraries
+- CRM entities
+- data privacy
 - Engage flows
 
 ## Rate Limits
@@ -37,7 +41,7 @@ API access key/secret as basic auth; OAuth for published apps.
 
 ## Pagination
 
-Cursor, commonly 100 records/page.
+Cursor pagination for list endpoints that return a `records` field; repeat the same request with the returned cursor.
 
 ## Agent Caveats
 
@@ -45,12 +49,14 @@ Cursor, commonly 100 records/page.
 - Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
 
-## Needs Human Review
-
-Confirm whether Gong exposes a downloadable OpenAPI spec or official SDK behind authenticated developer docs.
-
 ## Sources
 
 - https://help.gong.io/docs/receive-access-to-the-api
 - https://help.gong.io/docs/what-the-gong-api-provides
-- https://visioneers.gong.io/developers-79/gong-api-pagination-limit-1036
+- https://help.gong.io/docs/how-to-use-the-gong-developers-hub
+- https://help.gong.io/docs/create-an-app-for-gong
+- https://help.gong.io/docs/gong-engage-api-capabilities
+- https://app.gong.io/settings/api/documentation
+- https://app.gong.io/ajax/settings/api/documentation/specs?version=
+- https://github.com/ksindi/gong-client
+- https://github.com/aaronsb/gong-api-client

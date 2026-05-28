@@ -10,6 +10,11 @@
     "type": "source"
   },
   {
+    "title": "docs.snowflake.com/en/developer-guide/snowflake-rest-api/snowflake-rest-api",
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/snowflake-rest-api",
+    "type": "source"
+  },
+  {
     "title": "docs.snowflake.com/en/developer-guide/snowflake-rest-api/reference",
     "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/reference",
     "type": "source"
@@ -17,6 +22,16 @@
   {
     "title": "docs.snowflake.com/en/developer-guide/sql-api/index",
     "url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+    "type": "source"
+  },
+  {
+    "title": "docs.snowflake.com/llms.txt",
+    "url": "https://docs.snowflake.com/llms.txt",
+    "type": "source"
+  },
+  {
+    "title": "github.com/snowflakedb/snowflake-rest-api-specs",
+    "url": "https://github.com/snowflakedb/snowflake-rest-api-specs",
     "type": "source"
   },
   {
