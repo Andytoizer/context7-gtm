@@ -1,0 +1,14 @@
+{
+  "name": "Example CRM",
+  "slug": "example-crm",
+  "canonicalUrl": "https://example.com",
+  "sourceUrls": [
+    "https://example.com/docs",
+    "https://example.com/docs/api"
+  ],
+  "llmsTxtUrl": "https://example.com/llms.txt",
+  "openApiUrl": "https://example.com/openapi.json",
+  "aliases": ["examplecrm"],
+  "notes": "Sample input for the ingestion-assist draft profile generator.",
+  "status": "needs-review"
+}

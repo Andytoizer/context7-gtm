@@ -6,6 +6,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { z } from "zod";
 import {
   formatDocsResult,
+  formatFullDocsResult,
   loadToolFiles,
   resolveTool,
   retrieveDocs,
@@ -46,9 +47,9 @@ server.tool(
     if (!tool) {
       return { content: [{ type: "text", text: `No tool found for ${toolId}` }], isError: true };
     }
-    const { docs, sourcesText } = loadToolFiles(root, tool);
-    const result = retrieveDocs({ docs, sourcesText, topic });
-    const text = topic ? formatDocsResult(result) : `${docs}\n\n# Source Metadata\n\n\`\`\`json\n${sourcesText}\n\`\`\``;
+    const files = loadToolFiles(root, tool);
+    const result = retrieveDocs({ ...files, topic });
+    const text = topic ? formatDocsResult(result) : formatFullDocsResult(files);
     return { content: [{ type: "text", text }] };
   }
 );
@@ -126,8 +127,8 @@ server.resource(
     if (!tool) {
       return { contents: [{ uri: uri.href, mimeType: "text/plain", text: `No tool found for ${variables.tool}` }] };
     }
-    const { docs } = loadToolFiles(root, tool);
-    return { contents: [{ uri: uri.href, mimeType: "text/markdown", text: docs }] };
+    const files = loadToolFiles(root, tool);
+    return { contents: [{ uri: uri.href, mimeType: "text/markdown", text: formatFullDocsResult({ ...files, includeSources: false }) }] };
   }
 );
 

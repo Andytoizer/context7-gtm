@@ -10,10 +10,13 @@ Each tool belongs in:
 tools/<slug>/
   tool.json
   docs.md
+  reference.md  # optional
   sources.json
 ```
 
 Then add the tool to `registry.json`.
+
+Use `reference.md` for dense retrieval details such as endpoint tables, object schemas, auth flows, scope matrices, pagination, rate limits, and destructive operation notes.
 
 ## Source Order
 
@@ -44,5 +47,19 @@ Run:
 
 ```bash
 npm run validate
+npm run eval
+npm run reports
 ```
 
+For source health and drift checks:
+
+```bash
+npm run verify:sources
+npm run detect:drift
+```
+
+To create a review-only draft profile from source inputs:
+
+```bash
+npm run draft -- examples/draft-profile-input.json
+```

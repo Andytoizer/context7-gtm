@@ -14,11 +14,16 @@ The repository currently contains 196 GTM tool profiles.
 registry.json              # Source of truth for available tools
 tools/<slug>/tool.json     # Machine-readable profile metadata
 tools/<slug>/docs.md       # Retrieval-ready operational notes
+tools/<slug>/reference.md  # Optional endpoint/object/schema details
 tools/<slug>/sources.json  # Source URLs and verification metadata
-bin/gtm-docs.js                # Local CLI
+bin/gtm-docs.js            # Local CLI
 mcp/server.ts              # MCP stdio server
+http/server.js             # Read-only HTTP server
 scripts/validate-registry.js
 scripts/generate-reports.js
+scripts/verify-sources.js
+scripts/detect-surface-drift.js
+scripts/create-draft-profile.js
 scripts/run-evals.js
 reports/*.md
 evals/cases.json
@@ -72,7 +77,7 @@ npm run cli -- docs /gtm/smartlead auth
 npm run cli -- docs hubspot "contacts API"
 ```
 
-The topic filter ranks matching sections and appends related source context. If no section strongly matches, the CLI returns high-context fallback sections so the agent still has usable grounding.
+The topic filter ranks matching sections and appends related source context. If no section strongly matches, the CLI returns high-context fallback sections so the agent still has usable grounding. When `tools/<slug>/reference.md` exists, full docs include it and topic retrieval can match its endpoint tables, schema notes, and auth details.
 
 Fetch source metadata:
 
@@ -116,9 +121,34 @@ It also exposes MCP resources:
 
 Use it from any MCP-compatible agent by configuring the command to run `npm run mcp` from this repository root.
 
+## HTTP Usage
+
+Run the read-only HTTP fallback server:
+
+```bash
+npm run http
+```
+
+The server defaults to `http://localhost:8787` and supports:
+
+```text
+GET /health
+GET /registry
+GET /tools/search?q=hubspot&limit=5
+GET /tools/resolve?query=hubspot
+GET /tools/hubspot/docs?topic=auth
+GET /tools/hubspot/sources
+```
+
+Full tool IDs work when URL-encoded:
+
+```bash
+curl "http://localhost:8787/tools/%2Fgtm%2Fhubspot/docs?topic=contacts"
+```
+
 ## Data Model
 
-Each tool profile has three files.
+Each tool profile has three required files and may include one optional reference file.
 
 `tool.json` contains canonical machine-readable metadata:
 
@@ -152,6 +182,14 @@ Each tool profile has three files.
 - Agent interface availability.
 - Auth model, permissions, key objects, key actions, pagination, rate limits, webhooks, destructive operations, and caveats.
 - Source links used to build the profile.
+
+`reference.md` is optional. Use it for denser retrieval material that would make `docs.md` noisy:
+
+- Canonical endpoint tables.
+- Object schemas and required fields.
+- Auth flows and scope matrices.
+- Pagination and rate-limit tables.
+- Destructive operation notes.
 
 `sources.json` records source metadata:
 
@@ -188,12 +226,15 @@ To add or update a tool:
 
 1. Create or edit `tools/<slug>/tool.json`.
 2. Create or edit `tools/<slug>/docs.md`.
-3. Create or edit `tools/<slug>/sources.json`.
-4. Add or update the matching entry in `registry.json`.
-5. Run validation:
+3. Optionally create or edit `tools/<slug>/reference.md` for dense endpoint/object/schema details.
+4. Create or edit `tools/<slug>/sources.json`.
+5. Add or update the matching entry in `registry.json`.
+6. Run validation:
 
 ```bash
 npm run validate
+npm run eval
+npm run reports
 ```
 
 Research in this order:
@@ -221,6 +262,32 @@ Profiles should be refreshed when:
 - Community sources become obsolete or are replaced by official support.
 
 Freshness is recorded with `lastVerified` dates in both the registry and per-tool source metadata. Stale or uncertain profiles should remain available when structurally valid, but must be marked honestly with status and caveats.
+
+## Automation
+
+Verify source health:
+
+```bash
+npm run verify:sources
+```
+
+Detect possible metadata drift:
+
+```bash
+npm run detect:drift
+```
+
+`verify:sources` checks source URLs with HEAD plus GET fallback. Its default mode is CI-safe; use `node scripts/verify-sources.js --strict` when any source problem should fail locally.
+
+`detect:drift` reports profiles where source evidence mentions MCP, OpenAPI, llms.txt, SDK, CLI, or API surfaces while metadata still says `unknown` or `no`. It only reports; it does not edit profiles.
+
+Create a review-only draft profile:
+
+```bash
+npm run draft -- examples/draft-profile-input.json
+```
+
+Drafts are written under `draft-profiles/<slug>/`, ignored by git, and never added to `registry.json` automatically.
 
 ## Non-Goals
 

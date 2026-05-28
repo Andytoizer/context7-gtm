@@ -1,0 +1,25 @@
+name: Source Verification
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "24 9 * * *"
+
+jobs:
+  verify-sources:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify source URLs
+        run: node scripts/verify-sources.js --timeout-ms 10000 --concurrency 8
+
+      - name: Detect surface drift
+        run: node scripts/detect-surface-drift.js

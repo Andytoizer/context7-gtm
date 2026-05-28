@@ -4,6 +4,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   formatDocsResult,
+  formatFullDocsResult,
   loadToolFiles,
   resolveTool,
   retrieveDocs,
@@ -53,15 +54,15 @@ if (command === "docs") {
     console.error(`No tool found for: ${target}`);
     process.exit(1);
   }
-  const { docs, sourcesText } = loadToolFiles(root, tool);
+  const files = loadToolFiles(root, tool);
   const topic = rest.join(" ").trim();
 
   if (!topic) {
-    console.log(docs);
+    console.log(formatFullDocsResult(files));
     process.exit(0);
   }
 
-  const result = retrieveDocs({ docs, sourcesText, topic });
+  const result = retrieveDocs({ ...files, topic });
   console.log(formatDocsResult(result));
   process.exit(0);
 }
