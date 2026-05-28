@@ -1,10 +1,10 @@
-# Context7 GTM
+# GTM Docs Registry
 
-Context7 GTM is Context7-style documentation retrieval for GTM tools.
+GTM Docs Registry is source-backed documentation retrieval for GTM tools.
 
 It gives AI agents a stable way to resolve a GTM product by name, fetch source-backed operational docs, and decide how to use that tool through its official MCP, CLI, API, OpenAPI/spec, llms.txt, SDK, or community interfaces.
 
-This project is for agent builders, GTM automation systems, and coding agents that need current GTM tool context at runtime. It is not a human comparison catalog, ranking site, marketplace, or workflow recipe library. The agent composes workflows from the docs; Context7 GTM supplies the retrieval layer.
+This project is for agent builders, GTM automation systems, and coding agents that need current GTM tool context at runtime. It is not a human comparison catalog, ranking site, marketplace, or workflow recipe library. The agent composes workflows from the docs; GTM Docs Registry supplies the retrieval layer.
 
 ## What Is Included
 
@@ -15,7 +15,7 @@ registry.json              # Source of truth for available tools
 tools/<slug>/tool.json     # Machine-readable profile metadata
 tools/<slug>/docs.md       # Retrieval-ready operational notes
 tools/<slug>/sources.json  # Source URLs and verification metadata
-bin/gtm7.js                # Local CLI
+bin/gtm-docs.js                # Local CLI
 mcp/server.ts              # MCP stdio server
 scripts/validate-registry.js
 scripts/generate-reports.js
@@ -24,7 +24,7 @@ reports/*.md
 evals/cases.json
 ```
 
-The intended agent flow mirrors Context7:
+The intended agent flow is simple:
 
 ```text
 resolve-tool-id("hubspot")
@@ -51,7 +51,7 @@ List available tools:
 npm run cli -- list
 ```
 
-Resolve a product name, slug, Context7 GTM ID, or alias:
+Resolve a product name, slug, GTM Docs Registry ID, or alias:
 
 ```bash
 npm run cli -- resolve hubspot
@@ -211,7 +211,7 @@ Prefer official sources. Mark community sources as unofficial. Do not invent cap
 
 ## Freshness Philosophy
 
-Context7 GTM is maintained as a source-backed retrieval layer, not a static blog post.
+GTM Docs Registry is maintained as a source-backed retrieval layer, not a static blog post.
 
 Profiles should be refreshed when:
 
@@ -230,4 +230,4 @@ Freshness is recorded with `lastVerified` dates in both the registry and per-too
 - No unsupported claims.
 - No category taxonomy unless it is source-backed and useful for retrieval.
 
-Context7 GTM helps agents retrieve the right GTM tool documentation. The agent decides what workflow to build from that context.
+GTM Docs Registry helps agents retrieve the right GTM tool documentation. The agent decides what workflow to build from that context.

@@ -6,7 +6,7 @@ Scope: `registry.json` entries with `status: "needs-review"` and their existing 
 
 ## Summary
 
-Total needs-review profiles: **55**.
+Total needs-review profiles: **53**.
 
 This catalog is for agent-first docs retrieval, so the main publish question is whether a profile points agents at stable docs surfaces: MCP, CLI, REST/API references, OpenAPI/specs, SDKs, auth, objects, rate limits, pagination, and caveats. It should not depend on workflow recipes or product marketing pages.
 
@@ -14,7 +14,7 @@ This catalog is for agent-first docs retrieval, so the main publish question is 
 
 | Theme | Count | Pattern | Typical next action |
 | --- | ---: | --- | --- |
-| Weak/no API docs | 17 | Product/help pages exist, but endpoint-level API, CLI, MCP, OpenAPI, SDK, auth, rate, or pagination surfaces are missing or thin. | Keep needs-review; source refresh or deprioritize if no developer surface exists. |
+| Weak/no API docs | 15 | Product/help pages exist, but endpoint-level API, CLI, MCP, OpenAPI, SDK, auth, rate, or pagination surfaces are missing or thin. | Keep needs-review; source refresh or deprioritize if no developer surface exists. |
 | Gated docs/API | 13 | API/MCP access appears customer-only, partner-only, beta, private, sales-gated, or feature-gated. | Human decision or source refresh with customer/developer access. |
 | Rate/pagination unknown | 13 | Useful API docs exist, but operational details needed for agent-safe retrieval are missing. | Source refresh; publish after limits/pagination/auth are confirmed. |
 | Ambiguous product identity | 6 | Source set may refer to the wrong product, renamed product, broad platform, or non-GTM-adjacent surface. | Human decision before profile edits. |
@@ -37,9 +37,7 @@ This catalog is for agent-first docs retrieval, so the main publish question is 
 | `/gtm/clay` | 3 | Ambiguous product identity | Confirm Clay MCP docs apply to Clay.com GTM enrichment workspace, not Clay.earth relationship-manager product lineage. | Human decision | [1](https://university.clay.com/docs/using-clay-as-an-api), [2](https://library.clay.earth/hc/en-us/articles/36405339564315-Clay-MCP-live-Make-integration-improved-Library-and-more), [3](https://github.com/clay-inc/clay-mcp) |
 | `/gtm/demandbase` | 4 | Gated docs/API | Confirm MCP endpoint and access model; public search surfaced an official support title but not the full MCP docs. | Keep needs-review | [1](https://developer.demandbase.com/docs/demandbase-apis), [2](https://developer.demandbase.com/docs/b2b-overview), [3](https://developer.demandbase.com/docs/authenticating-with-the-apis), [4](https://developer.demandbase.com/docs/user-admin-overview) |
 | `/gtm/snowflake` | 4 | Weak/no API docs | Confirm whether Snowflake publishes first-party OpenAPI specs for REST/SQL APIs and whether docs expose llms.txt. | Source refresh | [1](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp), [2](https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/overview), [3](https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/reference), [4](https://docs.snowflake.com/en/developer-guide/sql-api/index), [5](https://github.com/Snowflake-Labs/mcp) |
-| `/gtm/google-places` | 3 | Weak/no API docs | Decide whether to include community MCP wrappers or only official Google REST/client-library docs. | Publish as-is | [1](https://developers.google.com/maps/documentation/places/web-service/reference/rest), [2](https://developers.google.com/maps/documentation/places/web-service/usage-and-billing), [3](https://developers.google.com/maps/faq), [4](https://developers.google.com/maps/documentation/places/web-service/text-search), [5](https://developers.google.com/maps/documentation/places/web-service/reference/rest/v1/places/searchText) |
 | `/gtm/logodev` | 3 | Weak/no API docs | Confirm whether an official OpenAPI spec exists and whether third-party MCP listings are acceptable. | Source refresh | [1](https://docs.logo.dev/), [2](https://www.logo.dev/docs/platform/rate-limits), [3](https://docs.logo.dev/logo-images/get), [4](https://docs.logo.dev/describe/introduction), [5](https://mcp.pipedream.com/app/logo_dev), [6](https://composio.dev/toolkits/logo_dev/framework/ai-sdk) |
-| `/gtm/unavatar` | 2 | Weak/no API docs | Confirm current official repo/docs alignment and whether lack of MCP/OpenAPI is acceptable for catalog inclusion. | Publish as-is | [1](https://unavatar.io/docs), [2](https://github.com/microlinkhq/unavatar) |
 | `/gtm/gong` | 3 | Weak/no API docs | Confirm whether Gong exposes a downloadable OpenAPI spec or official SDK behind authenticated developer docs. | Source refresh | [1](https://help.gong.io/docs/receive-access-to-the-api), [2](https://help.gong.io/docs/what-the-gong-api-provides), [3](https://visioneers.gong.io/developers-79/gong-api-pagination-limit-1036) |
 | `/gtm/granola` | 4 | Rate/pagination unknown | Find the public Granola API reference for exact endpoints, pagination, and rate limits. | Source refresh | [1](https://docs.granola.ai/help-center/sharing/integrations/mcp), [2](https://docs.granola.ai/article/integrations-with-granola), [3](https://docs.granola.ai/help-center/changelog) |
 | `/gtm/zendesk` | 4 | Announced MCP unverified | Locate official Zendesk MCP server docs/config once public after the May 2026 announcement. | Keep needs-review | [1](https://developer.zendesk.com/api-reference/), [2](https://developer.zendesk.com/api-reference/ticketing/introduction/), [3](https://developer.zendesk.com/documentation/conversations/references/openapi-specification/), [4](https://developer.zendesk.com/api-reference/introduction/rate-limits/), [5](https://developer.zendesk.com/api-reference/introduction/pagination/), [6](https://developer.zendesk.com/documentation/apps/getting-started/using-zcli/), [7](https://www.techradar.com/pro/zendesk-becomes-the-latest-to-adopt-mcp-to-futureproof-customers-in-the-ai-first-era) |
@@ -84,20 +82,20 @@ This catalog is for agent-first docs retrieval, so the main publish question is 
 
 ## Top 10 Quickest Wins
 
-1. `/gtm/google-places` - publish as-is if the catalog policy is official REST/client-library docs only; the profile already has official REST reference, quotas, billing, pagination, and auth sources.
-2. `/gtm/unavatar` - publish as-is if a small single-resource API is acceptable without MCP/OpenAPI; the existing docs and repo are enough for retrieval.
-3. `/gtm/logodev` - source refresh should be quick: official docs, rate-limit docs, endpoint docs, and `llms` surface are already linked; decide whether third-party MCP listings stay caveats.
-4. `/gtm/fullenrich` - source refresh for exact rate limits and Search pagination; MCP/API/docs are already present.
-5. `/gtm/sumble` - source refresh for OpenAPI/llms/SDK/CLI status; API docs, people endpoint, MCP integration, and security docs are already linked.
-6. `/gtm/dbt-cloud` - source refresh to classify MCP as first-party or community-only; API, CLI, and admin API docs are already strong.
-7. `/gtm/snowflake` - source refresh for OpenAPI/llms status; first-party MCP, CLI, REST, SQL API, and community MCP sources are already linked.
-8. `/gtm/framer` - source refresh for official MCP status; Server API, quick start, `llms.txt`, and package docs are already linked.
-9. `/gtm/gong` - source refresh for OpenAPI/SDK availability; API access, API coverage, rate limit, and pagination sources are already linked.
-10. `/gtm/loops` - quick human decision: if this is Loops.so email platform, the API, CLI, `llms.txt`, and OpenAPI sources make it near-publishable; if useLoops.io MCP was intended, split/deprioritize.
+1. `/gtm/logodev` - source refresh should be quick: official docs, rate-limit docs, endpoint docs, and `llms` surface are already linked; decide whether third-party MCP listings stay caveats.
+2. `/gtm/fullenrich` - source refresh for exact rate limits and Search pagination; MCP/API/docs are already present.
+3. `/gtm/sumble` - source refresh for OpenAPI/llms/SDK/CLI status; API docs, people endpoint, MCP integration, and security docs are already linked.
+4. `/gtm/dbt-cloud` - source refresh to classify MCP as first-party or community-only; API, CLI, and admin API docs are already strong.
+5. `/gtm/snowflake` - source refresh for OpenAPI/llms status; first-party MCP, CLI, REST, SQL API, and community MCP sources are already linked.
+6. `/gtm/framer` - source refresh for official MCP status; Server API, quick start, `llms.txt`, and package docs are already linked.
+7. `/gtm/gong` - source refresh for OpenAPI/SDK availability; API access, API coverage, rate limit, and pagination sources are already linked.
+8. `/gtm/loops` - quick human decision: if this is Loops.so email platform, the API, CLI, `llms.txt`, and OpenAPI sources make it near-publishable; if useLoops.io MCP was intended, split/deprioritize.
+9. `/gtm/granola` - source refresh for public API details; MCP and integration sources are already present.
+10. `/gtm/rocketreach` - source refresh for current official REST docs, exact rate limits, and OpenAPI availability.
 
 ## Recommended Batch Handling
 
-- Publish candidates after light refresh: `/gtm/google-places`, `/gtm/unavatar`, `/gtm/logodev`, `/gtm/fullenrich`, `/gtm/sumble`, `/gtm/dbt-cloud`, `/gtm/snowflake`, `/gtm/framer`, `/gtm/gong`, `/gtm/loops`.
+- Publish candidates after light refresh: `/gtm/logodev`, `/gtm/fullenrich`, `/gtm/sumble`, `/gtm/dbt-cloud`, `/gtm/snowflake`, `/gtm/framer`, `/gtm/gong`, `/gtm/loops`.
 - Keep needs-review for announced or gated MCP: `/gtm/salesloft`, `/gtm/demandbase`, `/gtm/zendesk`, `/gtm/google-drive`, `/gtm/similarweb`, `/gtm/tealium`, `/gtm/contentsquare`, `/gtm/otter-ai`.
 - Source refresh for integration-led or weak public developer surfaces: `/gtm/dripify`.
 - Human decision before profile edits: `/gtm/rb2b`, `/gtm/clay`, `/gtm/ai-ark`, `/gtm/pitchbook`, `/gtm/outplay`, `/gtm/uptics`, `/gtm/folloze`, `/gtm/clearbit`, `/gtm/owler`, `/gtm/owox`, `/gtm/crazy-egg`.

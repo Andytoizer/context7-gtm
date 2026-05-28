@@ -567,7 +567,7 @@
       "id": "/gtm/google-places",
       "name": "Google Places API",
       "slug": "google-places",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/google-places",
       "aliases": [
         "places api",
@@ -592,7 +592,7 @@
       "id": "/gtm/unavatar",
       "name": "unavatar.io",
       "slug": "unavatar",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/unavatar",
       "aliases": [
         "unavatar"

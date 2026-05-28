@@ -2,7 +2,7 @@
   "id": "/gtm/unavatar",
   "name": "unavatar.io",
   "slug": "unavatar",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [
     "unavatar"
   ],
@@ -36,6 +36,6 @@
     "Generated from parallel specialist scout findings.",
     "Use source links to refresh endpoint-level details before implementation."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm current official repo/docs alignment and whether lack of MCP/OpenAPI is acceptable for catalog inclusion."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

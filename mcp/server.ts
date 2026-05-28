@@ -17,13 +17,13 @@ const root = path.resolve(__dirname, "..");
 const registry = JSON.parse(fs.readFileSync(path.join(root, "registry.json"), "utf8"));
 
 const server = new McpServer({
-  name: "context7-gtm",
+  name: "gtm-docs-registry",
   version: "0.1.0"
 });
 
 server.tool(
   "resolve-tool-id",
-  "Resolve a GTM product name or alias to a Context7 GTM tool ID.",
+  "Resolve a GTM product name or alias to a GTM Docs Registry tool ID.",
   { toolName: z.string() },
   async ({ toolName }) => {
     const tool = resolveTool(registry, toolName);
@@ -55,7 +55,7 @@ server.tool(
 
 server.tool(
   "get-tool-sources",
-  "Get source metadata for a Context7 GTM tool.",
+  "Get source metadata for a GTM Docs Registry tool.",
   { toolId: z.string() },
   async ({ toolId }) => {
     const tool = resolveTool(registry, toolId);
@@ -69,7 +69,7 @@ server.tool(
 
 server.tool(
   "search-tools",
-  "Search Context7 GTM registry names, aliases, and docs text for ranked tool matches.",
+  "Search GTM tool names, aliases, and docs text for ranked matches.",
   {
     query: z.string(),
     limit: z.number().int().min(1).max(25).optional()
@@ -89,8 +89,8 @@ server.resource(
   "registry",
   "gtm://registry",
   {
-    title: "Context7 GTM Registry",
-    description: "All Context7 GTM tool metadata.",
+    title: "GTM Tool Registry",
+    description: "All GTM tool metadata.",
     mimeType: "application/json"
   },
   async (uri) => ({
@@ -117,7 +117,7 @@ server.resource(
     }
   }),
   {
-    title: "Context7 GTM Tool Docs",
+    title: "GTM Docs Registry Tool Docs",
     description: "Retrieval-ready docs for an individual GTM tool.",
     mimeType: "text/markdown"
   },
@@ -150,7 +150,7 @@ server.resource(
     }
   }),
   {
-    title: "Context7 GTM Tool Sources",
+    title: "GTM Docs Registry Tool Sources",
     description: "Source metadata for an individual GTM tool.",
     mimeType: "application/json"
   },

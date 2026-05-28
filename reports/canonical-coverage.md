@@ -75,7 +75,7 @@ Tools with no sources: 0.
 | [GoHighLevel](../tools/gohighlevel/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [Gong](../tools/gong/tool.json) | yes | 3 total; 0 official; 0 community | needs-review | 3 |
 | [Google Drive](../tools/google-drive/tool.json) | yes | 6 total; 0 official; 0 community | needs-review | 4 |
-| [Google Places API](../tools/google-places/tool.json) | yes | 5 total; 0 official; 0 community | needs-review | 3 |
+| [Google Places API](../tools/google-places/tool.json) | yes | 5 total; 0 official; 0 community | published | 3 |
 | [Gorgias](../tools/gorgias/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [Granola](../tools/granola/tool.json) | yes | 3 total; 0 official; 0 community | needs-review | 4 |
 | [Help Scout](../tools/help-scout/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
@@ -183,7 +183,7 @@ Tools with no sources: 0.
 | [Trigify](../tools/trigify/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Typeform](../tools/typeform/tool.json) | yes | 6 total; 6 official; 0 community | published | 4 |
 | [Uberflip](../tools/uberflip/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
-| [unavatar.io](../tools/unavatar/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 2 |
+| [unavatar.io](../tools/unavatar/tool.json) | yes | 2 total; 0 official; 0 community | published | 2 |
 | [Unify](../tools/unify/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Uptics](../tools/uptics/tool.json) | yes | 1 total; 0 official; 0 community | needs-review | 2 |
 | [Userflow](../tools/userflow/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |

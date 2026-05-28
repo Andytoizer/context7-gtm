@@ -1,6 +1,6 @@
 # Contributing
 
-Context7 GTM is an agent-facing docs retrieval project. Contributions should improve per-tool documentation retrieval.
+GTM Docs Registry is an agent-facing docs retrieval project. Contributions should improve per-tool documentation retrieval.
 
 ## What To Add
 

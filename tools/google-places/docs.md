@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-Google Places API is a GTM tool profile for Context7 GTM. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Google Places API is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
 
 Agent readiness score: 3/5.
 
@@ -44,10 +44,6 @@ Text/Nearby Search use pageSize/pageToken with nextPageToken; usually 20/page, m
 - Destructive action risk: low.
 - Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Decide whether to include community MCP wrappers or only official Google REST/client-library docs.
 
 ## Sources
 

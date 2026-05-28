@@ -1,0 +1,32 @@
+name: Review a needs-review profile
+description: Help resolve a profile currently marked needs-review.
+title: "Review profile: "
+labels:
+  - needs-review
+body:
+  - type: input
+    id: tool_id
+    attributes:
+      label: Tool ID
+      description: Example: /gtm/salesloft
+    validations:
+      required: true
+  - type: dropdown
+    id: recommendation
+    attributes:
+      label: Recommended outcome
+      options:
+        - Publish
+        - Keep needs-review
+        - Remove or deprioritize
+        - Split into multiple profiles
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link docs, repos, changelogs, or explain the product/access decision.
+    validations:
+      required: true

@@ -58,7 +58,7 @@ console.log(`Generated 5 reports for ${tools.length} tools.`);
 
 function renderSummary() {
   return [
-    "# Context7 GTM Review Summary",
+    "# GTM Docs Registry Review Summary",
     "",
     GENERATED,
     "",

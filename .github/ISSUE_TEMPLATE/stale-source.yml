@@ -1,0 +1,33 @@
+name: Report stale docs or source link
+description: Flag moved, broken, deprecated, or contradicted sources.
+title: "Stale source: "
+labels:
+  - stale-source
+body:
+  - type: input
+    id: tool_id
+    attributes:
+      label: Tool ID
+      description: Example: /gtm/apollo
+    validations:
+      required: true
+  - type: input
+    id: stale_url
+    attributes:
+      label: Stale or broken URL
+    validations:
+      required: true
+  - type: input
+    id: replacement_url
+    attributes:
+      label: Replacement URL
+      description: Optional, but preferred.
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: What changed?
+    validations:
+      required: false

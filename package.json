@@ -1,13 +1,13 @@
 {
-  "name": "context7-gtm",
+  "name": "gtm-docs-registry",
   "version": "0.1.0",
-  "description": "Context7-style docs retrieval for GTM tools.",
+  "description": "Source-backed docs retrieval for GTM tools.",
   "type": "module",
   "bin": {
-    "gtm7": "./bin/gtm7.js"
+    "gtm-docs": "./bin/gtm-docs.js"
   },
   "scripts": {
-    "cli": "node ./bin/gtm7.js",
+    "cli": "node ./bin/gtm-docs.js",
     "import:scouts": "node ./scripts/import-scout-findings.js",
     "import:tier2": "node ./scripts/import-tier2-findings.js",
     "reports": "node ./scripts/generate-reports.js",

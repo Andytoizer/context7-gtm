@@ -1,0 +1,34 @@
+name: Add a tool
+description: Suggest a new GTM tool profile.
+title: "Add tool: "
+labels:
+  - tool-request
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Tool name
+      description: Canonical product name.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+      description: Product homepage or developer docs homepage.
+    validations:
+      required: true
+  - type: textarea
+    id: docs
+    attributes:
+      label: Developer docs
+      description: Link official MCP, CLI, API, OpenAPI/spec, llms.txt, SDK, or GitHub docs if you have them.
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any aliases, auth caveats, access constraints, or known community implementations.
+    validations:
+      required: false

@@ -2,7 +2,7 @@
 
 ## Agent Summary
 
-unavatar.io is a GTM tool profile for Context7 GTM. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+unavatar.io is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
 
 Agent readiness score: 2/5.
 
@@ -42,10 +42,6 @@ None; single-resource lookup API.
 - Destructive action risk: low.
 - Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm current official repo/docs alignment and whether lack of MCP/OpenAPI is acceptable for catalog inclusion.
 
 ## Sources
 

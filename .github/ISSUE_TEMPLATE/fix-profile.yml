@@ -1,0 +1,41 @@
+name: Fix a tool profile
+description: Report incorrect or incomplete profile data.
+title: "Fix profile: "
+labels:
+  - profile-fix
+body:
+  - type: input
+    id: tool_id
+    attributes:
+      label: Tool ID
+      description: Example: /gtm/hubspot
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: What needs fixing?
+      options:
+        - MCP/CLI/API status
+        - Auth or permissions
+        - Objects/actions
+        - Rate limits or pagination
+        - Source links
+        - Status/readiness score
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What is wrong, missing, stale, or unclear?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Supporting sources
+      description: Link official docs or credible community sources.
+    validations:
+      required: false

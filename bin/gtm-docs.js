@@ -16,11 +16,11 @@ const registry = JSON.parse(fs.readFileSync(path.join(root, "registry.json"), "u
 
 function printUsage() {
   console.log(`Usage:
-  gtm7 resolve <tool-name>
-  gtm7 docs <tool-id-or-name> [topic]
-  gtm7 sources <tool-id-or-name>
-  gtm7 search <query>
-  gtm7 list`);
+  gtm-docs resolve <tool-name>
+  gtm-docs docs <tool-id-or-name> [topic]
+  gtm-docs sources <tool-id-or-name>
+  gtm-docs search <query>
+  gtm-docs list`);
 }
 
 const [command, target, ...rest] = process.argv.slice(2);
