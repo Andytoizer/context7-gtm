@@ -929,9 +929,9 @@ function renderHomepage() {
       letter-spacing: -0.01em;
     }
     .brand-mark {
-      width: 28px;
-      height: 28px;
-      border-radius: 7px;
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
       display: block;
       flex-shrink: 0;
       object-fit: cover;
@@ -1661,7 +1661,7 @@ function renderHomepage() {
   <header>
     <div class="shell nav">
       <a class="brand" href="/">
-        <img class="brand-mark" src="/assets/logo-96.png" srcset="/assets/logo-96.png 1x, /assets/logo-192.png 2x" alt="" width="28" height="28">
+        <img class="brand-mark" src="/assets/logo-96.png" srcset="/assets/logo-96.png 1x, /assets/logo-192.png 2x" alt="" width="34" height="34">
         <span>GTM Docs Registry</span>
       </a>
       <nav class="nav-links">
@@ -2145,8 +2145,8 @@ function renderToolDocsPage({ tool, files, sources, topic, result }) {
     }
     .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 600; font-size: 15px; letter-spacing: -0.01em; }
     .brand-mark {
-      width: 28px; height: 28px;
-      border-radius: 7px;
+      width: 34px; height: 34px;
+      border-radius: 8px;
       display: block; flex-shrink: 0;
       object-fit: cover;
     }
@@ -2467,7 +2467,7 @@ function renderToolDocsPage({ tool, files, sources, topic, result }) {
   <header>
     <div class="shell nav">
       <a class="brand" href="/">
-        <img class="brand-mark" src="/assets/logo-96.png" srcset="/assets/logo-96.png 1x, /assets/logo-192.png 2x" alt="" width="28" height="28">
+        <img class="brand-mark" src="/assets/logo-96.png" srcset="/assets/logo-96.png 1x, /assets/logo-192.png 2x" alt="" width="34" height="34">
         <span>GTM Docs Registry</span>
       </a>
       <nav class="nav-links">
