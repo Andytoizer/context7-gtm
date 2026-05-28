@@ -832,6 +832,9 @@ function renderHomepage() {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GTM Docs Registry — Source-backed docs for agent builders</title>
   <meta name="description" content="A registry of ${tools.length} GTM tools with verified MCP, API, CLI, OpenAPI, SDK and llms.txt docs your agents can rely on.">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/logo-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
@@ -926,24 +929,12 @@ function renderHomepage() {
       letter-spacing: -0.01em;
     }
     .brand-mark {
-      display: inline-grid;
-      place-items: center;
-      width: 26px;
-      height: 26px;
-      border-radius: 6px;
-      background: var(--ink);
-      color: #fff;
-      font-family: "Geist Mono", monospace;
-      font-weight: 600;
-      font-size: 13px;
-    }
-    .brand-mark::after {
-      content: "";
-      width: 6px; height: 6px;
-      border-radius: 999px;
-      background: var(--accent);
-      position: relative;
-      transform: translate(8px, -8px);
+      width: 28px;
+      height: 28px;
+      border-radius: 7px;
+      display: block;
+      flex-shrink: 0;
+      object-fit: cover;
     }
     .nav-links {
       display: flex;
@@ -1670,7 +1661,7 @@ function renderHomepage() {
   <header>
     <div class="shell nav">
       <a class="brand" href="/">
-        <span class="brand-mark">g</span>
+        <img class="brand-mark" src="/assets/logo-96.png" srcset="/assets/logo-96.png 1x, /assets/logo-192.png 2x" alt="" width="28" height="28">
         <span>GTM Docs Registry</span>
       </a>
       <nav class="nav-links">
@@ -2072,6 +2063,9 @@ function renderToolDocsPage({ tool, files, sources, topic, result }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="Source-backed agent and human docs for ${escapeHtml(tool.name)}.">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/logo-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
@@ -2151,15 +2145,10 @@ function renderToolDocsPage({ tool, files, sources, topic, result }) {
     }
     .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 600; font-size: 15px; letter-spacing: -0.01em; }
     .brand-mark {
-      display: inline-grid; place-items: center;
-      width: 26px; height: 26px; border-radius: 6px;
-      background: var(--ink); color: #fff;
-      font-family: "Geist Mono", monospace; font-weight: 600; font-size: 13px;
-    }
-    .brand-mark::after {
-      content: ""; width: 6px; height: 6px; border-radius: 999px;
-      background: var(--accent); position: relative;
-      transform: translate(8px, -8px);
+      width: 28px; height: 28px;
+      border-radius: 7px;
+      display: block; flex-shrink: 0;
+      object-fit: cover;
     }
     .nav-links { display: flex; align-items: center; gap: 26px; font-size: 13.5px; color: var(--ink-3); }
     .nav-link:hover { color: var(--ink); }
@@ -2478,7 +2467,7 @@ function renderToolDocsPage({ tool, files, sources, topic, result }) {
   <header>
     <div class="shell nav">
       <a class="brand" href="/">
-        <span class="brand-mark">g</span>
+        <img class="brand-mark" src="/assets/logo-96.png" srcset="/assets/logo-96.png 1x, /assets/logo-192.png 2x" alt="" width="28" height="28">
         <span>GTM Docs Registry</span>
       </a>
       <nav class="nav-links">
@@ -2652,6 +2641,36 @@ function renderInline(value) {
     .join("");
 }
 
+const STATIC_MIME = {
+  ".png": "image/png",
+  ".svg": "image/svg+xml",
+  ".ico": "image/x-icon",
+  ".webp": "image/webp"
+};
+
+function handleStatic(res, relPath) {
+  const ext = path.extname(relPath).toLowerCase();
+  const mime = STATIC_MIME[ext];
+  if (!mime) {
+    sendError(res, 404, "Not found.");
+    return;
+  }
+  const safe = relPath.replace(/\.\.+/g, "");
+  const filePath = path.join(root, "http", "assets", safe);
+  try {
+    const body = fs.readFileSync(filePath);
+    res.writeHead(200, {
+      ...CORS_HEADERS,
+      "Content-Type": mime,
+      "Cache-Control": "public, max-age=86400, immutable",
+      "Content-Length": body.length
+    });
+    res.end(body);
+  } catch {
+    sendError(res, 404, "Not found.");
+  }
+}
+
 function routeRequest(req, res) {
   if (req.method === "OPTIONS") {
     res.writeHead(204, CORS_HEADERS);
@@ -2676,6 +2695,21 @@ function routeRequest(req, res) {
   }
 
   try {
+    if (segments[0] === "assets" && segments.length >= 2) {
+      handleStatic(res, segments.slice(1).map(decodeSegment).join("/"));
+      return;
+    }
+
+    if (pathKey === "/favicon.ico" || pathKey === "/favicon.png") {
+      handleStatic(res, "favicon-32.png");
+      return;
+    }
+
+    if (pathKey === "/apple-touch-icon.png" || pathKey === "/apple-touch-icon-precomposed.png") {
+      handleStatic(res, "apple-touch-icon.png");
+      return;
+    }
+
     if (pathKey === "/health") {
       handleHealth(res);
       return;
