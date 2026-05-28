@@ -733,75 +733,21 @@ function renderHomepage() {
   const apiCount = tools.filter((tool) => tool.surfaces.api === "yes").length;
   const highReadyCount = tools.filter((tool) => tool.score >= 5).length;
 
-  // ── Top tools (Featured grid) — sort by readiness then name ─────────────
-  const featured = [...tools]
-    .sort((a, b) => (Number(b.score) || 0) - (Number(a.score) || 0) || a.name.localeCompare(b.name))
-    .slice(0, 12);
-
-  // ── Browse-by-job cards: curated keyword lists per category ─────────────
-  const tasks = [
-    {
-      id: "outbound-email",
-      label: "Cold email outbound",
-      desc: "Send sequenced cold email from your agent.",
-      icon: "✉",
-      keywords: ["smartlead", "lemlist", "instantly", "outreach", "salesloft", "mailshake", "reply", "woodpecker", "mixmax", "apollo"]
-    },
-    {
-      id: "crm",
-      label: "CRM",
-      desc: "Read & write contact, deal, and account records.",
-      icon: "◫",
-      keywords: ["hubspot", "salesforce", "attio", "pipedrive", "close", "copper", "freshsales", "zoho", "folk"]
-    },
-    {
-      id: "enrichment",
-      label: "Contact enrichment",
-      desc: "Find emails, phones, and firmographics for a person or company.",
-      icon: "✦",
-      keywords: ["clay", "apollo", "zoominfo", "lusha", "cognism", "findymail", "datagma", "hunter", "leadmagic", "prospeo", "rocketreach", "snov", "anymailfinder"]
-    },
-    {
-      id: "messaging",
-      label: "Customer messaging",
-      desc: "Send lifecycle email, SMS, and in-app messages.",
-      icon: "◐",
-      keywords: ["customer.io", "customerio", "klaviyo", "iterable", "braze", "mailchimp", "activecampaign", "sendgrid", "postmark", "loops", "resend", "courier"]
-    },
-    {
-      id: "linkedin",
-      label: "LinkedIn outreach",
-      desc: "Connect, message, and engage on LinkedIn at scale.",
-      icon: "in",
-      keywords: ["heyreach", "dripify", "expandi", "salesflow", "lagrowthmachine", "linkedhelper", "kondo", "waalaxy", "skylead"]
-    },
-    {
-      id: "analytics",
-      label: "Product analytics",
-      desc: "Track events, funnels, and behavior.",
-      icon: "⌥",
-      keywords: ["mixpanel", "amplitude", "segment", "heap", "posthog", "june", "plausible", "fathom", "rudderstack"]
-    }
+  const featuredSlugs = [
+    "hubspot",
+    "salesforce",
+    "instantly",
+    "apollo",
+    "heyreach",
+    "jungler",
+    "rb2b",
+    "notion",
+    "n8n",
+    "builtwith",
+    "pylon",
+    "exa"
   ];
-
-  // For each task, compute how many of our tools match — purely for the badge
-  const taskCounts = tasks.map((task) => {
-    const hits = tools.filter((tool) => {
-      const hay = [tool.id, tool.name, tool.slug, ...(tool.aliases || [])].join(" ").toLowerCase();
-      return task.keywords.some((kw) => hay.includes(kw));
-    }).length;
-    return { ...task, count: hits };
-  });
-
-  const taskCardsHtml = taskCounts.map((task) => `
-        <button class="task" data-task="${task.id}" data-keywords="${task.keywords.join(",")}">
-          <div class="task-head">
-            <span class="task-icon" aria-hidden="true">${task.icon}</span>
-            <span class="task-count">${task.count} tools</span>
-          </div>
-          <div class="task-label">${escapeHtml(task.label)}</div>
-          <div class="task-desc">${escapeHtml(task.desc)}</div>
-        </button>`).join("");
+  const featured = featuredSlugs.map((slug) => tools.find((tool) => tool.slug === slug)).filter(Boolean);
 
   const featuredCardsHtml = featured.map((tool) => {
     const surfaceOrder = ["mcp", "api", "cli", "openapi", "llms", "sdk"];
@@ -1212,89 +1158,6 @@ function renderHomepage() {
       align-items: center;
     }
 
-    /* ── Task cards (browse by job) ─────────────────────────── */
-    .tasks {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-    }
-    .task {
-      text-align: left;
-      background: var(--bg);
-      border: 1px solid var(--rule);
-      border-radius: var(--radius-lg);
-      padding: 22px;
-      cursor: pointer;
-      font: inherit;
-      color: inherit;
-      transition: transform 200ms var(--ease-out), border-color 200ms var(--ease-out), box-shadow 200ms var(--ease-out), background 200ms var(--ease-out);
-      position: relative;
-      overflow: hidden;
-    }
-    .task::before {
-      content: "";
-      position: absolute;
-      inset: auto -20% -60% auto;
-      width: 280px;
-      height: 280px;
-      background: radial-gradient(closest-side, rgba(16,185,129,.16), transparent);
-      opacity: 0;
-      transform: scale(0.6);
-      transition: opacity 320ms var(--ease-out), transform 320ms var(--ease-out);
-      pointer-events: none;
-    }
-    .task:hover {
-      border-color: var(--ink);
-      transform: translateY(-2px);
-      box-shadow: 0 10px 24px -16px rgba(10,10,10,.18);
-    }
-    .task:hover::before { opacity: 1; transform: scale(1); }
-    .task:active { transform: scale(0.99); }
-    .task[data-active="true"] {
-      border-color: var(--ink);
-      background: var(--ink);
-      color: #fff;
-    }
-    .task[data-active="true"] .task-count,
-    .task[data-active="true"] .task-desc { color: var(--dark-muted); }
-    .task[data-active="true"] .task-icon { background: var(--accent); color: #fff; border-color: var(--accent); }
-    .task-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 18px;
-    }
-    .task-icon {
-      width: 32px;
-      height: 32px;
-      border-radius: 8px;
-      border: 1px solid var(--rule);
-      display: grid;
-      place-items: center;
-      font-family: "Geist Mono", monospace;
-      font-size: 14px;
-      color: var(--ink);
-      background: var(--bg-2);
-      transition: background 200ms var(--ease-out), color 200ms var(--ease-out), border-color 200ms var(--ease-out);
-    }
-    .task-count {
-      font-family: "Geist Mono", monospace;
-      font-size: 11.5px;
-      color: var(--muted);
-      letter-spacing: 0.02em;
-    }
-    .task-label {
-      font-size: 16px;
-      font-weight: 600;
-      letter-spacing: -0.01em;
-    }
-    .task-desc {
-      margin-top: 6px;
-      font-size: 13.5px;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-
     /* ── Featured grid ─────────────────────────────────────── */
     .grid {
       display: grid;
@@ -1635,7 +1498,6 @@ function renderHomepage() {
       .hero { padding: 64px 0 48px; }
       .hero-grid { grid-template-columns: 1fr; gap: 36px; align-items: start; }
       .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .tasks { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       section.block, section.dark { padding: 64px 0; }
       .sec-head { flex-direction: column; align-items: flex-start; }
       .dark .grid-2 { grid-template-columns: 1fr; }
@@ -1649,7 +1511,6 @@ function renderHomepage() {
       .nav-links .nav-link { display: none; }
       .nav-links { gap: 8px; font-size: 12.5px; }
       h1 { font-size: clamp(40px, 11vw, 56px); }
-      .tasks { grid-template-columns: 1fr; }
       .grid { grid-template-columns: 1fr 1fr; gap: 10px; }
       .sec-head h2 { font-size: 28px; }
       .term-body { font-size: 12px; padding: 16px; }
@@ -1665,7 +1526,6 @@ function renderHomepage() {
         <span>GTM Docs Registry</span>
       </a>
       <nav class="nav-links">
-        <a class="nav-link" href="#tasks">Browse</a>
         <a class="nav-link" href="#featured">Featured</a>
         <a class="nav-link" href="#catalog">Catalog</a>
         <a class="nav-link" href="#agents">For agents</a>
@@ -1715,34 +1575,16 @@ function renderHomepage() {
       </div>
     </section>
 
-    <section class="block" id="tasks">
-      <div class="shell">
-        <div class="sec-head">
-          <div>
-            <div class="eyebrow"><span class="dot-led"></span>Browse by job</div>
-            <h2>Tell us what your agent needs to do.</h2>
-            <p>Skip the alphabetical list. Pick the job and we'll filter the catalog down to the tools that actually do it.</p>
-          </div>
-          <div class="right">
-            <a class="btn" href="#catalog">All ${tools.length} tools <span class="arr">→</span></a>
-          </div>
-        </div>
-        <div class="tasks" id="task-list">
-          ${taskCardsHtml}
-        </div>
-      </div>
-    </section>
-
     <section class="block" id="featured">
       <div class="shell">
         <div class="sec-head">
           <div>
             <div class="eyebrow"><span class="dot-led"></span>Most agent-ready</div>
             <h2>Featured GTM tools.</h2>
-            <p>The 12 tools with the cleanest, most-verified docs — the ones least likely to make your agent guess.</p>
+            <p>A curated starter set across CRM, outbound, enrichment, data, support, automation, and search.</p>
           </div>
           <div class="right">
-            <span class="filter-meta">Sorted by readiness · 5/5 first</span>
+            <span class="filter-meta">Curated set · 12 tools</span>
           </div>
         </div>
         <div class="grid">
@@ -1831,10 +1673,8 @@ function renderHomepage() {
     const filterMeta = document.getElementById("filter-meta");
     const clearBtn = document.getElementById("clear-filters");
     const surfaceChips = Array.from(document.querySelectorAll(".chip[data-surface]"));
-    const taskButtons = Array.from(document.querySelectorAll(".task[data-task]"));
 
     let activeSurface = null;   // 'mcp' | 'api' | ...
-    let activeTask = null;      // task object
     let catalogQuery = "";
 
     function esc(v) {
@@ -1847,11 +1687,6 @@ function renderHomepage() {
       const v = t.surfaces[key];
       return v === "yes" || v === "announced";
     }
-    function toolMatchesTask(t, task) {
-      const hay = toolHay(t);
-      return task.keywords.some((kw) => hay.includes(kw));
-    }
-
     // ── Build the marquee ─────────────────────────────────────────────
     (function buildMarquee() {
       const track = document.getElementById("signal-track");
@@ -1910,32 +1745,12 @@ function renderHomepage() {
         const q = more.getAttribute("data-pass");
         catalogSearch.value = q;
         catalogQuery = q;
-        clearTaskAndSurface();
+        clearSurfaceFilter();
         renderCatalog();
         searchResults.removeAttribute("data-open");
         heroSearch.value = "";
         document.getElementById("catalog").scrollIntoView({ behavior: "smooth", block: "start" });
       }
-    });
-
-    // ── Task cards (browse by job) ────────────────────────────────────
-    taskButtons.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const taskId = btn.dataset.task;
-        const keywords = btn.dataset.keywords.split(",");
-        const wasActive = activeTask && activeTask.id === taskId;
-        taskButtons.forEach((b) => b.removeAttribute("data-active"));
-        if (wasActive) {
-          activeTask = null;
-        } else {
-          activeTask = { id: taskId, keywords };
-          btn.dataset.active = "true";
-          activeSurface = null;
-          surfaceChips.forEach((c) => c.removeAttribute("data-active"));
-        }
-        renderCatalog();
-        document.getElementById("catalog").scrollIntoView({ behavior: "smooth", block: "start" });
-      });
     });
 
     // ── Surface chips inside catalog ──────────────────────────────────
@@ -1954,15 +1769,13 @@ function renderHomepage() {
       });
     });
 
-    function clearTaskAndSurface() {
-      activeTask = null;
+    function clearSurfaceFilter() {
       activeSurface = null;
-      taskButtons.forEach((b) => b.removeAttribute("data-active"));
       surfaceChips.forEach((c) => c.removeAttribute("data-active"));
     }
 
     clearBtn.addEventListener("click", () => {
-      clearTaskAndSurface();
+      clearSurfaceFilter();
       catalogSearch.value = "";
       catalogQuery = "";
       renderCatalog();
@@ -2008,7 +1821,6 @@ function renderHomepage() {
     }
     function renderCatalog() {
       let pool = tools;
-      if (activeTask) pool = pool.filter((t) => toolMatchesTask(t, activeTask));
       if (activeSurface) pool = pool.filter((t) => toolMatchesSurface(t, activeSurface));
       if (catalogQuery.trim()) {
         const q = catalogQuery.trim().toLowerCase();
@@ -2022,7 +1834,6 @@ function renderHomepage() {
         list.innerHTML = pool.map(rowHtml).join("");
       }
       const filterDesc = [
-        activeTask ? activeTask.id : null,
         activeSurface ? activeSurface : null,
         catalogQuery.trim() ? '"' + catalogQuery.trim() + '"' : null
       ].filter(Boolean).join(" · ");
@@ -2471,7 +2282,6 @@ function renderToolDocsPage({ tool, files, sources, topic, result }) {
         <span>GTM Docs Registry</span>
       </a>
       <nav class="nav-links">
-        <a class="nav-link" href="/#tasks">Browse</a>
         <a class="nav-link" href="/#featured">Featured</a>
         <a class="nav-link" href="/#catalog">Catalog</a>
         <a class="nav-link" href="/#agents">For agents</a>
