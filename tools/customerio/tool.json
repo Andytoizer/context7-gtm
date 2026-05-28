@@ -1,0 +1,22 @@
+{
+  "id": "/gtm/customerio",
+  "name": "Customer.io",
+  "slug": "customerio",
+  "status": "published",
+  "aliases": ["customer.io", "cio"],
+  "agentReadinessScore": 5,
+  "lastVerified": "2026-05-28",
+  "interfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApi": "yes",
+    "llmsTxt": "yes",
+    "officialSdk": "yes"
+  },
+  "sourceQuality": {
+    "official": "strong",
+    "community": "not-needed"
+  }
+}
+

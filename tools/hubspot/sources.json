@@ -1,0 +1,39 @@
+{
+  "lastVerified": "2026-05-28",
+  "official": [
+    {
+      "label": "Developer docs",
+      "url": "https://developers.hubspot.com/docs"
+    },
+    {
+      "label": "Remote MCP",
+      "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server"
+    },
+    {
+      "label": "Local MCP",
+      "url": "https://developers.hubspot.com/docs/developer-tooling/local-development/mcp-server"
+    },
+    {
+      "label": "CLI reference",
+      "url": "https://developers.hubspot.com/docs/developer-tooling/local-development/hubspot-cli/reference"
+    },
+    {
+      "label": "API reference",
+      "url": "https://developers.hubspot.com/docs/reference/api"
+    },
+    {
+      "label": "OAuth docs",
+      "url": "https://developers.hubspot.com/docs/api/working-with-oauth"
+    },
+    {
+      "label": "OpenAPI spec collection",
+      "url": "https://github.com/HubSpot/HubSpot-public-api-spec-collection"
+    },
+    {
+      "label": "Changelog",
+      "url": "https://developers.hubspot.com/changelog"
+    }
+  ],
+  "community": []
+}
+

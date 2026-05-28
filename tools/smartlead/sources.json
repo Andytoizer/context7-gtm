@@ -1,0 +1,27 @@
+{
+  "lastVerified": "2026-05-28",
+  "official": [
+    {
+      "label": "API quickstart",
+      "url": "https://api.smartlead.ai/quickstart"
+    },
+    {
+      "label": "MCP docs",
+      "url": "https://helpcenter.smartlead.ai/en/articles/300-smartlead-mcp-server"
+    },
+    {
+      "label": "Full API docs/auth",
+      "url": "https://helpcenter.smartlead.ai/en/articles/125-full-api-documentation"
+    },
+    {
+      "label": "CLI repo",
+      "url": "https://github.com/Smartlead-Public/smartlead-cli"
+    },
+    {
+      "label": "Changelog",
+      "url": "https://api.smartlead.ai/changelog"
+    }
+  ],
+  "community": []
+}
+

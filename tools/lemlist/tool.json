@@ -1,0 +1,22 @@
+{
+  "id": "/gtm/lemlist",
+  "name": "Lemlist",
+  "slug": "lemlist",
+  "status": "published",
+  "aliases": ["lemlist outbound"],
+  "agentReadinessScore": 5,
+  "lastVerified": "2026-05-28",
+  "interfaces": {
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApi": "no",
+    "llmsTxt": "yes",
+    "officialSdk": "no"
+  },
+  "sourceQuality": {
+    "official": "strong",
+    "community": "medium"
+  }
+}
+

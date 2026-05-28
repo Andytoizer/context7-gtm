@@ -1,0 +1,35 @@
+{
+  "lastVerified": "2026-05-28",
+  "official": [
+    {
+      "label": "Official website",
+      "url": "https://www.lemlist.com/"
+    },
+    {
+      "label": "API overview",
+      "url": "https://developer.lemlist.com/api-reference/getting-started/overview"
+    },
+    {
+      "label": "MCP setup",
+      "url": "https://developer.lemlist.com/mcp/setup"
+    },
+    {
+      "label": "API auth",
+      "url": "https://developer.lemlist.com/api-reference/getting-started/authentication"
+    },
+    {
+      "label": "llms.txt",
+      "url": "https://developer.lemlist.com/llms.txt"
+    },
+    {
+      "label": "AI info",
+      "url": "https://www.lemlist.com/ai-info"
+    },
+    {
+      "label": "Lemlist agent docs",
+      "url": "https://developer.lemlist.com/mcp/lemlist-agent"
+    }
+  ],
+  "community": []
+}
+

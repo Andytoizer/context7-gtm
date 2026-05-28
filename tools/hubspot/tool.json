@@ -1,0 +1,22 @@
+{
+  "id": "/gtm/hubspot",
+  "name": "HubSpot",
+  "slug": "hubspot",
+  "status": "published",
+  "aliases": ["hubspot crm", "hs"],
+  "agentReadinessScore": 5,
+  "lastVerified": "2026-05-28",
+  "interfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApi": "yes",
+    "llmsTxt": "yes",
+    "officialSdk": "yes"
+  },
+  "sourceQuality": {
+    "official": "strong",
+    "community": "medium"
+  }
+}
+

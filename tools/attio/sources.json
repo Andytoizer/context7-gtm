@@ -1,0 +1,43 @@
+{
+  "lastVerified": "2026-05-28",
+  "official": [
+    {
+      "label": "Developer platform",
+      "url": "https://attio.com/platform/developers"
+    },
+    {
+      "label": "Docs homepage",
+      "url": "https://docs.attio.com/docs/overview"
+    },
+    {
+      "label": "MCP docs",
+      "url": "https://docs.attio.com/mcp/overview"
+    },
+    {
+      "label": "REST API overview",
+      "url": "https://docs.attio.com/rest-api/overview"
+    },
+    {
+      "label": "Auth docs",
+      "url": "https://docs.attio.com/rest-api/guides/authentication"
+    },
+    {
+      "label": "OpenAPI docs",
+      "url": "https://docs.attio.com/rest-api/endpoint-reference/openapi"
+    },
+    {
+      "label": "AI docs",
+      "url": "https://docs.attio.com/sdk/guides/ai"
+    },
+    {
+      "label": "Official GitHub",
+      "url": "https://github.com/attio"
+    },
+    {
+      "label": "Changelog",
+      "url": "https://attio.com/changelog"
+    }
+  ],
+  "community": []
+}
+

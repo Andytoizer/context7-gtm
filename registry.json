@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "0.1.0",
+  "updatedAt": "2026-05-28",
+  "tools": [
+    {
+      "id": "/gtm/hubspot",
+      "name": "HubSpot",
+      "slug": "hubspot",
+      "status": "published",
+      "path": "tools/hubspot",
+      "aliases": ["hubspot crm", "hs"],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/attio",
+      "name": "Attio",
+      "slug": "attio",
+      "status": "published",
+      "path": "tools/attio",
+      "aliases": ["attio crm"],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/smartlead",
+      "name": "Smartlead",
+      "slug": "smartlead",
+      "status": "published",
+      "path": "tools/smartlead",
+      "aliases": ["smartlead.ai", "smartlead outbound"],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/lemlist",
+      "name": "Lemlist",
+      "slug": "lemlist",
+      "status": "published",
+      "path": "tools/lemlist",
+      "aliases": ["lemlist outbound"],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/customerio",
+      "name": "Customer.io",
+      "slug": "customerio",
+      "status": "published",
+      "path": "tools/customerio",
+      "aliases": ["customer.io", "cio"],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    }
+  ]
+}
+

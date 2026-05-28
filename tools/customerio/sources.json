@@ -1,0 +1,35 @@
+{
+  "lastVerified": "2026-05-28",
+  "official": [
+    {
+      "label": "MCP docs",
+      "url": "https://docs.customer.io/ai/mcp-server/"
+    },
+    {
+      "label": "CLI quickstart",
+      "url": "https://docs.customer.io/ai/cli/get-started/"
+    },
+    {
+      "label": "CLI reference",
+      "url": "https://docs.customer.io/ai/cli/reference/"
+    },
+    {
+      "label": "API/OpenAPI docs",
+      "url": "https://docs.customer.io/integrations/api/app/"
+    },
+    {
+      "label": "AI docs usage",
+      "url": "https://docs.customer.io/ai/use-docs-with-ai/"
+    },
+    {
+      "label": "Official GitHub",
+      "url": "https://github.com/customerio"
+    },
+    {
+      "label": "SDK docs",
+      "url": "https://docs.customer.io/integrations/sdk/"
+    }
+  ],
+  "community": []
+}
+

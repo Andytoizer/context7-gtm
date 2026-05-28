@@ -1,0 +1,22 @@
+{
+  "id": "/gtm/smartlead",
+  "name": "Smartlead",
+  "slug": "smartlead",
+  "status": "published",
+  "aliases": ["smartlead.ai", "smartlead outbound"],
+  "agentReadinessScore": 5,
+  "lastVerified": "2026-05-28",
+  "interfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApi": "yes",
+    "llmsTxt": "yes",
+    "officialSdk": "no"
+  },
+  "sourceQuality": {
+    "official": "strong",
+    "community": "medium"
+  }
+}
+

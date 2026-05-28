@@ -1,0 +1,22 @@
+{
+  "id": "/gtm/attio",
+  "name": "Attio",
+  "slug": "attio",
+  "status": "published",
+  "aliases": ["attio crm"],
+  "agentReadinessScore": 5,
+  "lastVerified": "2026-05-28",
+  "interfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApi": "yes",
+    "llmsTxt": "yes",
+    "officialSdk": "yes"
+  },
+  "sourceQuality": {
+    "official": "strong",
+    "community": "strong"
+  }
+}
+
