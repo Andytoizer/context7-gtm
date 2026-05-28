@@ -1,0 +1,42 @@
+[
+  {
+    "title": "tally.so/help/api",
+    "url": "https://tally.so/help/api",
+    "type": "official"
+  },
+  {
+    "title": "developers.tally.so/api-reference/introduction",
+    "url": "https://developers.tally.so/api-reference/introduction",
+    "type": "official"
+  },
+  {
+    "title": "developers.tally.so/api-reference/api-keys",
+    "url": "https://developers.tally.so/api-reference/api-keys",
+    "type": "official"
+  },
+  {
+    "title": "developers.tally.so/api-reference/versioning",
+    "url": "https://developers.tally.so/api-reference/versioning",
+    "type": "official"
+  },
+  {
+    "title": "developers.tally.so/api-reference/mcp",
+    "url": "https://developers.tally.so/api-reference/mcp",
+    "type": "official"
+  },
+  {
+    "title": "developers.tally.so/llms.txt",
+    "url": "https://developers.tally.so/llms.txt",
+    "type": "official"
+  },
+  {
+    "title": "tally.so/help/mcp-server",
+    "url": "https://tally.so/help/mcp-server",
+    "type": "official"
+  },
+  {
+    "title": "tally.so/help/webhooks",
+    "url": "https://tally.so/help/webhooks",
+    "type": "official"
+  }
+]

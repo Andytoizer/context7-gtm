@@ -1,0 +1,45 @@
+{
+  "id": "/gtm/mixpanel",
+  "name": "Mixpanel",
+  "slug": "mixpanel",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://mixpanel.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Service account Basic auth for query/export APIs; project tokens or SDK credentials for event ingestion and profile updates depending API surface."
+  },
+  "objects": [
+    "Events",
+    "user profiles",
+    "group profiles",
+    "cohorts",
+    "funnels",
+    "retention",
+    "insights",
+    "annotations",
+    "schemas",
+    "lookup tables",
+    "projects"
+  ],
+  "rateLimits": "Endpoint-specific. Raw event export documents 60 queries per hour, 3 queries per second, and 100 concurrent queries; other endpoints have separate documented limits.",
+  "pagination": "Endpoint-specific. Export streams raw events by date range; query/reference endpoints use their own paging, cursor, or limit parameters.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the final canonical seed-list completion batch.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false
+}

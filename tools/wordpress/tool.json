@@ -1,0 +1,52 @@
+{
+  "id": "/gtm/wordpress",
+  "name": "WordPress",
+  "slug": "wordpress",
+  "status": "published",
+  "aliases": [
+    "wp",
+    "wp-cli",
+    "wordpress.com"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://wordpress.org/",
+  "surfaces": {
+    "officialMcp": "yes",
+    "officialCli": "yes",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
+    "communityCli": "yes",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Depends on surface: WordPress REST API uses cookies/nonces, application passwords, OAuth/plugin auth, or host-specific auth; WP-CLI uses local site/server credentials; WordPress.com MCP uses account authorization."
+  },
+  "objects": [
+    "Posts",
+    "pages",
+    "media",
+    "comments",
+    "users",
+    "taxonomies",
+    "terms",
+    "plugins",
+    "themes",
+    "settings",
+    "sites",
+    "multisite networks",
+    "blocks",
+    "revisions"
+  ],
+  "rateLimits": "Self-hosted WordPress REST API rate limits are host/plugin-specific; WordPress.com APIs and MCP access are plan/account controlled.",
+  "pagination": "REST API collection endpoints use page/per_page headers and links; WP-CLI supports output formats and command-specific filters.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the final canonical seed-list completion batch.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false
+}

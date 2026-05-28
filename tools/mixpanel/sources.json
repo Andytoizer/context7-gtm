@@ -1,0 +1,42 @@
+[
+  {
+    "title": "developer.mixpanel.com/reference/overview",
+    "url": "https://developer.mixpanel.com/reference/overview",
+    "type": "official"
+  },
+  {
+    "title": "developer.mixpanel.com/reference",
+    "url": "https://developer.mixpanel.com/reference",
+    "type": "official"
+  },
+  {
+    "title": "developer.mixpanel.com/reference/limits",
+    "url": "https://developer.mixpanel.com/reference/limits",
+    "type": "official"
+  },
+  {
+    "title": "developer.mixpanel.com/reference/raw-event-export",
+    "url": "https://developer.mixpanel.com/reference/raw-event-export",
+    "type": "official"
+  },
+  {
+    "title": "developer.mixpanel.com/llms.txt",
+    "url": "https://developer.mixpanel.com/llms.txt",
+    "type": "official"
+  },
+  {
+    "title": "github.com/mixpanel/docs",
+    "url": "https://github.com/mixpanel/docs",
+    "type": "official"
+  },
+  {
+    "title": "mixpanel.github.io/mixpanel-python",
+    "url": "https://mixpanel.github.io/mixpanel-python/",
+    "type": "official"
+  },
+  {
+    "title": "mixpanel.github.io/mixpanel-php/classes/Mixpanel.html",
+    "url": "https://mixpanel.github.io/mixpanel-php/classes/Mixpanel.html",
+    "type": "official"
+  }
+]

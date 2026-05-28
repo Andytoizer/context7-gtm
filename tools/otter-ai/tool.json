@@ -1,0 +1,47 @@
+{
+  "id": "/gtm/otter-ai",
+  "name": "Otter.ai",
+  "slug": "otter-ai",
+  "status": "needs-review",
+  "aliases": [
+    "otter",
+    "otterai"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://otter.ai/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Bearer API key created from the Integrations > Developer tab. Public API is beta and must be enabled for the workspace."
+  },
+  "objects": [
+    "Channels",
+    "conversations",
+    "transcripts",
+    "audio",
+    "action items",
+    "insights",
+    "outlines",
+    "workspace details",
+    "webhooks"
+  ],
+  "rateLimits": "Enterprise plan users are limited to 10 requests per second in the public beta docs.",
+  "pagination": "Cursor-based pagination with meta.has_more and meta.next_cursor on list endpoints.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the final canonical seed-list completion batch.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": true,
+  "reviewReason": "Public API is beta and may require account-manager enablement; verify workspace access and current endpoint coverage before implementation."
+}

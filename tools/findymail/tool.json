@@ -1,0 +1,46 @@
+{
+  "id": "/gtm/findymail",
+  "name": "Findymail",
+  "slug": "findymail",
+  "status": "published",
+  "aliases": [
+    "fastymail",
+    "findy mail"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.findymail.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "unknown"
+  },
+  "auth": {
+    "notes": "Bearer token from the Findymail API page."
+  },
+  "objects": [
+    "Email verification",
+    "contacts",
+    "contact lists",
+    "email finder searches",
+    "reverse email",
+    "companies",
+    "employees",
+    "phone search",
+    "credits"
+  ],
+  "rateLimits": "Official docs state all endpoints have a concurrent rate limit of 300 simultaneous requests unless stated otherwise.",
+  "pagination": "List/search pagination is endpoint-specific; inspect the OpenAPI document and endpoint reference before bulk retrieval.",
+  "destructiveActionRisk": "medium",
+  "notes": [
+    "Generated from the final canonical seed-list completion batch.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false
+}

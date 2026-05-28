@@ -1,0 +1,44 @@
+{
+  "id": "/gtm/typeform",
+  "name": "Typeform",
+  "slug": "typeform",
+  "status": "published",
+  "aliases": [],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://www.typeform.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "Personal access tokens or OAuth 2.0 bearer tokens; EU data-center accounts use EU API base URLs."
+  },
+  "objects": [
+    "Forms/typeforms",
+    "fields",
+    "themes",
+    "images",
+    "responses",
+    "webhooks",
+    "workspaces",
+    "teams",
+    "applications",
+    "embeds"
+  ],
+  "rateLimits": "Create and Responses APIs document two requests per second per Typeform account.",
+  "pagination": "Responses and list endpoints use endpoint-specific parameters such as page_size, before/after tokens, or form-specific query filters.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the final canonical seed-list completion batch.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false
+}

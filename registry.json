@@ -392,16 +392,6 @@
       "lastVerified": "2026-05-28"
     },
     {
-      "id": "/gtm/fastymail",
-      "name": "Fastymail",
-      "slug": "fastymail",
-      "status": "needs-review",
-      "path": "tools/fastymail",
-      "aliases": [],
-      "agentReadinessScore": 1,
-      "lastVerified": "2026-05-28"
-    },
-    {
       "id": "/gtm/fullenrich",
       "name": "FullEnrich",
       "slug": "fullenrich",
@@ -2027,6 +2017,92 @@
       "path": "tools/userguiding",
       "aliases": [],
       "agentReadinessScore": 2,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/findymail",
+      "name": "Findymail",
+      "slug": "findymail",
+      "status": "published",
+      "path": "tools/findymail",
+      "aliases": [
+        "fastymail",
+        "findy mail"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/otter-ai",
+      "name": "Otter.ai",
+      "slug": "otter-ai",
+      "status": "needs-review",
+      "path": "tools/otter-ai",
+      "aliases": [
+        "otter",
+        "otterai"
+      ],
+      "agentReadinessScore": 3,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/mixpanel",
+      "name": "Mixpanel",
+      "slug": "mixpanel",
+      "status": "published",
+      "path": "tools/mixpanel",
+      "aliases": [],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/wordpress",
+      "name": "WordPress",
+      "slug": "wordpress",
+      "status": "published",
+      "path": "tools/wordpress",
+      "aliases": [
+        "wp",
+        "wp-cli",
+        "wordpress.com"
+      ],
+      "agentReadinessScore": 5,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/phantombuster",
+      "name": "PhantomBuster",
+      "slug": "phantombuster",
+      "status": "published",
+      "path": "tools/phantombuster",
+      "aliases": [
+        "phantom buster",
+        "pb"
+      ],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/typeform",
+      "name": "Typeform",
+      "slug": "typeform",
+      "status": "published",
+      "path": "tools/typeform",
+      "aliases": [],
+      "agentReadinessScore": 4,
+      "lastVerified": "2026-05-28"
+    },
+    {
+      "id": "/gtm/tally",
+      "name": "Tally",
+      "slug": "tally",
+      "status": "published",
+      "path": "tools/tally",
+      "aliases": [
+        "tally.so",
+        "tally forms"
+      ],
+      "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     }
   ]

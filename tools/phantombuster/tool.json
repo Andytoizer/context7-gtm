@@ -1,0 +1,46 @@
+{
+  "id": "/gtm/phantombuster",
+  "name": "PhantomBuster",
+  "slug": "phantombuster",
+  "status": "published",
+  "aliases": [
+    "phantom buster",
+    "pb"
+  ],
+  "lastVerified": "2026-05-28",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://phantombuster.com/",
+  "surfaces": {
+    "officialMcp": "unknown",
+    "officialCli": "unknown",
+    "officialApi": "yes",
+    "openApiSpec": "unknown",
+    "llmsDocs": "unknown",
+    "officialSdk": "unknown",
+    "communityMcp": "unknown",
+    "communityCli": "unknown",
+    "communitySdkOrIntegration": "yes"
+  },
+  "auth": {
+    "notes": "X-Phantombuster-Key header with an API key created in workspace settings."
+  },
+  "objects": [
+    "Agents/Phantoms",
+    "containers/launches",
+    "console output",
+    "results",
+    "scripts",
+    "workspace storage",
+    "LinkedIn leads",
+    "lead lists",
+    "companies"
+  ],
+  "rateLimits": "Current docs require testing in the built-in API reference and handling throttling; exact public limits should be confirmed per workspace/endpoint.",
+  "pagination": "Endpoint-specific; results and storage endpoints should be checked in the API reference before bulk retrieval.",
+  "destructiveActionRisk": "high",
+  "notes": [
+    "Generated from the final canonical seed-list completion batch.",
+    "Use source links to refresh endpoint-level details before implementation."
+  ],
+  "needsHumanReview": false
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "developer.wordpress.org/rest-api",
+    "url": "https://developer.wordpress.org/rest-api/",
+    "type": "official"
+  },
+  {
+    "title": "developer.wordpress.org/rest-api/reference",
+    "url": "https://developer.wordpress.org/rest-api/reference/",
+    "type": "official"
+  },
+  {
+    "title": "developer.wordpress.org/cli/commands",
+    "url": "https://developer.wordpress.org/cli/commands/",
+    "type": "official"
+  },
+  {
+    "title": "wordpress.org/cli",
+    "url": "https://wordpress.org/cli/",
+    "type": "official"
+  },
+  {
+    "title": "wordpress.com/support/mcp",
+    "url": "https://wordpress.com/support/mcp/",
+    "type": "official"
+  },
+  {
+    "title": "github.com/WP-API/docs",
+    "url": "https://github.com/WP-API/docs",
+    "type": "official"
+  }
+]
