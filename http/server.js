@@ -181,7 +181,7 @@ function handleCatalog(res) {
 function handleMcpInfo(res) {
   sendJson(res, 200, {
     name: "gtm-docs-registry",
-    description: "Hosted JSON-RPC endpoint exposing GTM Docs Registry retrieval tools.",
+    description: "MCP-compatible JSON-RPC endpoint exposing GTM Docs Registry retrieval tools. This is not streamable HTTP/SSE MCP transport.",
     endpoint: "/mcp",
     transport: "http-json-rpc",
     protocol: "modelcontextprotocol-compatible",
@@ -554,7 +554,7 @@ function renderLlmsTxt({ full = false } = {}) {
     `- Homepage and searchable catalog: ${baseUrl}/`,
     `- Published catalog JSON: ${baseUrl}/catalog`,
     `- OpenAPI spec: ${baseUrl}/openapi.json`,
-    `- Hosted MCP JSON-RPC endpoint: ${baseUrl}/mcp`,
+    `- MCP-compatible JSON-RPC endpoint: ${baseUrl}/mcp`,
     `- Registry JSON: ${baseUrl}/registry`,
     `- Search tools: ${baseUrl}/tools/search?q=hubspot&limit=5`,
     `- Resolve tool: ${baseUrl}/tools/resolve?query=hubspot`,
@@ -563,7 +563,7 @@ function renderLlmsTxt({ full = false } = {}) {
     `- Topic retrieval JSON: ${baseUrl}/tools/hubspot/docs?topic=contacts&format=json`,
     `- Source metadata: ${baseUrl}/tools/hubspot/sources`,
     "",
-    "## Hosted MCP JSON-RPC Tools",
+    "## MCP-Compatible JSON-RPC Tools",
     "",
     "- resolve-tool-id: resolve a GTM product name or alias to a /gtm/<slug> ID.",
     "- get-tool-docs: retrieve source-backed tool docs, optionally filtered by topic.",
@@ -688,11 +688,11 @@ function buildOpenApiSpec() {
       },
       "/mcp": {
         get: {
-          summary: "Hosted MCP endpoint metadata",
+          summary: "MCP-compatible JSON-RPC endpoint metadata",
           responses: { 200: { description: "Endpoint and tool metadata" } }
         },
         post: {
-          summary: "Hosted MCP JSON-RPC endpoint",
+          summary: "MCP-compatible JSON-RPC endpoint",
           requestBody: {
             required: true,
             content: {

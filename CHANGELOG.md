@@ -12,6 +12,6 @@
 - Added Vercel deployment configuration for the hosted read-only HTTP API.
 - Added a public homepage and searchable catalog for the 184 published tool profiles.
 - Added human-readable tool docs pages while preserving JSON retrieval for agents.
-- Added `/llms.txt`, `/llms-full.txt`, `/openapi.json`, and a hosted JSON-RPC `/mcp` endpoint.
+- Added `/llms.txt`, `/llms-full.txt`, `/openapi.json`, and an MCP-compatible JSON-RPC `/mcp` endpoint.
 - Added dense `reference.md` retrieval notes for 19 additional high-priority tools.
 - Clarified the project focus around source-backed docs retrieval for GTM tools, with no workflow recipes.

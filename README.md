@@ -167,7 +167,7 @@ Agent discovery and hosted access:
 - `/llms.txt` gives agents a compact discovery file.
 - `/llms-full.txt` includes the full published tool list and JSON-RPC example.
 - `/openapi.json` describes the HTTP API.
-- `/mcp` exposes a hosted JSON-RPC endpoint with MCP-compatible methods: `initialize`, `tools/list`, `tools/call`, `resources/list`, and `resources/read`.
+- `/mcp` exposes an MCP-compatible JSON-RPC endpoint with methods: `initialize`, `tools/list`, `tools/call`, `resources/list`, and `resources/read`. This is hosted agent access, not full streamable HTTP/SSE MCP transport.
 
 Full tool IDs work when URL-encoded:
 
