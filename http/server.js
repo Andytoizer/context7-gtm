@@ -796,9 +796,9 @@ function renderHomepage() {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GTM Docs Registry — Source-backed docs for agent builders</title>
   <meta name="description" content="A registry of ${tools.length} GTM tools with verified MCP, API, CLI, OpenAPI, SDK and llms.txt docs your agents can rely on.">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/logo-192.png">
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-dark-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/logo-dark-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon-dark.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
@@ -1564,7 +1564,7 @@ function renderHomepage() {
   <header>
     <div class="shell nav">
       <a class="brand" href="/">
-        <img class="brand-mark" src="/assets/logo-96.png" srcset="/assets/logo-96.png 1x, /assets/logo-192.png 2x" alt="" width="34" height="34">
+        <img class="brand-mark" src="/assets/logo-dark-96.png" srcset="/assets/logo-dark-96.png 1x, /assets/logo-dark-192.png 2x" alt="" width="34" height="34">
         <span>GTM Docs Registry</span>
       </a>
       <nav class="nav-links">
@@ -1916,9 +1916,9 @@ function renderToolDocsPage({ tool, files, sources, topic, result }) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="Source-backed agent and human docs for ${escapeHtml(tool.name)}.">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/logo-192.png">
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-dark-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/logo-dark-192.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon-dark.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
@@ -2320,7 +2320,7 @@ function renderToolDocsPage({ tool, files, sources, topic, result }) {
   <header>
     <div class="shell nav">
       <a class="brand" href="/">
-        <img class="brand-mark" src="/assets/logo-96.png" srcset="/assets/logo-96.png 1x, /assets/logo-192.png 2x" alt="" width="34" height="34">
+        <img class="brand-mark" src="/assets/logo-dark-96.png" srcset="/assets/logo-dark-96.png 1x, /assets/logo-dark-192.png 2x" alt="" width="34" height="34">
         <span>GTM Docs Registry</span>
       </a>
       <nav class="nav-links">
@@ -2554,12 +2554,12 @@ function routeRequest(req, res) {
     }
 
     if (pathKey === "/favicon.ico" || pathKey === "/favicon.png") {
-      handleStatic(res, "favicon-32.png");
+      handleStatic(res, "favicon-dark-32.png");
       return;
     }
 
     if (pathKey === "/apple-touch-icon.png" || pathKey === "/apple-touch-icon-precomposed.png") {
-      handleStatic(res, "apple-touch-icon.png");
+      handleStatic(res, "apple-touch-icon-dark.png");
       return;
     }
 
