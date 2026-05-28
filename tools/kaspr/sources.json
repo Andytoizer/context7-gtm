@@ -1,12 +1,37 @@
 [
   {
-    "title": "kaspr.io",
-    "url": "https://www.kaspr.io/",
+    "title": "Kaspr API product page",
+    "url": "https://www.kaspr.io/api",
     "type": "source"
   },
   {
-    "title": "help.kaspr.io",
-    "url": "https://help.kaspr.io/",
+    "title": "How to setup Kaspr API",
+    "url": "https://help.kaspr.io/en/articles/8857583-how-to-setup-kaspr-api",
+    "type": "source"
+  },
+  {
+    "title": "Kaspr Stoplight API reference shell",
+    "url": "https://kaspr.stoplight.io/docs/kaspr-api/branches/main/a9e3adc32ee8e-kaspr-api-doc",
+    "type": "source"
+  },
+  {
+    "title": "Kaspr pricing",
+    "url": "https://www.kaspr.io/pricing",
+    "type": "source"
+  },
+  {
+    "title": "SmoothWork Kaspr API integration notes",
+    "url": "https://smoothwork.ai/kaspr-api-integration-services/",
+    "type": "source"
+  },
+  {
+    "title": "dltHub Kaspr source scaffold",
+    "url": "https://dlthub.com/context/source/kaspr",
+    "type": "source"
+  },
+  {
+    "title": "Make Community Kaspr integration thread",
+    "url": "https://community.make.com/t/issue-with-kaspr-integration-no-phone-numbers-added-to-google-sheet-despite-purchased-credits/19938",
     "type": "source"
   }
 ]

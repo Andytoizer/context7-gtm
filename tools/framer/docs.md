@@ -46,12 +46,9 @@ No general REST pagination model found. Framer's official FAQ says the Server AP
 
 - Destructive action risk: medium.
 - Server API can publish preview links and promote deployments to production, and the FAQ says operations are not transactional; handle partial failures carefully.
-- Official Framer docs mention building an MCP server as a Server API use case, but do not publish an official MCP server/install surface.
+- Official Framer docs mention building an MCP server as a Server API use case, but first-party developer docs do not publish canonical MCP setup instructions.
+- Framer Marketplace lists third-party MCP plugins; MCP directory listings should not be treated as the source of truth for destructive site changes.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Keep in review: official Framer docs source the beta Server API/SDK and mention MCP as a possible use case, but do not publish a first-party MCP server or install surface; community directories disagree on whether a Framer MCP is official.
 
 ## Sources
 
@@ -63,4 +60,5 @@ Keep in review: official Framer docs source the beta Server API/SDK and mention 
 - https://www.framer.com/llms.txt
 - https://www.npmjs.com/package/framer-api
 - https://github.com/framer/server-api-examples
+- https://www.framer.com/marketplace/plugins/mcp
 - https://mcp.directory/servers/framer

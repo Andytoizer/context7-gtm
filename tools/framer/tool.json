@@ -2,7 +2,7 @@
   "id": "/gtm/framer",
   "name": "Framer",
   "slug": "framer",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
   "agentReadinessScore": 3,
@@ -37,8 +37,8 @@
   "destructiveActionRisk": "medium",
   "notes": [
     "Official Framer docs cover the beta Server API, framer-api JavaScript package, Plugin API reference, llms.txt, and GitHub examples.",
-    "Official docs mention building an MCP server on top of the Server API, but no first-party MCP server/install documentation was found."
+    "Official docs mention building an MCP server on top of the Server API; Framer Marketplace lists third-party MCP plugins and MCP directories list a Framer-published server, but first-party Framer developer docs do not expose canonical MCP setup docs."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Keep in review: official Framer docs source the beta Server API/SDK and mention MCP as a possible use case, but do not publish a first-party MCP server or install surface; community directories disagree on whether a Framer MCP is official."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

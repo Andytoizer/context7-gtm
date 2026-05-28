@@ -2,42 +2,49 @@
   "id": "/gtm/vector",
   "name": "Vector.co",
   "slug": "vector",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [
     "vector"
   ],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 1,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://www.vector.co/",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
-    "officialApi": "unknown",
-    "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
-    "communityMcp": "unknown",
-    "communityCli": "unknown",
-    "communitySdkOrIntegration": "unknown"
+    "officialMcp": true,
+    "officialCli": false,
+    "officialApi": false,
+    "openApiSpec": false,
+    "llmsDocs": false,
+    "officialSdk": false,
+    "communityMcp": false,
+    "communityCli": false,
+    "communitySdkOrIntegration": false
   },
   "auth": {
-    "notes": "Unknown."
+    "methods": ["OAuth 2.0 remote MCP"],
+    "notes": "Vector MCP uses https://mcp.vector.co/mcp with browser-based OAuth 2.0; no API key, CLI, or local install is required."
   },
   "objects": [
-    "Contacts",
-    "audiences",
-    "segments",
-    "site visitors",
-    "ad clicks",
-    "ad-platform syncs"
+    "Ad campaign performance",
+    "Campaign pacing",
+    "Creative diagnostics",
+    "Spend",
+    "Impressions",
+    "Clicks",
+    "ROAS signals",
+    "LinkedIn ad engagement",
+    "Contact-level visitor data",
+    "De-anonymized site visitors",
+    "ICP companies",
+    "Cross-channel buyer signals"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
-  "destructiveActionRisk": "medium",
+  "rateLimits": "No public Vector MCP rate-limit numbers found; Vector says it caches performance data and refreshes daily to avoid hammering ad-platform APIs.",
+  "pagination": "No public pagination docs found for the MCP tools.",
+  "destructiveActionRisk": "low",
+  "sourceQuality": "strong",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
-  ],
-  "needsHumanReview": true,
-  "reviewReason": "Public docs expose product/help content, not source-backed API/CLI/MCP docs."
+    "Vector is agent-ready through an official remote MCP server and official setup/use/guardrail docs.",
+    "The MCP is currently read-only and focuses on ad performance, campaign pacing, creative diagnostics, and de-anonymized visitor/buyer activity.",
+    "Vector states it uses approved ad-platform APIs, avoids browser automation/scraping, and caches data with daily refreshes."
+  ]
 }

@@ -1,12 +1,19 @@
-[
-  {
-    "title": "quickmail.com",
-    "url": "https://quickmail.com/",
-    "type": "source"
-  },
-  {
-    "title": "help.quickmail.com",
-    "url": "https://help.quickmail.com/",
-    "type": "source"
-  }
-]
+{
+  "lastVerified": "2026-05-28",
+  "official": [
+    {
+      "label": "Official website",
+      "url": "https://quickmail.com/"
+    },
+    {
+      "label": "QuickMail API V2 GraphQL documentation",
+      "url": "https://api.quickmail.com/help"
+    }
+  ],
+  "community": [
+    {
+      "label": "Reddit thread pointing from older Notion docs to current API docs",
+      "url": "https://www.reddit.com/r/coldemail/comments/1tcrod2/any_advice_on_a_solid_mcp_outbound_infra/"
+    }
+  ]
+}

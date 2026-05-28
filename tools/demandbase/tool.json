@@ -2,18 +2,18 @@
   "id": "/gtm/demandbase",
   "name": "Demandbase",
   "slug": "demandbase",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
   "agentReadinessScore": 4,
   "canonicalUrl": "https://www.demandbase.com/",
   "surfaces": {
-    "officialMcp": "announced",
+    "officialMcp": "yes",
     "officialCli": "unknown",
     "officialApi": "yes",
     "openApiSpec": "yes",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "unknown"
@@ -31,13 +31,13 @@
     "credit usage",
     "buying groups"
   ],
-  "rateLimits": "Admin API 90/min per HTTP method; other quotas vary.",
-  "pagination": "Unknown.",
+  "rateLimits": "Admin API 90/min per HTTP method; Import API daily endpoint quotas; MCP credit usage is record-based.",
+  "pagination": "MCP defaults to 5 records/page and supports up to 100 records/page; REST pagination is endpoint-specific in the API reference.",
   "destructiveActionRisk": "high",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official developer hub covers REST APIs, API reference/OpenAPI-backed endpoint docs, Python SDK, and MCP.",
+    "Demandbase MCP requires CSM enablement and official support is limited to documented clients."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm MCP endpoint and access model; public search surfaced an official support title but not the full MCP docs."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

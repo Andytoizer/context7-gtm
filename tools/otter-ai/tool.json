@@ -2,46 +2,48 @@
   "id": "/gtm/otter-ai",
   "name": "Otter.ai",
   "slug": "otter-ai",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [
     "otter",
     "otterai"
   ],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
-  "canonicalUrl": "https://otter.ai/",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialMcp": "yes",
+    "officialCli": "no",
     "officialApi": "yes",
     "openApiSpec": "unknown",
     "llmsDocs": "unknown",
     "officialSdk": "unknown",
-    "communityMcp": "unknown",
+    "communityMcp": "yes",
     "communityCli": "unknown",
-    "communitySdkOrIntegration": "unknown"
+    "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Bearer API key created from the Integrations > Developer tab. Public API is beta and must be enabled for the workspace."
+    "notes": "Public API uses Bearer API keys from Integrations > Developer for Enterprise workspaces. Official MCP uses OAuth authorization through supported AI tools or custom MCP setup."
   },
   "objects": [
     "Channels",
-    "conversations",
-    "transcripts",
-    "audio",
-    "action items",
-    "insights",
-    "outlines",
-    "workspace details",
-    "webhooks"
+    "Channel Members",
+    "Conversations",
+    "Transcripts",
+    "Audio",
+    "Action Items",
+    "Insights",
+    "Outlines",
+    "Workspace Details",
+    "MCP Search/Fetch/User Info"
   ],
-  "rateLimits": "Enterprise plan users are limited to 10 requests per second in the public beta docs.",
+  "rateLimits": "Enterprise plan users are limited to 10 requests per second in the public API docs.",
   "pagination": "Cursor-based pagination with meta.has_more and meta.next_cursor on list endpoints.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from the final canonical seed-list completion batch.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official Public API article, updated April 23, 2026, covers auth, endpoints, rate limits, pagination, channels, conversations, transcripts, audio, workspace, and webhooks guidance.",
+    "Official MCP article, updated May 14, 2026, documents https://mcp.otter.ai/mcp, OAuth auth, ChatGPT/Claude/Cursor/Perplexity setup, and tools for user info, search, and fetch.",
+    "Public API availability is Enterprise-workspace gated; contact the account manager if the Developer tab is missing."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Public API is beta and may require account-manager enablement; verify workspace access and current endpoint coverage before implementation."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

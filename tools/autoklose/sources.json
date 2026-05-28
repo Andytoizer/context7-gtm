@@ -1,12 +1,32 @@
 [
   {
-    "title": "autoklose.com",
-    "url": "https://www.autoklose.com/",
+    "title": "Autoklose Help - Does Autoklose have a public API?",
+    "url": "https://help.autoklose.com/hc/en-us/articles/38956030013211-Does-Autoklose-have-a-public-API",
     "type": "source"
   },
   {
-    "title": "help.autoklose.com",
-    "url": "https://help.autoklose.com/",
+    "title": "Autoklose API",
+    "url": "https://api.aklab.xyz/",
+    "type": "source"
+  },
+  {
+    "title": "LinkApi Autoklose component reference",
+    "url": "https://developers.linkapi.solutions/docs/autoklose",
+    "type": "source"
+  },
+  {
+    "title": "Zapier Autoklose MCP",
+    "url": "https://zapier.com/mcp/autoklose",
+    "type": "source"
+  },
+  {
+    "title": "Pipedream Autoklose MCP",
+    "url": "https://mcp.pipedream.com/app/autoklose",
+    "type": "source"
+  },
+  {
+    "title": "Autoklose website",
+    "url": "https://www.autoklose.com/",
     "type": "source"
   }
 ]

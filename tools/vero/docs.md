@@ -4,7 +4,7 @@
 
 Vero is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
 
-Agent readiness score: 3/5.
+Agent readiness score: 4/5.
 
 ## Available Surfaces
 
@@ -20,7 +20,7 @@ Agent readiness score: 3/5.
 
 ## Auth
 
-Track API auth_token parameter per request; HTTPS required.
+Track API requests use an `auth_token` request parameter and must be sent over HTTPS. Campaigns REST API preview endpoints use an `Authorization` header that accepts either a raw secret key or `Bearer <sk_KEY>`; preview endpoints also support an optional dated `revision` header.
 
 ## Main Objects
 
@@ -31,26 +31,26 @@ Track API auth_token parameter per request; HTTPS required.
 - Events
 - Subscriptions
 - Campaigns
+- Campaign Messages
+- Campaign Content
 - Templates
+- Delivery Providers
 - Webhooks
 
 ## Rate Limits
 
-Unknown.
+No public per-endpoint request-rate limits were found. Vero does document subscription/account usage limits and overage behavior, so agents should still budget usage and retry conservatively.
 
 ## Pagination
 
-Unknown for Track API; Campaigns REST API is preview and needs verification.
+Track API endpoints are primarily write/ingest operations and do not paginate. Campaigns REST API preview list endpoints return ordered arrays; no public cursor/page contract was found.
 
 ## Agent Caveats
 
 - Destructive action risk: high.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
+- Campaigns REST API is in preview and should be treated as a caveated surface.
+- User delete, unsubscribe/resubscribe, tag edits, alias/identity merge, and campaign/content mutation actions require explicit guardrails.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Public docs clearly cover Track REST API, but rate limits, pagination, and Campaigns REST API preview coverage need confirmation before publishing broad agent actions.
 
 ## Sources
 
@@ -58,3 +58,6 @@ Public docs clearly cover Track REST API, but rate limits, pagination, and Campa
 - https://vero-c561507b.mintlify.app/api-reference/track/overview
 - https://vero-c561507b.mintlify.app/developer-docs/overview
 - https://help.getvero.com/llms.txt
+- https://help.getvero.com/developer-docs/javascript-sdk
+- https://help.getvero.com/developer-docs/community-sdks
+- https://help.getvero.com/api-reference/campaign-content/list-campaign-message-content

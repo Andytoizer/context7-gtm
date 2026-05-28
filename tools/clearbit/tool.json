@@ -3,7 +3,10 @@
   "name": "Clearbit",
   "slug": "clearbit",
   "status": "needs-review",
-  "aliases": [],
+  "aliases": [
+    "Clearbit by HubSpot",
+    "Breeze Intelligence"
+  ],
   "lastVerified": "2026-05-28",
   "agentReadinessScore": 2,
   "canonicalUrl": "https://clearbit.com/",
@@ -19,22 +22,25 @@
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Bearer secret key for API/webhook access; newer HubSpot/Breeze paths may differ."
+    "notes": "Legacy/current customer docs refer to a secret Clearbit API key; clearbit.com/docs redirects to dashboard login, so endpoint-level current auth details require authenticated verification."
   },
   "objects": [
     "Person enrichment",
     "Company enrichment",
     "Company attributes",
     "Person attributes",
-    "Reveal IP-to-company"
+    "Reveal IP-to-company",
+    "Batch enrichment",
+    "Discovery/Prospector legacy objects"
   ],
-  "rateLimits": "Soft enrichment limit around 600 requests/min; exact current limits and availability need confirmation.",
-  "pagination": "Single lookup APIs; batch enrichment is CSV/list based rather than cursor pagination.",
+  "rateLimits": "Needs review. Public help docs explain request accounting and Reveal MUV accounting; historical SDK/community docs mention 600 requests/min, but current endpoint-level public docs are login-gated.",
+  "pagination": "Needs review. Enrichment and Reveal are lookup-style; legacy Prospector/Discovery SDK examples use page/page_size, but current availability and pagination require authenticated docs.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Keep needs-review: Clearbit public Help Center API articles are legacy/customer-plan specific, while clearbit.com/docs redirects to the dashboard login.",
+    "Official clearbit-node SDK exists but is deprecated and points users to HTTP documentation.",
+    "Clearbit by HubSpot/Breeze changes make new-customer API availability unclear from public docs."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Clearbit is now HubSpot/Breeze-adjacent and docs are partly legacy; confirm current new-customer API availability for Enrichment vs Reveal."
+  "reviewReason": "Exact blocker: current endpoint-level API documentation at clearbit.com/docs is behind dashboard login, while public Help Center articles are legacy/customer-plan specific. Need authenticated confirmation of current Enrichment/Reveal availability, auth, rate limits, pagination, and OpenAPI/spec status."
 }

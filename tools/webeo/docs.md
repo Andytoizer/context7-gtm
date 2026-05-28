@@ -4,12 +4,12 @@
 
 Webeo is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
 
-Agent readiness score: 2/5.
+Agent readiness score: 1/5.
 
 ## Available Surfaces
 
 - Official MCP: unknown
-- Official CLI: unknown
+- Official CLI: no
 - Official API: unknown
 - OpenAPI/spec: unknown
 - llms/AI docs: unknown
@@ -20,16 +20,18 @@ Agent readiness score: 2/5.
 
 ## Auth
 
-Unknown.
+No public API authentication documentation found. Public materials describe website tracking code, reverse-IP matching, cookies, and managed integrations rather than a developer API.
 
 ## Main Objects
 
-- Accounts
-- Segments
+- Matched Businesses
+- Audiences
 - Personalization
-- Campaigns
+- Experiences
+- A/B Tests
 - Website Experiences
 - Analytics
+- CRM/MA Integrations
 
 ## Rate Limits
 
@@ -42,13 +44,18 @@ Unknown.
 ## Agent Caveats
 
 - Destructive action risk: medium.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
+- Public pages describe Webeo as a no-code B2B website personalization SaaS that uses reverse business IP tracking, a tracking code, optional cookies, and integrations with HubSpot, Pardot, Marketo, and Salesforce.
+- Searches did not find public Webeo REST API, OpenAPI, SDK, CLI, or MCP documentation.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
 
 ## Needs Human Review
 
-Confirm whether Webeo exposes public API docs or only managed integrations.
+Insufficient agent retrieval coverage: no public developer API/auth/endpoint/rate-limit/pagination docs were found; available sources cover product behavior, tracking code, data processing, and managed CRM/MA integrations only.
 
 ## Sources
 
 - https://www.webeo.com/
+- https://www.webeo.com/how-it-works/
+- https://www.webeo.com/privacy-policy/
+- https://www.webeo.com/software-data-compliance/
+- https://www.webeo.com/resources/website-personalization-top-tips-how-to-get-the-most-out-of-your-crm-integrations-with-webeo/

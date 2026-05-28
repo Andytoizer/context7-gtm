@@ -20,40 +20,44 @@ Agent readiness score: 2/5.
 
 ## Auth
 
-Legacy docs show Basic Auth; current Data Licensing/API appears sales-gated/API-key based.
+Legacy docs.owler.cloud show Basic Auth over HTTPS. Community Ballerina connector docs for Owler API v1.0 use an API key named `user_key` against `https://api.owler.com/`. The current Owler Data Licensing/API path appears sales-gated.
 
 ## Main Objects
 
 - Companies
+- Company Profiles
 - Competitors
 - Firmographics
 - Funding
 - Acquisitions
 - News
 - Contacts
+- Feeds
+- Legacy Users/Statuses
 
 ## Rate Limits
 
-Legacy docs: most endpoints 100 requests/hour.
+Legacy docs.owler.cloud say most endpoints have a 100 requests/hour limit. No current public rate limits were found for Owler Data Licensing/API.
 
 ## Pagination
 
-Unknown.
+The community Ballerina connector documents `limit` parameters for company search and `pagination_id` for feeds. Current official pagination behavior for the Data Licensing/API product is not public.
 
 ## Agent Caveats
 
 - Destructive action risk: low.
 - Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
+- Do not assume docs.owler.cloud maps to the current licensed company-data API; it appears to document an older Basic Auth surface with social-style endpoints.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
 
 ## Needs Human Review
 
-Which Owler API surface is current: legacy docs.owler.cloud Basic Auth, or sales-gated Meltwater/Owler Data Licensing API?
+Current Owler Data Licensing/API endpoint reference, auth scheme, pagination, and rate limits are not publicly documented. Public sources conflict between legacy Basic Auth docs and community API-key/OpenAPI-derived connector docs.
 
 ## Sources
 
 - https://www.owler.com/
-- https://www.owler.com/data-licensing
+- https://corp.owler.com/data-licensing
 - https://docs.owler.cloud/api/requests.html
 - https://docs.owler.cloud/api/auth.html
 - https://central.ballerina.io/ballerinax/owler/latest

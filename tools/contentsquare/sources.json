@@ -1,21 +1,36 @@
 [
   {
-    "title": "docs.contentsquare.com/en",
+    "title": "Contentsquare technical documentation",
     "url": "https://docs.contentsquare.com/en/",
     "type": "source"
   },
   {
-    "title": "support.contentsquare.com/hc/en-us/articles/41563169756945-Model-Context-Protocol-MCP",
-    "url": "https://support.contentsquare.com/hc/en-us/articles/41563169756945-Model-Context-Protocol-MCP",
+    "title": "Contentsquare llms.txt",
+    "url": "https://docs.contentsquare.com/en/llms.txt",
     "type": "source"
   },
   {
-    "title": "docs.contentsquare.com/en/api/export",
+    "title": "Contentsquare MCP setup and usage",
+    "url": "https://support.contentsquare.com/hc/en-us/articles/41563169756945-How-to-set-up-and-use-Model-Context-Protocol-MCP",
+    "type": "source"
+  },
+  {
+    "title": "Contentsquare Data Export API getting started",
     "url": "https://docs.contentsquare.com/en/api/export/",
     "type": "source"
   },
   {
-    "title": "docs.contentsquare.com/en/csq-sdk-flutter/experience-analytics/contentsquare-cli",
+    "title": "Contentsquare Data Export API authentication",
+    "url": "https://docs.contentsquare.com/en/api/export/authentication/",
+    "type": "source"
+  },
+  {
+    "title": "Contentsquare Data Export API limits",
+    "url": "https://docs.contentsquare.com/en/api/export/limits/",
+    "type": "source"
+  },
+  {
+    "title": "Contentsquare Flutter CLI",
     "url": "https://docs.contentsquare.com/en/csq-sdk-flutter/experience-analytics/contentsquare-cli/",
     "type": "source"
   }

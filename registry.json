@@ -157,32 +157,32 @@
       "id": "/gtm/vector",
       "name": "Vector.co",
       "slug": "vector",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/vector",
       "aliases": [
         "vector"
       ],
-      "agentReadinessScore": 1,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
       "id": "/gtm/rb2b",
       "name": "RB2B",
       "slug": "rb2b",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/rb2b",
       "aliases": [],
-      "agentReadinessScore": 2,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
       "id": "/gtm/warmly",
       "name": "Warmly",
       "slug": "warmly",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/warmly",
       "aliases": [],
-      "agentReadinessScore": 4,
+      "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
     {
@@ -291,10 +291,10 @@
       "id": "/gtm/salesloft",
       "name": "Salesloft",
       "slug": "salesloft",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/salesloft",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
@@ -483,7 +483,7 @@
       "id": "/gtm/demandbase",
       "name": "Demandbase",
       "slug": "demandbase",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/demandbase",
       "aliases": [],
       "agentReadinessScore": 4,
@@ -677,7 +677,7 @@
       "id": "/gtm/zendesk",
       "name": "Zendesk",
       "slug": "zendesk",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/zendesk",
       "aliases": [],
       "agentReadinessScore": 4,
@@ -687,13 +687,13 @@
       "id": "/gtm/google-drive",
       "name": "Google Drive",
       "slug": "google-drive",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/google-drive",
       "aliases": [
         "drive",
         "google workspace drive"
       ],
-      "agentReadinessScore": 4,
+      "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
     {
@@ -730,7 +730,7 @@
       "id": "/gtm/framer",
       "name": "Framer",
       "slug": "framer",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/framer",
       "aliases": [],
       "agentReadinessScore": 3,
@@ -854,10 +854,10 @@
       "id": "/gtm/ai-ark",
       "name": "AI Ark",
       "slug": "ai-ark",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/ai-ark",
       "aliases": [],
-      "agentReadinessScore": 2,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
@@ -867,7 +867,7 @@
       "status": "needs-review",
       "path": "tools/default",
       "aliases": [],
-      "agentReadinessScore": 1,
+      "agentReadinessScore": 2,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1069,10 +1069,10 @@
       "id": "/gtm/creatio",
       "name": "Creatio",
       "slug": "creatio",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/creatio",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1092,10 +1092,10 @@
       "id": "/gtm/keap",
       "name": "Keap",
       "slug": "keap",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/keap",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1186,7 +1186,7 @@
       "id": "/gtm/parabola",
       "name": "Parabola",
       "slug": "parabola",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/parabola",
       "aliases": [],
       "agentReadinessScore": 2,
@@ -1258,52 +1258,52 @@
       "id": "/gtm/la-growth-machine",
       "name": "La Growth Machine",
       "slug": "la-growth-machine",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/la-growth-machine",
       "aliases": [
         "lgm"
       ],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
       "id": "/gtm/quickmail",
       "name": "QuickMail",
       "slug": "quickmail",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/quickmail",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
       "id": "/gtm/outplay",
       "name": "Outplay",
       "slug": "outplay",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/outplay",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
       "id": "/gtm/autoklose",
       "name": "Autoklose",
       "slug": "autoklose",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/autoklose",
       "aliases": [],
-      "agentReadinessScore": 2,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
       "id": "/gtm/uptics",
       "name": "Uptics",
       "slug": "uptics",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/uptics",
       "aliases": [],
-      "agentReadinessScore": 2,
+      "agentReadinessScore": 3,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1408,7 +1408,7 @@
       "status": "needs-review",
       "path": "tools/webeo",
       "aliases": [],
-      "agentReadinessScore": 2,
+      "agentReadinessScore": 1,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1418,7 +1418,7 @@
       "status": "needs-review",
       "path": "tools/folloze",
       "aliases": [],
-      "agentReadinessScore": 2,
+      "agentReadinessScore": 1,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1477,10 +1477,10 @@
       "id": "/gtm/tidio",
       "name": "Tidio",
       "slug": "tidio",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/tidio",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1510,7 +1510,7 @@
       "id": "/gtm/tldv",
       "name": "tl;dv",
       "slug": "tldv",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/tldv",
       "aliases": [
         "tldv"
@@ -1574,12 +1574,12 @@
       "id": "/gtm/seamless",
       "name": "Seamless.AI",
       "slug": "seamless",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/seamless",
       "aliases": [
         "seamless ai"
       ],
-      "agentReadinessScore": 2,
+      "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1599,7 +1599,7 @@
       "status": "needs-review",
       "path": "tools/kaspr",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 2,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1636,10 +1636,10 @@
       "id": "/gtm/enrow",
       "name": "Enrow",
       "slug": "enrow",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/enrow",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1751,10 +1751,10 @@
       "id": "/gtm/vero",
       "name": "Vero",
       "slug": "vero",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/vero",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1771,10 +1771,10 @@
       "id": "/gtm/similarweb",
       "name": "Similarweb",
       "slug": "similarweb",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/similarweb",
       "aliases": [],
-      "agentReadinessScore": 4,
+      "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1823,10 +1823,10 @@
       "id": "/gtm/serper",
       "name": "Serper",
       "slug": "serper",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/serper",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1843,10 +1843,10 @@
       "id": "/gtm/owox",
       "name": "OWOX",
       "slug": "owox",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/owox",
       "aliases": [],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {
@@ -1873,7 +1873,7 @@
       "id": "/gtm/tealium",
       "name": "Tealium",
       "slug": "tealium",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/tealium",
       "aliases": [],
       "agentReadinessScore": 4,
@@ -1913,7 +1913,7 @@
       "id": "/gtm/contentsquare",
       "name": "Contentsquare",
       "slug": "contentsquare",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/contentsquare",
       "aliases": [],
       "agentReadinessScore": 4,
@@ -1993,10 +1993,10 @@
       "id": "/gtm/inspectlet",
       "name": "Inspectlet",
       "slug": "inspectlet",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/inspectlet",
       "aliases": [],
-      "agentReadinessScore": 2,
+      "agentReadinessScore": 3,
       "lastVerified": "2026-05-28"
     },
     {
@@ -2013,10 +2013,10 @@
       "id": "/gtm/userguiding",
       "name": "UserGuiding",
       "slug": "userguiding",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/userguiding",
       "aliases": [],
-      "agentReadinessScore": 2,
+      "agentReadinessScore": 5,
       "lastVerified": "2026-05-28"
     },
     {
@@ -2036,13 +2036,13 @@
       "id": "/gtm/otter-ai",
       "name": "Otter.ai",
       "slug": "otter-ai",
-      "status": "needs-review",
+      "status": "published",
       "path": "tools/otter-ai",
       "aliases": [
         "otter",
         "otterai"
       ],
-      "agentReadinessScore": 3,
+      "agentReadinessScore": 4,
       "lastVerified": "2026-05-28"
     },
     {

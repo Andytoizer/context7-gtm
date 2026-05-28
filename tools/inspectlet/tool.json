@@ -2,42 +2,41 @@
   "id": "/gtm/inspectlet",
   "name": "Inspectlet",
   "slug": "inspectlet",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 2,
+  "agentReadinessScore": 3,
   "canonicalUrl": "https://docs.inspectlet.com/",
   "surfaces": {
     "officialMcp": "no",
     "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
+    "openApiSpec": "no",
     "llmsDocs": "unknown",
-    "officialSdk": "yes",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
-    "communitySdkOrIntegration": "yes"
+    "communitySdkOrIntegration": "unknown"
   },
   "auth": {
-    "notes": "API credentials; details in Inspectlet API docs."
+    "notes": "HTTP Basic Auth using the account email as username and Inspectlet API token as password."
   },
   "objects": [
+    "Websites",
     "Sessions",
-    "Recordings",
-    "Heatmaps",
-    "Forms",
-    "Funnels",
     "Tags",
-    "Custom Metadata",
-    "Users"
+    "Pages",
+    "Session Links",
+    "Search Filters"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
-  "destructiveActionRisk": "medium",
+  "rateLimits": "429 Too Many Requests is documented, but no numeric quota is published.",
+  "pagination": "Session search uses limit and page; default limit 10, max 100 per response.",
+  "destructiveActionRisk": "low",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official API reference covers authentication, websites, session search/listing, individual session retrieval, pagination, and error codes.",
+    "The public API appears read-oriented for websites and session recordings; no public create/update/delete endpoints were found.",
+    "Official docs provide Shell, JavaScript, and PHP examples, but no separately packaged SDK was found."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm current API auth, pagination, and whether session download/delete endpoints are public."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

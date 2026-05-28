@@ -1,6 +1,21 @@
 [
   {
-    "title": "uptics.io",
+    "title": "Uptics LookUp APIs",
+    "url": "https://help.uptics.io/en/articles/13-uptics-lookup-apis",
+    "type": "source"
+  },
+  {
+    "title": "viaSocket MCP server for Uptics",
+    "url": "https://viasocket.com/mcp/uptics",
+    "type": "source"
+  },
+  {
+    "title": "Uptics Help - Zapier integration",
+    "url": "https://help.uptics.io/en/articles/90-connect-uptics-to-hundreds-of-other-apps-with-zapier",
+    "type": "source"
+  },
+  {
+    "title": "Uptics website",
     "url": "https://uptics.io/",
     "type": "source"
   }

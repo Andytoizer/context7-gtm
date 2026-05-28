@@ -1,7 +1,17 @@
 [
   {
     "title": "workspaceupdates.googleblog.com/2026/05/agent-tools-and-security-updates-for-workspace-developers.html",
-    "url": "https://workspaceupdates.googleblog.com/2026/05/agent-tools-and-security-updates-for-workspace-developers.html",
+    "url": "https://workspaceupdates.googleblog.com/2026/05/agent-tools-and-security-updates-for-workspace-developers.html?hl=en",
+    "type": "source"
+  },
+  {
+    "title": "developers.google.com/workspace/guides/developer-tools",
+    "url": "https://developers.google.com/workspace/guides/developer-tools",
+    "type": "source"
+  },
+  {
+    "title": "developers.google.com/workspace/guides/build-with-llms",
+    "url": "https://developers.google.com/workspace/guides/build-with-llms",
     "type": "source"
   },
   {
@@ -10,8 +20,8 @@
     "type": "source"
   },
   {
-    "title": "developers.google.com/drive/api/v2/reference/files/list",
-    "url": "https://developers.google.com/drive/api/v2/reference/files/list",
+    "title": "developers.google.com/workspace/drive/api/reference/rest/v3/files/list",
+    "url": "https://developers.google.com/workspace/drive/api/reference/rest/v3/files/list",
     "type": "source"
   },
   {
@@ -20,13 +30,18 @@
     "type": "source"
   },
   {
+    "title": "developers.google.com/workspace/drive/api/quickstart/js",
+    "url": "https://developers.google.com/workspace/drive/api/quickstart/js",
+    "type": "source"
+  },
+  {
     "title": "cloud.google.com/docs/discovery/apis",
     "url": "https://cloud.google.com/docs/discovery/apis",
     "type": "source"
   },
   {
-    "title": "workspacemcp.com",
-    "url": "https://workspacemcp.com/",
+    "title": "workspacemcp.com/docs",
+    "url": "https://workspacemcp.com/docs",
     "type": "source"
   }
 ]

@@ -2,40 +2,39 @@
   "id": "/gtm/uptics",
   "name": "Uptics",
   "slug": "uptics",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 2,
-  "canonicalUrl": "https://uptics.io/",
+  "agentReadinessScore": 3,
+  "canonicalUrl": "https://help.uptics.io/en/articles/13-uptics-lookup-apis",
   "surfaces": {
     "officialMcp": "unknown",
-    "officialCli": "unknown",
-    "officialApi": "unknown",
-    "openApiSpec": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "no",
     "llmsDocs": "unknown",
     "officialSdk": "unknown",
-    "communityMcp": "unknown",
-    "communityCli": "unknown",
+    "communityMcp": "yes",
+    "communityCli": "no",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Unknown."
+    "notes": "Bearer token in the Authorization header; API key is managed under Settings > Integrations > API Page."
   },
   "objects": [
-    "Contacts",
-    "Companies",
-    "Campaigns",
-    "Outreach",
-    "Enrichment",
-    "Pipelines"
+    "Email address lookup",
+    "Domain search",
+    "Email address verifier",
+    "Email provider lookup"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
-  "destructiveActionRisk": "high",
+  "rateLimits": "No HTTP rate limit found; official docs state each lookup request consumes 1 Uptics credit.",
+  "pagination": "No pagination documented for the published lookup POST endpoints.",
+  "destructiveActionRisk": "medium",
   "notes": [
     "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Use source links to refresh endpoint-level details before implementation.",
+    "Official public docs cover lookup/enrichment endpoints only; no public full CRM/outreach API reference was found."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm whether Uptics belongs in outbound docs or enrichment, and whether public API docs exist."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

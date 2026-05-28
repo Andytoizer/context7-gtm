@@ -1,12 +1,52 @@
 [
   {
-    "title": "seamless.ai",
-    "url": "https://www.seamless.ai/",
+    "title": "Seamless API documentation",
+    "url": "https://docs.seamless.ai/",
     "type": "source"
   },
   {
-    "title": "help.seamless.ai",
-    "url": "https://help.seamless.ai/",
+    "title": "Seamless llms.txt documentation index",
+    "url": "https://docs.seamless.ai/llms.txt",
+    "type": "source"
+  },
+  {
+    "title": "Seamless REST OpenAPI spec",
+    "url": "https://docs.seamless.ai/openapi.json",
+    "type": "source"
+  },
+  {
+    "title": "Seamless MCP OpenAPI spec",
+    "url": "https://docs.seamless.ai/mcp-openapi.yaml",
+    "type": "source"
+  },
+  {
+    "title": "Seamless API keys",
+    "url": "https://docs.seamless.ai/authentication/api-keys.md",
+    "type": "source"
+  },
+  {
+    "title": "Seamless rate limits and credits",
+    "url": "https://docs.seamless.ai/rate-limits-and-credits.md",
+    "type": "source"
+  },
+  {
+    "title": "Seamless search contacts API",
+    "url": "https://docs.seamless.ai/searchcontacts.md",
+    "type": "source"
+  },
+  {
+    "title": "Seamless search companies API",
+    "url": "https://docs.seamless.ai/searchcompanies.md",
+    "type": "source"
+  },
+  {
+    "title": "Seamless MCP risk tiers",
+    "url": "https://docs.seamless.ai/mcp/risk-tiers.md",
+    "type": "source"
+  },
+  {
+    "title": "Seamless API product page",
+    "url": "https://seamless.ai/products/api",
     "type": "source"
   }
 ]

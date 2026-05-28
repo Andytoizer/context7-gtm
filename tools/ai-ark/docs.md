@@ -2,50 +2,57 @@
 
 ## Agent Summary
 
-AI Ark is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+AI Ark has a public developer hub for B2B company and people data enrichment. The current docs are strong enough for agent retrieval: they include a developer hub, `llms.txt`, Markdown docs, endpoint reference pages, authentication examples, rate-limit docs, webhook payloads, and an official remote MCP server.
 
-Agent readiness score: 2/5.
+Agent readiness score: 4/5.
 
 ## Available Surfaces
 
-- Official MCP: unknown
-- Official CLI: unknown
+- Official MCP: yes
+- Official CLI: no
 - Official API: yes
 - OpenAPI/spec: unknown
-- llms/AI docs: unknown
-- Official SDK: unknown
+- llms/AI docs: yes
+- Official SDK: no
 - Community MCP: unknown
 - Community CLI: unknown
 - Community SDK / integration: unknown
 
 ## Auth
 
-API key, based on official find/create API key docs.
+API key. The current Authentication page requires the API key in the `X-TOKEN` header and shows Python, JavaScript, and cURL examples. A getting-started page still mentions `Authorization: Bearer`, so agents should prefer the endpoint/auth reference examples and verify auth headers against the target endpoint before implementation.
 
 ## Main Objects
 
-- API endpoints
-- leads/enrichment workflows
-- Clay enrichment integration
+- Companies
+- People
+- Email finder/export jobs
+- Webhook payloads
+- Lists
+- Credits
+- Clay enrichment templates
 
 ## Rate Limits
 
-Unknown.
+The public docs state a global limit of 5 requests/second, 300 requests/minute, and 18,000 requests/hour. Exceeded calls return `429 Too Many Requests`, rate limits reset every 60 seconds, and service-specific concurrency can be viewed or upgraded in the developer portal.
 
 ## Pagination
 
-Unknown.
+Result endpoints document `page` and `size` parameters. Bulk endpoints such as People Search, Company Search, and Export People with Email document size-based retrieval; common bulk throughput examples use `size=100`, while Export People with Email supports up to 10,000 requested results per export.
 
 ## Agent Caveats
 
 - Destructive action risk: medium.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
-- Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm the canonical product URL and whether AI Ark has public endpoint-level API docs beyond the help-center API collection.
+- Raw OpenAPI URL was not confirmed during QA even though the docs site says endpoint references are OpenAPI-backed.
+- Auth docs have one header mismatch between summary and reference pages; prefer the dedicated Authentication page and endpoint examples.
 
 ## Sources
 
-- https://help.ai-ark.com/en/collections/30-api
+- https://docs.ai-ark.com/
+- https://docs.ai-ark.com/llms.txt
+- https://docs.ai-ark.com/docs/authentication
+- https://docs.ai-ark.com/docs/rate-limits
+- https://docs.ai-ark.com/docs/mcp
+- https://docs.ai-ark.com/reference/people-search-1
+- https://docs.ai-ark.com/reference/company-search-1
+- https://docs.ai-ark.com/reference/export-people-results-by-track-id

@@ -2,39 +2,42 @@
   "id": "/gtm/userguiding",
   "name": "UserGuiding",
   "slug": "userguiding",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 2,
-  "canonicalUrl": "https://help.userguiding.com/en/articles/4493538-userguiding-user-api",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://help.userguiding.com/en/articles/20916-userguiding-mcp-server",
   "surfaces": {
-    "officialMcp": "no",
+    "officialMcp": "yes",
     "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
+    "openApiSpec": "yes",
     "llmsDocs": "unknown",
-    "officialSdk": "yes",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "API Access Token after User Identification is enabled."
+    "notes": "REST API uses UG-API-KEY header. MCP uses the same project API key via UG-API-KEY header or api_key query parameter for SSE."
   },
   "objects": [
     "Users",
     "User Attributes",
+    "Companies",
     "User Events",
-    "Guide Interactions",
-    "Onboarding Material"
+    "Interaction History",
+    "Guide/Checklist/Survey/Hotspot Events",
+    "Knowledge Base Articles"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
-  "destructiveActionRisk": "medium",
+  "rateLimits": "50 requests per 10 seconds for the User API; exceeding the limit blocks requests for 1 minute.",
+  "pagination": "REST user list uses search_after plus page_size; default page size 100, max 1000. MCP list/search tools support pagination.",
+  "destructiveActionRisk": "high",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official MCP server is documented at https://mcp.userguiding.com/mcp/sse with 17 tools across users, search/analytics, events, companies, and knowledge base.",
+    "Official OpenAPI 3.1 spec is available at https://user.userguiding.com/openapi.json for the User API.",
+    "Official docs state there is no npm package; install is via snippet/JavaScript API rather than a package SDK."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Interactive API docs should be checked for auth headers, pagination, delete semantics, and rate limits."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

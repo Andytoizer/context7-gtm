@@ -11,9 +11,9 @@
     "officialMcp": "no",
     "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
+    "openApiSpec": "no",
     "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "officialSdk": "no",
     "communityMcp": "yes",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "yes"
@@ -22,20 +22,21 @@
     "notes": "Site/domain Conversion Tracking API key."
   },
   "objects": [
-    "Conversions",
+    "Goal Conversions",
     "Goals",
-    "Sites",
-    "Heatmaps",
-    "Snapshots",
-    "Recordings"
+    "Site API Keys",
+    "UTM Parameters",
+    "Custom Conversion Data",
+    "Survey Responses"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "rateLimits": "429 Too Many Requests is documented for the Conversion Tracking API, but no numeric quota is published. Zapier's Crazy Egg app page says no Zapier-side usage limits.",
+  "pagination": "No pagination for the documented Conversion Tracking API; conversion events are submitted in batches of 1-25.",
   "destructiveActionRisk": "low",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official public developer surface found is the server-side Conversion Tracking API at https://track.crazyegg.com/api/v1.",
+    "Zapier provides a third-party Crazy Egg MCP/integration surface using Zapier auth and actions, including survey-response workflows, but it is not an official Crazy Egg API reference.",
+    "No official public REST/OpenAPI/SDK docs were found for account administration, heatmap/snapshot reports, recordings, A/B tests, or survey export."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Official public API appears limited to conversion tracking; verify whether broader account/report APIs exist."
+  "reviewReason": "Keep needs-review: official public API coverage is limited to server-side conversion event ingestion; no official public account/report API for heatmaps, snapshots, recordings, A/B tests, or survey retrieval was found."
 }

@@ -8,7 +8,7 @@
   "surfaces": {
     "officialMcp": false,
     "officialCli": false,
-    "officialApi": "unknown",
+    "officialApi": false,
     "openApiSpec": false,
     "llmsDocs": false,
     "officialSdk": false,
@@ -25,9 +25,10 @@
   "sourceQuality": "weak",
   "notes": [
     "Dripify appears integration-led rather than docs-retrieval-ready for agents.",
-    "Official docs emphasize product usage plus Zapier and Make integrations.",
-    "GitHub fallback search did not surface a strong maintained community MCP, CLI, SDK, or API wrapper."
+    "Official docs describe sending lead data to any public HTTP POST webhook URL, including Zapier and Make catch-hook flows.",
+    "Dripify documents up to 22 outbound lead data points, but says lead data is transferred only through webhooks and message content/other data cannot be transferred.",
+    "GitHub/community fallback search did not surface a strong maintained MCP, CLI, SDK, or API wrapper."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Confirm whether Dripify has private or customer-only API docs that are not publicly indexed."
+  "reviewReason": "No public first-party API, CLI, MCP, OpenAPI, SDK, endpoint, API-auth, pagination, or rate-limit docs were found; public evidence supports only per-campaign outbound webhook automation, so direct agent API retrieval remains blocked unless private/customer-only docs exist."
 }

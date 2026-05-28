@@ -2,40 +2,45 @@
   "id": "/gtm/tidio",
   "name": "Tidio",
   "slug": "tidio",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://www.tidio.com/",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialMcp": "no",
+    "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "yes",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "API credentials; exact current model needs verification."
+    "notes": "Generate OpenAPI credentials in Tidio Panel under Developer > OpenAPI. Send X-Tidio-Openapi-Client-Id (ci_ prefix), X-Tidio-Openapi-Client-Secret (cs_ prefix), and Accept: application/json; version=1 on requests."
   },
   "objects": [
     "Contacts",
-    "Conversations",
+    "Contact Properties",
+    "Contact Messages",
     "Messages",
     "Operators",
-    "Chatbots",
-    "Events"
+    "Departments",
+    "Tickets",
+    "Products",
+    "Lyro Data Sources",
+    "Webhooks",
+    "Widget Visitors"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "rateLimits": "Plan-based OpenAPI limits: Free Trial and Starter/Growth with paid Lyro/Flows allow 10 requests/minute per project for Product Recommendation endpoints only; Plus allows 60 requests/minute per project; Premium allows 120 requests/minute per project. Responses include x-ratelimit-limit and x-ratelimit-remaining; exceeding limits returns 429.",
+  "pagination": "Cursor pagination on paginated endpoints. Responses include meta.cursor and meta.limit; pass cursor as a GET parameter to fetch the next page, and a null cursor means no next page.",
   "destructiveActionRisk": "high",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official developer portal exposes OpenAPI, webhooks, Widget SDK docs, llms.txt, Markdown pages, and reference pages for contacts, operators, tickets, products, Lyro data sources, project info, and webhooks.",
+    "OpenAPI availability is plan-gated: Product endpoints are available on paid Lyro plans; other OpenAPI endpoints require Plus or Premium."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm current public API docs, auth model, and whether any MCP/CLI wrapper is viable."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

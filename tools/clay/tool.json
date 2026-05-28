@@ -16,12 +16,12 @@
     "openApiSpec": "unknown",
     "llmsDocs": "unknown",
     "officialSdk": "unknown",
-    "communityMcp": "unknown",
+    "communityMcp": "no",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "unknown"
   },
   "auth": {
-    "notes": "Workspace login/API key; table webhooks; enterprise People/Company API access."
+    "notes": "Workspace login for MCP; table webhook endpoints; enterprise-only People and Company API access. Public docs did not expose a REST auth header format for the enterprise API."
   },
   "objects": [
     "Tables",
@@ -32,12 +32,12 @@
     "contacts"
   ],
   "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "pagination": "MCP credit docs mention usage/credit limits, but public API pagination details were not found.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official Clay.com University docs confirm MCP settings for Clay workspaces and programmatic table webhooks.",
+    "Similarly named Clay/Me relationship-manager MCP material found in search was excluded as non-canonical for the Clay.com GTM enrichment workspace."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Confirm Clay MCP docs apply to Clay.com GTM enrichment workspace, not Clay.earth relationship-manager product lineage."
+  "reviewReason": "Official Clay.com docs confirm MCP and API-like access, but no public MCP tool schema, enterprise API endpoint reference, REST auth header, rate limits, or API pagination details were found."
 }

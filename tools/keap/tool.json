@@ -2,24 +2,36 @@
   "id": "/gtm/keap",
   "name": "Keap",
   "slug": "keap",
-  "status": "needs-review",
-  "aliases": [],
+  "status": "published",
+  "aliases": ["infusionsoft", "keap crm", "infusionsoft crm"],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
+  "agentReadinessScore": 5,
   "canonicalUrl": "https://keap.com/",
-  "surfaces": {
-    "officialMcp": "unknown",
+  "interfaces": {
+    "officialMcp": "no",
     "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
+    "openApi": "yes",
+    "llmsTxt": "no",
+    "officialSdk": "yes"
+  },
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "no",
     "officialSdk": "yes",
-    "communityMcp": "unknown",
-    "communityCli": "unknown",
+    "communityMcp": "no",
+    "communityCli": "no",
     "communitySdkOrIntegration": "yes"
   },
+  "sourceQuality": {
+    "official": "strong",
+    "community": "medium"
+  },
   "auth": {
-    "notes": "OAuth 2.0 access tokens for Keap REST API apps."
+    "notes": "OAuth 2.0 bearer tokens for public apps; Personal Access Tokens and Service Account Keys can also be used as bearer tokens for a single Keap app."
   },
   "objects": [
     "Contacts",
@@ -33,13 +45,12 @@
     "Payments",
     "Tasks"
   ],
-  "rateLimits": "Public limits need confirmation; docs reference throttling and OAuth-app usage constraints.",
-  "pagination": "limit/offset pagination on many list endpoints.",
+  "rateLimits": "OAuth client credentials: 1500 queries/minute and 150000 queries/day across Keap apps. Personal Access Tokens and Service Account Keys: 10 queries/second, 240 queries/minute, and 30000 queries/day. Responses expose quota and throttle headers.",
+  "pagination": "REST v2 list endpoints use page_size and page_token. Legacy REST v1 endpoints use older endpoint-specific patterns.",
   "destructiveActionRisk": "high",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "REST v2 is current; REST v1 is marked deprecated in Keap's developer guide.",
+    "Keap publishes generated SDKs and an OpenAPI-derived swagger.yml in the official infusionsoft/keap-sdk repository."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm current Keap REST API docs, limits, and whether older Infusionsoft references should be treated as legacy."
+  "needsHumanReview": false
 }

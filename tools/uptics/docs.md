@@ -4,51 +4,49 @@
 
 Uptics is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
 
-Agent readiness score: 2/5.
+Agent readiness score: 3/5.
 
 ## Available Surfaces
 
 - Official MCP: unknown
-- Official CLI: unknown
-- Official API: unknown
-- OpenAPI/spec: unknown
+- Official CLI: no
+- Official API: yes
+- OpenAPI/spec: no
 - llms/AI docs: unknown
 - Official SDK: unknown
-- Community MCP: unknown
-- Community CLI: unknown
+- Community MCP: yes
+- Community CLI: no
 - Community SDK / integration: yes
 
 ## Auth
 
-Unknown.
+Bearer token in the `Authorization` header. Uptics says the API key is managed under Settings > Integrations > API Page.
 
 ## Main Objects
 
-- Contacts
-- Companies
-- Campaigns
-- Outreach
-- Enrichment
-- Pipelines
+- Email address lookup
+- Domain search
+- Email address verifier
+- Email provider lookup
 
 ## Rate Limits
 
-Unknown.
+No HTTP rate limit found. Official docs state each lookup request consumes 1 Uptics credit.
 
 ## Pagination
 
-Unknown.
+No pagination is documented for the published lookup POST endpoints.
 
 ## Agent Caveats
 
-- Destructive action risk: high.
+- Destructive action risk: medium.
 - Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm whether Uptics belongs in outbound docs or enrichment, and whether public API docs exist.
+- Official public docs cover lookup/enrichment endpoints only; no public full CRM/outreach API reference was found.
 
 ## Sources
 
+- https://help.uptics.io/en/articles/13-uptics-lookup-apis
+- https://viasocket.com/mcp/uptics
+- https://help.uptics.io/en/articles/90-connect-uptics-to-hundreds-of-other-apps-with-zapier
 - https://uptics.io/

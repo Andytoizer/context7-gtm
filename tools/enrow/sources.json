@@ -1,12 +1,57 @@
 [
   {
-    "title": "enrow.io",
-    "url": "https://www.enrow.io/",
+    "title": "Enrow API product page",
+    "url": "https://enrow.io/api",
     "type": "source"
   },
   {
-    "title": "docs.enrow.io",
-    "url": "https://docs.enrow.io/",
+    "title": "Enrow API documentation",
+    "url": "https://enrow.readme.io/",
+    "type": "source"
+  },
+  {
+    "title": "Enrow llms.txt documentation index",
+    "url": "https://enrow.readme.io/llms.txt",
+    "type": "source"
+  },
+  {
+    "title": "Enrow Email Finder OpenAPI",
+    "url": "https://enrow.readme.io/openapi/6508193c4b0459106cfaedba",
+    "type": "source"
+  },
+  {
+    "title": "Enrow Phone API OpenAPI",
+    "url": "https://enrow.readme.io/openapi/671785d0e3c49400267b50d8",
+    "type": "source"
+  },
+  {
+    "title": "Enrow find single email",
+    "url": "https://enrow.readme.io/reference/find-single-email.md",
+    "type": "source"
+  },
+  {
+    "title": "Enrow find multiple emails",
+    "url": "https://enrow.readme.io/reference/find-multiple-emails.md",
+    "type": "source"
+  },
+  {
+    "title": "Enrow get multiple email results",
+    "url": "https://enrow.readme.io/reference/get-multiple-emails-results.md",
+    "type": "source"
+  },
+  {
+    "title": "Enrow account info",
+    "url": "https://enrow.readme.io/reference/get-account-info.md",
+    "type": "source"
+  },
+  {
+    "title": "Enrow webhooks",
+    "url": "https://enrow.readme.io/reference/using-webhooks-with-enrow.md",
+    "type": "source"
+  },
+  {
+    "title": "Enrow Zapier integrations",
+    "url": "https://zapier.com/apps/enrow/integrations",
     "type": "source"
   }
 ]

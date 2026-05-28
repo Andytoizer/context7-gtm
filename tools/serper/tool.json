@@ -2,10 +2,10 @@
   "id": "/gtm/serper",
   "name": "Serper",
   "slug": "serper",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://serper.dev/",
   "surfaces": {
     "officialMcp": "no",
@@ -19,7 +19,7 @@
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "X-API-KEY header."
+    "notes": "X-API-KEY header for POST requests; official playground-generated GET snippets also support apiKey query parameter."
   },
   "objects": [
     "Google Search",
@@ -29,15 +29,24 @@
     "Images",
     "News",
     "Maps",
-    "Shopping"
+    "Places",
+    "Videos",
+    "Shopping",
+    "Scholar",
+    "Patents",
+    "Autocomplete",
+    "Reviews",
+    "Product Reviews",
+    "Lens",
+    "Webpage Scrape"
   ],
-  "rateLimits": "Plan-specific; Serper homepage says Ultimate credits default to 300 queries/second.",
-  "pagination": "Likely num/page-style request parameters; official docs should be checked in-app/dashboard.",
+  "rateLimits": "Credit tier-specific: Starter 50 QPS, Standard 100 QPS, Scale 200 QPS, Ultimate default 300 QPS; higher concurrency can be requested.",
+  "pagination": "page for most search-like endpoints; num on selected endpoints such as search/images/videos/news/shopping; nextPageToken for reviews/product reviews; maps page >1 requires ll GPS area.",
   "destructiveActionRisk": "low",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official public docs are mostly homepage and playground generated examples; endpoint and parameter details were verified from the current official playground bundle.",
+    "No official SDK, CLI, MCP, or direct OpenAPI spec found. Community MCP/CLI implementations exist and must be treated as unofficial."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Official API docs were not easily crawlable; confirm pagination parameters and exact plan rate limits from Serper dashboard/docs."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

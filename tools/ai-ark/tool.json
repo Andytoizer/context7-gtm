@@ -2,37 +2,41 @@
   "id": "/gtm/ai-ark",
   "name": "AI Ark",
   "slug": "ai-ark",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 2,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://www.ai-ark.com",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialMcp": "yes",
+    "officialCli": "no",
     "officialApi": "yes",
     "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "llmsDocs": "yes",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "unknown"
   },
   "auth": {
-    "notes": "API key, based on official find/create API key docs."
+    "notes": "API key. Current authentication page requires X-TOKEN header; an older/summary getting-started page mentions Authorization: Bearer, so prefer endpoint/auth reference examples."
   },
   "objects": [
-    "API endpoints",
-    "leads/enrichment workflows",
-    "Clay enrichment integration"
+    "Companies",
+    "People",
+    "email finder/export jobs",
+    "webhook payloads",
+    "lists",
+    "credits",
+    "Clay enrichment templates"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "rateLimits": "Global limit documented as 5 requests/second, 300/minute, and 18,000/hour; exceeded calls return 429 and reset every 60 seconds. Service-specific concurrency is visible in the developer portal and can be customized.",
+  "pagination": "Documented for result endpoints via page and size parameters; bulk search endpoints document size limits, commonly up to 100 records/request, while export-with-email supports up to 10,000 requested results per export.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official ReadMe-hosted developer hub includes llms.txt, Markdown pages, endpoint references, webhooks, rate-limit docs, and a remote MCP server URL.",
+    "Raw OpenAPI URL was not confirmed during QA; keep openApiSpec unknown until a downloadable spec URL is verified."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm the canonical product URL and whether AI Ark has public endpoint-level API docs beyond the help-center API collection."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

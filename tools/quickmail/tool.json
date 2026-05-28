@@ -2,41 +2,55 @@
   "id": "/gtm/quickmail",
   "name": "QuickMail",
   "slug": "quickmail",
-  "status": "needs-review",
-  "aliases": [],
+  "status": "published",
+  "aliases": ["quickmail.com", "quickmail api", "quickmail.io"],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://quickmail.com/",
-  "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
+  "interfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "openApi": "no",
+    "llmsTxt": "no",
+    "officialSdk": "no"
+  },
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "no",
+    "llmsDocs": "no",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
-    "communitySdkOrIntegration": "yes"
+    "communitySdkOrIntegration": "unknown"
+  },
+  "sourceQuality": {
+    "official": "strong",
+    "community": "medium"
   },
   "auth": {
-    "notes": "API key; exact current API docs need verification."
+    "notes": "API V2 is GraphQL. Send the raw API key in the Authorization header without a Bearer prefix; the agency plan must have API access enabled."
   },
   "objects": [
-    "Prospects",
+    "Agency",
+    "Workspaces",
+    "Leads",
     "Campaigns",
-    "Inboxes",
-    "Emails",
+    "Campaign steps",
+    "Email accounts",
+    "Custom properties",
     "Tags",
-    "Tasks",
-    "Webhooks"
+    "Campaign stats",
+    "LinkedIn steps"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "rateLimits": "Rate limits are enforced per agency. Every response includes X-RateLimit-Limit, X-RateLimit-Remaining, and X-RateLimit-Reset; excess requests return HTTP 429.",
+  "pagination": "GraphQL list fields return Relay-style connections with first and after. Many list queries also support skip; the server enforces a maximum page size.",
   "destructiveActionRisk": "high",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "API V2 exposes a single GraphQL endpoint at https://api.quickmail.com/v2/graphql and an interactive GraphiQL endpoint at /v2/graphiql.",
+    "Official docs cover campaign creation, email and LinkedIn step mutations, lead creation/deletion, tags, custom properties, campaign automation, and email-account assignment."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm current QuickMail API docs, pagination, and throttling details."
+  "needsHumanReview": false
 }

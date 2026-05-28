@@ -8,5 +8,10 @@
     "title": "monaco.com/company",
     "url": "https://www.monaco.com/company",
     "type": "source"
+  },
+  {
+    "title": "monaco.com/security",
+    "url": "https://www.monaco.com/security",
+    "type": "source"
   }
 ]

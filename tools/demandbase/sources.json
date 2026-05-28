@@ -1,5 +1,10 @@
 [
   {
+    "title": "developer.demandbase.com/docs/welcome",
+    "url": "https://developer.demandbase.com/docs/welcome",
+    "type": "source"
+  },
+  {
     "title": "developer.demandbase.com/docs/demandbase-apis",
     "url": "https://developer.demandbase.com/docs/demandbase-apis",
     "type": "source"
@@ -17,6 +22,31 @@
   {
     "title": "developer.demandbase.com/docs/user-admin-overview",
     "url": "https://developer.demandbase.com/docs/user-admin-overview",
+    "type": "source"
+  },
+  {
+    "title": "developer.demandbase.com/docs/mcp",
+    "url": "https://developer.demandbase.com/docs/mcp",
+    "type": "source"
+  },
+  {
+    "title": "developer.demandbase.com/docs/instructions",
+    "url": "https://developer.demandbase.com/docs/instructions",
+    "type": "source"
+  },
+  {
+    "title": "developer.demandbase.com/docs/credit-consumption",
+    "url": "https://developer.demandbase.com/docs/credit-consumption",
+    "type": "source"
+  },
+  {
+    "title": "developer.demandbase.com/docs/rate-limits-1",
+    "url": "https://developer.demandbase.com/docs/rate-limits-1",
+    "type": "source"
+  },
+  {
+    "title": "pypi.org/project/demandbase-sdk",
+    "url": "https://pypi.org/project/demandbase-sdk/",
     "type": "source"
   }
 ]

@@ -8,10 +8,10 @@ Agent readiness score: 3/5.
 
 ## Available Surfaces
 
-- Official MCP: unknown
-- Official CLI: unknown
+- Official MCP: no
+- Official CLI: no
 - Official API: yes
-- OpenAPI/spec: yes
+- OpenAPI/spec: unknown
 - llms/AI docs: unknown
 - Official SDK: yes
 - Community MCP: unknown
@@ -20,7 +20,7 @@ Agent readiness score: 3/5.
 
 ## Auth
 
-API credentials; exact current auth model needs confirmation in API reference.
+REST API reference uses HTTP Basic auth credentials. Tracking libraries/API specifications use site-specific implementation credentials.
 
 ## Main Objects
 
@@ -30,26 +30,31 @@ API credentials; exact current auth model needs confirmation in API reference.
 - People
 - Queries
 - Exports
+- Products
+- Reports
 
 ## Rate Limits
 
-Unknown.
+No public current rate-limit numbers found in official REST or implementation docs.
 
 ## Pagination
 
-Unknown.
+REST list endpoints such as reports use offset and limit query parameters; async query/export flows use query result/status endpoints.
 
 ## Agent Caveats
 
 - Destructive action risk: medium.
 - Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
+- REST API docs mark the API as beta and subject to regular changes, including possible breaking changes.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
 
 ## Needs Human Review
 
-Verify current REST API reference/auth docs beyond the API-first landing page.
+Keep in review: official REST API is marked beta and subject to breaking changes, and no public current rate-limit policy was found.
 
 ## Sources
 
-- https://www.kissmetrics.io/lp/api-first-analytics
+- https://support.kissmetrics.io/reference/overview
+- https://support.kissmetrics.io/reference/fetch-reports
 - https://support.kissmetrics.io/docs/installing-kissmetrics-quickstart-guide
+- https://support.kissmetrics.io/docs/url-api

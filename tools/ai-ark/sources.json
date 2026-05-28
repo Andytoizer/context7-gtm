@@ -1,7 +1,42 @@
 [
   {
-    "title": "help.ai-ark.com/en/collections/30-api",
-    "url": "https://help.ai-ark.com/en/collections/30-api",
+    "title": "AI Ark Developer Hub",
+    "url": "https://docs.ai-ark.com/",
+    "type": "source"
+  },
+  {
+    "title": "AI Ark llms.txt",
+    "url": "https://docs.ai-ark.com/llms.txt",
+    "type": "source"
+  },
+  {
+    "title": "AI Ark Authentication",
+    "url": "https://docs.ai-ark.com/docs/authentication",
+    "type": "source"
+  },
+  {
+    "title": "AI Ark Rate Limits",
+    "url": "https://docs.ai-ark.com/docs/rate-limits",
+    "type": "source"
+  },
+  {
+    "title": "AI Ark MCP",
+    "url": "https://docs.ai-ark.com/docs/mcp",
+    "type": "source"
+  },
+  {
+    "title": "AI Ark People Search API",
+    "url": "https://docs.ai-ark.com/reference/people-search-1",
+    "type": "source"
+  },
+  {
+    "title": "AI Ark Company Search API",
+    "url": "https://docs.ai-ark.com/reference/company-search-1",
+    "type": "source"
+  },
+  {
+    "title": "AI Ark Export People Results API",
+    "url": "https://docs.ai-ark.com/reference/export-people-results-by-track-id",
     "type": "source"
   }
 ]

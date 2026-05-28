@@ -4,12 +4,12 @@
 
 Folloze is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
 
-Agent readiness score: 2/5.
+Agent readiness score: 1/5.
 
 ## Available Surfaces
 
 - Official MCP: unknown
-- Official CLI: unknown
+- Official CLI: no
 - Official API: unknown
 - OpenAPI/spec: unknown
 - llms/AI docs: unknown
@@ -20,14 +20,16 @@ Agent readiness score: 2/5.
 
 ## Auth
 
-Unknown.
+No public Folloze API authentication documentation found. Official help center docs describe app permissions and connector prerequisites; the Salesforce connector uses Salesforce OAuth/API permissions rather than a public Folloze API auth model.
 
 ## Main Objects
 
 - Boards
 - Content
 - Audiences
+- Contacts/Leads
 - Visitors
+- Accounts
 - Campaigns
 - Engagement
 - Analytics
@@ -43,14 +45,20 @@ Unknown.
 ## Agent Caveats
 
 - Destructive action risk: medium.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
+- Official help docs cover boards, content, analytics, permissions, and managed integrations such as Salesforce/Marketo/Demandbase.
+- The Salesforce connector article lists Salesforce APIs Folloze uses, but searches did not find public Folloze endpoint, OpenAPI, SDK, CLI, MCP, rate-limit, or pagination docs.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
 
 ## Needs Human Review
 
-Confirm public API availability and whether docs are customer-gated.
+Insufficient agent retrieval coverage: public official sources document product usage and managed connectors, but no public Folloze developer API/auth/object endpoint/rate-limit/pagination reference was found; developer docs may be customer-gated or unavailable.
 
 ## Sources
 
 - https://www.folloze.com/
 - https://help.folloze.com/
+- https://help.folloze.com/s/article/Get-started-with-Folloze
+- https://help.folloze.com/s/article/Folloze-Salesforce-Connector-Setup-Guide
+- https://help.folloze.com/hc/en-us/articles/4402947590291-Folloze-Forms-and-Marketo-Integration
+- https://help.folloze.com/hc/en-us/articles/115001902034-Folloze-Analytics-Using-the-Pulse-Tab
+- https://apitracker.io/a/folloze

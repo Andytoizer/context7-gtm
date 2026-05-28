@@ -2,10 +2,10 @@
   "id": "/gtm/salesloft",
   "name": "Salesloft",
   "slug": "salesloft",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://www.salesloft.com/",
   "surfaces": {
     "officialMcp": "announced",
@@ -39,9 +39,9 @@
   "pagination": "page / per_page, default 25, max 100; docs recommend updated_at cursor poller for deep syncs.",
   "destructiveActionRisk": "high",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official API docs cover auth, scopes, core resources, pagination, rate limits, and webhooks.",
+    "Clari + Salesloft announced an MCP Server for live Salesloft data, but public setup/reference docs were not found; use Salesloft REST docs or clearly third-party MCP surfaces for implementation."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm whether the announced Clari+Salesloft MCP Server has public setup/reference docs yet."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

@@ -5,11 +5,11 @@
   "status": "needs-review",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 2,
+  "agentReadinessScore": 1,
   "canonicalUrl": "https://www.folloze.com/",
   "surfaces": {
     "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialCli": "no",
     "officialApi": "unknown",
     "openApiSpec": "unknown",
     "llmsDocs": "unknown",
@@ -19,13 +19,15 @@
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Unknown."
+    "notes": "No public Folloze API authentication documentation found. Official help center docs describe app permissions and connector prerequisites; the Salesforce connector uses Salesforce OAuth/API permissions rather than a public Folloze API auth model."
   },
   "objects": [
     "Boards",
     "Content",
     "Audiences",
+    "Contacts/Leads",
     "Visitors",
+    "Accounts",
     "Campaigns",
     "Engagement",
     "Analytics"
@@ -34,9 +36,9 @@
   "pagination": "Unknown.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official help docs cover boards, content, analytics, permissions, and managed integrations such as Salesforce/Marketo/Demandbase.",
+    "The Salesforce connector article lists Salesforce APIs Folloze uses, but searches did not find public Folloze endpoint, OpenAPI, SDK, CLI, MCP, rate-limit, or pagination docs."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Confirm public API availability and whether docs are customer-gated."
+  "reviewReason": "Insufficient agent retrieval coverage: public official sources document product usage and managed connectors, but no public Folloze developer API/auth/object endpoint/rate-limit/pagination reference was found; developer docs may be customer-gated or unavailable."
 }

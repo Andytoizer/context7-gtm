@@ -2,24 +2,24 @@
   "id": "/gtm/owox",
   "name": "OWOX",
   "slug": "owox",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
-  "canonicalUrl": "https://www.owox.com/",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://docs.owox.com/docs/getting-started/quick-start/",
   "surfaces": {
     "officialMcp": "no",
     "officialCli": "yes",
-    "officialApi": "unknown",
-    "openApiSpec": "unknown",
+    "officialApi": "no",
+    "openApiSpec": "no",
     "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "officialSdk": "yes",
     "communityMcp": "unknown",
     "communityCli": "no",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Self-hosted/local app credentials; storage auth via BigQuery service account JSON or Google OAuth; connector auth varies by source API."
+    "notes": "Self-hosted/local app credentials; storage auth varies by warehouse. BigQuery supports service-account JSON or Google OAuth; source connector auth varies by the upstream API."
   },
   "objects": [
     "Data Marts",
@@ -32,13 +32,13 @@
     "Data Studio",
     "Warehouse Destinations"
   ],
-  "rateLimits": "No public OWOX platform API rate limit found; inherits connector source API and warehouse limits.",
-  "pagination": "Connector/source-specific; Data Mart exports handle result delivery to sheets/warehouses.",
+  "rateLimits": "No public OWOX platform REST API rate limit applies; connector jobs inherit upstream source API and warehouse limits. Connector SDK exposes retry hooks and treats 429 as retryable.",
+  "pagination": "Connector/source-specific. The connector SDK documents next-page URL loops and optional per-endpoint limits; Data Mart exports deliver results to configured storages/destinations.",
   "destructiveActionRisk": "medium",
   "notes": [
     "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
     "Use source links to refresh endpoint-level details before implementation."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "OWOX is primarily an open-source analytics/data-mart platform, not a sales-intelligence data API; confirm whether it belongs in this GTM docs chunk."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

@@ -2,18 +2,18 @@
 
 ## Agent Summary
 
-Demandbase is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Demandbase is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces.
 
 Agent readiness score: 4/5.
 
 ## Available Surfaces
 
-- Official MCP: announced
+- Official MCP: yes
 - Official CLI: unknown
 - Official API: yes
 - OpenAPI/spec: yes
-- llms/AI docs: unknown
-- Official SDK: unknown
+- llms/AI docs: yes
+- Official SDK: yes
 - Community MCP: unknown
 - Community CLI: unknown
 - Community SDK / integration: unknown
@@ -35,25 +35,28 @@ JWT Bearer token.
 
 ## Rate Limits
 
-Admin API 90/min per HTTP method; other quotas vary.
+Admin API 90/min per HTTP method; Import API daily endpoint quotas; MCP credit usage is record-based.
 
 ## Pagination
 
-Unknown.
+MCP defaults to 5 records/page and supports up to 100 records/page; REST pagination is endpoint-specific in the API reference.
 
 ## Agent Caveats
 
 - Destructive action risk: high.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
+- Official developer hub covers REST APIs, API reference/OpenAPI-backed endpoint docs, Python SDK, and MCP.
+- Demandbase MCP requires CSM enablement and official support is limited to documented clients.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm MCP endpoint and access model; public search surfaced an official support title but not the full MCP docs.
 
 ## Sources
 
+- https://developer.demandbase.com/docs/welcome
 - https://developer.demandbase.com/docs/demandbase-apis
 - https://developer.demandbase.com/docs/b2b-overview
 - https://developer.demandbase.com/docs/authenticating-with-the-apis
 - https://developer.demandbase.com/docs/user-admin-overview
+- https://developer.demandbase.com/docs/mcp
+- https://developer.demandbase.com/docs/instructions
+- https://developer.demandbase.com/docs/credit-consumption
+- https://developer.demandbase.com/docs/rate-limits-1
+- https://pypi.org/project/demandbase-sdk/

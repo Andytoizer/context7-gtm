@@ -1,12 +1,22 @@
 [
   {
-    "title": "kissmetrics.io/lp/api-first-analytics",
-    "url": "https://www.kissmetrics.io/lp/api-first-analytics",
+    "title": "Kissmetrics REST API overview",
+    "url": "https://support.kissmetrics.io/reference/overview",
     "type": "source"
   },
   {
-    "title": "support.kissmetrics.io/docs/installing-kissmetrics-quickstart-guide",
+    "title": "Kissmetrics reports endpoint",
+    "url": "https://support.kissmetrics.io/reference/fetch-reports",
+    "type": "source"
+  },
+  {
+    "title": "Kissmetrics installing and code libraries",
     "url": "https://support.kissmetrics.io/docs/installing-kissmetrics-quickstart-guide",
+    "type": "source"
+  },
+  {
+    "title": "Kissmetrics URL API",
+    "url": "https://support.kissmetrics.io/docs/url-api",
     "type": "source"
   }
 ]

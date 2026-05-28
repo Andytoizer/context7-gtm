@@ -2,11 +2,36 @@
   {
     "title": "folloze.com",
     "url": "https://www.folloze.com/",
-    "type": "source"
+    "type": "official"
   },
   {
     "title": "help.folloze.com",
     "url": "https://help.folloze.com/",
-    "type": "source"
+    "type": "official"
+  },
+  {
+    "title": "Get started with Folloze",
+    "url": "https://help.folloze.com/s/article/Get-started-with-Folloze",
+    "type": "official"
+  },
+  {
+    "title": "Folloze + Salesforce - Connector Setup Guide",
+    "url": "https://help.folloze.com/s/article/Folloze-Salesforce-Connector-Setup-Guide",
+    "type": "official"
+  },
+  {
+    "title": "Folloze Forms and Marketo Integration",
+    "url": "https://help.folloze.com/hc/en-us/articles/4402947590291-Folloze-Forms-and-Marketo-Integration",
+    "type": "official"
+  },
+  {
+    "title": "Folloze Analytics - Using the Pulse Tab",
+    "url": "https://help.folloze.com/hc/en-us/articles/115001902034-Folloze-Analytics-Using-the-Pulse-Tab",
+    "type": "official"
+  },
+  {
+    "title": "Folloze API profile - API Tracker",
+    "url": "https://apitracker.io/a/folloze",
+    "type": "community"
   }
 ]

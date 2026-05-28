@@ -2,11 +2,31 @@
   {
     "title": "vector.co",
     "url": "https://www.vector.co/",
-    "type": "source"
+    "type": "official-site"
   },
   {
-    "title": "learn.vector.co/articles/5614506055-using-ad-platforms-with-vector",
-    "url": "https://learn.vector.co/articles/5614506055-using-ad-platforms-with-vector",
-    "type": "source"
+    "title": "Connecting Vector MCP to your AI client",
+    "url": "https://learn.vector.co/articles/3680183282-connecting-vector-mcp-to-your-ai-client",
+    "type": "official-mcp-docs"
+  },
+  {
+    "title": "Getting the Most Out of Vector MCP",
+    "url": "https://learn.vector.co/articles/1767915906-getting-the-most-out-of-vector-mcp",
+    "type": "official-mcp-docs"
+  },
+  {
+    "title": "Best Practices for Vector MCP",
+    "url": "https://learn.vector.co/articles/2402799783-best-practices-for-getting-great-results-from-vector-mcp",
+    "type": "official-mcp-docs"
+  },
+  {
+    "title": "What can you actually ask your ads with Vector MCP?",
+    "url": "https://www.vector.co/blog/what-can-you-actually-ask-your-ads-with-vector-mcp",
+    "type": "official-blog"
+  },
+  {
+    "title": "The MCP trust problem nobody's talking about",
+    "url": "https://www.vector.co/blog/the-mcp-trust-problem-nobodys-talking-about",
+    "type": "official-blog"
   }
 ]

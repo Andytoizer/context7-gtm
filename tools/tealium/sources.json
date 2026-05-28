@@ -1,16 +1,51 @@
 [
   {
-    "title": "docs.tealium.com/api/v3/getting-started/request-format",
+    "title": "Tealium V3 APIs",
+    "url": "https://docs.tealium.com/api/v3/",
+    "type": "source"
+  },
+  {
+    "title": "Tealium V3 API Authentication",
+    "url": "https://docs.tealium.com/api/v3/getting-started/authentication/",
+    "type": "source"
+  },
+  {
+    "title": "Tealium V3 API request format",
     "url": "https://docs.tealium.com/api/v3/getting-started/request-format/",
     "type": "source"
   },
   {
-    "title": "tealium.com/press-releases/tealium-achieves-mcp-integration-to-fuel-agentic-ai-initiatives",
+    "title": "Tealium Collect HTTP API",
+    "url": "https://docs.tealium.com/api/v3/http-api/about/",
+    "type": "source"
+  },
+  {
+    "title": "Tealium iQ Profiles API",
+    "url": "https://docs.tealium.com/api/v3/iq-profiles/",
+    "type": "source"
+  },
+  {
+    "title": "Tealium Visitor Privacy API",
+    "url": "https://docs.tealium.com/api/v3/visitor-privacy/",
+    "type": "source"
+  },
+  {
+    "title": "Tealium Visitor Profile API",
+    "url": "https://docs.tealium.com/api/v3/visitor-profile/",
+    "type": "source"
+  },
+  {
+    "title": "Tealium mobile SDK quick start",
+    "url": "https://docs.tealium.com/platforms/getting-started-mobile/quick-start/",
+    "type": "source"
+  },
+  {
+    "title": "Tealium MCP integration press release",
     "url": "https://tealium.com/press-releases/tealium-achieves-mcp-integration-to-fuel-agentic-ai-initiatives/",
     "type": "source"
   },
   {
-    "title": "tealium.com/developer-center/bridging-ai-and-customer-data-platforms-with-mcp",
+    "title": "Tealium MCP demo app article",
     "url": "https://tealium.com/developer-center/bridging-ai-and-customer-data-platforms-with-mcp/",
     "type": "source"
   }

@@ -1,7 +1,17 @@
 [
   {
+    "title": "developers.similarweb.com/docs",
+    "url": "https://developers.similarweb.com/docs",
+    "type": "source"
+  },
+  {
     "title": "docs.similarweb.com/api-v5/support-and-faq",
     "url": "https://docs.similarweb.com/api-v5/support-and-faq",
+    "type": "source"
+  },
+  {
+    "title": "docs.similarweb.com/api-v5/integrations",
+    "url": "https://docs.similarweb.com/api-v5/integrations",
     "type": "source"
   },
   {
@@ -15,8 +25,23 @@
     "type": "source"
   },
   {
-    "title": "ir.similarweb.com/financials/all-sec-filings/content/0001842731-25-000049/0001842731-25-000049.pdf",
-    "url": "https://ir.similarweb.com/financials/all-sec-filings/content/0001842731-25-000049/0001842731-25-000049.pdf",
+    "title": "developers.similarweb.com/docs/api-v40",
+    "url": "https://developers.similarweb.com/docs/api-v40",
+    "type": "source"
+  },
+  {
+    "title": "similarweb.com/corp/ai/mcp",
+    "url": "https://www.similarweb.com/corp/ai/mcp/",
+    "type": "source"
+  },
+  {
+    "title": "docs.similarweb.com/api-v5/mcp-integration/mcp-setup",
+    "url": "https://docs.similarweb.com/api-v5/mcp-integration/mcp-setup",
+    "type": "source"
+  },
+  {
+    "title": "support.similarweb.com Retail Intelligence with AI: MCP & AI Studio",
+    "url": "https://support.similarweb.com/hc/en-us/articles/35907041527965-Retail-Intelligence-with-AI-MCP-AI-Studio",
     "type": "source"
   }
 ]

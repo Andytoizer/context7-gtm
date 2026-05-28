@@ -2,16 +2,16 @@
   "id": "/gtm/google-drive",
   "name": "Google Drive",
   "slug": "google-drive",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [
     "drive",
     "google workspace drive"
   ],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 4,
+  "agentReadinessScore": 5,
   "canonicalUrl": "https://drive.google.com/",
   "surfaces": {
-    "officialMcp": "announced",
+    "officialMcp": "yes",
     "officialCli": "yes",
     "officialApi": "yes",
     "openApiSpec": "no",
@@ -38,9 +38,9 @@
   "pagination": "pageToken/nextPageToken.",
   "destructiveActionRisk": "high",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official Workspace update says the Workspace MCP server is in public developer preview and includes Drive file fetching, listing, uploading, and permission management.",
+    "Google Drive API uses Discovery documents rather than OpenAPI; use official client libraries and endpoint docs for implementation details."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm public endpoint/config and availability tier for Google's managed Drive/Workspace MCP server."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

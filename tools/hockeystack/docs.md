@@ -20,7 +20,7 @@ Agent readiness score: 2/5.
 
 ## Auth
 
-Tracking script/API token surfaces; server API auth not clearly public.
+Official docs expose product/admin and tracking-oriented docs. A third-party dlt context describes Bearer-token account-intelligence access, but no official public server API auth reference was found.
 
 ## Main Objects
 
@@ -44,15 +44,21 @@ Unknown.
 ## Agent Caveats
 
 - Destructive action risk: unknown.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
+- Public official docs are useful for product context and agent-readable retrieval via llms.txt, but are not enough to implement a stable server-side API connector.
+- Treat third-party API details as non-canonical until HockeyStack publishes or confirms the server API contract.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
 
 ## Needs Human Review
 
-Public docs expose tracking/SDK and AI-docs surfaces, but a stable public server API reference, auth model, pagination, and rate limits need confirmation.
+Need an official public HockeyStack server API reference covering auth, endpoints, pagination, rate limits, and destructive/write semantics. Current public coverage is product docs plus non-official API context.
 
 ## Sources
 
 - https://docs.hockeystack.com/
 - https://docs.hockeystack.com/llms.txt
+- https://docs.hockeystack.com/integrations/installing-the-website-tracker/react
+- https://docs.hockeystack.com/technical-details/tracking/customize-your-tracking
+- https://docs.hockeystack.com/marketing-intelligence/the-hockeystack-data-model.md
+- https://docs.hockeystack.com/account-intelligence/account-intelligence-configuration-guide.md
+- https://dlthub.com/context/source/hockeystack
 - https://hockeystack.com/

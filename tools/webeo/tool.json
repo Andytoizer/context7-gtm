@@ -5,11 +5,11 @@
   "status": "needs-review",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 2,
+  "agentReadinessScore": 1,
   "canonicalUrl": "https://www.webeo.com/",
   "surfaces": {
     "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialCli": "no",
     "officialApi": "unknown",
     "openApiSpec": "unknown",
     "llmsDocs": "unknown",
@@ -19,23 +19,25 @@
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Unknown."
+    "notes": "No public API authentication documentation found. Public materials describe website tracking code, reverse-IP matching, cookies, and managed integrations rather than a developer API."
   },
   "objects": [
-    "Accounts",
-    "Segments",
+    "Matched Businesses",
+    "Audiences",
     "Personalization",
-    "Campaigns",
+    "Experiences",
+    "A/B Tests",
     "Website Experiences",
-    "Analytics"
+    "Analytics",
+    "CRM/MA Integrations"
   ],
   "rateLimits": "Unknown.",
   "pagination": "Unknown.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official public pages describe Webeo as a no-code B2B website personalization SaaS that uses reverse business IP tracking, a tracking code, optional cookies, and integrations with HubSpot, Pardot, Marketo, and Salesforce.",
+    "Searches did not find public Webeo REST API, OpenAPI, SDK, CLI, or MCP documentation."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Confirm whether Webeo exposes public API docs or only managed integrations."
+  "reviewReason": "Insufficient agent retrieval coverage: no public developer API/auth/endpoint/rate-limit/pagination docs were found; available sources cover product behavior, tracking code, data processing, and managed CRM/MA integrations only."
 }

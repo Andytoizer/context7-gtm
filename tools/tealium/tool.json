@@ -2,14 +2,14 @@
   "id": "/gtm/tealium",
   "name": "Tealium",
   "slug": "tealium",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
   "agentReadinessScore": 4,
   "canonicalUrl": "https://docs.tealium.com/api/v3/",
   "surfaces": {
     "officialMcp": "announced",
-    "officialCli": "unknown",
+    "officialCli": "no",
     "officialApi": "yes",
     "openApiSpec": "unknown",
     "llmsDocs": "unknown",
@@ -19,7 +19,7 @@
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Tealium API auth varies by endpoint; Moments API/MCP for consented profile access."
+    "notes": "V3 APIs exchange Tealium iQ username plus API key for a 30-minute JWT bearer token and region-specific host. Moments API/MCP is for consented profile access."
   },
   "objects": [
     "Profiles",
@@ -28,15 +28,17 @@
     "Events",
     "Tags",
     "Connectors",
-    "Moments"
+    "Moments",
+    "Variables",
+    "Load Rules"
   ],
-  "rateLimits": "Endpoint-specific; 429 on excess.",
-  "pagination": "Endpoint-specific.",
+  "rateLimits": "Endpoint-specific; request-format docs say excess returns 429. Collect HTTP API supports 100 events/second, or 10 bulk calls/second when sending 10 events per call.",
+  "pagination": "Endpoint-specific; list/read endpoints define supported query parameters in their reference pages.",
   "destructiveActionRisk": "high",
   "notes": [
     "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
     "Use source links to refresh endpoint-level details before implementation."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm whether MCP is generally available or customer/feature-gated."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

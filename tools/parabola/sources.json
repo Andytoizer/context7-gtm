@@ -1,12 +1,38 @@
-[
-  {
-    "title": "parabola.io",
-    "url": "https://parabola.io/",
-    "type": "source"
-  },
-  {
-    "title": "parabola.io/integrations",
-    "url": "https://parabola.io/integrations",
-    "type": "source"
-  }
-]
+{
+  "lastVerified": "2026-05-28",
+  "official": [
+    {
+      "label": "Official website",
+      "url": "https://parabola.io/"
+    },
+    {
+      "label": "AI-readable docs index",
+      "url": "https://parabola.io/docs/llms.txt"
+    },
+    {
+      "label": "Connect an API to Parabola",
+      "url": "https://parabola.io/docs/product/integration/api"
+    },
+    {
+      "label": "Post data to a webhook",
+      "url": "https://parabola.io/docs/articles/how-do-i-post-data-to-a-webhook"
+    },
+    {
+      "label": "Run and update workflows",
+      "url": "https://parabola.io/docs/product/canvas/updating-and-running-your-flow"
+    },
+    {
+      "label": "API error handling",
+      "url": "https://parabola.io/docs/articles/api-errors"
+    },
+    {
+      "label": "Inspect API request and response details",
+      "url": "https://parabola.io/docs/articles/how-can-i-see-complete-error-messages-associated-with-an-api-call"
+    },
+    {
+      "label": "User offboarding and auth ownership",
+      "url": "https://parabola.io/docs/articles/user-offboarding-transferring-flow-step-authentication-ownership"
+    }
+  ],
+  "community": []
+}

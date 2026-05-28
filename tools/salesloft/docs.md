@@ -2,9 +2,9 @@
 
 ## Agent Summary
 
-Salesloft is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Salesloft is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces.
 
-Agent readiness score: 3/5.
+Agent readiness score: 4/5.
 
 ## Available Surfaces
 
@@ -48,18 +48,17 @@ page / per_page, default 25, max 100; docs recommend updated_at cursor poller fo
 ## Agent Caveats
 
 - Destructive action risk: high.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
+- Salesloft REST docs are sufficient for agent retrieval across auth, scopes, endpoints, rate limits, pagination, and webhooks.
+- Clari + Salesloft announced an MCP Server for live Salesloft data, but public setup/reference docs were not found.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm whether the announced Clari+Salesloft MCP Server has public setup/reference docs yet.
 
 ## Sources
 
 - https://developers.salesloft.com/docs/api/
 - https://developers.salesloft.com/docs/platform/api-basics/
+- https://developer.salesloft.com/docs/platform/api-basics/api-key-authentication/
 - https://developer.salesloft.com/docs/platform/api-basics/rate-limits/
 - https://developers.salesloft.com/docs/platform/api-basics/filtering-paging-sorting/
 - https://www.salesloft.com/company/newsroom/clari-salesloft-forecasting-execution-mcp-server
 - https://cdn.cdata.com/help/KBM/mcp
+- https://zapier.com/mcp/salesloft

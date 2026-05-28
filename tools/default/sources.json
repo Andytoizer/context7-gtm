@@ -1,7 +1,37 @@
 [
   {
-    "title": "default.com",
+    "title": "Default homepage",
     "url": "https://www.default.com",
+    "type": "source"
+  },
+  {
+    "title": "Default Knowledge Base",
+    "url": "https://docs.default.com/",
+    "type": "source"
+  },
+  {
+    "title": "Default Glossary",
+    "url": "https://docs.default.com/article/glossary",
+    "type": "source"
+  },
+  {
+    "title": "Default Webhook Received Trigger",
+    "url": "https://docs.default.com/article/webhook-trigger",
+    "type": "source"
+  },
+  {
+    "title": "Default Webflow Form Integration",
+    "url": "https://docs.default.com/article/connecting-a-web-flow-form-to-default",
+    "type": "source"
+  },
+  {
+    "title": "Default HubSpot Object Trigger",
+    "url": "https://docs.default.com/article/hub-spot-object-created",
+    "type": "source"
+  },
+  {
+    "title": "Default Salesforce Object Trigger",
+    "url": "https://docs.default.com/article/sfdc-object-created-trigger",
     "type": "source"
   }
 ]

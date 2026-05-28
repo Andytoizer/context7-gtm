@@ -19,7 +19,7 @@
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Tracking script/API token surfaces; server API auth not clearly public."
+    "notes": "Official docs expose product/admin and tracking-oriented docs; third-party dlt context describes Bearer-token account-intelligence access, but no official public server API auth reference was found."
   },
   "objects": [
     "Users",
@@ -35,9 +35,9 @@
   "pagination": "Unknown.",
   "destructiveActionRisk": "unknown",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official docs expose llms.txt and extensive product/integration docs for Revenue Agents, Account Intelligence, Marketing Intelligence, data warehouse connections, and tracking-style analytics concepts.",
+    "A third-party dlt source describes an account-intelligence API, but official public API reference, pagination, rate limits, and schema contract remain unresolved."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Public docs expose tracking/SDK and AI-docs surfaces, but a stable public server API reference, auth model, pagination, and rate limits need confirmation."
+  "reviewReason": "Need an official public HockeyStack server API reference covering auth, endpoints, pagination, rate limits, and destructive/write semantics; current public coverage is product docs plus non-official API context."
 }

@@ -2,13 +2,13 @@
   "id": "/gtm/contentsquare",
   "name": "Contentsquare",
   "slug": "contentsquare",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
   "agentReadinessScore": 4,
   "canonicalUrl": "https://docs.contentsquare.com/en/",
   "surfaces": {
-    "officialMcp": "announced",
+    "officialMcp": "yes",
     "officialCli": "yes",
     "officialApi": "yes",
     "openApiSpec": "unknown",
@@ -19,7 +19,7 @@
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "OAuth/login for MCP; API credentials for export/data APIs."
+    "notes": "APIs use server-to-server OAuth 2.0 client credentials; access tokens last 1 hour and return the regional base URL. MCP uses OAuth-secured agent access and only exposes projects the user can access."
   },
   "objects": [
     "Projects",
@@ -30,15 +30,17 @@
     "Errors",
     "Exports",
     "Job Runs",
-    "Sessions"
+    "Sessions",
+    "Segments",
+    "Page Groups"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Export APIs use jobs/job_runs/job_run_parts.",
+  "rateLimits": "Data Export API allows 10 concurrent requests per project and 10 OAuth credentials per project/account. MCP tool calls are plan-limited: Free up to 300/month, Growth up to 36k/year, Pro up to 72k/year, Enterprise up to 108k/year.",
+  "pagination": "Data Export API is job-oriented: exports contain jobs, job runs, and downloadable job run parts. One-time jobs cannot cover more than 7 days and generated files are retained 7 days.",
   "destructiveActionRisk": "medium",
   "notes": [
     "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
     "Use source links to refresh endpoint-level details before implementation."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "MCP is closed beta; confirm access requirements and tool scope."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

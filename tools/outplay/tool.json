@@ -2,24 +2,24 @@
   "id": "/gtm/outplay",
   "name": "Outplay",
   "slug": "outplay",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
-  "canonicalUrl": "https://outplayhq.com/",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://documenter.getpostman.com/view/16947449/TzsikPV1",
   "surfaces": {
     "officialMcp": "unknown",
     "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
+    "openApiSpec": "no",
     "llmsDocs": "unknown",
     "officialSdk": "unknown",
     "communityMcp": "unknown",
-    "communityCli": "unknown",
+    "communityCli": "no",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "API key/Bearer token; exact public docs need confirmation."
+    "notes": "client_id query parameter plus X-CLIENT-SECRET header; credentials are created under Outplay Integrations & API/API Settings."
   },
   "objects": [
     "Prospects",
@@ -27,17 +27,22 @@
     "Sequences",
     "Tasks",
     "Calls",
-    "Emails",
+    "Reports",
     "Users",
-    "Webhooks"
+    "SMS",
+    "Notes",
+    "Activities",
+    "Prospect Mails",
+    "Intelligence"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "rateLimits": "Public Postman docs list response rate-limit headers, a burst limit of 100 calls per 10 seconds, and a daily limit of 100,000 calls per UTC day; individual APIs may vary.",
+  "pagination": "Endpoint-specific list pagination in the Postman collection; verify per endpoint before bulk reads.",
   "destructiveActionRisk": "high",
   "notes": [
     "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Use source links to refresh endpoint-level details before implementation.",
+    "The endpoint reference is a public Postman document; official Outplay help confirms where to create API client credentials."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm official public API reference and whether docs are customer-gated."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

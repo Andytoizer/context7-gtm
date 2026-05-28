@@ -1,7 +1,32 @@
 [
   {
-    "title": "pitchbook.com/help/PitchBook-api",
+    "title": "PitchBook API Help",
     "url": "https://pitchbook.com/help/PitchBook-api",
+    "type": "source"
+  },
+  {
+    "title": "PitchBook API and Datafeed Launch",
+    "url": "https://pitchbook.com/blog/announcing-the-launch-of-api-and-datafeed",
+    "type": "source"
+  },
+  {
+    "title": "PitchBook Direct Data",
+    "url": "https://pitchbook.com/blog/what-is-direct-data",
+    "type": "source"
+  },
+  {
+    "title": "dltHub PitchBook API Source",
+    "url": "https://dlthub.com/context/source/pitchbook-api",
+    "type": "source"
+  },
+  {
+    "title": "Unified.to PitchBook Integration",
+    "url": "https://unified.to/integrations/pitchbook",
+    "type": "source"
+  },
+  {
+    "title": "PitchBook OpenAI App",
+    "url": "https://openai.com/business/apps/pitchbook/",
     "type": "source"
   }
 ]

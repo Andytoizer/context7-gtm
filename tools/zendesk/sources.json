@@ -25,13 +25,28 @@
     "type": "source"
   },
   {
+    "title": "developer.zendesk.com/api-reference/introduction/security-and-auth",
+    "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+    "type": "source"
+  },
+  {
+    "title": "developer.zendesk.com/documentation/ticketing/api-clients/introduction",
+    "url": "https://developer.zendesk.com/documentation/ticketing/api-clients/introduction/",
+    "type": "source"
+  },
+  {
     "title": "developer.zendesk.com/documentation/apps/getting-started/using-zcli",
     "url": "https://developer.zendesk.com/documentation/apps/getting-started/using-zcli/",
     "type": "source"
   },
   {
-    "title": "techradar.com/pro/zendesk-becomes-the-latest-to-adopt-mcp-to-futureproof-customers-in-the-ai-first-era",
-    "url": "https://www.techradar.com/pro/zendesk-becomes-the-latest-to-adopt-mcp-to-futureproof-customers-in-the-ai-first-era",
+    "title": "zendesk.com/newsroom/articles/relate-2026",
+    "url": "https://www.zendesk.com/newsroom/articles/relate-2026/",
+    "type": "source"
+  },
+  {
+    "title": "github.com/reminia/zendesk-mcp-server",
+    "url": "https://github.com/reminia/zendesk-mcp-server",
     "type": "source"
   }
 ]

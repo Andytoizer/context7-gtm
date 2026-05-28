@@ -1,12 +1,57 @@
 [
   {
-    "title": "academy.creatio.com/docs/developer/integrations_and_api",
-    "url": "https://academy.creatio.com/docs/developer/integrations_and_api",
+    "title": "Creatio 8.3 Authentication",
+    "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/category/authentication",
     "type": "source"
   },
   {
-    "title": "academy.creatio.com/docs/developer/integrations_and_api/data_services/odata",
-    "url": "https://academy.creatio.com/docs/developer/integrations_and_api/data_services/odata",
+    "title": "Creatio OAuth 2.0 Client Credentials",
+    "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/authentication/oauth-2-0-authorization/identity-service-overview",
+    "type": "source"
+  },
+  {
+    "title": "Creatio Manage OAuth Integrations Using API",
+    "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/authentication/oauth-2-0-authorization/manage-oauth-integrations",
+    "type": "source"
+  },
+  {
+    "title": "Creatio OData Basics",
+    "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/data-services/odata/basics/overview",
+    "type": "source"
+  },
+  {
+    "title": "Creatio OData References",
+    "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/odata-references",
+    "type": "source"
+  },
+  {
+    "title": "Creatio OData RAM Limit",
+    "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/data-services/odata/ram-consumption-limit",
+    "type": "source"
+  },
+  {
+    "title": "Creatio OData File API Endpoints",
+    "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/data-services/odata/odata-file-api/references/endpoints",
+    "type": "source"
+  },
+  {
+    "title": "Creatio API Documentation and Postman Collection",
+    "url": "https://academy.creatio.com/docs/8.x/dev/development-on-creatio-platform/integrations-and-api/integration-examples",
+    "type": "source"
+  },
+  {
+    "title": "@creatio-devkit/common npm package",
+    "url": "https://www.npmjs.com/package/%40creatio-devkit/common",
+    "type": "source"
+  },
+  {
+    "title": "mcp-creatio community MCP listing",
+    "url": "https://www.stork.ai/mcp/mcp-creatio",
+    "type": "source"
+  },
+  {
+    "title": "api-node-creatio community Node wrapper",
+    "url": "https://npm.io/package/api-node-creatio",
     "type": "source"
   }
 ]

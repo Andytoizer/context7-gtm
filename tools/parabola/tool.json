@@ -2,40 +2,55 @@
   "id": "/gtm/parabola",
   "name": "Parabola",
   "slug": "parabola",
-  "status": "needs-review",
-  "aliases": [],
+  "status": "published",
+  "aliases": ["parabola.io", "parabola flows"],
   "lastVerified": "2026-05-28",
   "agentReadinessScore": 2,
   "canonicalUrl": "https://parabola.io/",
+  "interfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "no",
+    "openApi": "no",
+    "llmsTxt": "yes",
+    "officialSdk": "no"
+  },
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
-    "officialApi": "unknown",
-    "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "no",
+    "openApiSpec": "no",
+    "llmsDocs": "yes",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "yes"
   },
+  "sourceQuality": {
+    "official": "medium",
+    "community": "low"
+  },
   "auth": {
-    "notes": "Unknown for public API; connector auth varies by source/destination."
+    "notes": "No public Parabola product API authentication found. Auth is configured per connector/API step when Parabola calls external services; supported patterns include bearer tokens, basic auth, custom headers, and OAuth2/client-credentials-style expiring tokens."
   },
   "objects": [
     "Flows",
     "Steps",
     "Tables",
     "Runs",
+    "Schedules",
+    "Triggers",
+    "Webhook triggers",
     "Imports",
-    "Exports"
+    "Exports",
+    "Shared authentications"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "rateLimits": "No public Parabola product API rate limits found. Flow schedules and trigger queues are plan and feature dependent; official docs state webhook/email-triggered flow runs can queue up to 1000 pending runs.",
+  "pagination": "No public Parabola product API pagination found. Parabola's API steps can call external APIs and support endpoint-specific pagination patterns, including GraphQL offset/limit variables.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official docs explicitly say Parabola does not currently have a developer portal for building custom integrations.",
+    "Agents should treat Parabola primarily as a no-code data automation tool with API-calling and webhook-trigger capabilities, not as a public product API target."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm whether Parabola has public API/CLI/MCP docs or only product integrations and webhooks."
+  "needsHumanReview": false
 }

@@ -2,40 +2,45 @@
   "id": "/gtm/enrow",
   "name": "Enrow",
   "slug": "enrow",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
-  "canonicalUrl": "https://www.enrow.io/",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://enrow.readme.io/",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialMcp": "no",
+    "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "API key/Bearer token; exact docs need confirmation."
+    "notes": "API key in the x-api-key request header for https://api.enrow.io."
   },
   "objects": [
-    "Contacts",
-    "Companies",
-    "Emails",
-    "Phone numbers",
-    "Waterfall enrichment",
-    "Credits"
+    "Email finder",
+    "Email verifier",
+    "Phone finder",
+    "Single searches",
+    "Bulk searches",
+    "Single verifications",
+    "Bulk verifications",
+    "Account info",
+    "Credits",
+    "Webhooks"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "rateLimits": "Official product page says up to 50 requests per second. Treat as plan/account dependent unless confirmed in contract or app settings.",
+  "pagination": "No cursor/page pagination found. Enrow uses async single/bulk jobs: POST creates a job and returns an id, GET retrieves results by id, and webhooks can notify completion. Email bulk endpoint supports up to 5000 searches per batch.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Published: official ReadMe docs expose llms.txt and OpenAPI files for Email Finder and Phone APIs.",
+    "No official MCP, CLI, or SDK found.",
+    "Main operational risk is credit consumption and processing personal contact data."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm official API docs, auth, limits, and pagination."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

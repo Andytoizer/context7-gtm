@@ -5,6 +5,16 @@
     "type": "source"
   },
   {
+    "title": "serper.dev/playground",
+    "url": "https://serper.dev/playground",
+    "type": "source"
+  },
+  {
+    "title": "serper.dev official playground bundle",
+    "url": "https://serper.dev/_next/static/chunks/pages/playground-7ce8960e9fe2fc99.js",
+    "type": "source"
+  },
+  {
     "title": "github.com/garylab/serper-mcp-server",
     "url": "https://github.com/garylab/serper-mcp-server",
     "type": "source"
@@ -15,8 +25,13 @@
     "type": "source"
   },
   {
-    "title": "github.com/topics/serper",
-    "url": "https://github.com/topics/serper",
+    "title": "github.com/marcopesani/mcp-server-serper",
+    "url": "https://github.com/marcopesani/mcp-server-serper",
+    "type": "source"
+  },
+  {
+    "title": "apify.com/serper/serper/api/openapi",
+    "url": "https://apify.com/serper/serper/api/openapi",
     "type": "source"
   }
 ]

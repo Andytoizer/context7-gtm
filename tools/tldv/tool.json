@@ -2,7 +2,7 @@
   "id": "/gtm/tldv",
   "name": "tl;dv",
   "slug": "tldv",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [
     "tldv"
   ],
@@ -10,35 +10,37 @@
   "agentReadinessScore": 3,
   "canonicalUrl": "https://tldv.io/",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialMcp": "yes",
+    "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
+    "openApiSpec": "yes",
     "llmsDocs": "unknown",
     "officialSdk": "unknown",
-    "communityMcp": "unknown",
+    "communityMcp": "no",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "API key/Bearer auth; exact docs need confirmation."
+    "notes": "API key auth using the x-api-key request header. API keys are generated from tl;dv account personal settings; access is plan- and meeting-organizer-dependent."
   },
   "objects": [
     "Meetings",
-    "Recordings",
+    "Meeting Recordings",
     "Transcripts",
-    "Clips",
     "Notes",
-    "Users",
-    "Integrations"
+    "Highlights (deprecated)",
+    "Webhooks",
+    "MeetingReady Events",
+    "TranscriptReady Events"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "rateLimits": "Not specified in public docs.",
+  "pagination": "The meetings list endpoint uses page and limit query parameters; limit max is 100 and total returned results cannot exceed 10,000. Responses include page, pages, total, pageSize, and results fields.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official API docs are Redoc/OpenAPI-style docs for v1alpha1 on https://pasta.tldv.io, covering meeting import/list/get/download, transcript, notes, deprecated highlights, health check, and webhook payloads.",
+    "Official GitHub MCP server exists under tldv-public/tldv-mcp-server and requires a Business or Enterprise tl;dv account plus TLDV_API_KEY.",
+    "API/webhook access is Business-plan gated in the help center; API exportability depends on the meeting organizer plan and organization-wide automation requires Enterprise."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm current public API docs, auth, pagination, and rate limits."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

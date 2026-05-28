@@ -1,17 +1,27 @@
 [
   {
-    "title": "support.rb2b.com/en/articles/8976614-setup-guide-webhook",
+    "title": "RB2B APIs: RB2B's API Partner Program",
+    "url": "https://support.rb2b.com/en/articles/12579420-rb2b-apis-rb2b-s-api-partner-program",
+    "type": "official-api-docs"
+  },
+  {
+    "title": "RB2B API Suite",
+    "url": "https://www.rb2b.com/apis",
+    "type": "official-api-docs"
+  },
+  {
+    "title": "RB2B APIs Postman Collection",
+    "url": "https://www.postman.com/rb2b-api/apis/collection/n7gn6w7/rb2b-apis",
+    "type": "official-api-docs"
+  },
+  {
+    "title": "Setup Guide: Webhook",
     "url": "https://support.rb2b.com/en/articles/8976614-setup-guide-webhook",
-    "type": "source"
+    "type": "official-webhook-docs"
   },
   {
-    "title": "support.rb2b.com/en/articles/10551225-how-rb2b-s-integrations-work",
+    "title": "How RB2B's Integrations Work",
     "url": "https://support.rb2b.com/en/articles/10551225-how-rb2b-s-integrations-work",
-    "type": "source"
-  },
-  {
-    "title": "rb2b.com/partner",
-    "url": "https://www.rb2b.com/partner",
-    "type": "source"
+    "type": "official-integration-docs"
   }
 ]

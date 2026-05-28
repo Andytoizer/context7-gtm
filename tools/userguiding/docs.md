@@ -4,51 +4,54 @@
 
 UserGuiding is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
 
-Agent readiness score: 2/5.
+Agent readiness score: 5/5.
 
 ## Available Surfaces
 
-- Official MCP: no
+- Official MCP: yes
 - Official CLI: no
 - Official API: yes
-- OpenAPI/spec: unknown
+- OpenAPI/spec: yes
 - llms/AI docs: unknown
-- Official SDK: yes
+- Official SDK: no
 - Community MCP: unknown
 - Community CLI: unknown
 - Community SDK / integration: yes
 
 ## Auth
 
-API Access Token after User Identification is enabled.
+REST API uses UG-API-KEY header. MCP uses the same project API key via UG-API-KEY header or api_key query parameter for SSE.
 
 ## Main Objects
 
 - Users
 - User Attributes
+- Companies
 - User Events
-- Guide Interactions
-- Onboarding Material
+- Interaction History
+- Guide/Checklist/Survey/Hotspot Events
+- Knowledge Base Articles
 
 ## Rate Limits
 
-Unknown.
+50 requests per 10 seconds for the User API; exceeding the limit blocks requests for 1 minute.
 
 ## Pagination
 
-Unknown.
+REST user list uses search_after plus page_size; default page size 100, max 1000. MCP list/search tools support pagination.
 
 ## Agent Caveats
 
-- Destructive action risk: medium.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
+- Destructive action risk: high.
+- Official MCP server is documented at https://mcp.userguiding.com/mcp/sse with 17 tools across users, search/analytics, events, companies, and knowledge base.
+- Official OpenAPI 3.1 spec is available at https://user.userguiding.com/openapi.json for the User API.
+- Official docs state there is no npm package; install is via snippet/JavaScript API rather than a package SDK.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Interactive API docs should be checked for auth headers, pagination, delete semantics, and rate limits.
 
 ## Sources
 
+- https://help.userguiding.com/en/articles/20916-userguiding-mcp-server
 - https://help.userguiding.com/en/articles/4493538-userguiding-user-api
-- https://help.userguiding.com/en/articles/18839-user
+- https://user.userguiding.com/openapi.json
+- https://help.userguiding.com/en/articles/8284734-rate-limit-for-the-user-api
+- https://help.userguiding.com/en/articles/8046430-does-userguiding-offer-an-npm-package

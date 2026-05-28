@@ -19,24 +19,27 @@
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Legacy docs show Basic Auth; current Data Licensing/API appears sales-gated/API-key based."
+    "notes": "Legacy docs.owler.cloud show Basic Auth over HTTPS. Community Ballerina connector for Owler API v1.0 uses API key user_key against https://api.owler.com/. Current Owler Data Licensing/API access appears sales-gated."
   },
   "objects": [
     "Companies",
+    "Company Profiles",
     "Competitors",
     "Firmographics",
     "Funding",
     "Acquisitions",
     "News",
-    "Contacts"
+    "Feeds",
+    "Contacts",
+    "Legacy Users/Statuses"
   ],
-  "rateLimits": "Legacy docs: most endpoints 100 requests/hour.",
-  "pagination": "Unknown.",
+  "rateLimits": "Legacy docs.owler.cloud: most endpoints 100 requests/hour. No current public rate limits found for Owler Data Licensing/API.",
+  "pagination": "Community Ballerina connector documents limit parameters for search and pagination_id for feeds; current official pagination contract is not public.",
   "destructiveActionRisk": "low",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official data licensing page confirms an API sales path but does not publish endpoint, auth, rate-limit, or pagination reference.",
+    "docs.owler.cloud appears to document an older API surface with Basic Auth and social-style endpoints; do not assume it matches current licensed company-data API."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Which Owler API surface is current: legacy docs.owler.cloud Basic Auth, or sales-gated Meltwater/Owler Data Licensing API?"
+  "reviewReason": "Current Owler Data Licensing/API endpoint reference, auth scheme, pagination, and rate limits are not publicly documented; public sources conflict between legacy Basic Auth docs and community API-key/OpenAPI-derived connector docs."
 }

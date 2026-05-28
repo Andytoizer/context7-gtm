@@ -2,10 +2,10 @@
   "id": "/gtm/vero",
   "name": "Vero",
   "slug": "vero",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://www.getvero.com/",
   "surfaces": {
     "officialMcp": "no",
@@ -19,7 +19,7 @@
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Track API auth_token parameter per request; HTTPS required."
+    "notes": "Track API uses an auth_token request parameter over HTTPS. Campaigns REST API preview uses an Authorization header accepting either a raw secret key or Bearer <sk_KEY>; optional revision header uses YYYY-MM-DD."
   },
   "objects": [
     "Users",
@@ -29,16 +29,19 @@
     "Events",
     "Subscriptions",
     "Campaigns",
+    "Campaign Messages",
+    "Campaign Content",
     "Templates",
+    "Delivery Providers",
     "Webhooks"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown for Track API; Campaigns REST API is preview and needs verification.",
+  "rateLimits": "No public per-endpoint request-rate limits found; account usage limits and overages are subscription based.",
+  "pagination": "Track API write endpoints do not paginate. Campaigns REST API preview list endpoints return ordered arrays; no cursor/page contract found in public docs.",
   "destructiveActionRisk": "high",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official docs cover Track API endpoints, JavaScript/TypeScript SDK, community/server SDK references, webhooks, and Campaigns REST API preview endpoints.",
+    "Campaigns REST API is explicitly preview; treat campaign/content mutations and user delete/unsubscribe actions as high-risk."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Public docs clearly cover Track REST API, but rate limits, pagination, and Campaigns REST API preview coverage need confirmation before publishing broad agent actions."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

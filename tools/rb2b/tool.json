@@ -2,39 +2,48 @@
   "id": "/gtm/rb2b",
   "name": "RB2B",
   "slug": "rb2b",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 2,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://www.rb2b.com/",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "no",
-    "officialApi": "unknown",
-    "openApiSpec": "no",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
-    "communityMcp": "unknown",
-    "communityCli": "unknown",
-    "communitySdkOrIntegration": "unknown"
+    "officialMcp": false,
+    "officialCli": false,
+    "officialApi": true,
+    "openApiSpec": false,
+    "llmsDocs": false,
+    "officialSdk": false,
+    "communityMcp": false,
+    "communityCli": false,
+    "communitySdkOrIntegration": false
   },
   "auth": {
-    "notes": "Outbound webhook URL; required auth must be embedded as query params."
+    "methods": ["API key", "Webhook receiver URL"],
+    "notes": "RB2B API docs use an API key named Api-Key. Consumer-platform webhooks send to a configured HTTPS receiver URL; any receiver authentication or identifiers must be embedded in the webhook URL as query parameters."
   },
   "objects": [
+    "Identity API lookups",
+    "IP to HEM",
+    "IP to MAID",
+    "IP to company",
+    "HEM to LinkedIn",
+    "HEM to business profile",
+    "Email to business profile",
+    "LinkedIn to personal email",
+    "LinkedIn to mobile phone",
+    "LinkedIn slug search",
     "Identified visitors",
-    "company-only profiles",
-    "visitor page views",
-    "LinkedIn URL",
-    "first/last name"
+    "Company-only profiles",
+    "Webhook payloads"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Not applicable for webhook docs.",
+  "rateLimits": "RB2B APIs are rate limited to 50 requests per second per endpoint per account.",
+  "pagination": "No public pagination docs found; documented enrichment endpoints are single lookup POSTs and consumer-platform webhook delivery is push-based.",
   "destructiveActionRisk": "low",
+  "sourceQuality": "strong",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
-  ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm whether partner/OEM API suite has accessible docs."
+    "RB2B now has public API Partner Program docs, an API marketing/docs page, and a public Postman collection for Identity APIs.",
+    "The API suite is separate from the standard consumer RB2B app, with separate account, credit balance, billing, and API subdomain.",
+    "Consumer RB2B accounts still use integrations/webhooks for visitor delivery; webhook payload shape and field caveats are documented."
+  ]
 }

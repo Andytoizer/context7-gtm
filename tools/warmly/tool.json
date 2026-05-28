@@ -2,38 +2,45 @@
   "id": "/gtm/warmly",
   "name": "Warmly",
   "slug": "warmly",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 4,
+  "agentReadinessScore": 5,
   "canonicalUrl": "https://www.warmly.ai/",
   "surfaces": {
-    "officialMcp": "yes",
-    "officialCli": "no",
-    "officialApi": "yes",
-    "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
-    "communityMcp": "unknown",
-    "communityCli": "unknown",
-    "communitySdkOrIntegration": "unknown"
+    "officialMcp": true,
+    "officialCli": false,
+    "officialApi": true,
+    "openApiSpec": false,
+    "llmsDocs": false,
+    "officialSdk": false,
+    "communityMcp": false,
+    "communityCli": false,
+    "communitySdkOrIntegration": false
   },
   "auth": {
-    "notes": "MCP OAuth; External API auth not found in public docs."
+    "methods": ["OAuth MCP", "Bearer API key"],
+    "notes": "MCP uses OAuth at https://opps-api.getwarmly.com/api/mcp. REST uses per-org API keys with Authorization: Bearer $WARMLY_API_KEY and organizationId."
   },
   "objects": [
     "Warm visitors",
-    "warm accounts",
-    "identified visitors",
-    "company context"
+    "Warm accounts",
+    "Identified visitors",
+    "Company profiles",
+    "Contact profiles",
+    "Page visits",
+    "UTM data",
+    "CRM provider intersections",
+    "Agent tool executions",
+    "Credit balance"
   ],
   "rateLimits": "MCP 60/min free, 120/min paid; shared monthly credits.",
-  "pagination": "Unknown.",
+  "pagination": "list_warm_visitors supports take 1-500 plus offset; list_warm_accounts uses the same shape minus contact-level filters. Execution listing can filter by toolName, status, externalRef, or date range.",
   "destructiveActionRisk": "low",
+  "sourceQuality": "strong",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
-  ],
-  "needsHumanReview": true,
-  "reviewReason": "Need canonical External API reference beyond launch post."
+    "Warmly is strongly agent-ready through official MCP and REST API docs in the launch documentation.",
+    "The public surface includes MCP endpoint, REST base URL, auth, tool names, input limits, pagination-style inputs, execution polling, rate limits, credits, and troubleshooting.",
+    "MCP exposes read-only sync tools by design; async write tools and webhooks are described as future work."
+  ]
 }

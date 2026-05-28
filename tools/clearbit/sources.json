@@ -1,27 +1,52 @@
 [
   {
-    "title": "clearbit.com/platform/enrichment",
-    "url": "https://clearbit.com/platform/enrichment",
+    "title": "Clearbit home",
+    "url": "https://clearbit.com/",
     "type": "source"
   },
   {
-    "title": "help.clearbit.com/hc/en-us/categories/360000913214-APIs",
+    "title": "Clearbit dashboard docs redirect",
+    "url": "https://clearbit.com/docs",
+    "type": "source"
+  },
+  {
+    "title": "Clearbit APIs Help Center category",
     "url": "https://help.clearbit.com/hc/en-us/categories/360000913214-APIs",
     "type": "source"
   },
   {
-    "title": "help.clearbit.com/hc/en-us/articles/115015390748-What-Counts-as-an-API-Request",
+    "title": "What Counts as an API Request?",
     "url": "https://help.clearbit.com/hc/en-us/articles/115015390748-What-Counts-as-an-API-Request",
     "type": "source"
   },
   {
-    "title": "help.clearbit.com/hc/en-us/articles/5975301365655-What-Enrichment-Attributes-Does-Clearbit-Return",
-    "url": "https://help.clearbit.com/hc/en-us/articles/5975301365655-What-Enrichment-Attributes-Does-Clearbit-Return",
+    "title": "What is the Reveal API?",
+    "url": "https://help.clearbit.com/hc/en-us/articles/360051664114-What-is-the-Reveal-API",
     "type": "source"
   },
   {
-    "title": "help.clearbit.com/hc/en-us/articles/360051664114-What-is-the-Reveal-API",
-    "url": "https://help.clearbit.com/hc/en-us/articles/360051664114-What-is-the-Reveal-API",
+    "title": "What Does an Enrichment Payload Look Like?",
+    "url": "https://help.clearbit.com/hc/en-us/articles/4419649060119-What-Does-an-Enrichment-Payload-Look-Like",
+    "type": "source"
+  },
+  {
+    "title": "Getting Started with Batch Enrichment",
+    "url": "https://help.clearbit.com/hc/en-us/articles/115012670127-Getting-Started-with-Batch-Enrichment",
+    "type": "source"
+  },
+  {
+    "title": "Clearbit API Version Change Logs",
+    "url": "https://help.clearbit.com/hc/en-us/articles/115015797408-Clearbit-API-Version-Change-Logs",
+    "type": "source"
+  },
+  {
+    "title": "Clearbit By HubSpot enrichment setup",
+    "url": "https://help.clearbit.com/hc/en-us/articles/21570749175703-Clearbit-By-HubSpot-Set-Up-Clearbit-Enrichment-for-HubSpot",
+    "type": "source"
+  },
+  {
+    "title": "clearbit-node deprecated official SDK",
+    "url": "https://github.com/clearbit/clearbit-node",
     "type": "source"
   }
 ]

@@ -4,11 +4,11 @@
 
 Google Drive is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
 
-Agent readiness score: 4/5.
+Agent readiness score: 5/5.
 
 ## Available Surfaces
 
-- Official MCP: announced
+- Official MCP: yes
 - Official CLI: yes
 - Official API: yes
 - OpenAPI/spec: no
@@ -44,18 +44,18 @@ pageToken/nextPageToken.
 ## Agent Caveats
 
 - Destructive action risk: high.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
+- Workspace MCP is in public developer preview, so tool availability, quotas, and install/auth details may change.
+- Drive write, upload, delete, and permission-management operations can expose or destroy sensitive files; scope OAuth narrowly.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm public endpoint/config and availability tier for Google's managed Drive/Workspace MCP server.
 
 ## Sources
 
-- https://workspaceupdates.googleblog.com/2026/05/agent-tools-and-security-updates-for-workspace-developers.html
+- https://workspaceupdates.googleblog.com/2026/05/agent-tools-and-security-updates-for-workspace-developers.html?hl=en
+- https://developers.google.com/workspace/guides/developer-tools
+- https://developers.google.com/workspace/guides/build-with-llms
 - https://developers.google.com/workspace/drive/api/guides/limits
-- https://developers.google.com/drive/api/v2/reference/files/list
+- https://developers.google.com/workspace/drive/api/reference/rest/v3/files/list
 - https://developers.google.com/workspace/drive/api/guides/downloads
+- https://developers.google.com/workspace/drive/api/quickstart/js
 - https://cloud.google.com/docs/discovery/apis
-- https://workspacemcp.com/
+- https://workspacemcp.com/docs

@@ -2,11 +2,31 @@
   {
     "title": "tldv.io",
     "url": "https://tldv.io/",
-    "type": "source"
+    "type": "official"
   },
   {
     "title": "help.tldv.io",
     "url": "https://help.tldv.io/",
-    "type": "source"
+    "type": "official"
+  },
+  {
+    "title": "tl;dv API documentation",
+    "url": "https://doc.tldv.io/index.html",
+    "type": "official"
+  },
+  {
+    "title": "tl;dv API and Webhooks help article",
+    "url": "https://intercom.help/tldv/en/articles/11583137-api-and-webhooks",
+    "type": "official"
+  },
+  {
+    "title": "Official MCP Server for tl;dv API",
+    "url": "https://github.com/tldv-public/tldv-mcp-server",
+    "type": "official"
+  },
+  {
+    "title": "Nango tl;dv integration docs",
+    "url": "https://nango.dev/docs/integrations/all/tldv",
+    "type": "community"
   }
 ]

@@ -1,7 +1,12 @@
 [
   {
-    "title": "docs.inspectlet.com",
+    "title": "Inspectlet API Reference",
+    "url": "https://apidocs.inspectlet.com/",
+    "type": "official"
+  },
+  {
+    "title": "Inspectlet Docs",
     "url": "https://docs.inspectlet.com/",
-    "type": "source"
+    "type": "official"
   }
 ]

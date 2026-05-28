@@ -18,5 +18,20 @@
     "title": "help.getvero.com/llms.txt",
     "url": "https://help.getvero.com/llms.txt",
     "type": "source"
+  },
+  {
+    "title": "help.getvero.com/developer-docs/javascript-sdk",
+    "url": "https://help.getvero.com/developer-docs/javascript-sdk",
+    "type": "source"
+  },
+  {
+    "title": "help.getvero.com/developer-docs/community-sdks",
+    "url": "https://help.getvero.com/developer-docs/community-sdks",
+    "type": "source"
+  },
+  {
+    "title": "help.getvero.com/api-reference/campaign-content/list-campaign-message-content",
+    "url": "https://help.getvero.com/api-reference/campaign-content/list-campaign-message-content",
+    "type": "source"
   }
 ]

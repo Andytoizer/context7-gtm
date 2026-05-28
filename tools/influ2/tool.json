@@ -9,33 +9,36 @@
   "canonicalUrl": "https://www.influ2.com/",
   "surfaces": {
     "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialCli": "no",
     "officialApi": "unknown",
     "openApiSpec": "unknown",
     "llmsDocs": "unknown",
     "officialSdk": "unknown",
-    "communityMcp": "unknown",
-    "communityCli": "unknown",
+    "communityMcp": "yes",
+    "communityCli": "no",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Unknown."
+    "notes": "Community MCP package expects INFLU2_API_KEY as a Bearer token and defaults to https://v2-api.influ2.com; official public auth docs were not found."
   },
   "objects": [
-    "Contacts",
-    "Accounts",
-    "Campaigns",
-    "Ads",
-    "Engagement",
-    "Reports"
+    "Clients",
+    "Cohorts/campaign audiences",
+    "Targets",
+    "Ad content/creatives",
+    "Assets",
+    "Jobs",
+    "Engagement metrics",
+    "Salesforce integration metrics"
   ],
   "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
-  "destructiveActionRisk": "medium",
+  "pagination": "Unknown; community MCP docs do not specify pagination.",
+  "destructiveActionRisk": "high",
   "notes": [
     "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Use source links to refresh endpoint-level details before implementation.",
+    "Influ2 public help documents CRM integration behavior, but not a public developer API reference."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Confirm whether Influ2 has public API/CLI/MCP docs or only partner/customer-gated integrations."
+  "reviewReason": "No official public Influ2 API reference or official MCP/SDK docs found; community influ2-mcp package is useful but unofficial and should be validated against customer-gated Influ2 API docs before live use."
 }

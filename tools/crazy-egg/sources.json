@@ -1,12 +1,17 @@
 [
   {
-    "title": "support.crazyegg.com/knowledge-base/conversion-tracking-api",
+    "title": "Crazy Egg Conversion Tracking API",
     "url": "https://support.crazyegg.com/knowledge-base/conversion-tracking-api/",
-    "type": "source"
+    "type": "official"
   },
   {
-    "title": "zapier.com/mcp/crazy-egg",
+    "title": "How to get started with Crazy Egg on Zapier",
+    "url": "https://help.zapier.com/hc/en-us/articles/10459896422285-How-to-get-started-with-Crazy-Egg-on-Zapier",
+    "type": "community"
+  },
+  {
+    "title": "Zapier Crazy Egg MCP",
     "url": "https://zapier.com/mcp/crazy-egg",
-    "type": "source"
+    "type": "community"
   }
 ]

@@ -5,37 +5,39 @@
   "status": "needs-review",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
-  "canonicalUrl": "https://www.kaspr.io/",
+  "agentReadinessScore": 2,
+  "canonicalUrl": "https://www.kaspr.io/api",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialMcp": "no",
+    "officialCli": "no",
     "officialApi": "yes",
     "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "llmsDocs": "no",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "API key/Bearer token; exact docs need confirmation."
+    "notes": "Official help article shows an API key in the Authorization header. Community examples sometimes use Bearer; verify exact current header/version requirements before implementation."
   },
   "objects": [
-    "Contacts",
-    "Companies",
-    "Enrichment",
-    "Lists",
-    "Exports",
-    "Credits"
+    "LinkedIn profile enrichment",
+    "B2B emails",
+    "Direct emails",
+    "Phone numbers",
+    "CSV/Google Sheets enrichment",
+    "Credits",
+    "Exports"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "rateLimits": "Plan-based limits exist, but exact requests per hour/day are not public in the agent-retrievable docs found.",
+  "pagination": "Unknown. Public docs found describe LinkedIn-profile and CSV enrichment but do not expose complete endpoint-level pagination semantics.",
   "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Keep needs-review: official marketing/help pages confirm API access and a sample endpoint, but complete machine-readable API reference, rate limits, and pagination were not retrievable.",
+    "The official help article says the API is compatible with standard LinkedIn profile URLs and not Sales Navigator URLs.",
+    "Credits are consumed for B2B emails, direct emails, phone numbers, and successful API/export calls."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Confirm current official API docs, rate limits, and pagination."
+  "reviewReason": "Exact blocker: public sources do not expose a complete agent-readable API reference/OpenAPI, full endpoint list, exact current auth version/header requirements, exact requests-per-hour/day limits, or pagination semantics. The linked Stoplight reference is JavaScript-only from the available fetch path."
 }

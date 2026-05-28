@@ -2,11 +2,66 @@
   {
     "title": "tidio.com",
     "url": "https://www.tidio.com/",
-    "type": "source"
+    "type": "official"
   },
   {
     "title": "help.tidio.com",
     "url": "https://help.tidio.com/",
-    "type": "source"
+    "type": "official"
+  },
+  {
+    "title": "Tidio API developer portal",
+    "url": "https://developers.tidio.com/",
+    "type": "official"
+  },
+  {
+    "title": "Tidio API llms.txt",
+    "url": "https://developers.tidio.com/llms.txt",
+    "type": "official"
+  },
+  {
+    "title": "Enable Tidio OpenAPI",
+    "url": "https://developers.tidio.com/docs/openapi-enable",
+    "type": "official"
+  },
+  {
+    "title": "Tidio OpenAPI Authorization",
+    "url": "https://developers.tidio.com/docs/openapi-authorization",
+    "type": "official"
+  },
+  {
+    "title": "Tidio OpenAPI Rate Limiting",
+    "url": "https://developers.tidio.com/docs/openapi-rate-limiting",
+    "type": "official"
+  },
+  {
+    "title": "Tidio OpenAPI Pagination",
+    "url": "https://developers.tidio.com/docs/openapi-pagination",
+    "type": "official"
+  },
+  {
+    "title": "Tidio Get contacts",
+    "url": "https://developers.tidio.com/reference/get_contacts",
+    "type": "official"
+  },
+  {
+    "title": "Tidio Get tickets",
+    "url": "https://developers.tidio.com/reference/get_tickets",
+    "type": "official"
+  },
+  {
+    "title": "Tidio Upsert products",
+    "url": "https://developers.tidio.com/reference/put_products-batch",
+    "type": "official"
+  },
+  {
+    "title": "Tidio Webhooks Signature verification",
+    "url": "https://developers.tidio.com/docs/webhooks-signature-verification",
+    "type": "official"
+  },
+  {
+    "title": "Tidio Widget Visitor Identification",
+    "url": "https://developers.tidio.com/docs/widget-visitor-identification",
+    "type": "official"
   }
 ]

@@ -2,54 +2,65 @@
 
 ## Agent Summary
 
-Enrow is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+Enrow is a published GTM Docs Registry profile for agent docs retrieval. The public docs include ReadMe markdown pages, an llms.txt index, and OpenAPI files for email and phone APIs.
 
-Agent readiness score: 3/5.
+Agent readiness score: 4/5.
 
 ## Available Surfaces
 
-- Official MCP: unknown
-- Official CLI: unknown
+- Official MCP: no
+- Official CLI: no
 - Official API: yes
-- OpenAPI/spec: unknown
-- llms/AI docs: unknown
-- Official SDK: unknown
+- OpenAPI/spec: yes
+- llms/AI docs: yes
+- Official SDK: no
 - Community MCP: unknown
 - Community CLI: unknown
 - Community SDK / integration: yes
 
 ## Auth
 
-API key/Bearer token; exact docs need confirmation.
+Use an API key in the `x-api-key` header against `https://api.enrow.io`. The account info endpoint returns the current credit balance and registered webhook URLs for the key.
 
 ## Main Objects
 
-- Contacts
-- Companies
-- Emails
-- Phone numbers
-- Waterfall enrichment
+- Email finder: single and bulk
+- Email verifier: single and bulk
+- Phone finder: single and bulk
+- Account info
 - Credits
+- Webhooks
 
 ## Rate Limits
 
-Unknown.
+The official API product page advertises up to 50 requests per second. Treat this as plan/account dependent until confirmed in account settings or contract.
 
 ## Pagination
 
-Unknown.
+No traditional cursor/page pagination was found. The API is job-oriented:
+
+- `POST` single/bulk endpoints start searches or verifications and return an id.
+- `GET` endpoints retrieve a single or bulk result by id.
+- Webhooks can notify completion and reduce polling.
+- Email bulk search supports up to 5000 searches per batch.
 
 ## Agent Caveats
 
 - Destructive action risk: medium.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
-- Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm official API docs, auth, limits, and pagination.
+- No official MCP, CLI, or SDK found.
+- Bulk jobs and verifications consume credits and process personal contact data.
+- Use webhooks for long-running bulk work rather than tight polling.
 
 ## Sources
 
-- https://www.enrow.io/
-- https://docs.enrow.io/
+- https://enrow.io/api
+- https://enrow.readme.io/
+- https://enrow.readme.io/llms.txt
+- https://enrow.readme.io/openapi/6508193c4b0459106cfaedba
+- https://enrow.readme.io/openapi/671785d0e3c49400267b50d8
+- https://enrow.readme.io/reference/find-single-email.md
+- https://enrow.readme.io/reference/find-multiple-emails.md
+- https://enrow.readme.io/reference/get-multiple-emails-results.md
+- https://enrow.readme.io/reference/get-account-info.md
+- https://enrow.readme.io/reference/using-webhooks-with-enrow.md
+- https://zapier.com/apps/enrow/integrations

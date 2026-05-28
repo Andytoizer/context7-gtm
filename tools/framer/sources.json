@@ -40,6 +40,11 @@
     "type": "source"
   },
   {
+    "title": "framer.com/marketplace/plugins/mcp",
+    "url": "https://www.framer.com/marketplace/plugins/mcp",
+    "type": "source"
+  },
+  {
     "title": "mcp.directory/servers/framer",
     "url": "https://mcp.directory/servers/framer",
     "type": "source"

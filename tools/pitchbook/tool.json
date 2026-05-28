@@ -16,15 +16,19 @@
     "openApiSpec": "unknown",
     "llmsDocs": "unknown",
     "officialSdk": "unknown",
-    "communityMcp": "unknown",
+    "communityMcp": "yes",
     "communityCli": "unknown",
-    "communitySdkOrIntegration": "unknown"
+    "communitySdkOrIntegration": "yes"
   },
   "auth": {
     "notes": "Standalone API contract; API key or authentication token; access via PitchBook Direct Data/API team."
   },
   "objects": [
     "Companies/entities",
+    "people/professionals",
+    "investors",
+    "funds",
+    "deals",
     "financing details",
     "deal stock information",
     "VC exit predictor data",
@@ -34,9 +38,9 @@
   "pagination": "Unknown/publicly gated.",
   "destructiveActionRisk": "low",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official PitchBook help confirms a REST API base URL and Direct Data/API contract path, but detailed endpoint overview remains gated.",
+    "Third-party dltHub and Unified.to sources indicate community/partner integration and MCP coverage, but they are not a substitute for official endpoint/spec docs."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Endpoint overview, pagination, rate limits, and machine-readable specs appear customer-gated; confirm via PitchBook API access."
+  "reviewReason": "Official page confirms REST base URL and API key/authentication-token setup through PitchBook Direct Data, but the endpoint overview, machine-readable spec, pagination, and rate-limit docs appear gated behind PitchBook/API access. Third-party dltHub/Unified.to evidence is not enough to publish."
 }

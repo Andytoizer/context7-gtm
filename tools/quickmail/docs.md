@@ -2,55 +2,70 @@
 
 ## Agent Summary
 
-QuickMail is a GTM tool profile for GTM Docs Registry. This profile is for agent docs retrieval: identify available MCP, CLI, API, OpenAPI, SDK, auth, object, pagination, rate-limit, and caveat surfaces. It is not a workflow recipe or human-facing comparison page.
+QuickMail is a cold email and LinkedIn outbound platform with an official GraphQL API V2 for querying and mutating workspaces, campaigns, leads, tags, custom properties, campaign steps, and email accounts.
 
-Agent readiness score: 3/5.
+- Official website: https://quickmail.com/
+- API docs: https://api.quickmail.com/help
+- Last verified: 2026-05-28
+- Agent readiness score: 4/5
 
 ## Available Surfaces
 
-- Official MCP: unknown
-- Official CLI: unknown
+- Official MCP: no public first-party MCP server found.
+- Official CLI: no public first-party CLI found.
 - Official API: yes
-- OpenAPI/spec: unknown
-- llms/AI docs: unknown
-- Official SDK: unknown
+- OpenAPI/spec: no. API V2 is GraphQL, with docs and GraphiQL instead of OpenAPI.
+- llms/AI docs: no public `llms.txt` found.
+- Official SDK: no public first-party SDK found.
 - Community MCP: unknown
 - Community CLI: unknown
-- Community SDK / integration: yes
+- Community SDK / integration: unknown
 
 ## Auth
 
-API key; exact current API docs need verification.
+QuickMail API V2 uses a single GraphQL endpoint:
+
+`POST https://api.quickmail.com/v2/graphql`
+
+Send the raw API key in the `Authorization` header without a `Bearer` prefix. The agency plan must have API access enabled or requests are rejected.
 
 ## Main Objects
 
-- Prospects
+- Agency
+- Workspaces
+- Leads
 - Campaigns
-- Inboxes
-- Emails
+- Campaign steps and variations
+- Email accounts
+- Custom properties
 - Tags
-- Tasks
-- Webhooks
+- Campaign stats
+- LinkedIn connection, InMail, message, and profile-visit steps
 
 ## Rate Limits
 
-Unknown.
+Rate limits are enforced per agency. Each response includes:
+
+- `X-RateLimit-Limit`
+- `X-RateLimit-Remaining`
+- `X-RateLimit-Reset`
+
+If the limit is exceeded, QuickMail returns HTTP 429.
 
 ## Pagination
 
-Unknown.
+List fields return Relay-style connections and accept GraphQL pagination arguments such as `first` and `after`. Many list queries also include `skip` for offset-style access. The server enforces a maximum page size and defaults to a small page size when no size is provided.
 
 ## Agent Caveats
 
 - Destructive action risk: high.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
-- Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Confirm current QuickMail API docs, pagination, and throttling details.
+- `deleteLeads` can permanently delete leads when `permanent` is true.
+- Mutations can create campaigns, add or update email and LinkedIn steps, assign email accounts, change campaign automation, add leads to campaigns, and update tracking domains.
+- Plain-text email mutations require open tracking and click tracking to be disabled.
+- GraphQL IDs are opaque prefixed IDs; agents should reuse IDs returned by the API.
 
 ## Sources
 
 - https://quickmail.com/
-- https://help.quickmail.com/
+- https://api.quickmail.com/help
+- https://www.reddit.com/r/coldemail/comments/1tcrod2/any_advice_on_a_solid_mcp_outbound_infra/

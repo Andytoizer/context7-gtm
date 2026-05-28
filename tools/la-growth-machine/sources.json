@@ -1,12 +1,39 @@
-[
-  {
-    "title": "lagrowthmachine.com",
-    "url": "https://lagrowthmachine.com/",
-    "type": "source"
-  },
-  {
-    "title": "intercom.help/lagrowthmachine/en",
-    "url": "https://intercom.help/lagrowthmachine/en/",
-    "type": "source"
-  }
-]
+{
+  "lastVerified": "2026-05-28",
+  "official": [
+    {
+      "label": "Official website",
+      "url": "https://lagrowthmachine.com/"
+    },
+    {
+      "label": "Integrations and API overview",
+      "url": "https://lagrowthmachine.com/integrations/"
+    },
+    {
+      "label": "Pricing and API availability",
+      "url": "https://lagrowthmachine.com/pricing/"
+    },
+    {
+      "label": "llms.txt",
+      "url": "https://lagrowthmachine.com/llms.txt"
+    },
+    {
+      "label": "Official Postman API documentation",
+      "url": "https://documenter.getpostman.com/view/32966764/2sBXqFM2Vv"
+    }
+  ],
+  "community": [
+    {
+      "label": "Composio La Growth Machine toolkit",
+      "url": "https://docs.composio.dev/toolkits/lagrowthmachine"
+    },
+    {
+      "label": "Cargo LaGrowthMachine connector docs",
+      "url": "https://docs.getcargo.ai/integration/lgm"
+    },
+    {
+      "label": "Nango La Growth Machine auth docs",
+      "url": "https://nango.dev/docs/integrations/all/lagrowthmachine/connect"
+    }
+  ]
+}

@@ -10,6 +10,31 @@
     "type": "source"
   },
   {
+    "title": "docs.hockeystack.com/integrations/installing-the-website-tracker/react",
+    "url": "https://docs.hockeystack.com/integrations/installing-the-website-tracker/react",
+    "type": "source"
+  },
+  {
+    "title": "docs.hockeystack.com/technical-details/tracking/customize-your-tracking",
+    "url": "https://docs.hockeystack.com/technical-details/tracking/customize-your-tracking",
+    "type": "source"
+  },
+  {
+    "title": "docs.hockeystack.com/marketing-intelligence/the-hockeystack-data-model.md",
+    "url": "https://docs.hockeystack.com/marketing-intelligence/the-hockeystack-data-model.md",
+    "type": "source"
+  },
+  {
+    "title": "docs.hockeystack.com/account-intelligence/account-intelligence-configuration-guide.md",
+    "url": "https://docs.hockeystack.com/account-intelligence/account-intelligence-configuration-guide.md",
+    "type": "source"
+  },
+  {
+    "title": "dlthub.com/context/source/hockeystack",
+    "url": "https://dlthub.com/context/source/hockeystack",
+    "type": "source"
+  },
+  {
     "title": "hockeystack.com",
     "url": "https://hockeystack.com/",
     "type": "source"

@@ -10,6 +10,11 @@
     "type": "source"
   },
   {
+    "title": "developer.salesloft.com/docs/platform/api-basics/api-key-authentication",
+    "url": "https://developer.salesloft.com/docs/platform/api-basics/api-key-authentication/",
+    "type": "source"
+  },
+  {
     "title": "developer.salesloft.com/docs/platform/api-basics/rate-limits",
     "url": "https://developer.salesloft.com/docs/platform/api-basics/rate-limits/",
     "type": "source"
@@ -27,6 +32,11 @@
   {
     "title": "cdn.cdata.com/help/KBM/mcp",
     "url": "https://cdn.cdata.com/help/KBM/mcp",
+    "type": "source"
+  },
+  {
+    "title": "zapier.com/mcp/salesloft",
+    "url": "https://zapier.com/mcp/salesloft",
     "type": "source"
   }
 ]

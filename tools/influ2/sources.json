@@ -1,7 +1,22 @@
 [
   {
-    "title": "influ2.com",
+    "title": "Influ2 website",
     "url": "https://www.influ2.com/",
+    "type": "source"
+  },
+  {
+    "title": "Influ2 Help - Salesforce integration",
+    "url": "https://help.influ2.com/articles/7290465539-how-to-integrate-influ2-with-salesforce",
+    "type": "source"
+  },
+  {
+    "title": "PyPI - influ2-mcp",
+    "url": "https://pypi.org/project/influ2-mcp/",
+    "type": "source"
+  },
+  {
+    "title": "piwheels - influ2-mcp",
+    "url": "https://www.piwheels.org/project/influ2-mcp",
     "type": "source"
   }
 ]

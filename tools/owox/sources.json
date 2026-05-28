@@ -1,27 +1,42 @@
 [
   {
-    "title": "owox.com",
-    "url": "https://www.owox.com/",
-    "type": "source"
-  },
-  {
-    "title": "docs.owox.com",
-    "url": "https://docs.owox.com/",
-    "type": "source"
-  },
-  {
-    "title": "docs.owox.com/docs/getting-started/quick-start",
+    "title": "OWOX Data Marts Quick Start",
     "url": "https://docs.owox.com/docs/getting-started/quick-start/",
     "type": "source"
   },
   {
-    "title": "docs.owox.com/docs/storages/supported-storages/google-bigquery",
-    "url": "https://docs.owox.com/docs/storages/supported-storages/google-bigquery/",
+    "title": "OWOX Data Marts GitHub repository",
+    "url": "https://github.com/OWOX/owox-data-marts",
     "type": "source"
   },
   {
-    "title": "docs.owox.com/apps/owox/publishing",
-    "url": "https://docs.owox.com/apps/owox/publishing/",
+    "title": "OWOX CLI contributing and usage",
+    "url": "https://docs.owox.com/apps/owox/contributing/",
+    "type": "source"
+  },
+  {
+    "title": "OWOX release and versioning strategy",
+    "url": "https://docs.owox.com/docs/contributing/repository/release-strategy/",
+    "type": "source"
+  },
+  {
+    "title": "OWOX connectors developer guide",
+    "url": "https://docs.owox.com/packages/connectors/contributing/",
+    "type": "source"
+  },
+  {
+    "title": "OWOX create a new data source",
+    "url": "https://docs.owox.com/packages/connectors/creating-connector/",
+    "type": "source"
+  },
+  {
+    "title": "OWOX connector-based Data Mart",
+    "url": "https://docs.owox.com/docs/getting-started/setup-guide/connector-data-mart/",
+    "type": "source"
+  },
+  {
+    "title": "OWOX Google BigQuery setup guide",
+    "url": "https://docs.owox.com/docs/storages/supported-storages/google-bigquery/",
     "type": "source"
   }
 ]

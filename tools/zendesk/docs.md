@@ -44,12 +44,8 @@ Cursor recommended; offset still supported but limited.
 ## Agent Caveats
 
 - Destructive action risk: high.
-- Treat unknown or announced surfaces as unresolved until verified against current vendor docs.
+- Zendesk announced a first-party MCP Server for summer 2026; no public setup or endpoint configuration was found during this QA pass.
 - Prefer official docs and SDKs first. Use community MCP/CLI/SDK sources only when clearly marked unofficial.
-
-## Needs Human Review
-
-Locate official Zendesk MCP server docs/config once public after the May 2026 announcement.
 
 ## Sources
 
@@ -58,5 +54,8 @@ Locate official Zendesk MCP server docs/config once public after the May 2026 an
 - https://developer.zendesk.com/documentation/conversations/references/openapi-specification/
 - https://developer.zendesk.com/api-reference/introduction/rate-limits/
 - https://developer.zendesk.com/api-reference/introduction/pagination/
+- https://developer.zendesk.com/api-reference/introduction/security-and-auth/
+- https://developer.zendesk.com/documentation/ticketing/api-clients/introduction/
 - https://developer.zendesk.com/documentation/apps/getting-started/using-zcli/
-- https://www.techradar.com/pro/zendesk-becomes-the-latest-to-adopt-mcp-to-futureproof-customers-in-the-ai-first-era
+- https://www.zendesk.com/newsroom/articles/relate-2026/
+- https://github.com/reminia/zendesk-mcp-server

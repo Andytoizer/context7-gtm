@@ -2,41 +2,57 @@
   "id": "/gtm/seamless",
   "name": "Seamless.AI",
   "slug": "seamless",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [
-    "seamless ai"
+    "seamless ai",
+    "Seamless"
   ],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 2,
-  "canonicalUrl": "https://www.seamless.ai/",
+  "agentReadinessScore": 5,
+  "canonicalUrl": "https://docs.seamless.ai/",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
-    "officialApi": "unknown",
-    "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "officialMcp": "yes",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "yes",
+    "llmsDocs": "yes",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Unknown; likely customer/API-token gated."
+    "notes": "REST supports API keys in the Token header and OAuth 2.0 Bearer tokens. MCP uses https://mcp.seamless.ai/mcp with OAuth 2.1; access must be enabled on the account."
   },
   "objects": [
     "Contacts",
     "Companies",
-    "Search",
-    "Enrichment",
-    "Lists"
+    "Contact search",
+    "Company search",
+    "Contact research/enrichment",
+    "Company research/enrichment",
+    "Org contacts",
+    "Org companies",
+    "Webhooks",
+    "Credits",
+    "Saved searches",
+    "Lists",
+    "Campaigns",
+    "Email templates",
+    "Email drafts/sends",
+    "Calls",
+    "Tasks",
+    "Activity",
+    "Buyer intent"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
-  "destructiveActionRisk": "medium",
+  "rateLimits": "Default REST limit is 60 requests per minute per endpoint at the organization level; X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, and X-PublicAPI-Credits headers expose the active limits/credits. OAuth routes and custom accounts may differ.",
+  "pagination": "Search endpoints use request-body nextToken plus limit and return supplementalData.nextToken/isMore/perPage. Org contacts/companies use page and limit query parameters with a documented max limit of 500 on contacts.",
+  "destructiveActionRisk": "high",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Published: official REST docs, OpenAPI, llms.txt, MCP docs, MCP OpenAPI, auth, pagination, rate limits, objects, and risk tiers are public and agent-retrievable.",
+    "MCP has read/write/destructive tiers; require human confirmation for send, create/update, and delete tools.",
+    "Public API and MCP menus are account/feature gated even though docs are public."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm whether Seamless.AI has public API docs or only private/integration access."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

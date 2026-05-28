@@ -1,12 +1,43 @@
-[
-  {
-    "title": "developer.keap.com",
-    "url": "https://developer.keap.com/",
-    "type": "source"
-  },
-  {
-    "title": "developer.keap.com/docs/rest",
-    "url": "https://developer.keap.com/docs/rest/",
-    "type": "source"
-  }
-]
+{
+  "lastVerified": "2026-05-28",
+  "official": [
+    {
+      "label": "Developer guide",
+      "url": "https://developer.keap.com/developer-guide/"
+    },
+    {
+      "label": "REST v2 docs",
+      "url": "https://developer.keap.com/docs/restv2/"
+    },
+    {
+      "label": "OAuth2 getting started",
+      "url": "https://developer.keap.com/getting-started-oauth-keys/"
+    },
+    {
+      "label": "Personal Access Tokens and Service Account Keys",
+      "url": "https://developer.keap.com/pat-and-sak/"
+    },
+    {
+      "label": "API token quota and usage measurements",
+      "url": "https://developer.keap.com/api-token-quota-and-usage-measurements/"
+    },
+    {
+      "label": "Official SDK repository",
+      "url": "https://github.com/infusionsoft/keap-sdk"
+    },
+    {
+      "label": "REST v2 swagger.yml",
+      "url": "https://github.com/infusionsoft/keap-sdk/blob/main/sdks/v2/swagger.yml"
+    },
+    {
+      "label": "REST v2 Postman examples",
+      "url": "https://documenter.getpostman.com/view/2915979/UVByKWEZ"
+    }
+  ],
+  "community": [
+    {
+      "label": "Keap developer community",
+      "url": "https://community.infusionsoft.com/"
+    }
+  ]
+}

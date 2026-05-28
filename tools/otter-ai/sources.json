@@ -1,7 +1,27 @@
 [
   {
-    "title": "help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API-beta",
-    "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API-beta",
+    "title": "Otter.ai Public API",
+    "url": "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API",
     "type": "official"
+  },
+  {
+    "title": "Otter MCP Server",
+    "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+    "type": "official"
+  },
+  {
+    "title": "Unofficial otter.ai-api JavaScript client",
+    "url": "https://github.com/omerdn1/otter.ai-api",
+    "type": "community"
+  },
+  {
+    "title": "Unofficial otterai-api Python client",
+    "url": "https://github.com/gmchad/otterai-api",
+    "type": "community"
+  },
+  {
+    "title": "Zapier Otter.ai MCP",
+    "url": "https://zapier.com/mcp/otterai",
+    "type": "community"
   }
 ]

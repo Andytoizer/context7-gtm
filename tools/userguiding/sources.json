@@ -1,12 +1,27 @@
 [
   {
-    "title": "help.userguiding.com/en/articles/4493538-userguiding-user-api",
-    "url": "https://help.userguiding.com/en/articles/4493538-userguiding-user-api",
-    "type": "source"
+    "title": "UserGuiding MCP Server",
+    "url": "https://help.userguiding.com/en/articles/20916-userguiding-mcp-server",
+    "type": "official"
   },
   {
-    "title": "help.userguiding.com/en/articles/18839-user",
-    "url": "https://help.userguiding.com/en/articles/18839-user",
-    "type": "source"
+    "title": "UserGuiding User API",
+    "url": "https://help.userguiding.com/en/articles/4493538-userguiding-user-api",
+    "type": "official"
+  },
+  {
+    "title": "UserGuiding OpenAPI spec",
+    "url": "https://user.userguiding.com/openapi.json",
+    "type": "official"
+  },
+  {
+    "title": "Rate Limit for the User API",
+    "url": "https://help.userguiding.com/en/articles/8284734-rate-limit-for-the-user-api",
+    "type": "official"
+  },
+  {
+    "title": "Does UserGuiding offer an npm package?",
+    "url": "https://help.userguiding.com/en/articles/8046430-does-userguiding-offer-an-npm-package",
+    "type": "official"
   }
 ]

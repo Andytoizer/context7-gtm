@@ -12,14 +12,14 @@ Tools with no sources: 0.
 | [ActiveCampaign](../tools/activecampaign/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Adobe Marketo Engage](../tools/marketo/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [Ahrefs](../tools/ahrefs/tool.json) | yes | 2 total; 0 official; 0 community | published | 5 |
-| [AI Ark](../tools/ai-ark/tool.json) | yes | 1 total; 0 official; 0 community | needs-review | 2 |
+| [AI Ark](../tools/ai-ark/tool.json) | yes | 8 total; 0 official; 0 community | published | 4 |
 | [Airbyte](../tools/airbyte/tool.json) | yes | 4 total; 0 official; 0 community | published | 5 |
 | [Amplemarket](../tools/amplemarket/tool.json) | yes | 4 total; 0 official; 0 community | published | 4 |
 | [Apify](../tools/apify/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Apollo](../tools/apollo/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Appcues](../tools/appcues/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Attio](../tools/attio/tool.json) | missing | 9 total; 9 official; 0 community | published | 5 |
-| [Autoklose](../tools/autoklose/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 2 |
+| [Autoklose](../tools/autoklose/tool.json) | yes | 6 total; 0 official; 0 community | published | 4 |
 | [Avoma](../tools/avoma/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
 | [BetterContact](../tools/bettercontact/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
 | [BigQuery](../tools/bigquery/tool.json) | yes | 6 total; 0 official; 0 community | published | 5 |
@@ -34,39 +34,39 @@ Tools with no sources: 0.
 | [Chili Piper](../tools/chili-piper/tool.json) | yes | 4 total; 0 official; 0 community | published | 4 |
 | [Clari Copilot](../tools/clari-copilot/tool.json) | yes | 3 total; 0 official; 0 community | published | 3 |
 | [Clarify](../tools/clarify/tool.json) | yes | 4 total; 0 official; 0 community | published | 4 |
-| [Clay](../tools/clay/tool.json) | yes | 3 total; 0 official; 0 community | needs-review | 3 |
-| [Clearbit](../tools/clearbit/tool.json) | yes | 5 total; 0 official; 0 community | needs-review | 2 |
+| [Clay](../tools/clay/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
+| [Clearbit](../tools/clearbit/tool.json) | yes | 10 total; 0 official; 0 community | needs-review | 2 |
 | [Close](../tools/close/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Cognism](../tools/cognism/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [Common Room](../tools/common-room/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [ContactOut](../tools/contactout/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
-| [Contentsquare](../tools/contentsquare/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 4 |
+| [Contentsquare](../tools/contentsquare/tool.json) | yes | 7 total; 0 official; 0 community | published | 4 |
 | [Copper](../tools/copper/tool.json) | yes | 3 total; 0 official; 0 community | published | 3 |
 | [Countly](../tools/countly/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
-| [Crazy Egg](../tools/crazy-egg/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 2 |
-| [Creatio](../tools/creatio/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
+| [Crazy Egg](../tools/crazy-egg/tool.json) | yes | 3 total; 1 official; 2 community | needs-review | 2 |
+| [Creatio](../tools/creatio/tool.json) | yes | 11 total; 0 official; 0 community | published | 4 |
 | [Crisp](../tools/crisp/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
 | [Crunchbase API](../tools/crunchbase/tool.json) | yes | 4 total; 0 official; 0 community | published | 3 |
 | [CrustData](../tools/crustdata/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Customer.io](../tools/customerio/tool.json) | missing | 7 total; 7 official; 0 community | published | 5 |
 | [Datagma](../tools/datagma/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
 | [dbt Cloud](../tools/dbt-cloud/tool.json) | yes | 11 total; 0 official; 0 community | published | 4 |
-| [Default](../tools/default/tool.json) | yes | 1 total; 0 official; 0 community | needs-review | 1 |
-| [Demandbase](../tools/demandbase/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 4 |
+| [Default](../tools/default/tool.json) | yes | 7 total; 0 official; 0 community | needs-review | 2 |
+| [Demandbase](../tools/demandbase/tool.json) | yes | 10 total; 0 official; 0 community | published | 4 |
 | [Diffbot](../tools/diffbot/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Dreamdata](../tools/dreamdata/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [Drip](../tools/drip/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
-| [Dripify](../tools/dripify/tool.json) | missing | 6 total; 0 official; 0 community | needs-review | 2 |
+| [Dripify](../tools/dripify/tool.json) | missing | 7 total; 0 official; 0 community | needs-review | 2 |
 | [Emelia](../tools/emelia/tool.json) | yes | 1 total; 0 official; 0 community | published | 3 |
-| [Enrow](../tools/enrow/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
+| [Enrow](../tools/enrow/tool.json) | yes | 11 total; 0 official; 0 community | published | 4 |
 | [Exa](../tools/exa/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Fathom](../tools/fathom/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [Findymail](../tools/findymail/tool.json) | yes | 2 total; 2 official; 0 community | published | 4 |
 | [Firecrawl](../tools/firecrawl/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Fireflies.ai](../tools/fireflies/tool.json) | yes | 6 total; 0 official; 0 community | published | 5 |
 | [Fivetran](../tools/fivetran/tool.json) | yes | 4 total; 0 official; 0 community | published | 5 |
-| [Folloze](../tools/folloze/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 2 |
-| [Framer](../tools/framer/tool.json) | yes | 9 total; 0 official; 0 community | needs-review | 3 |
+| [Folloze](../tools/folloze/tool.json) | yes | 7 total; 6 official; 1 community | needs-review | 1 |
+| [Framer](../tools/framer/tool.json) | yes | 10 total; 0 official; 0 community | published | 3 |
 | [Freshdesk](../tools/freshdesk/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [Freshsales](../tools/freshsales/tool.json) | yes | 3 total; 0 official; 0 community | published | 3 |
 | [Front](../tools/front/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
@@ -74,30 +74,30 @@ Tools with no sources: 0.
 | [Gamma](../tools/gamma/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [GoHighLevel](../tools/gohighlevel/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [Gong](../tools/gong/tool.json) | yes | 9 total; 7 official; 2 community | published | 4 |
-| [Google Drive](../tools/google-drive/tool.json) | yes | 6 total; 0 official; 0 community | needs-review | 4 |
+| [Google Drive](../tools/google-drive/tool.json) | yes | 9 total; 0 official; 0 community | published | 5 |
 | [Google Places API](../tools/google-places/tool.json) | yes | 5 total; 0 official; 0 community | published | 3 |
 | [Gorgias](../tools/gorgias/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [Granola](../tools/granola/tool.json) | yes | 9 total; 0 official; 0 community | published | 4 |
 | [Help Scout](../tools/help-scout/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [HeyReach](../tools/heyreach/tool.json) | missing | 8 total; 0 official; 0 community | published | 4 |
 | [Hightouch](../tools/hightouch/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
-| [HockeyStack](../tools/hockeystack/tool.json) | yes | 3 total; 0 official; 0 community | needs-review | 2 |
+| [HockeyStack](../tools/hockeystack/tool.json) | yes | 8 total; 0 official; 0 community | needs-review | 2 |
 | [HubSpot](../tools/hubspot/tool.json) | missing | 8 total; 8 official; 0 community | published | 5 |
 | [Hunter.io](../tools/hunter/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Icypeas](../tools/icypeas/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
-| [Influ2](../tools/influ2/tool.json) | yes | 1 total; 0 official; 0 community | needs-review | 2 |
+| [Influ2](../tools/influ2/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 2 |
 | [Insightly](../tools/insightly/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
-| [Inspectlet](../tools/inspectlet/tool.json) | yes | 1 total; 0 official; 0 community | needs-review | 2 |
+| [Inspectlet](../tools/inspectlet/tool.json) | yes | 2 total; 2 official; 0 community | published | 3 |
 | [Instantly](../tools/instantly/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [Intercom](../tools/intercom/tool.json) | yes | 4 total; 0 official; 0 community | published | 5 |
 | [Iterable](../tools/iterable/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
 | [Jungler](../tools/jungler/tool.json) | missing | 7 total; 0 official; 0 community | published | 4 |
-| [Kaspr](../tools/kaspr/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
-| [Keap](../tools/keap/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
-| [Kissmetrics](../tools/kissmetrics/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
+| [Kaspr](../tools/kaspr/tool.json) | yes | 7 total; 0 official; 0 community | needs-review | 2 |
+| [Keap](../tools/keap/tool.json) | yes | 9 total; 8 official; 1 community | published | 5 |
+| [Kissmetrics](../tools/kissmetrics/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 3 |
 | [Klaviyo](../tools/klaviyo/tool.json) | missing | 7 total; 0 official; 0 community | published | 5 |
 | [Kondo](../tools/kondo/tool.json) | missing | 6 total; 0 official; 0 community | published | 4 |
-| [La Growth Machine](../tools/la-growth-machine/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
+| [La Growth Machine](../tools/la-growth-machine/tool.json) | yes | 8 total; 5 official; 3 community | published | 4 |
 | [Lead Forensics](../tools/lead-forensics/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [LeadIQ](../tools/leadiq/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [LeadMagic](../tools/leadmagic/tool.json) | yes | 4 total; 0 official; 0 community | published | 5 |
@@ -113,7 +113,7 @@ Tools with no sources: 0.
 | [Metadata.io](../tools/metadata/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [Microsoft Dynamics 365 Sales](../tools/microsoft-dynamics-365-sales/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [Mixpanel](../tools/mixpanel/tool.json) | yes | 8 total; 8 official; 0 community | published | 5 |
-| [Monaco](../tools/monaco/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 1 |
+| [Monaco](../tools/monaco/tool.json) | yes | 3 total; 0 official; 0 community | needs-review | 1 |
 | [Monday CRM](../tools/monday-crm/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [Mouseflow](../tools/mouseflow/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [mParticle](../tools/mparticle/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
@@ -125,12 +125,12 @@ Tools with no sources: 0.
 | [Obsidian](../tools/obsidian/tool.json) | yes | 6 total; 0 official; 0 community | published | 4 |
 | [Ocean.io](../tools/ocean/tool.json) | yes | 4 total; 0 official; 0 community | published | 3 |
 | [Ortto](../tools/ortto/tool.json) | yes | 3 total; 0 official; 0 community | published | 3 |
-| [Otter.ai](../tools/otter-ai/tool.json) | yes | 1 total; 1 official; 0 community | needs-review | 3 |
-| [Outplay](../tools/outplay/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
+| [Otter.ai](../tools/otter-ai/tool.json) | yes | 5 total; 2 official; 3 community | published | 4 |
+| [Outplay](../tools/outplay/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [Outreach](../tools/outreach/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [Owler](../tools/owler/tool.json) | yes | 5 total; 0 official; 0 community | needs-review | 2 |
-| [OWOX](../tools/owox/tool.json) | yes | 5 total; 0 official; 0 community | needs-review | 3 |
-| [Parabola](../tools/parabola/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 2 |
+| [OWOX](../tools/owox/tool.json) | yes | 8 total; 0 official; 0 community | published | 4 |
+| [Parabola](../tools/parabola/tool.json) | yes | 8 total; 8 official; 0 community | published | 2 |
 | [PathFactory](../tools/pathfactory/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [Pendo](../tools/pendo/tool.json) | yes | 4 total; 0 official; 0 community | published | 4 |
 | [People Data Labs](../tools/people-data-labs/tool.json) | yes | 4 total; 0 official; 0 community | published | 5 |
@@ -138,12 +138,12 @@ Tools with no sources: 0.
 | [Pinecone](../tools/pinecone/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Pipedream](../tools/pipedream/tool.json) | yes | 4 total; 0 official; 0 community | published | 5 |
 | [Pipedrive](../tools/pipedrive/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
-| [PitchBook API](../tools/pitchbook/tool.json) | yes | 1 total; 0 official; 0 community | needs-review | 2 |
+| [PitchBook API](../tools/pitchbook/tool.json) | yes | 6 total; 0 official; 0 community | needs-review | 2 |
 | [PostHog](../tools/posthog/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Prospeo](../tools/prospeo/tool.json) | yes | 4 total; 0 official; 0 community | published | 5 |
 | [Pylon](../tools/pylon/tool.json) | yes | 4 total; 0 official; 0 community | published | 4 |
-| [QuickMail](../tools/quickmail/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
-| [RB2B](../tools/rb2b/tool.json) | yes | 3 total; 0 official; 0 community | needs-review | 2 |
+| [QuickMail](../tools/quickmail/tool.json) | yes | 3 total; 2 official; 1 community | published | 4 |
+| [RB2B](../tools/rb2b/tool.json) | yes | 5 total; 0 official; 0 community | published | 4 |
 | [ReachInbox](../tools/reachinbox/tool.json) | yes | 1 total; 0 official; 0 community | published | 3 |
 | [Relevance AI](../tools/relevance-ai/tool.json) | yes | 6 total; 0 official; 0 community | published | 4 |
 | [Reply.io](../tools/replyio/tool.json) | missing | 5 total; 0 official; 0 community | published | 5 |
@@ -156,15 +156,15 @@ Tools with no sources: 0.
 | [Salesforce](../tools/salesforce/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Salesforce Account Engagement](../tools/pardot/tool.json) | yes | 1 total; 0 official; 0 community | published | 3 |
 | [Saleshandy](../tools/saleshandy/tool.json) | yes | 1 total; 0 official; 0 community | published | 3 |
-| [Salesloft](../tools/salesloft/tool.json) | yes | 6 total; 0 official; 0 community | needs-review | 3 |
-| [Seamless.AI](../tools/seamless/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 2 |
+| [Salesloft](../tools/salesloft/tool.json) | yes | 8 total; 0 official; 0 community | published | 4 |
+| [Seamless.AI](../tools/seamless/tool.json) | yes | 10 total; 0 official; 0 community | published | 5 |
 | [Segment](../tools/segment/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
 | [Semrush](../tools/semrush/tool.json) | yes | 2 total; 0 official; 0 community | published | 5 |
 | [SendGrid](../tools/sendgrid/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [SerpAPI](../tools/serpapi/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
-| [Serper](../tools/serper/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 3 |
+| [Serper](../tools/serper/tool.json) | yes | 7 total; 0 official; 0 community | published | 4 |
 | [SignalHire](../tools/signalhire/tool.json) | yes | 1 total; 0 official; 0 community | published | 3 |
-| [Similarweb](../tools/similarweb/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 4 |
+| [Similarweb](../tools/similarweb/tool.json) | yes | 9 total; 0 official; 0 community | published | 5 |
 | [Smartlead](../tools/smartlead/tool.json) | missing | 5 total; 5 official; 0 community | published | 5 |
 | [SmartReach.io](../tools/smartreach/tool.json) | yes | 1 total; 0 official; 0 community | published | 3 |
 | [Snitcher](../tools/snitcher/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
@@ -174,33 +174,33 @@ Tools with no sources: 0.
 | [Supabase](../tools/supabase/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Sybill](../tools/sybill/tool.json) | yes | 2 total; 0 official; 0 community | published | 5 |
 | [Tally](../tools/tally/tool.json) | yes | 8 total; 8 official; 0 community | published | 5 |
-| [Tealium](../tools/tealium/tool.json) | yes | 3 total; 0 official; 0 community | needs-review | 4 |
+| [Tealium](../tools/tealium/tool.json) | yes | 10 total; 0 official; 0 community | published | 4 |
 | [Teamleader](../tools/teamleader/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [TheirStack](../tools/theirstack/tool.json) | yes | 6 total; 0 official; 0 community | published | 5 |
-| [Tidio](../tools/tidio/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
-| [tl;dv](../tools/tldv/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 3 |
+| [Tidio](../tools/tidio/tool.json) | yes | 13 total; 13 official; 0 community | published | 4 |
+| [tl;dv](../tools/tldv/tool.json) | yes | 6 total; 5 official; 1 community | published | 3 |
 | [Tray.io](../tools/tray/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [Trigify](../tools/trigify/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
 | [Typeform](../tools/typeform/tool.json) | yes | 6 total; 6 official; 0 community | published | 4 |
 | [Uberflip](../tools/uberflip/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [unavatar.io](../tools/unavatar/tool.json) | yes | 2 total; 0 official; 0 community | published | 2 |
 | [Unify](../tools/unify/tool.json) | yes | 3 total; 0 official; 0 community | published | 5 |
-| [Uptics](../tools/uptics/tool.json) | yes | 1 total; 0 official; 0 community | needs-review | 2 |
+| [Uptics](../tools/uptics/tool.json) | yes | 4 total; 0 official; 0 community | published | 3 |
 | [Userflow](../tools/userflow/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |
-| [UserGuiding](../tools/userguiding/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 2 |
+| [UserGuiding](../tools/userguiding/tool.json) | yes | 5 total; 5 official; 0 community | published | 5 |
 | [Userpilot](../tools/userpilot/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
-| [Vector.co](../tools/vector/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 1 |
-| [Vero](../tools/vero/tool.json) | yes | 4 total; 0 official; 0 community | needs-review | 3 |
+| [Vector.co](../tools/vector/tool.json) | yes | 6 total; 0 official; 0 community | published | 4 |
+| [Vero](../tools/vero/tool.json) | yes | 7 total; 0 official; 0 community | published | 4 |
 | [Waalaxy](../tools/waalaxy/tool.json) | yes | 1 total; 0 official; 0 community | published | 3 |
-| [Warmly](../tools/warmly/tool.json) | yes | 2 total; 0 official; 0 community | needs-review | 4 |
-| [Webeo](../tools/webeo/tool.json) | yes | 1 total; 0 official; 0 community | needs-review | 2 |
+| [Warmly](../tools/warmly/tool.json) | yes | 2 total; 0 official; 0 community | published | 5 |
+| [Webeo](../tools/webeo/tool.json) | yes | 5 total; 5 official; 0 community | needs-review | 1 |
 | [Webflow](../tools/webflow/tool.json) | yes | 5 total; 0 official; 0 community | published | 5 |
 | [Wiza](../tools/wiza/tool.json) | yes | 4 total; 0 official; 0 community | published | 4 |
 | [Woopra](../tools/woopra/tool.json) | yes | 2 total; 0 official; 0 community | published | 3 |
 | [WordPress](../tools/wordpress/tool.json) | yes | 6 total; 6 official; 0 community | published | 5 |
 | [Workato](../tools/workato/tool.json) | yes | 3 total; 0 official; 0 community | published | 4 |
 | [Zapier](../tools/zapier/tool.json) | yes | 7 total; 0 official; 0 community | published | 5 |
-| [Zendesk](../tools/zendesk/tool.json) | yes | 7 total; 0 official; 0 community | needs-review | 4 |
+| [Zendesk](../tools/zendesk/tool.json) | yes | 10 total; 0 official; 0 community | published | 4 |
 | [ZeroBounce](../tools/zerobounce/tool.json) | yes | 3 total; 0 official; 0 community | published | 3 |
 | [Zoho CRM](../tools/zoho-crm/tool.json) | yes | 4 total; 0 official; 0 community | published | 4 |
 | [ZoomInfo](../tools/zoominfo/tool.json) | yes | 2 total; 0 official; 0 community | published | 4 |

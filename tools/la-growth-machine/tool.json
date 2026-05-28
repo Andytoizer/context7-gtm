@@ -2,43 +2,59 @@
   "id": "/gtm/la-growth-machine",
   "name": "La Growth Machine",
   "slug": "la-growth-machine",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [
-    "lgm"
+    "lgm",
+    "lagrowthmachine",
+    "la growth machine api"
   ],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://www.lagrowthmachine.com/",
-  "surfaces": {
-    "officialMcp": "unknown",
+  "interfaces": {
+    "officialMcp": "no",
     "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "unknown",
-    "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "openApi": "no",
+    "llmsTxt": "yes",
+    "officialSdk": "no"
+  },
+  "surfaces": {
+    "officialMcp": "no",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "no",
+    "llmsDocs": "yes",
+    "officialSdk": "no",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "yes"
   },
+  "sourceQuality": {
+    "official": "strong",
+    "community": "medium"
+  },
   "auth": {
-    "notes": "API key or private app credentials; exact public model needs confirmation."
+    "notes": "API key against https://apiv2.lagrowthmachine.com/flow. Official docs support Authorization: Bearer, x-api-key, and legacy apikey query parameter; headers are preferred."
   },
   "objects": [
     "Leads",
     "Audiences",
     "Campaigns",
-    "Sequences",
-    "LinkedIn steps",
-    "Email steps",
-    "Webhooks"
+    "Identities",
+    "Members",
+    "Inbox webhooks",
+    "Conversations",
+    "Messages",
+    "Credits",
+    "CRM search"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "rateLimits": "50 calls per 10 seconds per API key; excess requests return 429 Too Many Requests.",
+  "pagination": "List endpoints use skip and limit parameters; documented campaign pagination defaults to limit 25 with a max of 25. Conversation messages use page.",
   "destructiveActionRisk": "high",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official site links to a Postman API documentation collection and says full API documentation is available under account settings > Integrations & API.",
+    "Official site navigation labels MCP as coming soon; do not mark it available until a public first-party MCP install surface exists."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm canonical public API docs, auth, and rate limits."
+  "needsHumanReview": false
 }

@@ -2,40 +2,47 @@
   "id": "/gtm/autoklose",
   "name": "Autoklose",
   "slug": "autoklose",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 2,
-  "canonicalUrl": "https://www.autoklose.com/",
+  "agentReadinessScore": 4,
+  "canonicalUrl": "https://api.aklab.xyz/",
   "surfaces": {
     "officialMcp": "unknown",
-    "officialCli": "unknown",
-    "officialApi": "unknown",
-    "openApiSpec": "unknown",
+    "officialCli": "no",
+    "officialApi": "yes",
+    "openApiSpec": "no",
     "llmsDocs": "unknown",
     "officialSdk": "unknown",
-    "communityMcp": "unknown",
-    "communityCli": "unknown",
+    "communityMcp": "yes",
+    "communityCli": "no",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "Unknown."
+    "notes": "api_token passed as a URI/query parameter; token is generated from the Autoklose API/integrations page."
   },
   "objects": [
     "Contacts",
+    "Contact fields",
     "Campaigns",
-    "Emails",
+    "Campaign recipients",
+    "Do-not-email domains",
+    "Events",
+    "Replies",
+    "Saved emails",
     "Templates",
-    "Tasks",
-    "Teams"
+    "Email accounts",
+    "Webhooks",
+    "User/me"
   ],
   "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "pagination": "Paginated GET endpoints return links/meta; page defaults to 1 and per_page defaults to 25 with a documented maximum of 100.",
   "destructiveActionRisk": "high",
   "notes": [
     "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Use source links to refresh endpoint-level details before implementation.",
+    "Official Autoklose help links to the public API reference; the Postman document has a 2025 changelog."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm whether Autoklose has current public API/CLI/MCP docs."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

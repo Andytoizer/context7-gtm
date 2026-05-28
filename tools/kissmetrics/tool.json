@@ -6,12 +6,12 @@
   "aliases": [],
   "lastVerified": "2026-05-28",
   "agentReadinessScore": 3,
-  "canonicalUrl": "https://www.kissmetrics.io/lp/api-first-analytics",
+  "canonicalUrl": "https://support.kissmetrics.io/reference/overview",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialMcp": "no",
+    "officialCli": "no",
     "officialApi": "yes",
-    "openApiSpec": "yes",
+    "openApiSpec": "unknown",
     "llmsDocs": "unknown",
     "officialSdk": "yes",
     "communityMcp": "unknown",
@@ -19,7 +19,7 @@
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "API credentials; exact current auth model needs confirmation in API reference."
+    "notes": "REST API reference uses HTTP Basic auth credentials. Tracking libraries/API specifications use site-specific implementation credentials."
   },
   "objects": [
     "Events",
@@ -27,15 +27,17 @@
     "Properties",
     "People",
     "Queries",
-    "Exports"
+    "Exports",
+    "Products",
+    "Reports"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "Unknown.",
+  "rateLimits": "No public current rate-limit numbers found in official REST or implementation docs.",
+  "pagination": "REST list endpoints such as reports use offset and limit query parameters; async query/export flows use query result/status endpoints.",
   "destructiveActionRisk": "medium",
   "notes": [
     "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
     "Use source links to refresh endpoint-level details before implementation."
   ],
   "needsHumanReview": true,
-  "reviewReason": "Verify current REST API reference/auth docs beyond the API-first landing page."
+  "reviewReason": "Keep in review: official REST API is marked beta and subject to breaking changes, and no public current rate-limit policy was found."
 }

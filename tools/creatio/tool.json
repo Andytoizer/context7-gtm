@@ -2,24 +2,24 @@
   "id": "/gtm/creatio",
   "name": "Creatio",
   "slug": "creatio",
-  "status": "needs-review",
+  "status": "published",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 3,
+  "agentReadinessScore": 4,
   "canonicalUrl": "https://www.creatio.com/",
   "surfaces": {
-    "officialMcp": "unknown",
-    "officialCli": "unknown",
+    "officialMcp": "no",
+    "officialCli": "no",
     "officialApi": "yes",
     "openApiSpec": "unknown",
     "llmsDocs": "unknown",
-    "officialSdk": "unknown",
-    "communityMcp": "unknown",
+    "officialSdk": "yes",
+    "communityMcp": "yes",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "yes"
   },
   "auth": {
-    "notes": "OAuth 2.0 or Creatio authentication depending product/version and API surface."
+    "notes": "OAuth 2.0 is recommended in current 8.3 docs for external apps/web services. Client credentials flow retrieves a Bearer token from Identity Service; Creatio also documents forms authentication via AuthService.svc."
   },
   "objects": [
     "Accounts",
@@ -30,15 +30,17 @@
     "Cases",
     "Orders",
     "Products",
-    "custom objects"
+    "custom objects",
+    "files/attachments",
+    "OAuth integrations"
   ],
-  "rateLimits": "Unknown.",
-  "pagination": "OData-style pagination and filtering for entity collections.",
+  "rateLimits": "No conventional request-per-second rate limit found in public docs. Current docs document OData constraints instead: response body up to 20,000 records, batch request up to 100 sub-requests, file upload size controlled by MaxFileSize, and configurable RAM limit for OData GET requests.",
+  "pagination": "OData query options include $skip and $top, with $select, $orderby, $expand, and $filter for shaping result sets.",
   "destructiveActionRisk": "high",
   "notes": [
-    "Generated from the Tier 2/Tier 3 parallel specialist scout wave.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Current 8.3 Academy docs cover OAuth 2.0, OData 4/3, DataService, Postman API documentation, and file CRUD via OData 4.",
+    "Community MCP and older community SDK/client wrappers exist, but treat them as unofficial."
   ],
-  "needsHumanReview": true,
-  "reviewReason": "Confirm current public API surface and auth model for modern Creatio CRM versus older platform docs."
+  "needsHumanReview": false,
+  "reviewReason": ""
 }

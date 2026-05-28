@@ -1,12 +1,27 @@
 [
   {
-    "title": "outplayhq.com",
-    "url": "https://outplayhq.com/",
+    "title": "Outplay APIs - Postman public documentation",
+    "url": "https://documenter.getpostman.com/view/16947449/TzsikPV1",
     "type": "source"
   },
   {
-    "title": "support.outplayhq.com",
-    "url": "https://support.outplayhq.com/",
+    "title": "Outplay Help Center - Client ID and client secret",
+    "url": "https://support.outplayhq.com/en/article/what-are-client-id-and-client-secret-while-connecting-zapier-to-outplay-and-where-to-find-those-in-outplay-1gwqqyb/",
+    "type": "source"
+  },
+  {
+    "title": "Ampersand provider guide - Outplay",
+    "url": "https://docs.withampersand.com/provider-guides/outplay",
+    "type": "source"
+  },
+  {
+    "title": "Community Nodes - n8n Outplay node",
+    "url": "https://communitynodes.com/n8n-nodes-outplay/",
+    "type": "source"
+  },
+  {
+    "title": "Outplay website",
+    "url": "https://outplayhq.com/",
     "type": "source"
   }
 ]

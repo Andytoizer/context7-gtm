@@ -5,7 +5,7 @@
   "status": "needs-review",
   "aliases": [],
   "lastVerified": "2026-05-28",
-  "agentReadinessScore": 1,
+  "agentReadinessScore": 2,
   "canonicalUrl": "https://www.default.com",
   "surfaces": {
     "officialMcp": "unknown",
@@ -13,28 +13,32 @@
     "officialApi": "unknown",
     "openApiSpec": "unknown",
     "llmsDocs": "unknown",
-    "officialSdk": "unknown",
+    "officialSdk": "yes",
     "communityMcp": "unknown",
     "communityCli": "unknown",
     "communitySdkOrIntegration": "unknown"
   },
   "auth": {
-    "notes": "Unknown."
+    "notes": "Unknown for a public REST API. Webhook triggers use unique workflow-generated endpoint URLs; webforms use a Default-provided listener script embedded in the page."
   },
   "objects": [
-    "Likely leads",
+    "Leads",
     "forms",
+    "webforms",
+    "webhook workflow triggers",
     "routing",
     "scheduling",
-    "CRM handoff; needs confirmation"
+    "meetings",
+    "HubSpot company/contact triggers",
+    "Salesforce leads/contacts/accounts/opportunities/events/tasks/campaign members"
   ],
   "rateLimits": "Unknown.",
   "pagination": "Unknown.",
-  "destructiveActionRisk": "unknown",
+  "destructiveActionRisk": "medium",
   "notes": [
-    "Generated from parallel specialist scout findings.",
-    "Use source links to refresh endpoint-level details before implementation."
+    "Official help center documents generated inbound webhook URLs and a browser Forms SDK/listener script with JavaScript callbacks, but not a public REST API.",
+    "Use source links to refresh integration behavior before implementation."
   ],
   "needsHumanReview": true,
-  "reviewReason": "No reliable public Default developer/API/MCP docs surfaced; confirm whether docs are private/customer-only."
+  "reviewReason": "Only official product/help-center integration docs surfaced: Forms SDK/listener callbacks, generated inbound webhook URLs, and CRM object triggers. No public REST API auth, OpenAPI, rate-limit, pagination, MCP, or CLI docs were found; confirm whether developer API docs are private/customer-only."
 }
