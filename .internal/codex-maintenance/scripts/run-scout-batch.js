@@ -6,11 +6,11 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, "..");
+const root = path.resolve(__dirname, "../../..");
 const options = parseArgs(process.argv.slice(2));
 const inputPath = path.join(root, options.runDir, "scout-inputs", `${options.batchId}.json`);
 const outputPath = path.join(root, options.runDir, "scout-findings", `${options.batchId}.json`);
-const promptPath = path.join(root, "maintenance", "prompts", "scout.md");
+const promptPath = path.join(root, ".internal", "codex-maintenance", "prompts", "scout.md");
 const input = readJson(inputPath);
 
 fs.mkdirSync(path.dirname(outputPath), { recursive: true });
@@ -85,4 +85,3 @@ function buildPendingScoutOutput(batch) {
     })),
   };
 }
-

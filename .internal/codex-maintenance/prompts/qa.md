@@ -14,5 +14,4 @@ For each scout finding:
 - Flag copied vendor prose or source text that should be paraphrased.
 - Mark uncertain cases for human review instead of forcing a decision.
 
-Return only JSON matching `maintenance/schemas/qa-verdict.schema.json`.
-
+Return only JSON matching `.internal/codex-maintenance/schemas/qa-verdict.schema.json`.

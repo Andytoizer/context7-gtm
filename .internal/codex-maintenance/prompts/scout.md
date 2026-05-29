@@ -21,5 +21,4 @@ For each assigned tool, check:
 
 Prefer official docs, official GitHub repositories, official changelogs, and official help-center pages. Community sources can be used only to support community/wrapper claims.
 
-Return only JSON matching `maintenance/schemas/scout-finding.schema.json`.
-
+Return only JSON matching `.internal/codex-maintenance/schemas/scout-finding.schema.json`.

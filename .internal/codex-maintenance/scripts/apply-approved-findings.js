@@ -5,7 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, "..");
+const root = path.resolve(__dirname, "../../..");
 const options = parseArgs(process.argv.slice(2));
 const runDir = path.join(root, options.runDir);
 const manifest = readJson(path.join(runDir, "manifest.json"));

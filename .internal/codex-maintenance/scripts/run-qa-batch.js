@@ -6,11 +6,11 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, "..");
+const root = path.resolve(__dirname, "../../..");
 const options = parseArgs(process.argv.slice(2));
 const scoutPath = path.join(root, options.runDir, "scout-findings", `${options.batchId}.json`);
 const outputPath = path.join(root, options.runDir, "qa-verdicts", `${options.batchId}.json`);
-const promptPath = path.join(root, "maintenance", "prompts", "qa.md");
+const promptPath = path.join(root, ".internal", "codex-maintenance", "prompts", "qa.md");
 const scout = readJson(scoutPath);
 
 fs.mkdirSync(path.dirname(outputPath), { recursive: true });
@@ -86,4 +86,3 @@ function buildPendingQaOutput(scout) {
     })),
   };
 }
-

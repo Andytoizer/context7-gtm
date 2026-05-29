@@ -5,12 +5,13 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, "..");
+const root = path.resolve(__dirname, "../../..");
+const internalDir = path.join(".internal", "codex-maintenance");
 
 const options = parseArgs(process.argv.slice(2));
 const registry = readJson(path.join(root, "registry.json"));
 const runId = options.runId || today();
-const runDir = path.join(root, options.outDir || path.join("maintenance", "runs", runId));
+const runDir = path.join(root, options.outDir || path.join(internalDir, "runs", runId));
 const scoutInputsDir = path.join(runDir, "scout-inputs");
 
 fs.mkdirSync(scoutInputsDir, { recursive: true });
@@ -53,8 +54,8 @@ for (const batch of batches) {
     batchId: batch.batchId,
     generatedAt: manifest.generatedAt,
     maxAgentsPerSwarm: options.maxAgents,
-    promptPath: "maintenance/prompts/scout.md",
-    schemaPath: "maintenance/schemas/scout-finding.schema.json",
+    promptPath: path.join(internalDir, "prompts", "scout.md"),
+    schemaPath: path.join(internalDir, "schemas", "scout-finding.schema.json"),
     tools: batch.tools,
   });
 }
@@ -212,4 +213,3 @@ function chunk(items, size) {
 function today() {
   return new Date().toISOString().slice(0, 10);
 }
-
