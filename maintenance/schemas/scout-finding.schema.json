@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GTM Docs Registry Scout Finding Batch",
+  "type": "object",
+  "required": ["runId", "batchId", "checkedAt", "tools"],
+  "properties": {
+    "runId": { "type": "string" },
+    "batchId": { "type": "string" },
+    "checkedAt": { "type": "string" },
+    "status": { "type": "string", "enum": ["complete", "partial", "pending-run"] },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["toolId", "slug", "name", "findings"],
+        "properties": {
+          "toolId": { "type": "string" },
+          "slug": { "type": "string" },
+          "name": { "type": "string" },
+          "status": { "type": "string", "enum": ["checked", "needs-human-review", "blocked", "pending-run"] },
+          "summary": { "type": "string" },
+          "findings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["kind", "current", "proposed", "confidence", "evidenceUrls", "reason"],
+              "properties": {
+                "kind": { "type": "string" },
+                "field": { "type": "string" },
+                "current": {},
+                "proposed": {},
+                "confidence": { "type": "string", "enum": ["high", "medium", "low", "unknown"] },
+                "evidenceUrls": { "type": "array", "items": { "type": "string" } },
+                "reason": { "type": "string" },
+                "requiresHumanReview": { "type": "boolean" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

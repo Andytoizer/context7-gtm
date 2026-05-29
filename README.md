@@ -184,6 +184,57 @@ curl "https://gtm-docs-registry.vercel.app/tools/hubspot/docs?topic=contacts"
 
 Vercel deployment is configured through `api/index.js` and `vercel.json`.
 
+## Weekly Maintenance Orchestration
+
+The registry includes a GitHub Actions workflow for weekly scout and QA maintenance:
+
+```text
+.github/workflows/weekly-maintenance.yml
+maintenance/prompts/scout.md
+maintenance/prompts/qa.md
+maintenance/schemas/*.schema.json
+scripts/create-maintenance-plan.js
+scripts/run-scout-batch.js
+scripts/run-qa-batch.js
+scripts/apply-approved-findings.js
+scripts/render-maintenance-report.js
+```
+
+The workflow is intentionally file-based and PR-driven. It plans a run from `registry.json`, fans out scout batches, fans out matching QA batches, applies only QA-approved allowlisted metadata changes, renders a maintenance report, runs registry checks, and opens a maintenance PR with the run artifacts.
+
+Scout and QA batches are bounded so one agent runner does not need to process the full registry at once. The default plan uses 10 tools per batch and a maximum of 6 agents per swarm.
+
+Configure these repository secrets when a real swarm runner is available:
+
+```text
+SCOUT_SWARM_COMMAND
+QA_SWARM_COMMAND
+```
+
+Each command receives:
+
+```text
+MAINTENANCE_INPUT   # JSON input file for the batch
+MAINTENANCE_OUTPUT  # JSON output file the swarm must write
+MAINTENANCE_PROMPT  # Scout or QA prompt path
+MAINTENANCE_RUN_ID
+MAINTENANCE_BATCH_ID
+```
+
+If no command is configured, the workflow still writes placeholder artifacts and a report. This keeps the orchestration testable before live agents are connected.
+
+Run a local dry plan:
+
+```bash
+npm run maintenance:plan -- --run-id local-smoke --batch-size 25
+npm run maintenance:scout -- --run-dir maintenance/runs/local-smoke --batch-id scout-001 --dry-run
+npm run maintenance:qa -- --run-dir maintenance/runs/local-smoke --batch-id scout-001 --dry-run
+npm run maintenance:apply -- --run-dir maintenance/runs/local-smoke
+npm run maintenance:report -- --run-dir maintenance/runs/local-smoke
+```
+
+Memory can guide where scouts search, but it is never evidence. Scout findings must cite current sources, and QA must approve findings before they are applied or used in a registry update.
+
 ## Data Model
 
 Each tool profile has three required files and may include one optional reference file.

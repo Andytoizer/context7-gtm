@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GTM Docs Registry QA Verdict Batch",
+  "type": "object",
+  "required": ["runId", "batchId", "checkedAt", "verdicts"],
+  "properties": {
+    "runId": { "type": "string" },
+    "batchId": { "type": "string" },
+    "checkedAt": { "type": "string" },
+    "status": { "type": "string", "enum": ["complete", "partial", "pending-run"] },
+    "verdicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["toolId", "slug", "verdict"],
+        "properties": {
+          "toolId": { "type": "string" },
+          "slug": { "type": "string" },
+          "verdict": { "type": "string", "enum": ["approved", "rejected", "needs-human-review", "no-change", "pending-run"] },
+          "approvedFindings": { "type": "array" },
+          "rejectedFindings": { "type": "array" },
+          "qaNotes": { "type": "string" },
+          "evidenceIssues": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}
+
